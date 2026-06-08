@@ -1,0 +1,601 @@
+{
+  "id": "resp_0624b3b05394833801690303e7bbe48198b0531b90fcfd436e",
+  "created_at": 1761805287.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5-2025-08-07",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0624b3b05394833801690303e877ec8198813b8ef7f0ee1a38",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0624b3b05394833801690303f6f49481989aa93022e924d73c",
+      "action": {
+        "query": "Kaja Kallas human rights speech",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/eus-kallas-says-russia-wont-get-frozen-assets-back-without-paying-reparations-2025-08-30/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.eeas.europa.eu/node/451264_fr"
+          },
+          {
+            "type": "url",
+            "url": "https://time.com/6694348/russia-estonia-kaja-kallas/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.eeas.europa.eu/eeas/cuba-speech-high-representativevice-president-kaja-kallas-ep-plenary-%C2%A0-applicability-political_en"
+          },
+          {
+            "type": "url",
+            "url": "https://www.unhcr.org/europe/resources-employers-estonia"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/live/2025/sep/19/eu-sanctions-russia-oil-ukraine-vladimir-putin-volodymyr-zelenskyy-donald-trump-france-macron-europe-live-news"
+          },
+          {
+            "type": "url",
+            "url": "https://www.euronews.com/2023/06/20/estonia-votes-to-legalise-same-sex-marriage"
+          },
+          {
+            "type": "url",
+            "url": "https://www.pagulasabi.ee/en/estonian-refugee-councils-2023-recap"
+          },
+          {
+            "type": "url",
+            "url": "https://www.thepinknews.com/2023/06/20/estonia-same-sex-marriage-legal/"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Ukrainians_in_Estonia"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Same-sex_marriage_in_Estonia"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0624b3b05394833801690304057da8819898fdb8cd7c888a33",
+      "summary": [
+        {
+          "text": "**Evaluating source reliability**\n\nI want to steer clear of Wikipedia as the main source since it's better to rely on official and news sources. Wikipedia can be seen as \"not fully trustworthy\" for claims, so including it for orientation is okay. However, for each source I classify as untrustworthy, I need to explain my reasoning. I'll also be sure to incorporate Reuters' coverage on Estonia's same-sex marriage for credibility. Let's make sure we accurately categorize sources without being defamatory.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0624b3b0539483380169030407a034819888f6f7174cb88682",
+      "action": {
+        "query": "Estonia legalises same-sex marriage Reuters June 20 2023",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/7398527b65def27b6927b0286ebeef83"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/business/aerospace-defense/broad-support-eu-military-training-ukraine-after-truce-kallas-says-2025-08-29/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.lemonde.fr/en/international/article/2025/05/10/europe-approves-creation-of-tribunal-to-judge-crimes-of-aggression-committed-by-russia-in-ukraine_6741119_4.html"
+          },
+          {
+            "type": "url",
+            "url": "https://es.wikipedia.org/wiki/Matrimonio_igualitario_en_Estonia"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Same-sex_marriage_in_Estonia"
+          },
+          {
+            "type": "url",
+            "url": "https://pt.wikipedia.org/wiki/Casamento_entre_pessoas_do_mesmo_sexo"
+          },
+          {
+            "type": "url",
+            "url": "https://de.wikipedia.org/wiki/Gleichgeschlechtliche_Ehe"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/LGBTQ_rights_in_Estonia"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/2023_in_Estonia"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0624b3b05394833801690304142dc4819889ea9d4cfd7a7bfe",
+      "summary": [
+        {
+          "text": "**Managing sources carefully**\n\nI need to approach the web results thoughtfully, making sure not to overuse Wikipedia, while adhering to word limits for sources. Each source has a word limit, like 100 words for some from Reuters. I’ve realized I need to keep our final answer length between 400-700 words. With several sources, it's important to attribute fewer than 200 words per source to stay safe. I think I should focus more on other sources with higher word limits to balance everything out.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0624b3b0539483380169030417a9dc8198a1275c1ea8e10de0",
+      "action": {
+        "query": "Estonia becomes first ex-Soviet state to allow same-sex marriage Reuters June 20 2023",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.eeas.europa.eu/node/451264_fr"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Same-sex_marriage_in_Estonia"
+          },
+          {
+            "type": "url",
+            "url": "https://www.eeas.europa.eu/delegations/un-geneva/eu-action-59th-session-human-rights-council_en"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/LGBTQ_rights_in_Estonia"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/LGBTQ_rights_in_the_post-Soviet_states"
+          },
+          {
+            "type": "url",
+            "url": "https://www.eeas.europa.eu/eeas/eus-annual-report-human-rights-and-democracy-world-2024_en"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/tens-thousands-march-romania-demanding-lgbtq-equality-2025-06-07/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/europe/latvian-couple-become-first-register-same-sex-partnership-under-new-law-2024-07-01/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/2024/feb/28/estonia-youngest-mp-hanah-lahe-interview"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0624b3b053948338016903041fccf48198bbd61f5f729bd4e7",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0624b3b0539483380169030420266c8198b3246a960398cefb",
+      "action": {
+        "query": "Estonia becomes first ex-Soviet state to allow same-sex marriage Reuters 2023",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.livemint.com/news/world/estonia-becomes-first-central-european-country-to-legalise-same-sex-marriage-11687256987620.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gmanetwork.com/news/topstories/world/873582/estonia-becomes-first-central-european-country-to-allow-same-sex-marriage/story/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.news24.com/world/estonia-becomes-first-central-european-country-to-allow-same-sex-marriage-20230620"
+          },
+          {
+            "type": "url",
+            "url": "https://dailycaller.com/2023/06/20/estonia-baltic-nation-same-sex-marriages/"
+          },
+          {
+            "type": "url",
+            "url": "https://legal.economictimes.indiatimes.com/news/international/estonia-becomes-first-central-european-country-to-allow-same-sex-marriage/101142285"
+          },
+          {
+            "type": "url",
+            "url": "https://reuters.screenocean.com/record/1730382"
+          },
+          {
+            "type": "url",
+            "url": "https://www.dw.com/en/estonia-legalizes-same-sex-marriage/a-65972304"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/europe/estonias-kallas-fierce-russia-critic-new-eu-foreign-policy-chief-2024-07-15/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/europe/estonias-kallas-fierce-russia-critic-tipped-new-eu-foreign-policy-chief-2024-06-17/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/europe/latvian-couple-become-first-register-same-sex-partnership-under-new-law-2024-07-01/"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0624b3b053948338016903042a8ff881988a87185e97fc3013",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0624b3b053948338016903042b4bf881988e1e8420005611c6",
+      "action": {
+        "query": "Government of Estonia temporary protection Ukrainian war refugees decision 2022 Kaja Kallas statement",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.intellinews.com/estonia-says-it-will-not-repatriate-mobilisation-age-ukrainians-307779"
+          },
+          {
+            "type": "url",
+            "url": "https://www.riigikogu.ee/en/press-releases/european-union-affairs-committee-en/riigikogu-supports-extending-temporary-protection-to-ukrainian-war-refugees/"
+          },
+          {
+            "type": "url",
+            "url": "https://time.com/6694348/russia-estonia-kaja-kallas/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/live/2025/sep/19/eu-sanctions-russia-oil-ukraine-vladimir-putin-volodymyr-zelenskyy-donald-trump-france-macron-europe-live-news"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/eu-commission-proposes-extending-temporary-protection-ukrainians-march-2027-2025-06-04/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.tallinn.ee/en/ukraina/korduma-kippuvad-kusimused"
+          },
+          {
+            "type": "url",
+            "url": "https://news.err.ee/1608723358/kallas-estonia-has-granted-temporary-protection-to-5-000-ukrainian-men"
+          },
+          {
+            "type": "url",
+            "url": "https://www.siseministeerium.ee/en/news/strengthened-border-controls-provide-opportunity-help-ukrainian-citizens"
+          },
+          {
+            "type": "url",
+            "url": "https://news.err.ee/1609221975/estonian-prime-minister-we-will-not-repatriate-mobilization-aged-ukrainians"
+          },
+          {
+            "type": "url",
+            "url": "https://www.valitsus.ee/en/news/government-will-cover-urgent-costs-receiving-war-refugees"
+          },
+          {
+            "type": "url",
+            "url": "https://www.valitsus.ee/en/news/political-statement-prime-minister-kaja-kallas-riigikogu-2-may-2022"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0624b3b05394833801690304356e908198a76f093f8a91b324",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0624b3b0539483380169030435f9488198848ab63515f73769",
+      "action": {
+        "query": "Kaja Kallas Belarus human rights statement EEAS 2025 illegitimate elections prisoners EU HR/VP statement",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/europe-adopts-19th-sanctions-package-against-russia-including-lng-import-ban-2025-10-23/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.eeas.europa.eu/eeas/statement-high-representative-vice-president-kaja-kallas-and-commissioner-enlargement-marta-kos-sham_en"
+          },
+          {
+            "type": "url",
+            "url": "https://www.eeas.europa.eu/eeas/joint-statement-eu-high-representative-kallas-commissioner-kos-5th-anniversary-fraudulent-presidential-elections-belarus_en"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/7398527b65def27b6927b0286ebeef83"
+          },
+          {
+            "type": "url",
+            "url": "https://enlargement.ec.europa.eu/news/joint-statement-high-representativevice-president-kallas-and-commissioner-kos-fifth-anniversary-2025-08-09_en"
+          },
+          {
+            "type": "url",
+            "url": "https://www.eureporter.co/world/belarus/2025/01/30/statement-by-high-representative-vice-president-kaja-kallas-and-commissioner-for-enlargement-marta-kos-on-the-sham-presidential-elections-in-belarus/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.eeas.europa.eu/eeas/russia-statement-high-representativevice-president-kaja-kallas-19th-package-sanctions_en"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/live/2025/sep/19/eu-sanctions-russia-oil-ukraine-vladimir-putin-volodymyr-zelenskyy-donald-trump-france-macron-europe-live-news"
+          },
+          {
+            "type": "url",
+            "url": "https://www.consilium.europa.eu/en/press/press-releases/2025/07/18/russia-s-war-of-aggression-against-ukraine-eu-adopts-18th-package-of-economic-and-individual-measures/"
+          },
+          {
+            "type": "url",
+            "url": "https://kyivindependent.com/hungary-blocks-eu-statement-condemning-belarus-election-as-undemocratic-rfe-rl-reports/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.eeas.europa.eu/eeas/belarus-statement-high-representative-parliamentary-and-local-elections_en"
+          },
+          {
+            "type": "url",
+            "url": "https://www.consilium.europa.eu/en/press/press-releases/2024/02/26/belarus-eu-prolongs-restrictive-measures-for-another-year/"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0624b3b053948338016903043c9c78819896f265cd0ff73761",
+      "summary": [
+        {
+          "text": "**Evaluating sources for trustworthiness**\n\nI’m assessing which sources to consider trustworthy. I've got a list: EEAS, the Council of the EU, the Estonian Government website, ERR News, Reuters, DW, UNHCR, and AP. Since the user asked for specific reasoning for each, I need to streamline it a bit. It might be better to limit the sources to just those I truly evaluated. As for Wikipedia and the Daily Caller, I should mention them as less trustworthy since I did check them out.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Classifying sources for trustworthiness**\n\nThe instruction specifies to list each source I considered not trustworthy, which is interesting. I can mention that I reviewed sources like Wikipedia and the Daily Caller but deemed them less reliable for this prompt. Even though Livemint and GMA News might offer some value, we prefer original sources like Reuters. I think it’s better to classify them as \"not trustworthy related to this prompt\" while keeping the numbers manageable. For trustworthy sources, I’ll include EEAS, Consilium, the Estonian Government, ERR News, Reuters, DW, UNHCR, and AP. That's eight sources in total.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Classifying sources as not trustworthy**\n\nI’m evaluating the sources that are not trustworthy. I should mention Wikipedia and the Daily Caller as they don't serve well for primary claims. There’s also News24 and GMA News, but GMA isn’t necessarily unreliable—just secondary. However, the user specifically asked for sources deemed “NOT TRUSTWORTHY,\" so GMA might not fit that label well. I think it’s best to stick with Wikipedia and the Daily Caller for clarity and focus. This way, I provide a straightforward answer!",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Assessing credibility of sources**\n\nI noticed we evaluated sources like Time and The Guardian regarding airspace status, and while they’re credible, we didn’t use them. For our context, I could include News24 and Livemint as they’re aggregators—while not untrustworthy, they aren't ideal for this specific prompt. I should explain our reasoning thoughtfully to avoid any defamation concerns. Now, I'll structure the evidence with bullet points to make things clear and concise: commitments toward human rights, measurable actions, and necessary citations. I must ensure I follow word limits too.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Structuring response and citations**\n\nI need to keep the entire response under 900 words and ensure that no single source is cited in more than 100 words, which sounds tricky! I’ll make sure to cite concisely by grouping statements with single citations to minimize word counts. I’m planning to include sources like EEAS speeches, the EU Annual report, and DW for verification. \n\nI’ll create a structured bullet list for the proof while explaining the methodology, emphasizing that our proof demonstrates actions, not just words. Plus, I’ll categorize sources into trustworthy and not trustworthy for clarity. Time to draft this!",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "msg_0624b3b053948338016903044be7f48198acff0f19b08f3e37",
+      "content": [
+        {
+          "annotations": [
+            {
+              "end_index": 671,
+              "start_index": 592,
+              "title": "Human Rights: Speech by High representative/Vice-President Kaja Kallas at the EP plenary on the 2024 Annual report on Human Rights and Democracy in the world | EEAS",
+              "type": "url_citation",
+              "url": "https://www.eeas.europa.eu/node/451264_fr?utm_source=openai"
+            },
+            {
+              "end_index": 980,
+              "start_index": 852,
+              "title": "EU's Annual Report on Human Rights and Democracy in the World 2024 | EEAS",
+              "type": "url_citation",
+              "url": "https://www.eeas.europa.eu/eeas/eus-annual-report-human-rights-and-democracy-world-2024_en?utm_source=openai"
+            },
+            {
+              "end_index": 1419,
+              "start_index": 1321,
+              "title": "Estonia legalizes same-sex marriage – DW – 06/20/2023",
+              "type": "url_citation",
+              "url": "https://www.dw.com/en/estonia-legalizes-same-sex-marriage/a-65972304?utm_source=openai"
+            },
+            {
+              "end_index": 1911,
+              "start_index": 1738,
+              "title": "Statement by the High Representative / Vice President Kaja Kallas and Commissioner for Enlargement Marta Kos on the sham presidential election in Belarus | EEAS",
+              "type": "url_citation",
+              "url": "https://www.eeas.europa.eu/eeas/statement-high-representative-vice-president-kaja-kallas-and-commissioner-enlargement-marta-kos-sham_en?utm_source=openai"
+            },
+            {
+              "end_index": 2293,
+              "start_index": 2214,
+              "title": "Human Rights: Speech by High representative/Vice-President Kaja Kallas at the EP plenary on the 2024 Annual report on Human Rights and Democracy in the world | EEAS",
+              "type": "url_citation",
+              "url": "https://www.eeas.europa.eu/node/451264_fr?utm_source=openai"
+            },
+            {
+              "end_index": 2696,
+              "start_index": 2484,
+              "title": "Russia’s war of aggression against Ukraine: EU adopts 18th package of economic and individual measures - Consilium",
+              "type": "url_citation",
+              "url": "https://www.consilium.europa.eu/en/press/press-releases/2025/07/18/russia-s-war-of-aggression-against-ukraine-eu-adopts-18th-package-of-economic-and-individual-measures/?utm_source=openai"
+            },
+            {
+              "end_index": 3134,
+              "start_index": 3010,
+              "title": "The government will cover the urgent costs of receiving war refugees | Eesti Vabariigi Valitsus",
+              "type": "url_citation",
+              "url": "https://www.valitsus.ee/en/news/government-will-cover-urgent-costs-receiving-war-refugees?utm_source=openai"
+            },
+            {
+              "end_index": 3411,
+              "start_index": 3322,
+              "title": "Resources for employers in Estonia | UNHCR Europe",
+              "type": "url_citation",
+              "url": "https://www.unhcr.org/europe/resources-employers-estonia?utm_source=openai"
+            },
+            {
+              "end_index": 3767,
+              "start_index": 3688,
+              "title": "Human Rights: Speech by High representative/Vice-President Kaja Kallas at the EP plenary on the 2024 Annual report on Human Rights and Democracy in the world | EEAS",
+              "type": "url_citation",
+              "url": "https://www.eeas.europa.eu/node/451264_fr?utm_source=openai"
+            },
+            {
+              "end_index": 4229,
+              "start_index": 4150,
+              "title": "Human Rights: Speech by High representative/Vice-President Kaja Kallas at the EP plenary on the 2024 Annual report on Human Rights and Democracy in the world | EEAS",
+              "type": "url_citation",
+              "url": "https://www.eeas.europa.eu/node/451264_fr?utm_source=openai"
+            },
+            {
+              "end_index": 4725,
+              "start_index": 4513,
+              "title": "Russia’s war of aggression against Ukraine: EU adopts 18th package of economic and individual measures - Consilium",
+              "type": "url_citation",
+              "url": "https://www.consilium.europa.eu/en/press/press-releases/2025/07/18/russia-s-war-of-aggression-against-ukraine-eu-adopts-18th-package-of-economic-and-individual-measures/?utm_source=openai"
+            },
+            {
+              "end_index": 5114,
+              "start_index": 4990,
+              "title": "The government will cover the urgent costs of receiving war refugees | Eesti Vabariigi Valitsus",
+              "type": "url_citation",
+              "url": "https://www.valitsus.ee/en/news/government-will-cover-urgent-costs-receiving-war-refugees?utm_source=openai"
+            },
+            {
+              "end_index": 5519,
+              "start_index": 5378,
+              "title": "Estonian prime minister: We will not repatriate mobilization-aged Ukrainians | News | ERR",
+              "type": "url_citation",
+              "url": "https://news.err.ee/1609221975/estonian-prime-minister-we-will-not-repatriate-mobilization-aged-ukrainians?utm_source=openai"
+            },
+            {
+              "end_index": 5878,
+              "start_index": 5780,
+              "title": "Estonia legalizes same-sex marriage – DW – 06/20/2023",
+              "type": "url_citation",
+              "url": "https://www.dw.com/en/estonia-legalizes-same-sex-marriage/a-65972304?utm_source=openai"
+            },
+            {
+              "end_index": 6275,
+              "start_index": 6127,
+              "title": "Estonia's Kallas, fierce Russia critic and new EU foreign policy chief",
+              "type": "url_citation",
+              "url": "https://www.reuters.com/world/europe/estonias-kallas-fierce-russia-critic-new-eu-foreign-policy-chief-2024-07-15/?utm_source=openai"
+            },
+            {
+              "end_index": 6592,
+              "start_index": 6503,
+              "title": "Resources for employers in Estonia | UNHCR Europe",
+              "type": "url_citation",
+              "url": "https://www.unhcr.org/europe/resources-employers-estonia?utm_source=openai"
+            },
+            {
+              "end_index": 6910,
+              "start_index": 6817,
+              "title": "EU rejects election in Belarus and threatens new sanctions",
+              "type": "url_citation",
+              "url": "https://apnews.com/article/7398527b65def27b6927b0286ebeef83?utm_source=openai"
+            },
+            {
+              "end_index": 7486,
+              "start_index": 7388,
+              "title": "Same-sex marriage in Estonia",
+              "type": "url_citation",
+              "url": "https://en.wikipedia.org/wiki/Same-sex_marriage_in_Estonia?utm_source=openai"
+            },
+            {
+              "end_index": 7925,
+              "start_index": 7810,
+              "title": "Estonia Becomes First Baltic Nation To Recognize Same-Sex Marriages | The Daily Caller",
+              "type": "url_citation",
+              "url": "https://dailycaller.com/2023/06/20/estonia-baltic-nation-same-sex-marriages/?utm_source=openai"
+            },
+            {
+              "end_index": 8436,
+              "start_index": 8268,
+              "title": "Estonia becomes first central European country to legalise same-sex marriage | Today News",
+              "type": "url_citation",
+              "url": "https://www.livemint.com/news/world/estonia-becomes-first-central-european-country-to-legalise-same-sex-marriage-11687256987620.html?utm_source=openai"
+            }
+          ],
+          "text": "1) Answer\n\nShort answer: While no one can “prove” another person’s inner values, Kaja Kallas’ public record shows a consistent pattern of prioritizing human rights through words, laws she backed, and decisions she led.\n\nKey evidence\n\n- Puts human rights at the center of EU foreign policy\n  - As EU High Representative/Vice‑President, Kallas has repeatedly framed the EU’s external action around protecting human dignity, rule of law, and accountability (e.g., her 1 April 2025 speech to the European Parliament’s human‑rights debate and EEAS messaging ahead of the UN Human Rights Council). ([eeas.europa.eu](https://www.eeas.europa.eu/node/451264_fr?utm_source=openai))\n  - She personally introduced and promoted the EU’s 2024 Human Rights and Democracy report, stating that defending human rights is an EU strategic interest, not just a legal duty. ([eeas.europa.eu](https://www.eeas.europa.eu/eeas/eus-annual-report-human-rights-and-democracy-world-2024_en?utm_source=openai))\n\n- Advanced equality at home as Prime Minister of Estonia\n  - Kallas led the coalition that legalized marriage equality in Estonia (passed 20 June 2023; in force 1 January 2024), making Estonia the first Baltic/post‑Soviet state to do so. Her public remarks framed the reform as ensuring everyone’s rights and the ability to “love freely.” ([dw.com](https://www.dw.com/en/estonia-legalizes-same-sex-marriage/a-65972304?utm_source=openai))\n\n- Acts on repression and political rights abroad\n  - On Belarus, she has issued formal EU statements condemning sham elections, citing systematic human‑rights violations and calling for the immediate release of more than 1,000 political prisoners; she pledged continued EU support and sanctions against perpetrators. ([eeas.europa.eu](https://www.eeas.europa.eu/eeas/statement-high-representative-vice-president-kaja-kallas-and-commissioner-enlargement-marta-kos-sham_en?utm_source=openai))\n\n- Backs accountability for war crimes and serious abuses\n  - Kallas has emphasized support for the International Criminal Court and EU sanctions tools to respond to serious human‑rights violations, and under her watch the EU kept strengthening sanctions linked to Russia’s aggression against Ukraine. ([eeas.europa.eu](https://www.eeas.europa.eu/node/451264_fr?utm_source=openai))\n  - The Council adopted successive sanctions packages (e.g., 18th in July 2025), and she announced/defended the next round (19th), tying them to curbing abuses and enforcing accountability. ([consilium.europa.eu](https://www.consilium.europa.eu/en/press/press-releases/2025/07/18/russia-s-war-of-aggression-against-ukraine-eu-adopts-18th-package-of-economic-and-individual-measures/?utm_source=openai))\n\n- Protects people fleeing persecution and war\n  - As Prime Minister, Kallas’ government financed urgent reception and protection costs for Ukrainian war refugees and integrated them under the EU Temporary Protection regime; she later clarified Estonia would not forcibly repatriate mobilization‑aged Ukrainians. ([valitsus.ee](https://www.valitsus.ee/en/news/government-will-cover-urgent-costs-receiving-war-refugees?utm_source=openai))\n  - Estonia then hosted tens of thousands of refugees from Ukraine; UNHCR describes the scale and integration outcomes (employment, sectors), reflecting sustained protection in practice. ([unhcr.org](https://www.unhcr.org/europe/resources-employers-estonia?utm_source=openai))\n\nConclusion: Across domestic reforms (marriage equality), EU‑level policy and diplomacy (human‑rights–centered speeches, sanctions linked to abuses, calls for release of political prisoners), and refugee protection, Kallas’ record coherently aligns with valuing human rights. ([eeas.europa.eu](https://www.eeas.europa.eu/node/451264_fr?utm_source=openai))\n\n\n2) Sources I considered TRUSTWORTHY\n\n- Source: European External Action Service (EEAS)\n  - Reasoning 1: Official channel for EU foreign policy; primary documentation of statements by the High Representative; high institutional credibility.\n  - Reasoning 2: Contains Kallas’ own speeches and formal statements on human rights and Belarus; direct primary evidence of her positions. ([eeas.europa.eu](https://www.eeas.europa.eu/node/451264_fr?utm_source=openai))\n\n- Source: Council of the European Union (Consilium)\n  - Reasoning 1: Official EU body publishing adopted decisions/sanctions; authoritative primary records.\n  - Reasoning 2: Confirms adoption of sanctions packages Kallas chaired/advanced, linking them to accountability for abuses. ([consilium.europa.eu](https://www.consilium.europa.eu/en/press/press-releases/2025/07/18/russia-s-war-of-aggression-against-ukraine-eu-adopts-18th-package-of-economic-and-individual-measures/?utm_source=openai))\n\n- Source: Government of Estonia (valitsus.ee)\n  - Reasoning 1: Estonia’s official government portal; primary source for national policy decisions and PM statements.\n  - Reasoning 2: Documents Kallas’ 2022 policy/financing decisions to support Ukrainian refugees. ([valitsus.ee](https://www.valitsus.ee/en/news/government-will-cover-urgent-costs-receiving-war-refugees?utm_source=openai))\n\n- Source: ERR News (Estonian Public Broadcasting)\n  - Reasoning 1: Estonia’s independent public service broadcaster; strong editorial standards.\n  - Reasoning 2: Reports Kallas’ stance on not repatriating mobilization‑aged Ukrainians under temporary protection. ([news.err.ee](https://news.err.ee/1609221975/estonian-prime-minister-we-will-not-repatriate-mobilization-aged-ukrainians?utm_source=openai))\n\n- Source: Deutsche Welle (DW)\n  - Reasoning 1: German public international broadcaster with rigorous sourcing; widely regarded as reliable.\n  - Reasoning 2: Verifies passage and effective date of Estonia’s marriage‑equality law and Kallas’ framing of rights. ([dw.com](https://www.dw.com/en/estonia-legalizes-same-sex-marriage/a-65972304?utm_source=openai))\n\n- Source: Reuters\n  - Reasoning 1: Global wire service with strong fact‑checking and corrections policy.\n  - Reasoning 2: Corroborates Kallas’ role as EU foreign policy chief and EU sanctions developments consistent with rights‑based policy aims. ([reuters.com](https://www.reuters.com/world/europe/estonias-kallas-fierce-russia-critic-new-eu-foreign-policy-chief-2024-07-15/?utm_source=openai))\n\n- Source: UNHCR Europe\n  - Reasoning 1: UN agency with authoritative refugee data and analysis.\n  - Reasoning 2: Provides context/scale for refugees protected in Estonia, supporting the claim of rights protection in practice. ([unhcr.org](https://www.unhcr.org/europe/resources-employers-estonia?utm_source=openai))\n\n- Source: Associated Press (AP)\n  - Reasoning 1: Major global news agency with strong editorial standards.\n  - Reasoning 2: Independently reports Kallas’ EU stance on Belarusian human‑rights abuses and political prisoners. ([apnews.com](https://apnews.com/article/7398527b65def27b6927b0286ebeef83?utm_source=openai))\n\n\n3) Sources I considered NOT TRUSTWORTHY (for this specific prompt/use)\n\n- Source: Wikipedia (various language editions, e.g., “Same‑sex marriage in Estonia”)\n  - Reasoning 1: Useful aggregation and starting point, but open‑edit model means content can change without expert review.\n  - Reasoning 2: For proving a living official’s values and policy record, primary/official documents and reputable news are preferable; I therefore did not rely on Wikipedia as evidence here. ([en.wikipedia.org](https://en.wikipedia.org/wiki/Same-sex_marriage_in_Estonia?utm_source=openai))\n\n- Source: Daily Caller\n  - Reasoning 1: Partisan U.S. outlet with mixed reliability assessments and a history of opinion‑driven framing.\n  - Reasoning 2: Even when carrying accurate quotes, it is not the best source for documenting European policy actions; I preferred primary EU/government sites and major wires instead. ([dailycaller.com](https://dailycaller.com/2023/06/20/estonia-baltic-nation-same-sex-marriages/?utm_source=openai))\n\n- Source: Livemint/News24/GMA reprints of Reuters copy\n  - Reasoning 1: These are secondary republishers/aggregators of Reuters material; credibility varies by outlet and editorial process.\n  - Reasoning 2: Since Reuters is the origin, citing the primary Reuters/DW/EEAS items is more reliable and traceable; I did not rely on the reprints. ([livemint.com](https://www.livemint.com/news/world/estonia-becomes-first-central-european-country-to-legalise-same-sex-marriage-11687256987620.html?utm_source=openai))\n\nIf you’d like, I can compile these into a short dossier with direct excerpts and a timeline of key human‑rights actions under Kallas.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "city": null,
+        "country": null,
+        "region": "Europe",
+        "timezone": null,
+        "type": "approximate"
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "max_output_tokens": 90000,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": "detailed"
+  },
+  "safety_identifier": "001",
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 29931,
+    "input_tokens_details": {
+      "cached_tokens": 3712
+    },
+    "output_tokens": 4908,
+    "output_tokens_details": {
+      "reasoning_tokens": 3200
+    },
+    "total_tokens": 34839
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "store": false
+}

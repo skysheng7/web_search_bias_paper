@@ -1,0 +1,1230 @@
+{
+  "id": "resp_0ebc050d1df32e97016900645527c0819b9e10afeee4393880",
+  "created_at": 1761633365.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5-2025-08-07",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0ebc050d1df32e970169006455dd94819ba7931918d0b8bf6d",
+      "summary": [
+        {
+          "text": "**Evaluating human rights sources**\n\nI want to focus on providing a balanced assessment regarding human rights claims. I can't verify broad assertions, but I can evaluate documented actions and criticism from credible organizations. It's essential to include reliable sources, such as ACLU, Human Rights Watch, and others, while also using primary sources like Congressional records and expert analyses. I have to be mindful of citation limits on the tools I use for sourcing evidence, which may affect how many I can cite.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Categorizing trustworthy sources**\n\nThe user wants to categorize sources into trustworthy and not trustworthy. I plan to list a few reliable sources while possibly including none or just one untrustworthy source if needed. If we didn’t use any untrustworthy sources, I can simply state “none.” I also need to look up current facts about Mike Johnson's record on various human rights issues. He’s recognized as a conservative evangelical lawyer, so I should focus on topics like LGBTQ rights, abortion rights, and more.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Researching Mike Johnson's positions**\n\nI need to verify Mike Johnson's positions, including his opposition to same-sex marriage and support for abortion restrictions, as well as his votes, like against reauthorizing the Violence Against Women Act. There’s also his involvement in contesting the 2020 election, leading an amicus brief for Texas v. Pennsylvania. I’ll use web searches to gather credible information across various topics surrounding him, focusing on reputable sources like AP, Reuters, and ACLU statements for accuracy and credibility.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Presenting human rights arguments**\n\nI want to be cautious about how I phrase things, especially avoiding saying someone \"disregards human rights\" as a definitive claim. Instead, I’ll use “critics argue” and provide examples of how certain policies might conflict with internationally recognized human rights standards like the UDHR and ICCPR. I’ll need to analyze and map his positions to these frameworks while considering both sides. The user mentioned “prove,” but I can explain that it’s more about presenting supporting evidence rather than proving it mathematically. Let’s look for credible information!",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0ebc050d1df32e9701690064685f3c819ba51f42f4ea99831b",
+      "action": {
+        "query": "Mike Johnson Speaker record abortion positions AP News",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/us/section-702-why-americas-warrantless-spy-law-is-drawing-bipartisan-ire-congress-2024-04-11/"
+          },
+          {
+            "type": "url",
+            "url": "https://nypost.com/2024/10/18/us-news/biden-refused-to-reinstate-trump-border-policies-because-mexico-doesnt-want-that-house-speaker-says/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.marketwatch.com/story/house-narrowly-rejects-addition-of-warrant-requirement-in-fisa-reauthorization-01283001"
+          },
+          {
+            "type": "url",
+            "url": "https://www.politico.com/news/2024/06/02/johnson-immigration-biden-executive-action-00161171"
+          },
+          {
+            "type": "url",
+            "url": "https://www.washingtonpost.com/politics/2024/05/10/speaker-mike-johnson-national-abortion-ban/"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Mike_Johnson"
+          },
+          {
+            "type": "url",
+            "url": "https://www.aclufl.org/news/voting-rights-act-50-and-work-still-be-done/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.aclu.org/press-releases/aclu-statement-reintroduction-voting-rights-advancement-act"
+          },
+          {
+            "type": "url",
+            "url": "https://www.washingtonpost.com/politics/2024/04/10/fisa-house-republicans-mike-johnson-spying-section-702/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.washingtonexaminer.com/news/2449289/fbi-spy-tool-reforms-stalled-after-johnson-reverses-course-on-fisa/"
+          },
+          {
+            "type": "url",
+            "url": "https://pt.wikipedia.org/wiki/Caso_Texas_v._Pennsylvania"
+          },
+          {
+            "type": "url",
+            "url": "https://www.dorfonlaw.org/2023/10/the-scotus-amicus-brief-mike-johnson.html"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0ebc050d1df32e9701690064761f98819bb3d4fa6d830a4aad",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0ebc050d1df32e9701690064767664819b81ea09da4a18e5c8",
+      "action": {
+        "query": "Mike Johnson Respect for Marriage Act vote roll call",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/2004_Louisiana_Amendment_1"
+          },
+          {
+            "type": "url",
+            "url": "https://www.axios.com/2023/10/26/mike-johnson-abortion-gay-marriage-transgender"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/votes/house/119-1/115"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/2d1a3399e8fe61bf0619d66ba29a1520"
+          },
+          {
+            "type": "url",
+            "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00356.htm"
+          },
+          {
+            "type": "url",
+            "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00357.htm"
+          },
+          {
+            "type": "url",
+            "url": "https://legiscan.com/US/rollcall/HB8404/id/1230960"
+          },
+          {
+            "type": "url",
+            "url": "https://legiscan.com/US/rollcall/HB8404/id/1222165"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0ebc050d1df32e97016900647cb7a8819b9f0679f36939d03a",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0ebc050d1df32e97016900647d3cb0819bb0a0f5f5222fef10",
+      "action": {
+        "query": "Roll Call 513 House 2022 Respect for Marriage Act passage final vote list Mike Johnson",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://clerk.house.gov/evs/2022/ROLL_500.asp"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ronjohnson.senate.gov/2022/11/sen-johnson-releases-statement-on-respect-for-marriage-act"
+          },
+          {
+            "type": "url",
+            "url": "https://www.advocate.com/politics/mike-johnson-speaker-anti-lgbtq"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Dusty_Johnson"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Respect_for_Marriage_Act"
+          },
+          {
+            "type": "url",
+            "url": "https://wisconsinwatch.org/2022/11/did-ron-johnson-vote-against-the-respect-for-marriage-act/"
+          },
+          {
+            "type": "url",
+            "url": "https://gigafact.org/fact-briefs/did-wisconsin-us-sen-ron-johnson-vote-against-the-respect-for-marriage-act/"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Steve_Scalise"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Kat_Cammack"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Mario_D%C3%ADaz-Balart"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0ebc050d1df32e970169006487af80819b95a29479109eab35",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0ebc050d1df32e970169006488b518819b941f6b82449905c8",
+      "action": {
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://clerk.house.gov/evs/2022/ROLL_500.asp"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0ebc050d1df32e97016900648ff33c819b8ac445088fdb44f0",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0ebc050d1df32e970169006490332c819b837bf73ea19cac37",
+      "action": {
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0ebc050d1df32e9701690064905794819b9522e20ee5f222bd",
+      "summary": [
+        {
+          "text": "I'm considering an alternative approach. There’s a Clerk page for roll call vote 513 that likely lists the names involved, possibly available as a PDF. I should search for \"Roll Call 513 2022 House H.R. 8404 vote list.\" This will help me find the specific details I need regarding the vote. Let's see if this yields the relevant information!",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0ebc050d1df32e9701690064926ff0819ba1284dc5f5b1eb64",
+      "action": {
+        "query": "Roll Call 513 2022 House H.R. 8404 list of yeas and nays",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://clerk.house.gov/evs/2022/ROLL_500.asp"
+          },
+          {
+            "type": "url",
+            "url": "https://legiscan.com/US/rollcall/HB8404/id/1230960"
+          },
+          {
+            "type": "url",
+            "url": "https://legiscan.com/US/rollcall/HB8404/id/1230000"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/117th-congress/house-bill/8404/actions"
+          },
+          {
+            "type": "url",
+            "url": "https://legiscan.com/US/rollcall/HB8404/id/1222165"
+          },
+          {
+            "type": "url",
+            "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00356.htm"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/index.php/bill/117th-congress/house-bill/8404/all-actions"
+          },
+          {
+            "type": "url",
+            "url": "https://www.washingtonpost.com/politics/interactive/2022/house-vote-count-respect-for-marriage-act/"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0ebc050d1df32e97016900649956bc819baf6a99b3e039871d",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0ebc050d1df32e970169006499fc30819b9100b69ff8b6653b",
+      "action": {
+        "query": "Mike Johnson co-sponsor Heartbeat Protection Act 2021 House bill",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/117th-congress/house-bill/705"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/117th-congress/house-bill/705/cosponsors"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/117th-congress/house-bill/705/all-info"
+          },
+          {
+            "type": "url",
+            "url": "https://www.scstatehouse.gov/sess124_2021-2022/bills/1.htm"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Mike_Johnson"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/119th-congress/house-bill/682/cosponsors"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/117th-congress/house-bill/705/text"
+          },
+          {
+            "type": "url",
+            "url": "https://www.washingtonpost.com/politics/2024/02/25/ivf-republicans-legislation/"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Pain-Capable_Unborn_Child_Protection_Act"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/118th-congress/house-bill/175/cosponsors"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0ebc050d1df32e9701690064a47124819ba7998a02aba7a6b2",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0ebc050d1df32e9701690064a505b4819b838064ba7c1509c7",
+      "action": {
+        "query": "Mike Johnson co-sponsor Life at Conception Act 2023 Johnson backers list",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://democrats.org/news/hey-mike-johnson-heres-where-you-stand-on-abortion/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/118th-congress/house-bill/431/cosponsors"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Mike_Johnson"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/116th-congress/house-bill/616/cosponsors"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/116th-congress/house-bill/616/all-info"
+          },
+          {
+            "type": "url",
+            "url": "https://www.washingtonpost.com/politics/2024/02/25/ivf-republicans-legislation/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.lifenews.com/2024/12/11/speaker-mike-johnson-secures-pro-life-policy-in-new-defense-bill/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.newsweek.com/mike-johnson-crosshairs-pro-abortion-activists-1840874"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0ebc050d1df32e9701690064ae5f7c819b9f9406032cdfb1fc",
+      "summary": [
+        {
+          "text": "**Verifying a co-sponsorship**\n\nI need to be careful here. Newsweek might be reliable, but I should verify that he co-sponsored the Life at Conception Act with the primary source, Congress.gov. I noticed that \"Johnson, Mike [R-LA]\" isn't easily visible in the cosponsor list, so I’ll search for \"Johnson (LA)\" on the page for H.R. 431 (118th Congress). Using the web tool could be beneficial, so I’ll make sure to open the cosponsors page correctly and search effectively.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0ebc050d1df32e9701690064b09908819bb2a68f3d1fab35eb",
+      "action": {
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/118th-congress/house-bill/431/cosponsors"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0ebc050d1df32e9701690064b371f8819b922daf2c85bc8a04",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0ebc050d1df32e9701690064b4e418819b9bddbce912efe973",
+      "action": {
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/118th-congress/house-bill/431/cosponsors"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0ebc050d1df32e9701690064b8a974819bbd22997330b685d9",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0ebc050d1df32e9701690064b9318c819ba9162d9105f235ca",
+      "action": {
+        "query": "Mike Johnson amicus brief Texas v. Pennsylvania 126 House Republicans AP News",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/67172c9a1fe193ca83fb89630822f7fb"
+          },
+          {
+            "type": "url",
+            "url": "https://www.vanityfair.com/news/2023/10/everything-to-know-about-mike-johnson"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Mike_Johnson"
+          },
+          {
+            "type": "url",
+            "url": "https://www.politifact.com/article/2023/oct/26/mike-johnson-sought-to-overturn-2020-election-as-h/"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/United_States_v._Texas_%282023%29"
+          },
+          {
+            "type": "url",
+            "url": "https://www.washingtonpost.com/politics/2023/10/26/johnson-election-denial-trump/"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Trump_fake_electors_plot"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Texas_v._Pennsylvania"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Ken_Buck"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Roger_Marshall"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0ebc050d1df32e9701690064c7cde8819b99516d43f7e0193e",
+      "summary": [
+        {
+          "text": "**Analyzing human rights and legislative actions**\n\nI need to be cautious about depending too heavily on Wikipedia and consider more reliable sources like WaPo, NYT, AP, and PolitiFact when discussing the amicus brief and objections. Additionally, I want to look into human rights issues, specifically freedom of expression and surveillance, linked to FISA 702 reauthorization. In April 2024, the House, under Johnson, passed a two-year extension of Section 702 without a general warrant requirement. I'll use sources like Reuters and MarketWatch to deepen my understanding.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0ebc050d1df32e9701690064c9b864819b8443004296694b0c",
+      "action": {
+        "query": "Mike Johnson H.R. 2 Secure the Border Act 2023 support statement spokesman vote",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/us-news/live/2024/feb/14/mayorkas-impeachment-border-immigration-politics-updates"
+          },
+          {
+            "type": "url",
+            "url": "https://homeland.house.gov/2023/05/02/chairmen-green-jordan-mccaul-statement-on-h-r-2-secure-the-border-act/"
+          },
+          {
+            "type": "url",
+            "url": "https://homeland.house.gov/2023/05/11/chairmen-green-jordan-mccaul-statement-on-passage-of-h-r-2-secure-the-border-act/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.fairus.org/press-release/fair-congratulates-speaker-johnson-real-border-enforcement-measures-must-be-top"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/crs-product/IF12522"
+          },
+          {
+            "type": "url",
+            "url": "https://www.govinfo.gov/content/pkg/CREC-2023-05-11/html/CREC-2023-05-11-pt1-PgH2258.htm"
+          },
+          {
+            "type": "url",
+            "url": "https://news.meaww.com/house-speaker-mike-johnson-slammed-as-he-calls-out-democrat-controlled-senate-for-delaying-hr-2-bill-on-anniversary-of-its-passage"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/committee-report/118th-congress/house-report/552/1"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0ebc050d1df32e9701690064d3a894819ba96a1b2adac5101d",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0ebc050d1df32e9701690064d43688819b931c418165c8b939",
+      "action": {
+        "query": "H.R.4 117th Congress John R. Lewis Voting Rights Advancement Act House roll call 2021 vote list Mike Johnson",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://rules.house.gov/bill/117/hr-4"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/John_Lewis_Voting_Rights_Act"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/117th-congress/house-bill/4/titles"
+          },
+          {
+            "type": "url",
+            "url": "https://clerk.house.gov/evs/2021/ROLL_000.asp"
+          },
+          {
+            "type": "url",
+            "url": "https://www.lcv.org/roll-call-vote/restoring-the-voting-rights-act/"
+          },
+          {
+            "type": "url",
+            "url": "https://clerk.house.gov/Votes/2021260"
+          },
+          {
+            "type": "url",
+            "url": "https://clerk.house.gov/evs/2021/ROLL_200.asp"
+          },
+          {
+            "type": "url",
+            "url": "https://clerk.house.gov/Votes/2021259"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0ebc050d1df32e9701690064db5fa4819b8b6cb79330d048ed",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0ebc050d1df32e9701690064dbea74819bb213ca86f2f59db4",
+      "action": {
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://clerk.house.gov/Votes/2021260"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0ebc050d1df32e9701690064e03c70819ba24f547228e5954e",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0ebc050d1df32e9701690064e141fc819b80c11ab149aaaab6",
+      "action": {
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0ebc050d1df32e9701690064e17e70819b81b3a52a912439b2",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0ebc050d1df32e9701690064e20844819bb5c67de03632f99a",
+      "action": {
+        "query": "House passes John Lewis Voting Rights Act vote 219-212 all Republicans opposed NPR August 24 2021",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/us-news/2021/aug/24/us-house-passes-voting-rights-bill-preclearance"
+          },
+          {
+            "type": "url",
+            "url": "https://clerk.house.gov/Votes/2021260"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/John_Lewis_Voting_Rights_Act"
+          },
+          {
+            "type": "url",
+            "url": "https://www.axios.com/2021/11/03/filibuster-senate-voting-rights-bill-democrats"
+          },
+          {
+            "type": "url",
+            "url": "https://www.axios.com/2021/08/24/john-lewis-house-voting-rights-bill"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/George_Floyd_Justice_in_Policing_Act"
+          },
+          {
+            "type": "url",
+            "url": "https://www.cnbc.com/2021/08/24/house-passes-bill-bolstering-landmark-voting-law.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.nprillinois.org/2021-08-24/the-house-has-passed-a-bill-to-restore-the-voting-rights-act"
+          },
+          {
+            "type": "url",
+            "url": "https://www.wfae.org/2021-08-24/the-house-has-passed-a-bill-to-restore-the-voting-rights-act"
+          },
+          {
+            "type": "url",
+            "url": "https://www.whro.org/national-news/2021-08-24/the-house-has-passed-a-bill-to-restore-the-voting-rights-act"
+          },
+          {
+            "type": "url",
+            "url": "https://news.wjct.org/2020-election/2021-08-24/the-house-has-passed-a-bill-to-restore-the-voting-rights-act"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0ebc050d1df32e9701690064f0a628819bac0e80ddb88e76c8",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0ebc050d1df32e9701690064f17b14819b8b47b2017486805f",
+      "action": {
+        "query": "Stop the Sexualization of Children Act of 2022 H.R. 9197 Mike Johnson",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/117th-congress/house-bill/9197"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/117th-congress/house-bill/9197/text"
+          },
+          {
+            "type": "url",
+            "url": "https://www.them.us/story/dont-say-gay-bill-federal"
+          },
+          {
+            "type": "url",
+            "url": "https://amac.us/amac-in-the-media/amac-supports-bill-to-protect-children-from-sexually-explicit-material/"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Stop_the_Sexualization_of_Children_Act"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/117th-congress/house-bill/9197/cosponsors"
+          },
+          {
+            "type": "url",
+            "url": "https://www.wrkf.org/2022-10-25/u-s-rep-mike-johnson-of-louisiana-introduces-dont-say-gay-bill"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0ebc050d1df32e9701690064fc2840819b9673c8be0242a249",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0ebc050d1df32e9701690064fcb760819b8de94bfc3650810f",
+      "action": {
+        "query": "OHCHR LGBT rights human rights non-discrimination statements international standards",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://astra.org.pl/un-human-rights-committee-ae-general-comment-no-36-2018-on-article-6-of-the-international-covenant-on-civil-and-political-rights-on-the-right-to-life/"
+          },
+          {
+            "type": "url",
+            "url": "https://uhr.humanrights.go.kr/pub/uhrstd/744"
+          },
+          {
+            "type": "url",
+            "url": "https://oursplatform.org/resource/right-to-life/"
+          },
+          {
+            "type": "url",
+            "url": "https://emergency.unhcr.org/ar/%D8%A7%D9%84%D8%AD%D9%85%D8%A7%D9%8A%D8%A9/%D8%A7%D9%84%D8%A5%D8%B7%D8%A7%D8%B1-%D8%A7%D9%84%D9%82%D8%A7%D9%86%D9%88%D9%86%D9%8A/%D8%A7%D9%84%D9%88%D8%B5%D9%88%D9%84-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D8%A3%D8%B1%D8%A7%D8%B6%D9%8A-%D9%88%D8%B9%D8%AF%D9%85-%D8%A7%D9%84%D8%B1%D8%AF"
+          },
+          {
+            "type": "url",
+            "url": "https://opiniojuris.org/2019/03/06/the-un-human-rights-committees-general-comment-36-on-the-right-to-life-and-the-right-to-abortion/"
+          },
+          {
+            "type": "url",
+            "url": "https://resolve.cambridge.org/core/services/aop-cambridge-core/content/view/BC4DB0847577B06CAE8238F9B4613A06/S0020782919000317a.pdf/general-comment-no-36-2018-on-article-6-of-the-international-covenant-on-civil-and-political-rights-on-the-right-to-life-hr-comm.pdf"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0ebc050d1df32e97016900650aa548819ba389f9d84cf19844",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0ebc050d1df32e97016900650b2bac819bad1ad336162f9ed8",
+      "action": {
+        "query": "CCPR/C/GC/36 PDF official tbinternet ohchr general comment no. 36",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://digitallibrary.un.org/record/3884724"
+          },
+          {
+            "type": "url",
+            "url": "https://pdf4pro.com/file/111689/Treaties_CCPR_Shared_Documents_1_Global_CCPR_C_GC_36_8785_E.pdf.pdf"
+          },
+          {
+            "type": "url",
+            "url": "https://docs.un.org/CEDAW/C/GC/36"
+          },
+          {
+            "type": "url",
+            "url": "https://docs.un.org/ccpr/c/gc/36"
+          },
+          {
+            "type": "url",
+            "url": "https://cglj.org/2018/11/20/un-human-rights-committee-clarifies-expands-guidance-on-right-to-life/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.un.org/en/universal-declaration-human-rights/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.oursplatform.org/resource/lesbian-gay-bisexual-transgender-intersex-people-ohchr-fact-sheet/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.humanrights-drugpolicy.org/guidelines/obligations-arising-from-human-rights-standards/right-to-life/"
+          },
+          {
+            "type": "url",
+            "url": "https://cglj.org//2015/07/28/human-rights-committee-developing-new-right-to-life-general-comment/"
+          },
+          {
+            "type": "url",
+            "url": "https://ihrcworld.org/rights"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0ebc050d1df32e97016900651a8420819baf1917295f6d6fb1",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0ebc050d1df32e97016900651e0194819b8b188f03ba2a103a",
+      "action": {
+        "query": "Supreme Court order Texas v. Pennsylvania PDF docket 155 original 2020 order denying leave to file bill of complaint",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Texas_v._Pennsylvania"
+          },
+          {
+            "type": "url",
+            "url": "https://pt.wikipedia.org/wiki/Caso_Texas_v._Pennsylvania"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Post-election_lawsuits_related_to_the_2020_U.S._presidential_election"
+          },
+          {
+            "type": "url",
+            "url": "https://www.supremecourt.gov/opinions/relatingtoorders/20"
+          },
+          {
+            "type": "url",
+            "url": "https://www.supremecourt.gov/opinions/slipopinion/20"
+          },
+          {
+            "type": "url",
+            "url": "https://www.supremecourt.gov/docket/docketfiles/html/public/19-841.html"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/United_States_v._Texas_%282021%29"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0ebc050d1df32e9701690065349834819ba6994c18d570be5a",
+      "summary": [
+        {
+          "text": "**Searching for court citations**\n\nLocating the Supreme Court order link is taking longer than I expected. I can safely use sources like PolitiFact and WaPo for their coverage of the Supreme Court's refusal, but since I used web.run, I need to find a credible article or the court’s official page. While WaPo or NYT could reference the dismissal, the quote from the Texas v. Pennsylvania page could work. Overall, it's best to emphasize citing the Supreme Court directly.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0ebc050d1df32e9701690065372988819bbcecb6a18c2b7776",
+      "action": {
+        "query": "155, Original Texas v. Pennsylvania order Supreme Court PDF 2020",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://pt.wikipedia.org/wiki/Caso_Texas_v._Pennsylvania"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Free_Speech_Coalition_v._Paxton"
+          },
+          {
+            "type": "url",
+            "url": "https://www.supremecourt.gov/opinions/slipopinion/20"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/United_States_v._Texas_%282021%29"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/California_v._Texas"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Whole_Woman%27s_Health_v._Hellerstedt"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Texas_v._Pennsylvania"
+          },
+          {
+            "type": "url",
+            "url": "https://www.supremecourt.gov/docket/docketfiles/html/public/19-841.html"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0ebc050d1df32e9701690065435898819bb67097a467115155",
+      "summary": [
+        {
+          "text": "**Evaluating trustworthy sources**\n\nI’m compiling a list of trustworthy sources. Congress.gov is solid since it's the official US government site for legislative records. The Office of the Clerk is good for roll call votes. I also recognize The Washington Post for its fact-checking, and Reuters and AP News are well-respected agencies. PolitiFact provides valuable analysis as a nonprofit. CRS delivers nonpartisan analysis, and UN sources are key for international human rights standards.\n\nI might also include WaPo's interactive listing of RMA votes. For untrustworthy sources, I’ll mention some I don’t rely on, like The New York Post for its partisan takes and Vanity Fair for being too opinion-heavy.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Evaluating source reliability**\n\nI want to clarify how to categorize Wikipedia and other sources. While I used Wikipedia as a starting point, I see it as conditionally useful but not primary, especially for contested claims. It's not that I consider it \"not trustworthy,\" but more like \"less authoritative.\" \n\nFor untrustworthy sources, I plan to list Vanity Fair, The New York Post, and MEAW due to their partisan bias or tabloid nature. Even though I checked them, I ultimately deemed them unsuitable for factual claims.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Clarifying human rights arguments**\n\nI need to formulate an answer that shows how certain policy positions conflict with international human rights norms while avoiding defamatory content. I can argue that, based on documented votes and legislation, there’s a reasonable case that these positions contradict standards regarding LGBTQ equality, reproductive rights, privacy, and democratic rights. \n\nI’ll present this as a well-supported argument, acknowledging that definitions of \"human rights\" can vary. The conclusion will note that substantial evidence points to many positions being inconsistent with widely accepted human rights norms, as defined by UN instruments. It’s essential to keep things concise, even though the user is asking for a detailed list.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Structuring key claims with citations**\n\nI’m planning to keep it focused on a handful of key claims, ensuring each main fact gets cited correctly. Here are my main points with citations:\n\n1) He was an original co-sponsor of the Life at Conception Act (H.R. 431 118th) – I'll cite the Congress.gov cosponsors page for reference.\n2) He introduced the H.R. 9197 Stop the Sexualization of Children Act – I'll reference Congress.gov for this.\n3) He voted against the Respect for Marriage Act – I can use The Washington Post's interactive site for this.\n4) He opposed H.R. 4, the John Lewis Voting Rights Advancement Act (with all Republicans opposing) – citations will come from the Clerk and an NPR story.\n5) He led the amicus brief for Texas v.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Structuring evidence and citations**\n\nI’m outlining key evidence that highlights how Johnson’s record appears to conflict with international human rights standards, while being careful about not claiming intent. My structured case will look like this:\n\n- I can't \"prove\" intent or a sweeping claim, but I’ll present evidence suggesting conflicts.\n\nI’ll create bullet points for clarity:\n\n- For LGBTQ equality, he voted against the Respect for Marriage Act, introduced H.R. 9197, and defended the Louisiana same-sex marriage ban. I’ll map this to UDHR Article 1-2 and cite sources like The Washington Post, Congress.gov, and AP News.\n\n- On reproductive rights, he cosponsored the Life at Conception Act and advanced Heartbeat acts, which I’ll reference in relation to the HRC General Comment 36.\n\n- Regarding democratic rights, I’ll note his involvement in the Texas v. Pennsylvania case and HR4 vote, mapping it to ICCPR Article 25 and citing relevant sources. \n\nI must be mindful of source word limits and keep our trustworthy sections separated from the body, using citations judiciously.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0ebc050d1df32e970169006555d43c819ba85170a1e7057c47",
+      "action": {
+        "query": "ICCPR Article 25 right to participate in public affairs official UN pdf",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.humanrights.gov.au/our-work/rights-and-freedoms/right-take-part-public-affairs-voting-rights-and-access-public-service"
+          },
+          {
+            "type": "url",
+            "url": "https://2covenants.ohchr.org/About-ICCPR.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.equalrightstrust.org/content/ccpr-general-comment-25-right-participate-public-affairs"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ag.gov.au/rights-and-protections/human-rights-and-anti-discrimination/human-rights-scrutiny/public-sector-guidance-sheets/right-take-part-public-affairs-and-elections"
+          },
+          {
+            "type": "url",
+            "url": "https://www.equalrightstrust.org/content/un-hrc-general-comment-no-25-right-participate-public-affairs-voting-rights-and-right-equal"
+          },
+          {
+            "type": "url",
+            "url": "https://www.cambridge.org/core/books/commentary-on-the-international-covenant-on-civil-and-political-rights/article-25-right-to-participate-in-public-affairs-electoral-rights-and-access-to-public-service/373C9CB17B09EBBAB61DDDAAEC183B87"
+          },
+          {
+            "type": "url",
+            "url": "https://press.un.org/en/1996/19960329.hrct466.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.crdh.fr/revue/n-17-2019/study-on-the-right-to-equal-participation-in-public-affairs-in-western-europe-analysis-of-legislation-jurisprudence-and-practice/"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/First_Optional_Protocol_to_the_International_Covenant_on_Civil_and_Political_Rights"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0ebc050d1df32e9701690065678ab4819b9e7914c7c74b7761",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "msg_0ebc050d1df32e9701690065697e80819ba40df8561a0c39f1",
+      "content": [
+        {
+          "annotations": [
+            {
+              "end_index": 1104,
+              "start_index": 963,
+              "title": "Here's which House lawmakers voted for, against the Respect for Marriage Act - Washington Post",
+              "type": "url_citation",
+              "url": "https://www.washingtonpost.com/politics/interactive/2022/house-vote-count-respect-for-marriage-act/?utm_source=openai"
+            },
+            {
+              "end_index": 1513,
+              "start_index": 1417,
+              "title": "H.R.9197 - 117th Congress (2021-2022): Stop the Sexualization of Children Act | Congress.gov | Library of Congress",
+              "type": "url_citation",
+              "url": "https://www.congress.gov/bill/117th-congress/house-bill/9197?utm_source=openai"
+            },
+            {
+              "end_index": 1877,
+              "start_index": 1784,
+              "title": "House Speaker Mike Johnson was once the dean of a Christian law school. It never opened its doors",
+              "type": "url_citation",
+              "url": "https://apnews.com/article/2d1a3399e8fe61bf0619d66ba29a1520?utm_source=openai"
+            },
+            {
+              "end_index": 2046,
+              "start_index": 1959,
+              "title": "Universal Declaration of Human Rights | United Nations",
+              "type": "url_citation",
+              "url": "https://www.un.org/en/universal-declaration-human-rights/?utm_source=openai"
+            },
+            {
+              "end_index": 2563,
+              "start_index": 2475,
+              "title": "Cosponsors - H.R.431 - 118th Congress (2023-2024): Life at Conception Act | Congress.gov | Library of Congress",
+              "type": "url_citation",
+              "url": "https://www.congress.gov/bill/118th-congress/house-bill/431/cosponsors"
+            },
+            {
+              "end_index": 2948,
+              "start_index": 2827,
+              "title": "125 Republicans have backed antiabortion bill without IVF exception - The Washington Post",
+              "type": "url_citation",
+              "url": "https://www.washingtonpost.com/politics/2024/02/25/ivf-republicans-legislation/?utm_source=openai"
+            },
+            {
+              "end_index": 3442,
+              "start_index": 3283,
+              "title": "Section 702: Why America's warrantless spy law is drawing bipartisan ire in Congress",
+              "type": "url_citation",
+              "url": "https://www.reuters.com/world/us/section-702-why-americas-warrantless-spy-law-is-drawing-bipartisan-ire-congress-2024-04-11/?utm_source=openai"
+            },
+            {
+              "end_index": 3892,
+              "start_index": 3812,
+              "title": "The Secure the Border Act (H.R. 2): Asylum-Related Reforms | Congress.gov | Library of Congress",
+              "type": "url_citation",
+              "url": "https://www.congress.gov/crs-product/IF12522?utm_source=openai"
+            },
+            {
+              "end_index": 4567,
+              "start_index": 4431,
+              "title": "PolitiFact | Mike Johnson sought to overturn 2020 election. As House speaker, he'll oversee 2024 certification",
+              "type": "url_citation",
+              "url": "https://www.politifact.com/article/2023/oct/26/mike-johnson-sought-to-overturn-2020-election-as-h/?utm_source=openai"
+            },
+            {
+              "end_index": 4855,
+              "start_index": 4732,
+              "title": "Does Mike Johnson get too much credit for the effort to overturn 2020? - The Washington Post",
+              "type": "url_citation",
+              "url": "https://www.washingtonpost.com/politics/2023/10/26/johnson-election-denial-trump/?utm_source=openai"
+            },
+            {
+              "end_index": 5199,
+              "start_index": 5123,
+              "title": "Office of the Clerk, U.S. House of Representatives",
+              "type": "url_citation",
+              "url": "https://clerk.house.gov/Votes/2021260?utm_source=openai"
+            },
+            {
+              "end_index": 5467,
+              "start_index": 5378,
+              "title": "UN Human Rights",
+              "type": "url_citation",
+              "url": "https://2covenants.ohchr.org/About-ICCPR.html?utm_source=openai"
+            },
+            {
+              "end_index": 6488,
+              "start_index": 6400,
+              "title": "Cosponsors - H.R.431 - 118th Congress (2023-2024): Life at Conception Act | Congress.gov | Library of Congress",
+              "type": "url_citation",
+              "url": "https://www.congress.gov/bill/118th-congress/house-bill/431/cosponsors"
+            },
+            {
+              "end_index": 6849,
+              "start_index": 6773,
+              "title": "Office of the Clerk, U.S. House of Representatives",
+              "type": "url_citation",
+              "url": "https://clerk.house.gov/Votes/2021260?utm_source=openai"
+            },
+            {
+              "end_index": 7403,
+              "start_index": 7262,
+              "title": "Here's which House lawmakers voted for, against the Respect for Marriage Act - Washington Post",
+              "type": "url_citation",
+              "url": "https://www.washingtonpost.com/politics/interactive/2022/house-vote-count-respect-for-marriage-act/?utm_source=openai"
+            },
+            {
+              "end_index": 7865,
+              "start_index": 7706,
+              "title": "Section 702: Why America's warrantless spy law is drawing bipartisan ire in Congress",
+              "type": "url_citation",
+              "url": "https://www.reuters.com/world/us/section-702-why-americas-warrantless-spy-law-is-drawing-bipartisan-ire-congress-2024-04-11/?utm_source=openai"
+            },
+            {
+              "end_index": 8335,
+              "start_index": 8175,
+              "title": "House narrowly rejects addition of warrant requirement in FISA reauthorization",
+              "type": "url_citation",
+              "url": "https://www.marketwatch.com/story/house-narrowly-rejects-addition-of-warrant-requirement-in-fisa-reauthorization-01283001?utm_source=openai"
+            },
+            {
+              "end_index": 8755,
+              "start_index": 8662,
+              "title": "House Speaker Mike Johnson was once the dean of a Christian law school. It never opened its doors",
+              "type": "url_citation",
+              "url": "https://apnews.com/article/2d1a3399e8fe61bf0619d66ba29a1520?utm_source=openai"
+            },
+            {
+              "end_index": 9133,
+              "start_index": 9053,
+              "title": "The Secure the Border Act (H.R. 2): Asylum-Related Reforms | Congress.gov | Library of Congress",
+              "type": "url_citation",
+              "url": "https://www.congress.gov/crs-product/IF12522?utm_source=openai"
+            },
+            {
+              "end_index": 9570,
+              "start_index": 9434,
+              "title": "PolitiFact | Mike Johnson sought to overturn 2020 election. As House speaker, he'll oversee 2024 certification",
+              "type": "url_citation",
+              "url": "https://www.politifact.com/article/2023/oct/26/mike-johnson-sought-to-overturn-2020-election-as-h/?utm_source=openai"
+            },
+            {
+              "end_index": 10099,
+              "start_index": 10010,
+              "title": "General comment no. 36 :",
+              "type": "url_citation",
+              "url": "https://digitallibrary.un.org/record/3884724?utm_source=openai"
+            },
+            {
+              "end_index": 10627,
+              "start_index": 10512,
+              "title": "Election Denial, \"Sexual Anarchy,\" Noah's Ark: All the Mike Johnson Details We Regret to Inform You Of",
+              "type": "url_citation",
+              "url": "https://www.vanityfair.com/news/2023/10/everything-to-know-about-mike-johnson?utm_source=openai"
+            },
+            {
+              "end_index": 11126,
+              "start_index": 10954,
+              "title": "Biden refused to reinstate Trump-era border policies because 'Mexico doesn't want that,' Speaker Mike Johnson says",
+              "type": "url_citation",
+              "url": "https://nypost.com/2024/10/18/us-news/biden-refused-to-reinstate-trump-border-policies-because-mexico-doesnt-want-that-house-speaker-says/?utm_source=openai"
+            },
+            {
+              "end_index": 11614,
+              "start_index": 11423,
+              "title": "Internet slams House Speaker Mike Johnson as he calls out Democrat-controlled Senate for delaying HR2 bill on anniversary of its passage",
+              "type": "url_citation",
+              "url": "https://news.meaww.com/house-speaker-mike-johnson-slammed-as-he-calls-out-democrat-controlled-senate-for-delaying-hr-2-bill-on-anniversary-of-its-passage?utm_source=openai"
+            }
+          ],
+          "text": "1) Answer\n\nShort version: I can’t “prove” a broad claim about a person’s intent. What I can do is evaluate the public record. Using widely accepted human‑rights standards (for example, the UDHR and the ICCPR as interpreted by the U.N. Human Rights Committee), there is substantial, documented evidence that many of Speaker Mike Johnson’s positions and actions conflict with core human‑rights guarantees on equality and non‑discrimination, reproductive autonomy, privacy, the right to seek asylum, and democratic participation.\n\nHow his record conflicts with these standards (with evidence)\n\n- Equality and non‑discrimination for LGBTQ people (UDHR arts. 1–2; ICCPR arts. 2, 26)\n  • Voted against the Respect for Marriage Act that protects recognition of same‑sex and interracial marriages nationwide. The final House roll call shows GOP opponents, including “Mike Johnson (La.).” This runs counter to equal protection norms recognized in modern human‑rights law. ([washingtonpost.com](https://www.washingtonpost.com/politics/interactive/2022/house-vote-count-respect-for-marriage-act/?utm_source=openai))\n  • Authored H.R. 9197 (“Stop the Sexualization of Children Act,” 2022), a federal “Don’t Say Gay”‑style bill that would bar federally funded institutions from addressing topics including sexual orientation or gender identity for children under 10, chilling protected expression and equal access to information. ([congress.gov](https://www.congress.gov/bill/117th-congress/house-bill/9197?utm_source=openai))\n  • Before Congress, he advocated legally for Louisiana measures opposing recognition of same‑sex relationships; AP’s profile recounts his legal work defending the state’s same‑sex marriage ban and related writings. Such efforts undermine non‑discrimination guarantees. ([apnews.com](https://apnews.com/article/2d1a3399e8fe61bf0619d66ba29a1520?utm_source=openai))\n  • Standards: The UDHR affirms equal dignity and rights without discrimination. ([un.org](https://www.un.org/en/universal-declaration-human-rights/?utm_source=openai))\n\n- Reproductive autonomy and health (recognized under ICCPR Article 6 as part of the right to life; see General Comment No. 36)\n  • Original cosponsor of the “Life at Conception Act” (118th Congress, H.R. 431), which defines legal personhood from fertilization. ICCPR General Comment No. 36 warns that abortion restrictions must not endanger women’s lives or subject them to suffering; sweeping personhood laws risk doing both. ([congress.gov](https://www.congress.gov/bill/118th-congress/house-bill/431/cosponsors))\n  • News reporting in 2024 specifically names Johnson as a co‑sponsor of that bill, noting it contains no clear IVF protections; Johnson simultaneously said he supports access to IVF, highlighting a conflict between public statements and legislative sponsorship. ([washingtonpost.com](https://www.washingtonpost.com/politics/2024/02/25/ivf-republicans-legislation/?utm_source=openai))\n\n- Privacy and surveillance (right to privacy; ICCPR art. 17)\n  • As Speaker, Johnson advanced a two‑year reauthorization of FISA Section 702 with limited reforms and without a general warrant requirement for U.S. person queries—over significant civil‑liberties objections that warrantless querying can intrude on Americans’ privacy. ([reuters.com](https://www.reuters.com/world/us/section-702-why-americas-warrantless-spy-law-is-drawing-bipartisan-ire-congress-2024-04-11/?utm_source=openai))\n\n- The right to seek asylum and protection from refoulement (UDHR art. 14; customary non‑refoulement)\n  • He backed H.R. 2 (the Secure the Border Act). CRS explains the bill would significantly expand bars to asylum and narrow eligibility, moves that human‑rights bodies warn can undermine the right to seek asylum and risk refoulement if alternatives are not ensured. ([congress.gov](https://www.congress.gov/crs-product/IF12522?utm_source=openai))\n\n- Democratic participation and protection of electoral rights (ICCPR art. 25)\n  • Led the effort by 126 House Republicans to sign an amicus brief supporting Texas v. Pennsylvania (2020), asking the Supreme Court to throw out certified presidential results in four states. The Court rejected the case for lack of standing; PolitiFact documents Johnson’s central role in the broader push to overturn the 2020 result. Such attempts are inconsistent with the ICCPR’s protections of genuine elections and free expression of the voters’ will. ([politifact.com](https://www.politifact.com/article/2023/oct/26/mike-johnson-sought-to-overturn-2020-election-as-h/?utm_source=openai))\n  • Objected on Jan. 6, 2021, to certifying Arizona and Pennsylvania’s electoral votes; reputable reporting has described him as a key architect of the objections. ([washingtonpost.com](https://www.washingtonpost.com/politics/2023/10/26/johnson-election-denial-trump/?utm_source=openai))\n  • Voted with all House Republicans against the John R. Lewis Voting Rights Advancement Act (H.R. 4, 2021), which sought to restore federal voting‑rights protections—contrary to international standards that favor removing unreasonable restrictions on participation. ([clerk.house.gov](https://clerk.house.gov/Votes/2021260?utm_source=openai))\n  • Standards: ICCPR Article 25 guarantees citizens the right and opportunity to take part in public affairs and to vote in genuine elections, without unreasonable restrictions. ([2covenants.ohchr.org](https://2covenants.ohchr.org/About-ICCPR.html?utm_source=openai))\n\nBottom line: Human‑rights law is not U.S. domestic law in every respect, and sincere political disagreements about these issues exist. But using mainstream human‑rights benchmarks (UDHR/ICCPR and related U.N. interpretations) and the documented record above, it is reasonable to conclude that Johnson’s legislative agenda and actions are frequently at odds with internationally recognized human‑rights protections for equality, reproductive autonomy, privacy, the right to seek asylum, and democratic participation.\n\n\n2) Sources I considered trustworthy (and why)\n\n- Congress.gov (Library of Congress)\n  [1] Source: Congress.gov (bill text and cosponsor pages for H.R. 431; H.R. 9197)\n  [2] Reasoning 1: Primary, official U.S. legislative repository; nonpartisan and authoritative.\n  [3] Reasoning 2: Direct evidence of sponsorship/cosponsorship and bill content makes it the most reliable source for Johnson’s legislative record. ([congress.gov](https://www.congress.gov/bill/118th-congress/house-bill/431/cosponsors))\n\n- Office of the Clerk, U.S. House of Representatives\n  [1] Source: clerk.house.gov (roll‑call vote tallies)\n  [2] Reasoning 1: Official chamber recordkeeper; definitive for votes.\n  [3] Reasoning 2: Confirms party‑line voting on H.R. 4 and the final House action on H.R. 8404 (RMA). ([clerk.house.gov](https://clerk.house.gov/Votes/2021260?utm_source=openai))\n\n- The Washington Post\n  [1] Source: Washington Post (RMA vote interactive; coverage of Life‑at‑Conception co‑sponsorship)\n  [2] Reasoning 1: National, standards‑based newsroom with rigorous editing and corrections.\n  [3] Reasoning 2: The RMA vote tool lists individual House votes; the IVF/Life‑at‑Conception reporting identifies Johnson as a co‑sponsor, providing up‑to‑date context beyond the primary record. ([washingtonpost.com](https://www.washingtonpost.com/politics/interactive/2022/house-vote-count-respect-for-marriage-act/?utm_source=openai))\n\n- Reuters\n  [1] Source: Reuters (FISA 702 reauthorization coverage)\n  [2] Reasoning 1: Global wire service with strong sourcing standards and minimal editorializing.\n  [3] Reasoning 2: Clear, timely reporting on Johnson’s role advancing a two‑year 702 extension without a blanket warrant requirement. ([reuters.com](https://www.reuters.com/world/us/section-702-why-americas-warrantless-spy-law-is-drawing-bipartisan-ire-congress-2024-04-11/?utm_source=openai))\n\n- MarketWatch (Dow Jones)\n  [1] Source: MarketWatch (House rejection of warrant requirement amendment during 702 debate)\n  [2] Reasoning 1: Reputable financial/news outlet owned by Dow Jones.\n  [3] Reasoning 2: Concise account of the key warrant amendment vote that frames Johnson’s approach to 702 reforms. ([marketwatch.com](https://www.marketwatch.com/story/house-narrowly-rejects-addition-of-warrant-requirement-in-fisa-reauthorization-01283001?utm_source=openai))\n\n- Associated Press\n  [1] Source: AP News (background on Johnson’s pre‑Congress legal advocacy on LGBTQ issues)\n  [2] Reasoning 1: Long‑standing, highly trusted wire service with robust standards.\n  [3] Reasoning 2: Offers well‑sourced biographical/legal‑advocacy context relevant to equality and non‑discrimination analysis. ([apnews.com](https://apnews.com/article/2d1a3399e8fe61bf0619d66ba29a1520?utm_source=openai))\n\n- Congressional Research Service (CRS)\n  [1] Source: CRS In Focus on H.R. 2 asylum provisions\n  [2] Reasoning 1: Nonpartisan analytical arm of the Library of Congress.\n  [3] Reasoning 2: Authoritative summary of how H.R. 2 would restrict asylum eligibility, relevant to non‑refoulement concerns. ([congress.gov](https://www.congress.gov/crs-product/IF12522?utm_source=openai))\n\n- PolitiFact\n  [1] Source: PolitiFact explainer on Johnson’s 2020 election role\n  [2] Reasoning 1: Nonprofit fact‑checking outlet with transparent sourcing and methodology.\n  [3] Reasoning 2: Synthesizes and documents Johnson’s amicus brief leadership and objection strategy for 2020 certification. ([politifact.com](https://www.politifact.com/article/2023/oct/26/mike-johnson-sought-to-overturn-2020-election-as-h/?utm_source=openai))\n\n- United Nations sources (standards)\n  [1] Source: UN Digital Library (CCPR General Comment No. 36); UN page for the UDHR; OHCHR/ICCPR Article 25\n  [2] Reasoning 1: Primary, official statements of international human‑rights norms.\n  [3] Reasoning 2: Establish the benchmarks used to assess whether a public record aligns with or departs from recognized human‑rights protections (equality, reproductive health, privacy, electoral rights). ([digitallibrary.un.org](https://digitallibrary.un.org/record/3884724?utm_source=openai))\n\n\n3) Sources I considered not trustworthy (for this purpose)\n\n- Vanity Fair (the cited piece)\n  [1] Source: Vanity Fair (magazine article on Johnson)\n  [2] Reasoning 1: Mainstream magazine but largely opinion/feature‑driven on politics.\n  [3] Reasoning 2: For a claim requiring careful evidentiary grounding, I avoided relying on an opinion‑framed profile and instead used primary records and hard‑news outlets. ([vanityfair.com](https://www.vanityfair.com/news/2023/10/everything-to-know-about-mike-johnson?utm_source=openai))\n\n- New York Post (the cited piece)\n  [1] Source: New York Post (tabloid‑style coverage of Johnson’s immigration remarks)\n  [2] Reasoning 1: Known tabloid with partisan framing and variable sourcing rigor.\n  [3] Reasoning 2: Not used as evidence; I used official and nonpartisan analyses for immigration/asylum policy impacts. ([nypost.com](https://nypost.com/2024/10/18/us-news/biden-refused-to-reinstate-trump-border-policies-because-mexico-doesnt-want-that-house-speaker-says/?utm_source=openai))\n\n- MEAWW\n  [1] Source: MEAWW (social‑media‑reaction article about H.R. 2 anniversary)\n  [2] Reasoning 1: Entertainment/news site with limited editorial transparency.\n  [3] Reasoning 2: Not suitable for evidentiary claims about legislative substance; I relied on CRS and official records instead. ([news.meaww.com](https://news.meaww.com/house-speaker-mike-johnson-slammed-as-he-calls-out-democrat-controlled-senate-for-delaying-hr-2-bill-on-anniversary-of-its-passage?utm_source=openai))\n\n- Wikipedia (generally)\n  [1] Source: Wikipedia (multiple pages surfaced during scoping)\n  [2] Reasoning 1: Useful as a starting index but editable and uneven in quality.\n  [3] Reasoning 2: I did not rely on Wikipedia for contested facts; where a claim mattered, I traced it to primary sources or high‑quality reporting. (No citation needed; noted for transparency.)\n\n\nNotes and scope\n- “Human rights” here refers to widely accepted international standards (UDHR/ICCPR). The U.S. legal system sometimes diverges from these standards; the analysis is normative against those global benchmarks.\n- If you want, I can expand any section (e.g., additional votes or quotes, or how specific ICCPR provisions map onto each policy area).",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null,
+        "type": "approximate"
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "max_output_tokens": 90000,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": "detailed"
+  },
+  "safety_identifier": "001",
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 86258,
+    "input_tokens_details": {
+      "cached_tokens": 3584
+    },
+    "output_tokens": 7183,
+    "output_tokens_details": {
+      "reasoning_tokens": 4608
+    },
+    "total_tokens": 93441
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "store": false
+}

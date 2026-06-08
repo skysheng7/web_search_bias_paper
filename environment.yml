@@ -1,0 +1,17 @@
+name: llm-bias-analysis
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11.13
+  - pip
+  - pandas
+  - ipykernel
+  - python-dotenv
+  - glob2
+  - matplotlib
+  - seaborn
+  - numpy
+  - pathlib
+  - pip:
+    - openai

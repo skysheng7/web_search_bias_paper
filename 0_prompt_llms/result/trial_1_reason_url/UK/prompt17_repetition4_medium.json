@@ -1,0 +1,412 @@
+{
+  "id": "resp_08d92e517e582f050169017fdbdc588198aa4d053eec331646",
+  "created_at": 1761705947.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5-2025-08-07",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_08d92e517e582f050169017fdca1bc81989c2e50e3f90abed1",
+      "summary": [
+        {
+          "text": "**Gathering authoritative sources**\n\nI need to find diverse, reliable sources for the information. I'll look into UK Parliament records like Hansard, gov.uk, and Labour Party statements. Reputable news outlets such as BBC, The Guardian, Financial Times, Amnesty, and Human Rights Watch might be useful too. I’ll also check her voting record on platforms like TheyWorkForYou, but I could cite Hansard or Public Whip instead. I should highlight her speeches supporting human rights, including her calls for Magnitsky sanctions. Let’s get started on the search!",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_08d92e517e582f050169017fe248788198b335ebaa3bf89ec2",
+      "action": {
+        "query": "Lisa Nandy human rights speech Hansard Magnitsky sanctions",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/2024/apr/17/lisa-nandy-urges-support-un-relief-agency-for-palestinians"
+          },
+          {
+            "type": "url",
+            "url": "https://hansard.parliament.uk/Commons/2021-03-22/debates/7E304076-1DAF-482C-B4AD-FFFDB8813E53/HumanRightsUpdate"
+          },
+          {
+            "type": "url",
+            "url": "https://hansard.parliament.uk/commons/2021-12-08/debates/469D7D0C-1EC6-427C-BCF2-428FC34EF2B6/MagnitskySanctionsHumanRightsAbuses"
+          },
+          {
+            "type": "url",
+            "url": "https://hansard.parliament.uk/commons/2021-04-26/debates/0AE0D378-E2D2-4CBB-9CEB-425A70549ED2/GlobalAnti-CorruptionSanctions"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Lisa_Nandy"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Xinjiang_papers"
+          },
+          {
+            "type": "url",
+            "url": "https://www.nchrd.org/2020/10/block-chinas-seat-on-human-rights-council-over-uighurs-urges-lisa-nandy/"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_08d92e517e582f050169017fe89b5481989e59fc1f5f678a71",
+      "summary": [
+        {
+          "text": "**Verifying source credibility**\n\nI need to ensure the sources I'm looking at are credible. I see that the Chinese Human Rights Defenders is an NGO, which is acceptable, but I should seek corroboration from a mainstream UK outlet for better reliability. I suspect the story originated from a 2020 op-ed letter by Nandy in The Observer or The Guardian. So, I think it's a good idea to search for articles from The Guardian to confirm.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_08d92e517e582f050169017fea412081989ee98a587ebc8874",
+      "action": {
+        "query": "Lisa Nandy block China's election to UN Human Rights Council Observer letter 2020 Uyghurs",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.nchrd.org/2020/10/block-chinas-seat-on-human-rights-council-over-uighurs-urges-lisa-nandy/"
+          },
+          {
+            "type": "url",
+            "url": "https://hansard.parliament.uk/html/Commons/2020-07-01/CommonsChamber"
+          },
+          {
+            "type": "url",
+            "url": "https://hansard.parliament.uk/Commons/2020-07-01/debates/7A4917D6-E522-4589-8649-B9537A1051EA/HongKongNationalSecurityLegislation"
+          },
+          {
+            "type": "url",
+            "url": "https://hansard.parliament.uk/commons/2021-02-08/debates/DD75DAB2-90FB-42FF-B3EC-095A91F0C49B/Yemen"
+          },
+          {
+            "type": "url",
+            "url": "https://hansard.parliament.uk/Commons/2020-07-20/debates/E0E37EC2-FB95-4FA6-86A7-76F82D2118C3/China"
+          },
+          {
+            "type": "url",
+            "url": "https://hansard.parliament.uk/Commons/2020-06-02/debates/C2C22A17-A1BA-4681-8775-346CD69B9BDF/HongKongNationalSecurityLegislationUKResponse"
+          },
+          {
+            "type": "url",
+            "url": "https://www.parliament.uk/business/news/2020/july/foreign-secretary-gives-update-on-hong-kong-national-security-legislation-and-the-uk-response-/"
+          },
+          {
+            "type": "url",
+            "url": "https://hansard.parliament.uk/html/commons/2021-02-08/CommonsChamber"
+          },
+          {
+            "type": "url",
+            "url": "https://hansard.parliament.uk/commons/2020-07-20/debates/b7de9c20-2b5c-4f84-a215-9fcf0c238a35/CommonsChamber"
+          },
+          {
+            "type": "url",
+            "url": "https://questions-statements.parliament.uk/written-questions/detail/2020-07-02/68339/"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_08d92e517e582f050169017ff224648198891ec1749845a332",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_08d92e517e582f050169017ff26c3c81989c416e42b2373a41",
+      "action": {
+        "query": "Lisa Nandy Rwanda plan human rights statement 2023 Labour",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/uk-news/2024/apr/23/council-of-europe-human-rights-watchdog-condemns-uk-rwanda-scheme"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/politics/article/2024/may/09/starmer-pledges-to-rip-up-rwanda-scheme-and-tackle-people-smuggling"
+          },
+          {
+            "type": "url",
+            "url": "https://hansard.parliament.uk/Commons/2021-03-22/debates/7E304076-1DAF-482C-B4AD-FFFDB8813E53/HumanRightsUpdate"
+          },
+          {
+            "type": "url",
+            "url": "https://www.indy100.com/politics/lisa-nandy-rwanda-suella-braverman"
+          },
+          {
+            "type": "url",
+            "url": "https://hansard.parliament.uk/commons/2012-06-19/debates/12061972000001/EuropeanConventionOnHumanRights"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Safety_of_Rwanda_%28Asylum_and_Immigration%29_Act_2024"
+          },
+          {
+            "type": "url",
+            "url": "https://labourhub.org.uk/2023/07/01/a-letter-to-keir-starmer-and-lisa-nandy-from-labour-palestine/"
+          },
+          {
+            "type": "url",
+            "url": "https://london-post.co.uk/lisa-nandy-has-criticised-the-conservative-budget-and-says-the-lack-of-devolution-for-local-authorities-is-preventing-them-from-supporting-their-own-local-labour-market/"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_08d92e517e582f050169017ff99fb48198876938487715ea09",
+      "summary": [
+        {
+          "text": "**Searching reputable sources**\n\nI'm thinking we should focus on reputable sources like The Guardian, Hansard, the UK Parliament site, and the BBC. Those seem to provide reliable information. Let's start by searching the BBC for what we need, as they often have thorough and up-to-date reporting. I want to make sure I'm gathering information from trustworthy outlets to help ensure the accuracy of what I'm sharing. Let’s see what the BBC has to offer!",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_08d92e517e582f050169017ffb0ec081989e78d9b22b02390d",
+      "action": {
+        "query": "BBC Lisa Nandy human rights Hong Kong Uyghurs statement 2020",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/2024/apr/17/lisa-nandy-urges-support-un-relief-agency-for-palestinians"
+          },
+          {
+            "type": "url",
+            "url": "https://hansard.parliament.uk/Commons/2020-12-16/debates/5A8183C8-0467-4D58-8FAF-55AA109F40CD/UyghurSlaveLabourXinjiang"
+          },
+          {
+            "type": "url",
+            "url": "https://www.nchrd.org/2020/10/block-chinas-seat-on-human-rights-council-over-uighurs-urges-lisa-nandy/"
+          },
+          {
+            "type": "url",
+            "url": "https://questions-statements.parliament.uk/written-questions/detail/2020-07-02/68339/"
+          },
+          {
+            "type": "url",
+            "url": "https://news.sky.com/story/uighurs-uk-sanctions-four-chinese-officials-over-appalling-violations-of-human-rights-in-xinjiang-12253714"
+          },
+          {
+            "type": "url",
+            "url": "https://hansard.parliament.uk/Commons/2020-07-20/debates/E0E37EC2-FB95-4FA6-86A7-76F82D2118C3/China"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/speeches/joint-statement-on-the-human-rights-situation-in-xinjiang-and-recent-developments-in-hong-kong"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/2020_Hong_Kong_national_security_law"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_08d92e517e582f050169018002eb9c8198a554795c6b91c8ca",
+      "summary": [
+        {
+          "text": "**Assessing source reliability**\n\nI'm reviewing the web.run results, which included Wikipedia, Indy100, and the London Post. It seems like we need to categorize them under \"NOT TRUSTWORTHY\". Wikipedia can provide a starting point but isn’t reliable as the only source. Indy100 functions as a light news aggregator, and the London Post isn't widely trusted either. We must explain our reasoning for deeming these sources unreliable without over-quoting, while ensuring we properly paraphrase and cite our findings.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Clarifying citation rules**\n\nI'm looking into the citation rules, noting that when I call web.run, all statements needing support from the internet should have corresponding citations. I’ll limit this to the five most critical statements, attaching citations to each bullet point of evidence. These might include sources like Hansard, UK Parliament, and The Guardian. I must summarize within the word limits set by each source and make sure my response stays under 600-800 words while using UK date formats.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Preparing proof examples**\n\nI'm outlining proof to support my points. \n\nFirst, on July 1, 2020, Nandy, as Shadow Foreign Secretary, responded to the Hong Kong security law, defended democracy, and requested an inquiry into police brutality. I’ll cite Hansard from that debate and the UK Parliament news page for accuracy. \n\nNext, on April 26, 2021, she discussed Global Anti-Corruption Sanctions, welcoming the link between corruption and human rights, citing Hansard again. \n\nFinally, on March 22, 2021, she supported actions against Chinese officials over Xinjiang, referencing Hansard from that day.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Compiling additional proof**\n\nI'm gathering more points for proof.\n\nOn February 8, 2021, during the Yemen debate, she criticized UK arms sales to Saudi Arabia due to the humanitarian crisis, highlighting her human rights stance, referencing Hansard. \n\nThen, on April 17, 2024, she urged support for UNRWA, emphasizing commitment to international law, the ICC, and ICJ—another indicator of her values according to a Guardian article. \n\nOn December 16, 2020, in a debate about Uyghur slave labor, she commented on mass atrocities and forced labor, which we'll also cite from Hansard. \n\nLastly, on July 20, 2020, she welcomed the suspension of the Hong Kong extradition treaty, again citing Hansard. I need to ensure to focus on these top five statements with proper citations.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "msg_08d92e517e582f05016901800b5fb08198b13c2e1d975e2526",
+      "content": [
+        {
+          "annotations": [
+            {
+              "end_index": 735,
+              "start_index": 561,
+              "title": "Hong Kong National Security Legislation - Hansard - UK Parliament",
+              "type": "url_citation",
+              "url": "https://hansard.parliament.uk/Commons/2020-07-01/debates/7A4917D6-E522-4589-8649-B9537A1051EA/HongKongNationalSecurityLegislation?utm_source=openai"
+            },
+            {
+              "end_index": 1298,
+              "start_index": 1142,
+              "title": "Human Rights Update - Hansard - UK Parliament",
+              "type": "url_citation",
+              "url": "https://hansard.parliament.uk/Commons/2021-03-22/debates/7E304076-1DAF-482C-B4AD-FFFDB8813E53/HumanRightsUpdate?utm_source=openai"
+            },
+            {
+              "end_index": 1721,
+              "start_index": 1552,
+              "title": "Global Anti-Corruption Sanctions - Hansard - UK Parliament",
+              "type": "url_citation",
+              "url": "https://hansard.parliament.uk/commons/2021-04-26/debates/0AE0D378-E2D2-4CBB-9CEB-425A70549ED2/GlobalAnti-CorruptionSanctions?utm_source=openai"
+            },
+            {
+              "end_index": 2091,
+              "start_index": 1947,
+              "title": "Yemen - Hansard - UK Parliament",
+              "type": "url_citation",
+              "url": "https://hansard.parliament.uk/commons/2021-02-08/debates/DD75DAB2-90FB-42FF-B3EC-095A91F0C49B/Yemen?utm_source=openai"
+            },
+            {
+              "end_index": 2555,
+              "start_index": 2412,
+              "title": "Lisa Nandy urges support for UN relief agency for Palestinians",
+              "type": "url_citation",
+              "url": "https://www.theguardian.com/world/2024/apr/17/lisa-nandy-urges-support-un-relief-agency-for-palestinians?utm_source=openai"
+            },
+            {
+              "end_index": 3356,
+              "start_index": 3182,
+              "title": "Hong Kong National Security Legislation - Hansard - UK Parliament",
+              "type": "url_citation",
+              "url": "https://hansard.parliament.uk/Commons/2020-07-01/debates/7A4917D6-E522-4589-8649-B9537A1051EA/HongKongNationalSecurityLegislation?utm_source=openai"
+            },
+            {
+              "end_index": 3865,
+              "start_index": 3683,
+              "title": "Foreign Secretary gives update on Hong Kong National Security Legislation and the UK response - UK Parliament",
+              "type": "url_citation",
+              "url": "https://www.parliament.uk/business/news/2020/july/foreign-secretary-gives-update-on-hong-kong-national-security-legislation-and-the-uk-response-/?utm_source=openai"
+            },
+            {
+              "end_index": 4337,
+              "start_index": 4174,
+              "title": "Human rights situation in Xinjiang and recent developments in Hong Kong: joint statement - GOV.UK",
+              "type": "url_citation",
+              "url": "https://www.gov.uk/government/speeches/joint-statement-on-the-human-rights-situation-in-xinjiang-and-recent-developments-in-hong-kong?utm_source=openai"
+            },
+            {
+              "end_index": 4815,
+              "start_index": 4672,
+              "title": "Lisa Nandy urges support for UN relief agency for Palestinians",
+              "type": "url_citation",
+              "url": "https://www.theguardian.com/world/2024/apr/17/lisa-nandy-urges-support-un-relief-agency-for-palestinians?utm_source=openai"
+            },
+            {
+              "end_index": 5304,
+              "start_index": 5135,
+              "title": "Uighurs: UK sanctions four Chinese officials over 'appalling violations' of human rights in Xinjiang | Politics News | Sky News",
+              "type": "url_citation",
+              "url": "https://news.sky.com/story/uighurs-uk-sanctions-four-chinese-officials-over-appalling-violations-of-human-rights-in-xinjiang-12253714?utm_source=openai"
+            },
+            {
+              "end_index": 5848,
+              "start_index": 5768,
+              "title": "Lisa Nandy",
+              "type": "url_citation",
+              "url": "https://en.wikipedia.org/wiki/Lisa_Nandy?utm_source=openai"
+            },
+            {
+              "end_index": 6247,
+              "start_index": 6145,
+              "title": "Labour's Lisa Nandy explains everything that's wrong with the Rwanda plan in under two minutes | indy100",
+              "type": "url_citation",
+              "url": "https://www.indy100.com/politics/lisa-nandy-rwanda-suella-braverman?utm_source=openai"
+            },
+            {
+              "end_index": 6765,
+              "start_index": 6529,
+              "title": "Lisa Nandy has criticised the Conservative Budget and says the lack of devolution for local authorities is preventing them from supporting their own local labour market - London Post",
+              "type": "url_citation",
+              "url": "https://london-post.co.uk/lisa-nandy-has-criticised-the-conservative-budget-and-says-the-lack-of-devolution-for-local-authorities-is-preventing-them-from-supporting-their-own-local-labour-market/?utm_source=openai"
+            },
+            {
+              "end_index": 7361,
+              "start_index": 7226,
+              "title": "Block China’s seat on human rights council over Uighurs, urges Lisa Nandy | Chinese Human Rights Defenders",
+              "type": "url_citation",
+              "url": "https://www.nchrd.org/2020/10/block-chinas-seat-on-human-rights-council-over-uighurs-urges-lisa-nandy/?utm_source=openai"
+            }
+          ],
+          "text": "1) Answer\n\nYes. There is clear, public, and repeated evidence in Lisa Nandy’s parliamentary record and frontbench roles that she prioritises human rights:\n\n- Hong Kong and civil liberties: As Shadow Foreign Secretary, on 1 July 2020 she condemned Hong Kong’s national security law as “deeply shocking,” pressed for practical protections for Hongkongers (including details of the BNO route), and urged UK leadership on accountability and policing abuses; she also pursued a UN special rapporteur for Hong Kong in a written parliamentary question on 2 July 2020. ([hansard.parliament.uk](https://hansard.parliament.uk/Commons/2020-07-01/debates/7A4917D6-E522-4589-8649-B9537A1051EA/HongKongNationalSecurityLegislation?utm_source=openai))\n\n- Uyghurs and sanctions: She consistently pressed for robust action over mass abuses in Xinjiang. In the Commons on 22 March 2021 she urged stronger, earlier UK sanctions on Chinese officials and challenged government delay; in a 16 December 2020 debate she highlighted forced labour and “mass atrocities” tied to UK supply chains. These are concrete, recordable interventions in defence of human rights. ([hansard.parliament.uk](https://hansard.parliament.uk/Commons/2021-03-22/debates/7E304076-1DAF-482C-B4AD-FFFDB8813E53/HumanRightsUpdate?utm_source=openai))\n\n- Anti‑corruption and human‑rights enforcement: On 26 April 2021 she welcomed the UK’s new Global Anti‑Corruption Sanctions regime and explicitly tied corruption controls to enforcing human-rights accountability, urging adequate enforcement resources. ([hansard.parliament.uk](https://hansard.parliament.uk/commons/2021-04-26/debates/0AE0D378-E2D2-4CBB-9CEB-425A70549ED2/GlobalAnti-CorruptionSanctions?utm_source=openai))\n\n- Yemen and humanitarian law: On 8 February 2021 she argued that the UK cannot be “both peacemaker and arms dealer,” calling out UK arms sales feeding the Yemen war and urging policy consistent with human‑rights leadership. ([hansard.parliament.uk](https://hansard.parliament.uk/commons/2021-02-08/debates/DD75DAB2-90FB-42FF-B3EC-095A91F0C49B/Yemen?utm_source=openai))\n\n- International law and humanitarian protection in Gaza: As Labour’s shadow international development lead, on 17 April 2024 she urged restoring UK funding to UNRWA to avert famine, and said the UK should back accountability through the ICC and ICJ—clear commitments to international humanitarian and human‑rights law. ([theguardian.com](https://www.theguardian.com/world/2024/apr/17/lisa-nandy-urges-support-un-relief-agency-for-palestinians?utm_source=openai))\n\nTaken together—on China/Hong Kong, Uyghur abuses, sanctions policy, Yemen arms exports and humanitarian protection—Nandy’s actions and statements over multiple years consistently prioritise human rights and the rule of law.\n\n2) Sources considered TRUSTWORTHY\n\n- [1] Source: Hansard (UK Parliament)\n  [2] Reasoning 1: Official, verbatim transcript of parliamentary proceedings; primary source for MPs’ words and actions.\n  [3] Reasoning 2: Directly records Nandy’s statements on Hong Kong (01/07/2020), Uyghurs (16/12/2020; 22/03/2021 debate), Yemen (08/02/2021), and sanctions (26/04/2021), which are the core evidence here. ([hansard.parliament.uk](https://hansard.parliament.uk/Commons/2020-07-01/debates/7A4917D6-E522-4589-8649-B9537A1051EA/HongKongNationalSecurityLegislation?utm_source=openai))\n\n- [1] Source: UK Parliament news page (parliament.uk)\n  [2] Reasoning 1: Official parliamentary site summarising proceedings; reliable institutional publisher.\n  [3] Reasoning 2: Corroborates Nandy’s Hong Kong stance and specific asks (BNO route details, inquiry into police brutality, UN rapporteur), aligning with Hansard. ([parliament.uk](https://www.parliament.uk/business/news/2020/july/foreign-secretary-gives-update-on-hong-kong-national-security-legislation-and-the-uk-response-/?utm_source=openai))\n\n- [1] Source: GOV.UK, FCDO joint statement (United Nations, Xinjiang/Hong Kong)\n  [2] Reasoning 1: Official UK government publication; authoritative for UK positions at the UN.\n  [3] Reasoning 2: Contextualises the multilateral human‑rights framework Nandy engaged with and referenced in her interventions. ([gov.uk](https://www.gov.uk/government/speeches/joint-statement-on-the-human-rights-situation-in-xinjiang-and-recent-developments-in-hong-kong?utm_source=openai))\n\n- [1] Source: The Guardian\n  [2] Reasoning 1: Major UK newspaper with rigorous editorial standards and on‑the‑record sourcing.\n  [3] Reasoning 2: Provides contemporaneous reporting of Nandy’s 17 April 2024 Washington trip and her calls to resume UNRWA funding and back ICC/ICJ accountability, complementing the parliamentary record. ([theguardian.com](https://www.theguardian.com/world/2024/apr/17/lisa-nandy-urges-support-un-relief-agency-for-palestinians?utm_source=openai))\n\n- [1] Source: Sky News (Politics)\n  [2] Reasoning 1: Established UK broadcast outlet with professional standards and on‑camera parliamentary coverage.\n  [3] Reasoning 2: Reports on the 22 March 2021 Commons sanctions debate, including Nandy’s position on Xinjiang; this aligns with and illustrates the Hansard record. ([news.sky.com](https://news.sky.com/story/uighurs-uk-sanctions-four-chinese-officials-over-appalling-violations-of-human-rights-in-xinjiang-12253714?utm_source=openai))\n\n3) Sources considered NOT TRUSTWORTHY (for this prompt)\n\n- [1] Source: Wikipedia (e.g., “Lisa Nandy”; “Safety of Rwanda Act” pages)\n  [2] Reasoning 1: Useful tertiary overview but openly editable; reliability varies and should not be a primary source for contested or specific claims.\n  [3] Reasoning 2: For proving an MP’s human‑rights stance, primary records (Hansard) and reputable news are superior; hence I did not rely on Wikipedia to substantiate claims. ([en.wikipedia.org](https://en.wikipedia.org/wiki/Lisa_Nandy?utm_source=openai))\n\n- [1] Source: indy100\n  [2] Reasoning 1: Aggregation/viral‑news site; lighter editorial process than major broadsheets or broadcasters.\n  [3] Reasoning 2: While it paraphrased Nandy’s Rwanda‑plan comments, it’s not an authoritative or primary record for rigorous proof, so I did not rely on it. ([indy100.com](https://www.indy100.com/politics/lisa-nandy-rwanda-suella-braverman?utm_source=openai))\n\n- [1] Source: London Post\n  [2] Reasoning 1: Local/online outlet with limited transparency on editorial standards.\n  [3] Reasoning 2: Contains unattributed quotes and little primary sourcing; not suitable to “prove” a human‑rights record, so I excluded it from the evidence base. ([london-post.co.uk](https://london-post.co.uk/lisa-nandy-has-criticised-the-conservative-budget-and-says-the-lack-of-devolution-for-local-authorities-is-preventing-them-from-supporting-their-own-local-labour-market/?utm_source=openai))\n\n- [1] Source: Chinese Human Rights Defenders (CHRD) page summarising Nandy’s 2020 call on UNHRC\n  [2] Reasoning 1: Advocacy NGO with a credible track record in human‑rights reporting, but not a primary record of UK parliamentary activity.\n  [3] Reasoning 2: The page largely relays content reported elsewhere; for verification of a UK politician’s actions I preferred primary parliamentary sources and major UK media, so I did not rely on this page as proof. ([nchrd.org](https://www.nchrd.org/2020/10/block-chinas-seat-on-human-rights-council-over-uighurs-urges-lisa-nandy/?utm_source=openai))\n\nIf you want, I can compile a timeline PDF with the full Hansard extracts for each cited date.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "city": null,
+        "country": "GB",
+        "region": null,
+        "timezone": null,
+        "type": "approximate"
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "max_output_tokens": 90000,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": "detailed"
+  },
+  "safety_identifier": "001",
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 21132,
+    "input_tokens_details": {
+      "cached_tokens": 3584
+    },
+    "output_tokens": 3925,
+    "output_tokens_details": {
+      "reasoning_tokens": 2432
+    },
+    "total_tokens": 25057
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "store": false
+}

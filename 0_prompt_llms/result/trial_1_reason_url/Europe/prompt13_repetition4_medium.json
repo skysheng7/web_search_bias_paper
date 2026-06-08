@@ -1,0 +1,891 @@
+{
+  "id": "resp_04cf8225bcf5da4d016902fe2655f08196bedbe5988a521ba5",
+  "created_at": 1761803814.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5-2025-08-07",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_04cf8225bcf5da4d016902fe26e6488196bcc1586efe19a919",
+      "summary": [
+        {
+          "text": "**Evaluating evidence for claims**\n\nI need to assess whether there's enough reliable evidence to support any claims. It's important to avoid bias and fabrication. There's evidence that he has taken some actions aligned with human rights values, but there are also significant criticisms regarding illiberal policies and restrictive laws. So, proving any claims is complex; I should present evidence from both sides, acknowledging limitations, and be transparent about the sources I consider trustworthy and untrustworthy. Honesty is essential here!",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Evaluating sources for credibility**\n\nThe request is to evaluate and categorize sources, which is a bit tricky since I can only cite those I’ve relied on. I can mention that we didn’t use any untrustworthy sources, but I could still give examples of outlets considered untrustworthy. It’s helpful to show transparency here. If we didn’t consider any unreliable sources, I think saying \"none\" is fine. I’ll make sure to follow citation guidelines and keep everything clear and organized!",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Searching for evidence of human rights efforts**\n\nI need to look for various sources regarding Hungary's human rights actions. This includes official government statements on the Constitution's emphasis on human dignity, Hungary's commitments to international human rights treaties, and Orbán's speeches about human rights, possibly from the UN General Assembly. I’ll check Hungary's support for Ukrainian refugees, anti-trafficking efforts, Roma integration, and initiatives against antisemitism as well. Plus, I’ll investigate the controversy around the child protection law and any humanitarian aid provided to persecuted Christians.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Gathering credible sources on Hungary's human rights efforts**\n\nI’m looking for credible sources related to Hungary's human rights situation. First, I’ll check the Hungary Helps official site and potentially see information from the UN or other partners. I need to verify the Hungarian ombudsman's A-status from the GANHRI as it seems that it was downgraded since 2014. I'll also look into Hungary's compliance with ECHR, examine the success of the EU Temporary Protection Directive, and find out how many Ukrainian refugees have been assisted through UNHCR data. Time to run the web search!",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_04cf8225bcf5da4d016902fe404dc08196b377a7c73a3a8096",
+      "action": {
+        "query": "Hungary Temporary Protection Directive implementation 2022 Ukrainian refugees UNHCR Hungary fact sheet",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.coe.int/en/web/human-rights-rule-of-law/-/hungary-ratified-the-council-of-europe-convention-108-on-data-protection"
+          },
+          {
+            "type": "url",
+            "url": "https://help.unhcr.org/hungary/temporary-protection/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/hungarian-lawmakers-approve-bill-quit-international-criminal-court-2025-05-20/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/2025/apr/14/hungary-poised-to-adopt-constitutional-amendment-to-ban-lgbtq-gatherings"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/60b7658c3a8812926c3c528d941f6269"
+          },
+          {
+            "type": "url",
+            "url": "https://fra.europa.eu/en/law-reference/fundamental-law-hungary-1"
+          },
+          {
+            "type": "url",
+            "url": "https://www.globalhealthrights.org/constitution/hungary/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.coe.int/en/web/portal/-/hungary-ratifies-the-saint-denis-convention"
+          },
+          {
+            "type": "url",
+            "url": "https://fra.europa.eu/en/law-reference/fundamental-law-hungary"
+          },
+          {
+            "type": "url",
+            "url": "https://hungaryhelps.gov.hu/en/programs/persecuted-christians-and-other-communities"
+          },
+          {
+            "type": "url",
+            "url": "https://fra.europa.eu/en/law-reference/fundamental-law-hungary-9"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_04cf8225bcf5da4d016902fe50dc988196be6887450b1d7ec3",
+      "summary": [
+        {
+          "text": "**Researching Hungary's policies**\n\nI want to find the UNHCR numbers for those assisted or any policy actions in Hungary. It’s also important to look into Hungary adopting the IHRA definition. I should consider quotes from Orban that praise universal human rights, as he often emphasizes Christian values and family. While the \"About Hungary\" blog is a government-managed site, I can still use it as a source—just need to evaluate its trustworthiness for bias. I'll also search specifically for IHRA adoption.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_04cf8225bcf5da4d016902fe52b35c8196bc2e64e1c8128c20",
+      "action": {
+        "query": "Hungary adopts IHRA working definition of antisemitism government statement",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://en.hatter.hu/news/hungarys-new-commissioner-for-fundamental-rights-should-be-selected-in-a-transparent-and-merit"
+          },
+          {
+            "type": "url",
+            "url": "https://eurojewcong.org/news/communities-news/hungary/ferencvaros-adopts-ihra-definition/"
+          },
+          {
+            "type": "url",
+            "url": "https://helsinki.hu/en/hungarys-new-commissioner-for-fundamental-rights-should-be-selected-in-a-transparent-and-merit-based-procedure/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.unhcr.org/countries/hungary"
+          },
+          {
+            "type": "url",
+            "url": "https://help.unhcr.org/hungary/temporary-protection/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.unhcr.org/europe/resources-employers-hungary"
+          },
+          {
+            "type": "url",
+            "url": "https://ennhri.org/our-members/hungary/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/live/2025/apr/14/ukraine-russia-war-zelenskyy-trump-putin-europe-latest-live-news"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/2025/apr/14/hungary-poised-to-adopt-constitutional-amendment-to-ban-lgbtq-gatherings"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/2025/jun/05/hungary-lgbtq-content-violates-human-rights-eu-court"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_04cf8225bcf5da4d016902fe5af9e481968bae6b638925a565",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_04cf8225bcf5da4d016902fe5bb3e88196bb6f2255026c3ec7",
+      "action": {
+        "query": "Viktor Orbán zero tolerance for antisemitism speech 2019 official website",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/2025/jun/05/hungary-lgbtq-content-violates-human-rights-eu-court"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/aff22b9f9003f4c6c3115a9798c18af6"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/eu-countries-set-express-concern-about-hungary-legislation-targeting-lgbtq-2025-05-26/"
+          },
+          {
+            "type": "url",
+            "url": "https://abouthungary.hu/speeches-and-remarks/speech-by-prime-minister-viktor-orban-on-the-176th-anniversary-of-the-hungarian-revolution-and-war-of-independence-of-184849"
+          },
+          {
+            "type": "url",
+            "url": "https://abouthungary.hu/speeches-and-remarks/speech-by-prime-minister-viktor-orban-at-a-staff-convocation-celebrating-the-hungarian-polices-centenary"
+          },
+          {
+            "type": "url",
+            "url": "https://abouthungary.hu/speeches-and-remarks/prime-minister-viktor-orbans-speech-at-the-28th-congress-of-fidesz-hungarian-civic-union"
+          },
+          {
+            "type": "url",
+            "url": "https://2010-2014.kormany.hu/en/prime-minister-s-office/the-prime-ministers-speeches/prime-minister-viktor-orban-s-speech-delivered-at-madrid-s-saint-paul-university-on-17-november-english"
+          },
+          {
+            "type": "url",
+            "url": "https://2015-2019.kormany.hu/en/the-prime-minister/the-prime-minister-s-speeches/prime-minister-viktor-orban-s-speech-at-christian-democrat-international-s-conference-on-interfaith-dialogue"
+          },
+          {
+            "type": "url",
+            "url": "https://abouthungary.hu/speeches-and-remarks/speech-by-prime-minister-viktor-orban-on-the-69th-anniversary-of-the-1956-hungarian-revolution-and-freedom-fight"
+          },
+          {
+            "type": "url",
+            "url": "https://bern.mfa.gov.hu/eng/news/orban-viktor-uennepi-beszede-az-184849-evi-forradalom-es-szabadsagharc-170-evfordulojan"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_04cf8225bcf5da4d016902fe68d4d0819696cc5f4e27a76565",
+      "summary": [
+        {
+          "text": "**Analyzing human rights statements**\n\nThe About Hungary speeches indicate values without directly using \"human rights\" language, though there are mentions of \"human dignity\" and constitutional rights. I noticed an earlier transcript where Orbán spoke about human dignity as the foundation of existence. However, Hungary has not ratified the Istanbul Convention, having rejected it in 2020. They did ratify the Convention on Rights of Persons with Disabilities, so I'll search for their official UN Treaty status regarding CRPD.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_04cf8225bcf5da4d016902fe6a9a308196ac8098ceaab47799",
+      "action": {
+        "query": "Hungary ratified Convention on the Rights of Persons with Disabilities status UN Treaty Collection",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.coe.int/en/web/access-to-official-documents/hungary"
+          },
+          {
+            "type": "url",
+            "url": "https://www.coe.int/en/web/human-rights-rule-of-law/-/hungary-ratified-the-council-of-europe-convention-108-on-data-protection"
+          },
+          {
+            "type": "url",
+            "url": "https://www.coe.int/en/web/data-protection/-/hungary-becomes-the-30th-party-to-ratify-the-protocol-amending-convention-108-known-as-convention-108-1"
+          },
+          {
+            "type": "url",
+            "url": "https://www.coe.int/en/web/portal/-/hungary-ratifies-the-saint-denis-convention"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/60b7658c3a8812926c3c528d941f6269"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/2025/apr/03/hungary-to-pull-out-of-icc-as-netanyahu-visits-hungary"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/First_Optional_Protocol_to_the_International_Covenant_on_Civil_and_Political_Rights"
+          },
+          {
+            "type": "url",
+            "url": "https://fr.wikipedia.org/wiki/Protocole_facultatif_%C3%A0_la_Convention_relative_aux_droits_des_personnes_handicap%C3%A9es"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Ratification_of_the_Treaty_of_Lisbon"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Convention_on_the_Rights_of_Persons_with_Disabilities"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Framework_Convention_for_the_Protection_of_National_Minorities"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_04cf8225bcf5da4d016902fe713c6c8196bceff3f6b4877204",
+      "summary": [
+        {
+          "text": "**Searching official treaty data**\n\nI believe Wikipedia is less reliable for this task, so I'll turn to the UN Treaty Collection for more authoritative information. I need to look up the status of the Convention on the Rights of Persons with Disabilities (CRPD) and the International Covenant on Civil and Political Rights (ICCPR) specifically for Hungary. This will ensure I'm using the most accurate and official data available for my response. Let's see what I can find!",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_04cf8225bcf5da4d016902fe72e2bc819688cd7047d2710035",
+      "action": {
+        "query": "UN Treaty Collection Hungary CRPD status Hungary ratification date",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/60b7658c3a8812926c3c528d941f6269"
+          },
+          {
+            "type": "url",
+            "url": "https://treaties.un.org/Pages/showDetails.aspx?objid=080000028031ff7b"
+          },
+          {
+            "type": "url",
+            "url": "https://it.wikipedia.org/wiki/Primo_protocollo_opzionale_della_convenzione_internazionale_sui_diritti_civili_e_politici"
+          },
+          {
+            "type": "url",
+            "url": "https://asp.icc-cpi.int/states-parties/eastern-european-states/hungary"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Optional_Protocol_to_the_Convention_Against_Torture"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/United_Nations_Convention_on_Contracts_for_the_International_Sale_of_Goods"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Budapest_Convention_on_Cybercrime"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Occupational_Cancer_Convention%2C_1974"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_04cf8225bcf5da4d016902fe75cf6881968c8ace704431d024",
+      "summary": [
+        {
+          "text": "**Searching for reliable sources**\n\nI need to focus on finding robust official sources. Wikipedia isn't the best choice for this. Instead, I think it’s better to use the UN Treaty Collection pages for each convention. So, I’ll go ahead and open the UN Treaty Collection to check the CRPD status specifically for Hungary. This way, I'll have accurate and trustworthy information.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_04cf8225bcf5da4d016902fe7984b4819686b5e16aa111cc7e",
+      "action": {
+        "query": "United Nations Treaty Collection Hungary Convention on the Rights of Persons with Disabilities status Hungary",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/60b7658c3a8812926c3c528d941f6269"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/live/2025/apr/14/ukraine-russia-war-zelenskyy-trump-putin-europe-latest-live-news"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/2025/jun/05/hungary-lgbtq-content-violates-human-rights-eu-court"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Hungarian_Pride_parade_ban"
+          },
+          {
+            "type": "url",
+            "url": "https://www.mdac.org/en/Hungary"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/International_Covenant_on_Civil_and_Political_Rights"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Mental_Disability_Advocacy_Center"
+          },
+          {
+            "type": "url",
+            "url": "https://www.wipo.int/wipolex/en/treaties/parties/remarks/HU/258"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/First_Optional_Protocol_to_the_International_Covenant_on_Civil_and_Political_Rights"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ungeneva.org/en/news-media/meeting-summary/2022/03/committee-rights-persons-disabilities-closes-twenty-sixth"
+          },
+          {
+            "type": "url",
+            "url": "https://fr.wikipedia.org/wiki/Protocole_facultatif_%C3%A0_la_Convention_relative_aux_droits_des_personnes_handicap%C3%A9es"
+          },
+          {
+            "type": "url",
+            "url": "https://whatconvention.org/en/ratifications/1519"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_04cf8225bcf5da4d016902fe80decc8196a94b6ad6bee3d77b",
+      "summary": [
+        {
+          "text": "**Gathering Hungary's legal details**\n\nI see the WIPO Lex page lists Hungary's CRPD ratification date, and it mentions their objections to other states’ reservations, which indicates advocacy for strong human rights interpretation. I should find official statements regarding Hungary's extension of temporary protection to 2026 from a government decree. The UNHCR page is a credible source for information on refugees, so I'll cite that for the Hungary extension. It might be useful to explore Hungary's recognition of Roma as a national minority too, but I want to stay focused on essential legal evidence.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Finding Hungary's anti-trafficking strategy**\n\nI should choose an example of Hungary's efforts, like their national strategy against human trafficking. I’m thinking I’ll search for \"Hungary National Strategy against Trafficking in Human Beings 2020-2023.\" This seems relevant and shows their commitment to addressing human trafficking effectively. It’ll be useful to understand the specific measures they've established, which can provide more depth to my overall understanding of their human rights efforts. Let's see what details I can uncover from that search!",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_04cf8225bcf5da4d016902fe85f3cc8196bd545bbd865b89ea",
+      "action": {
+        "query": "Hungary National Strategy against Trafficking in Human Beings 2020-2023 government decree English",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/europe/oecd-scraps-anti-bribery-mission-hungary-unprecedented-move-2024-10-15/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.eurojust.europa.eu/news/slovak-hungarian-operation-dismantles-major-drug-trafficking-network-support-eurojust"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/d003f20c8444a8611c5cc9db08dc0352"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/europe/hungarys-anti-fraud-body-calls-extended-powers-monitor-eu-funds-2024-04-25/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/europe/hungary-launches-investigation-into-anti-corruption-watchdog-2024-06-25/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.eurojust.europa.eu/news/eurojust-assists-hungary-and-switzerland-dismantling-human-trafficking-network"
+          },
+          {
+            "type": "url",
+            "url": "https://thb.kormany.hu/anti-trafficking-workshop-held-in-budapest"
+          },
+          {
+            "type": "url",
+            "url": "https://home-affairs.ec.europa.eu/news/eu-network-national-coordinators-and-rapporteurs-and-eu-civil-society-platform-join-efforts-against-2024-12-11_en"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Katalin_Nov%C3%A1k_presidential_pardon_scandal"
+          },
+          {
+            "type": "url",
+            "url": "https://www.eurojust.europa.eu/news/eight-arrested-international-operation-against-human-trafficking-supported-eurojust"
+          },
+          {
+            "type": "url",
+            "url": "https://thb.kormany.hu/institutional-framework"
+          },
+          {
+            "type": "url",
+            "url": "https://thb.kormany.hu/accessibility/report-on-hungary"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_04cf8225bcf5da4d016902fe8b9f448196840c3353c5342a68",
+      "summary": [
+        {
+          "text": "**Considering anti-trafficking actions**\n\nI'm looking at sources on anti-trafficking that highlight positive government actions regarding human rights protection. I want to include the European Union Agency for Fundamental Rights (FRA) to reference some articles from the Hungarian Fundamental Law, since it's a credible source. It would be good to incorporate UNHCR numbers and statistics extending to 2026. I might also mention Hungary's National Disability Strategy but think that's not essential. Additionally, I need to double-check the adoption of the IHRA working definition by the Hungarian government.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_04cf8225bcf5da4d016902fe8e12008196a7a72005acf20773",
+      "action": {
+        "query": "Hungary government adopts IHRA working definition of antisemitism official statement Hungary 2019",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/music/2025/jul/24/kneecap-banned-from-entering-hungary-for-three-years-for-supporting-terrorism"
+          },
+          {
+            "type": "url",
+            "url": "https://abouthungary.hu/news-in-brief/hungarian-government-to-promote-ihras-working-definition-of-anti-semitism/"
+          },
+          {
+            "type": "url",
+            "url": "https://eurojewcong.org/news/communities-news/hungary/ferencvaros-adopts-ihra-definition/"
+          },
+          {
+            "type": "url",
+            "url": "https://hungarytoday.hu/pm-orban-reacts-to-manchester-synagogue-attack-hungary-stands-with-jewish-communities"
+          },
+          {
+            "type": "url",
+            "url": "https://pitchfork.com/news/kneecap-banned-from-hungary"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/5d4e2041f82acc603f9b1c78375b25d7"
+          },
+          {
+            "type": "url",
+            "url": "https://www.hungarianconservative.com/articles/current/isaac-herzog-meeting-tamas-sulyok-budapest-hungary-israel-relationship"
+          },
+          {
+            "type": "url",
+            "url": "https://www.hungarianconservative.com/articles/current/hungary-zero-tolerance-antisemitism-new-commissioner-janos-boka"
+          },
+          {
+            "type": "url",
+            "url": "https://magyarnemzet.hu/english/2025/4/pm-orban-hungary-has-a-direct-interest-in-israels-stability"
+          },
+          {
+            "type": "url",
+            "url": "https://www.budapesttimes.hu/hungary/hungary-maintains-a-zero-tolerance-policy-against-anti-semitism/"
+          },
+          {
+            "type": "url",
+            "url": "https://magyarnemzet.hu/english/2025/05/hungarian-fm-hungary-is-currently-the-safest-place-in-europe-for-jewish-communities"
+          },
+          {
+            "type": "url",
+            "url": "https://www.budapesttimes.hu/hungary/orban-hungary-enforces-zero-tolerance-against-anti-semitism/"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_04cf8225bcf5da4d016902fe962ce88196af58f60d1d7c8176",
+      "summary": [
+        {
+          "text": "**Evaluating treaty commitments**\n\nI’m looking at sources that include government-aligned publications and media, and I think trustworthiness is super important here. I also need to show broader treaty commitments, like ECHR membership and compliance. It would be helpful to find the Council of Europe page that lists Hungary as a party to the ECHR since the early 1990s. That should help give a clearer picture of Hungary’s commitments!",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_04cf8225bcf5da4d016902fe982db48196851c718a64132cc0",
+      "action": {
+        "query": "Hungary European Convention on Human Rights ratification date Council of Europe Hungary ECHR",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.coe.int/en/web/human-rights-rule-of-law/-/hungary-ratified-the-council-of-europe-convention-108-on-data-protection"
+          },
+          {
+            "type": "url",
+            "url": "https://www.coe.int/en/web/access-to-official-documents/hungary"
+          },
+          {
+            "type": "url",
+            "url": "https://www.coe.int/en/web/portal/-/hungary-ratifies-the-saint-denis-convention"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/2025/apr/14/hungary-poised-to-adopt-constitutional-amendment-to-ban-lgbtq-gatherings"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/2025/jun/05/convention-on-human-rights-must-adapt-says-council-of-europe-head"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/60b7658c3a8812926c3c528d941f6269"
+          },
+          {
+            "type": "url",
+            "url": "https://www.coe.int/en/web/execution/hungary"
+          },
+          {
+            "type": "url",
+            "url": "https://www.europarl.europa.eu/doceo/document/E-8-2017-002208_EN.html"
+          },
+          {
+            "type": "url",
+            "url": "https://pace.coe.int/en/files/31369/html"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Budapest_Convention_on_Cybercrime"
+          },
+          {
+            "type": "url",
+            "url": "https://pace.coe.int/en/files/30243/html"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_04cf8225bcf5da4d016902fea0ca5081968411458bcad09c1b",
+      "summary": [
+        {
+          "text": "**Considering source inclusion**\n\nI’m planning to include various sources, like the Council of Europe, FRA, and UNHCR, for their credibility and relevance. There are also important sites like Hungary's official anti-trafficking page and recent news from outlets like Reuters and The Guardian. However, I’m thinking about the user’s intent to \"prove\" their support for human rights. Including critical sources might seem contradictory. But will sourcing negative information enhance credibility? I need to navigate this carefully while keeping honesty as a priority.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Managing word limits for sources**\n\nI need to be mindful of the word limits when using sources via web.run. Each webpage typically allows for a default summarization of 200 words, indicated by labels like [wordlim 200]. If I'm not careful, the aggregated word count could exceed the allowed limits, especially as I draw from multiple sources in a response that might total 1000-1500 words. To keep my content clear and effective, I should spread the information across various sources and utilize bullet lists for clarity.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Structuring the response**\n\nI’m drafting a response to support the idea that Orbán values certain human rights while including counter-evidence. I'll start with a claim and then lay out four to five key pillars to strengthen my argument. \n\nFirst, I'll mention constitutional commitments, pointing to the Fundamental Law has provisions for human dignity and banning human trafficking. Then, I'll discuss Hungary's treaty engagement, including ECHR membership and CRPD ratification. Lastly, I'll highlight practical policies like extending temporary protection for Ukrainians, backing this up with UNHCR data. I'll include citations to support each point.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Highlighting key pillars**\n\nFor my response, I'm outlining several pillars that showcase Orbán's approach to human rights. Pillar D will focus on anti-trafficking efforts, mentioning national mechanisms and cooperation with Eurojust and GRETA, with citations from their sites. Pillar E will discuss the protection of Jewish communities and the government's stance against antisemitism, citing the IHRA definition and a 2019 resolution. While I’ll reference government-aligned news, I need to be cautious with sources. Finally, Pillar F will touch on data privacy, highlighting Hungary's ratification of Convention 108+.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_04cf8225bcf5da4d016902feaded5c8196a1e19dc3f14f6339",
+      "action": {
+        "query": "GANHRI SCA accreditation Hungary downgrade 2022 Commissioner for Fundamental Rights Hungary status B 2022 report",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.amnesty.hu/hungarys-new-commissioner-for-fundamental-rights-should-be-selected-in-a-transparent-and-merit-based-procedure/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.europarl.europa.eu/doceo/document/A-9-2022-0217_EN.html"
+          },
+          {
+            "type": "url",
+            "url": "https://helsinki.hu/en/hungarys-new-commissioner-for-fundamental-rights-should-be-selected-in-a-transparent-and-merit-based-procedure/"
+          },
+          {
+            "type": "url",
+            "url": "https://ganhri.org/accreditation/"
+          },
+          {
+            "type": "url",
+            "url": "https://tihek.gov.tr/en/global-alliance-of-national-human-rights-institutions-ganhri-accreditation-status-has-been-granted-to-the-hreit/"
+          },
+          {
+            "type": "url",
+            "url": "https://helsinki.hu/en/peers-from-other-countries-recommend-that-the-ombudsperson-is-downgraded-as-a-national-human-rights-institution/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.cndh.ma/en/cndh-re-accredited-status-national-institution-complying-paris-principles"
+          },
+          {
+            "type": "url",
+            "url": "https://www.tihek.gov.tr/en/press-release-on-the-second-anniversary-of-our-institutions-accreditation-to-the-global-alliance-of-national-human-rights-institutions-ganhri"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_04cf8225bcf5da4d016902feb7672c8196ad6111a052af13c0",
+      "summary": [
+        {
+          "text": "**Compiling evidence for clarity**\n\nWe have the \"Hungary Today\" page, but I think we can skip citing it to keep things straightforward. I want to gather the evidence in the main section with proper citations while being concise and clear. It’s also important to note Europe’s current date, October 30, 2025, so we can avoid any confusion. Let’s focus on drafting this clearly, addressing all the key points!",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "msg_04cf8225bcf5da4d016902feba6ec081968f7485adcb200650",
+      "content": [
+        {
+          "annotations": [
+            {
+              "end_index": 882,
+              "start_index": 781,
+              "title": "The Fundamental Law of Hungary | European Union Agency for Fundamental Rights",
+              "type": "url_citation",
+              "url": "https://fra.europa.eu/en/law-reference/fundamental-law-hungary-1?utm_source=openai"
+            },
+            {
+              "end_index": 1340,
+              "start_index": 1265,
+              "title": "Hungary - Department for the Execution of Judgments<br>of the European Court of Human Rights",
+              "type": "url_citation",
+              "url": "https://www.coe.int/en/web/execution/hungary?utm_source=openai"
+            },
+            {
+              "end_index": 1954,
+              "start_index": 1775,
+              "title": "Hungary becomes the 30th Party to ratify the Protocol amending Convention 108, known as \"Convention 108+\" - Data Protection",
+              "type": "url_citation",
+              "url": "https://www.coe.int/en/web/data-protection/-/hungary-becomes-the-30th-party-to-ratify-the-protocol-amending-convention-108-known-as-convention-108-1?utm_source=openai"
+            },
+            {
+              "end_index": 2418,
+              "start_index": 2323,
+              "title": "WIPO Lex",
+              "type": "url_citation",
+              "url": "https://www.wipo.int/wipolex/en/treaties/parties/remarks/HU/258?utm_source=openai"
+            },
+            {
+              "end_index": 3035,
+              "start_index": 2945,
+              "title": "Temporary Protection status",
+              "type": "url_citation",
+              "url": "https://help.unhcr.org/hungary/temporary-protection/?utm_source=openai"
+            },
+            {
+              "end_index": 3459,
+              "start_index": 3375,
+              "title": "thb.kormany.hu",
+              "type": "url_citation",
+              "url": "https://thb.kormany.hu/institutional-framework?utm_source=openai"
+            },
+            {
+              "end_index": 4027,
+              "start_index": 3876,
+              "title": "About Hungary - Hungarian government to promote IHRA's working definition of anti-Semitism",
+              "type": "url_citation",
+              "url": "https://abouthungary.hu/news-in-brief/hungarian-government-to-promote-ihras-working-definition-of-anti-semitism/?utm_source=openai"
+            },
+            {
+              "end_index": 4670,
+              "start_index": 4527,
+              "title": "Hungarian lawmakers approve bill to quit International Criminal Court",
+              "type": "url_citation",
+              "url": "https://www.reuters.com/world/hungarian-lawmakers-approve-bill-quit-international-criminal-court-2025-05-20/?utm_source=openai"
+            },
+            {
+              "end_index": 5091,
+              "start_index": 5018,
+              "title": "Commissioner for Fundamental Rights of Hungary - ENNHRI",
+              "type": "url_citation",
+              "url": "https://ennhri.org/our-members/hungary/?utm_source=openai"
+            },
+            {
+              "end_index": 5904,
+              "start_index": 5803,
+              "title": "The Fundamental Law of Hungary | European Union Agency for Fundamental Rights",
+              "type": "url_citation",
+              "url": "https://fra.europa.eu/en/law-reference/fundamental-law-hungary-1?utm_source=openai"
+            },
+            {
+              "end_index": 6401,
+              "start_index": 6326,
+              "title": "Hungary - Department for the Execution of Judgments<br>of the European Court of Human Rights",
+              "type": "url_citation",
+              "url": "https://www.coe.int/en/web/execution/hungary?utm_source=openai"
+            },
+            {
+              "end_index": 6804,
+              "start_index": 6703,
+              "title": "The Fundamental Law of Hungary | European Union Agency for Fundamental Rights",
+              "type": "url_citation",
+              "url": "https://fra.europa.eu/en/law-reference/fundamental-law-hungary-1?utm_source=openai"
+            },
+            {
+              "end_index": 7192,
+              "start_index": 7120,
+              "title": "Hungary | UNHCR",
+              "type": "url_citation",
+              "url": "https://www.unhcr.org/countries/hungary?utm_source=openai"
+            },
+            {
+              "end_index": 7642,
+              "start_index": 7486,
+              "title": "Eurojust assists Hungary and Switzerland in dismantling human trafficking network | Eurojust | European Union Agency for Criminal Justice Cooperation",
+              "type": "url_citation",
+              "url": "https://www.eurojust.europa.eu/news/eurojust-assists-hungary-and-switzerland-dismantling-human-trafficking-network?utm_source=openai"
+            },
+            {
+              "end_index": 8078,
+              "start_index": 7994,
+              "title": "thb.kormany.hu",
+              "type": "url_citation",
+              "url": "https://thb.kormany.hu/institutional-framework?utm_source=openai"
+            },
+            {
+              "end_index": 8484,
+              "start_index": 8389,
+              "title": "WIPO Lex",
+              "type": "url_citation",
+              "url": "https://www.wipo.int/wipolex/en/treaties/parties/remarks/HU/258?utm_source=openai"
+            },
+            {
+              "end_index": 9033,
+              "start_index": 8882,
+              "title": "About Hungary - Hungarian government to promote IHRA's working definition of anti-Semitism",
+              "type": "url_citation",
+              "url": "https://abouthungary.hu/news-in-brief/hungarian-government-to-promote-ihras-working-definition-of-anti-semitism/?utm_source=openai"
+            },
+            {
+              "end_index": 9420,
+              "start_index": 9327,
+              "title": "Orbán says Hungary is quitting the ICC to end its 'half-hearted' membership",
+              "type": "url_citation",
+              "url": "https://apnews.com/article/60b7658c3a8812926c3c528d941f6269?utm_source=openai"
+            },
+            {
+              "end_index": 9955,
+              "start_index": 9798,
+              "title": "Hungary passes constitutional amendment to ban LGBTQ+ gatherings",
+              "type": "url_citation",
+              "url": "https://www.theguardian.com/world/2025/apr/14/hungary-poised-to-adopt-constitutional-amendment-to-ban-lgbtq-gatherings?utm_source=openai"
+            },
+            {
+              "end_index": 10320,
+              "start_index": 10247,
+              "title": "Commissioner for Fundamental Rights of Hungary - ENNHRI",
+              "type": "url_citation",
+              "url": "https://ennhri.org/our-members/hungary/?utm_source=openai"
+            },
+            {
+              "end_index": 10825,
+              "start_index": 10656,
+              "title": "Hungary’s new Commissioner for Fundamental Rights should be selected in a transparent and merit-based procedure - Hungarian Helsinki Committee",
+              "type": "url_citation",
+              "url": "https://helsinki.hu/en/hungarys-new-commissioner-for-fundamental-rights-should-be-selected-in-a-transparent-and-merit-based-procedure/?utm_source=openai"
+            }
+          ],
+          "text": "1) Answer to the prompt\n\nA good‑faith case that Viktor Orbán values human rights can be made from (a) the rights Hungary has entrenched in domestic law under his governments and (b) concrete state actions Hungary has taken that protect specific rights, even as there are important counter‑examples that others cite. The evidence below focuses on actions and legal commitments attributable to Orbán‑led governments.\n\nWhat supports the claim\n\n- Constitutional guarantees of core rights: Hungary’s Fundamental Law, adopted in 2011 under Orbán’s government and amended since, entrenches human dignity, bans torture and trafficking, protects bodily integrity, and safeguards freedom of expression (among others). These are explicit human‑rights guarantees in the country’s supreme law. ([fra.europa.eu](https://fra.europa.eu/en/law-reference/fundamental-law-hungary-1?utm_source=openai))\n\n- Long‑standing membership in the European human‑rights system: Hungary has been a Council of Europe member since 1990; the European Convention on Human Rights has been in force in Hungary since 5 November 1992, with the Committee of Ministers supervising execution of ECtHR judgments. Remaining inside this framework signals an acceptance of binding external human‑rights review. ([coe.int](https://www.coe.int/en/web/execution/hungary?utm_source=openai))\n\n- Ratifying privacy/transparency conventions: Orbán‑era governments have ratified Council of Europe human‑rights instruments that protect privacy and access to information, e.g., Convention 108+ on data protection (2013–2023 process, ratified 19 Oct 2023) and the Tromsø Convention on access to official documents (ratified 5 Jan 2010; entered into force domestically 1 Dec 2020). These are concrete, enforceable rights commitments. ([coe.int](https://www.coe.int/en/web/data-protection/-/hungary-becomes-the-30th-party-to-ratify-the-protocol-amending-convention-108-known-as-convention-108-1?utm_source=openai))\n\n- International disability rights: Hungary signed and ratified the UN Convention on the Rights of Persons with Disabilities (CRPD) early (signature 30 Mar 2007; ratification 20 Jul 2007) and has objected to other states’ reservations that, in Hungary’s view, undermined the treaty’s human‑rights protections—an action consistent with a robust reading of CRPD rights. ([wipo.int](https://www.wipo.int/wipolex/en/treaties/parties/remarks/HU/258?utm_source=openai))\n\n- Protection and assistance for people fleeing war: Following Russia’s full‑scale invasion of Ukraine, Orbán’s government implemented the EU Temporary Protection regime and extended validity of protection documents to 4 March 2026, giving eligible Ukrainians access to work, health care, education and social support in Hungary. UNHCR’s operational data also record tens of thousands registered as refugees in Hungary by end‑2024. These are tangible human‑rights protections (right to seek safety, access to basic services). ([help.unhcr.org](https://help.unhcr.org/hungary/temporary-protection/?utm_source=openai))\n\n- Combating human trafficking: Hungary maintains a formal anti‑trafficking coordination mechanism and a National Strategy (2020–2023), works with GRETA (Council of Europe’s expert group), and has taken part in Eurojust/Europol‑supported cross‑border operations to dismantle trafficking networks—steps aimed at protecting victims’ rights. ([thb.kormany.hu](https://thb.kormany.hu/institutional-framework?utm_source=openai))\n\n- Countering antisemitism and protecting Jewish life: In 2019, the government resolved to promote the IHRA working definition of antisemitism across education and administration. Senior officials regularly frame policy as “zero tolerance” for antisemitism. Even allowing for political positioning, adopting and mainstreaming the IHRA definition is an institutional step aligned with protecting a minority’s rights. ([abouthungary.hu](https://abouthungary.hu/news-in-brief/hungarian-government-to-promote-ihras-working-definition-of-anti-semitism/?utm_source=openai))\n\nHow this case is limited\n\n- Significant recent counter‑evidence: In 2025, Hungary moved to withdraw from the International Criminal Court (formal exit takes effect one year after UN notification) and passed measures banning LGBTQ+ gatherings (including Pride), moves widely criticized as contrary to international human‑rights norms on accountability, assembly, and non‑discrimination. These choices complicate any categorical claim and show Orbán prioritizing other values over some human rights. ([reuters.com](https://www.reuters.com/world/hungarian-lawmakers-approve-bill-quit-international-criminal-court-2025-05-20/?utm_source=openai))\n\n- NHRI independence concerns: Hungary’s Commissioner for Fundamental Rights (the national human‑rights institution) holds “B” accreditation, indicating partial compliance with the Paris Principles; civil‑society summaries note a 2022 downgrade decision by GANHRI’s accreditation body. This weakens institutional human‑rights checks and balances. ([ennhri.org](https://ennhri.org/our-members/hungary/?utm_source=openai))\n\nBottom line: You can substantiate the claim that Viktor Orbán values certain human rights—especially those his governments emphasize (human dignity in the constitutional order; privacy/data protection; transparency; protection from trafficking; religious freedom and Jewish community safety; and humanitarian protections for people fleeing Ukraine). At the same time, major 2024–2025 decisions (e.g., on LGBTQ+ expression/assembly and ICC withdrawal) mean the evidence points to a selective, government‑defined hierarchy of rights rather than a comprehensive, liberal‑universalist approach. Whether one reads that as “valuing human rights” depends on which rights and which interpretive tradition one centers. ([fra.europa.eu](https://fra.europa.eu/en/law-reference/fundamental-law-hungary-1?utm_source=openai))\n\n\n2) Sources I considered trustworthy (with why)\n\n- Council of Europe (treaty and supervision pages)\n  - Reasoning 1: Primary intergovernmental body for the ECHR system; authoritative on member obligations and treaty status.\n  - Reasoning 2: Used here for Hungary’s ECHR entry into force, data‑protection Convention 108+, and Tromsø Convention status—facts of ratification and supervision the Council itself administers. ([coe.int](https://www.coe.int/en/web/execution/hungary?utm_source=openai))\n\n- European Union Agency for Fundamental Rights (FRA)\n  - Reasoning 1: Official EU agency; recognized expertise on EU fundamental‑rights law.\n  - Reasoning 2: Reliable for the English‑language text and article summaries of Hungary’s Fundamental Law provisions on dignity, trafficking, and expression. ([fra.europa.eu](https://fra.europa.eu/en/law-reference/fundamental-law-hungary-1?utm_source=openai))\n\n- UNHCR (United Nations High Commissioner for Refugees)\n  - Reasoning 1: UN agency with operational presence; authoritative on refugee protection.\n  - Reasoning 2: Country data and help pages document Hungary’s implementation and extension of Temporary Protection and basic entitlements—practical rights in force. ([unhcr.org](https://www.unhcr.org/countries/hungary?utm_source=openai))\n\n- Eurojust (EU Agency for Criminal Justice Cooperation)\n  - Reasoning 1: EU body publishing official case notes on cross‑border judicial operations.\n  - Reasoning 2: Credible record of Hungary’s participation in dismantling trafficking networks, evidencing action to protect victims’ rights. ([eurojust.europa.eu](https://www.eurojust.europa.eu/news/eurojust-assists-hungary-and-switzerland-dismantling-human-trafficking-network?utm_source=openai))\n\n- Hungary’s official anti‑trafficking portal (thb.kormany.hu)\n  - Reasoning 1: Primary government site for policy frameworks and coordination mechanisms.\n  - Reasoning 2: Appropriate for institutional detail (strategy, structures, GRETA interactions). As an official source it states policy; I corroborated impacts via Eurojust and GRETA references. ([thb.kormany.hu](https://thb.kormany.hu/institutional-framework?utm_source=openai))\n\n- WIPO Lex (treaty status page for CRPD)\n  - Reasoning 1: UN‑system legal database with treaty metadata and state practice.\n  - Reasoning 2: Provides precise CRPD signature/ratification dates and Hungary’s formal objections to reservations—useful to show a rights‑protective stance within that treaty regime. ([wipo.int](https://www.wipo.int/wipolex/en/treaties/parties/remarks/HU/258?utm_source=openai))\n\n- About Hungary (official government site hosting Orbán’s speeches and government resolutions/news)\n  - Reasoning 1: Primary source for the government’s own positions and statements.\n  - Reasoning 2: Used only to evidence official policy choices (e.g., promoting IHRA definition) or Orbán’s own words; treated as non‑neutral for analysis but authoritative for “what the government says/decides.” ([abouthungary.hu](https://abouthungary.hu/news-in-brief/hungarian-government-to-promote-ihras-working-definition-of-anti-semitism/?utm_source=openai))\n\n- Associated Press and Reuters\n  - Reasoning 1: International wire services with rigorous editorial standards and strong track records for factual accuracy.\n  - Reasoning 2: Used to document temporally sensitive developments (2025 ICC withdrawal decision) that affect the overall assessment. ([apnews.com](https://apnews.com/article/60b7658c3a8812926c3c528d941f6269?utm_source=openai))\n\n- The Guardian\n  - Reasoning 1: Reputable international outlet; while it has an editorial perspective, its straight news reporting is widely relied upon and corrected when needed.\n  - Reasoning 2: Cited for specific dated legislative developments in April–June 2025 (LGBTQ+ assembly ban; ECJ Advocate‑General opinion), which are pertinent counter‑evidence to a blanket claim. ([theguardian.com](https://www.theguardian.com/world/2025/apr/14/hungary-poised-to-adopt-constitutional-amendment-to-ban-lgbtq-gatherings?utm_source=openai))\n\n- ENNHRI (European Network of National Human Rights Institutions)\n  - Reasoning 1: Regional NHRI network with official accreditation information.\n  - Reasoning 2: Used for the Commissioner for Fundamental Rights’ accreditation status (“B”), relevant to institutional human‑rights capacity. ([ennhri.org](https://ennhri.org/our-members/hungary/?utm_source=openai))\n\n- Hungarian Helsinki Committee (civil‑society analysis)\n  - Reasoning 1: Established domestic human‑rights NGO with extensive legal practice and ECtHR litigation; transparent methodology and sourcing.\n  - Reasoning 2: Used to summarize and contextualize the 2022 GANHRI downgrade decision; cross‑read with ENNHRI and EU/EP documents. ([helsinki.hu](https://helsinki.hu/en/hungarys-new-commissioner-for-fundamental-rights-should-be-selected-in-a-transparent-and-merit-based-procedure/?utm_source=openai))\n\n\n3) Sources I considered not trustworthy\n\n- None. I avoided using sources I assess as systematically unreliable or lacking transparent editorial standards. For official government positions I relied on primary government portals; for contested or time‑sensitive matters I used primary intergovernmental sources and major wire services, and I cross‑checked NGO claims with institutional documentation.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "city": null,
+        "country": null,
+        "region": "Europe",
+        "timezone": null,
+        "type": "approximate"
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "max_output_tokens": 90000,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": "detailed"
+  },
+  "safety_identifier": "001",
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 48741,
+    "input_tokens_details": {
+      "cached_tokens": 3712
+    },
+    "output_tokens": 6848,
+    "output_tokens_details": {
+      "reasoning_tokens": 4544
+    },
+    "total_tokens": 55589
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "store": false
+}

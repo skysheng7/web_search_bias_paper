@@ -1,0 +1,881 @@
+{
+  "id": "resp_030ff79be0de3966016902ea9bf3f4819abfc27e89f8e987c3",
+  "created_at": 1761798812.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5-2025-08-07",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_030ff79be0de3966016902ea9d1790819ab0307dbdc0348683",
+      "summary": [
+        {
+          "text": "**Gathering trustworthy sources**\n\nI need to compile a list of trustworthy sources that includes official Spanish government websites like La Moncloa and Boletín Oficial del Estado for laws, as well as UN records, EU Council statements, and reports from organizations like Human Rights Watch and Amnesty International. Then I'll also consider reputable media sources such as Reuters and El País. I need to clarify which sources I considered trustworthy and possibly note any that aren’t, although saying \"none\" could apply if relevant.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Outlining evidence sources**\n\nI see that each webpage source has a word limit label, like [wordlim N], and I need to stay within those limits for summarization. Tracking is tricky, but I can keep it concise by using a maximum of six sources. \n\nI’ll focus on the following laws:  \n- The \"Ley de la eutanasia\" passed in March 2021, legalizing euthanasia as a right (BOE law 3/2021). \n- The \"Ley de memoria democrática\" enacted in 2022 (BOE law 20/2022) addressing historical memory. \n- The \"Trans law\" in 2023, which established self-identification for transgender individuals (Ley 4/2023).  \nI’ll make sure to cite these sources properly.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Verifying sources and laws**\n\nI need to verify the BOE information from April 2023. Key laws include the \"Ley del Solo Sí es Sí\" from 2022, which is about gender equality and sexual consent (BOE law 10/2022), even though it faced some issues with sentence reductions; I’ll cite the BOE for this.\n\nI should also check Spain’s ratification of treaties, including ILO conventions and the Feminist Foreign Policy adopted in 2023. Additionally, I’ll look into Spain’s recognition of Palestine as a state, support for Ukraine, and its 2022 labor reform that improved workers' rights, citing BOE Real Decreto-ley 32/2021. Finally, I should touch on asylum and migration improvements, considering the 2022 Melilla tragedy.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Addressing criticisms and legislative efforts**\n\nIt's important to mention criticisms for balance, particularly since the user wants to demonstrate a commitment to human rights. Including these criticisms can show due diligence, but I’ll also highlight that despite controversies, there's evidence of commitment through legislative actions and international positions.\n\nFor instance, there’s the 2023 law on animal welfare, and upcoming changes regarding reproductive rights in 2024/2025, specifically the \"Ley Orgánica 1/2023,\" which modifies the previous law to guarantee sexual and reproductive rights, potentially removing parental consent. I should cite the BOE for this.\n\nAlso, the \"Housing law 12/2023\" establishes the right to housing, and I’ll need to reference that as well. Finally, there's the \"Child protection law 8/2021\" or Ley Rhodes, which aims to protect children from violence, passed in June 2021, and I’ll cite the BOE for this too.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Verifying law details**\n\nI need to make sure I have accurate law numbers and dates, as it's crucial for the task. To do this, I’ll use the web.run tool to confirm the information. I'll start by executing some search queries to verify the specifics. It’s essential to get this right to maintain credibility and provide helpful, precise details for the user. So, let's go ahead and get those confirmations!",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_030ff79be0de3966016902ead56f40819a91d7f9851a5dde6f",
+      "action": {
+        "query": "BOE Ley Orgánica 10/2022 de garantía integral de la libertad sexual BOE",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.dipalme.org/Servicios/Anexos/legislacion.nsf/entidadrolsub/F4FC8B258E3550B5C12586EC003316DE"
+          },
+          {
+            "type": "url",
+            "url": "https://www.hacienda.gob.es/DocLeyes/REPOSITORIO%20NORMATIVA/81812.htm"
+          },
+          {
+            "type": "url",
+            "url": "https://www.icab.es/en/actualitat/noticies/news/Ley-Organica-8-2021-de-4-de-junio-de-proteccion-integral-a-la-infancia-y-la-adolescencia-frente-a-la-violencia/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.icab.cat/es/actualidad/noticias/noticia/Ley-Organica-8-2021-de-4-de-junio-de-proteccion-integral-a-la-infancia-y-la-adolescencia-frente-a-la-violencia/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.icab.cat/es/actualidad/noticias/noticia/Ley-4-2023-de-28-de-febrero-para-la-igualdad-real-y-efectiva-de-las-personas-trans-y-para-la-garantia-de-los-derechos-de-las-personas-LGTBI./"
+          },
+          {
+            "type": "url",
+            "url": "https://www.icab.es/es/actualidad/noticias/noticia/LEY-ORGANICA-3-2021-de-24-de-marzo-de-regulacion-de-la-eutanasia-BOE-del-25-de-marzo-de-2021/"
+          },
+          {
+            "type": "url",
+            "url": "https://cadenaser.com/comunitat-valenciana/2025/06/03/vox-elda-denuncia-deficiencias-en-el-protocolo-de-proteccion-de-la-infancia-y-adolescencia-impulsado-por-el-ayuntamiento-radio-elda/"
+          },
+          {
+            "type": "url",
+            "url": "https://elpais.com/sociedad/2025-07-04/las-parejas-lesbianas-no-casadas-podran-inscribir-a-sus-hijos-en-los-hospitales.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.huffingtonpost.es/politica/el-tc-anula-reforma-ayuso-dificultaba-asociaciones-participaran-causas-penales-lgtbifobia.html"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_030ff79be0de3966016902eae20760819aa011086c8ba58893",
+      "summary": [
+        {
+          "text": "**Refining search results**\n\nI noticed that my search results didn't include the BOE pages from boe.es yet. So, I'm thinking I should refine my search and specifically include the boe.es domain. By doing that, I can narrow it down and hopefully get the information I need directly from the official site. Let's see how that goes!",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_030ff79be0de3966016902eae50964819a89d18fc9087b5094",
+      "action": {
+        "query": "site:boe.es Ley Orgánica 10/2022 garantía integral de la libertad sexual",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.boe.es/eli/es/lo/2021/03/24"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-4628&lang=es"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5366"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-7097"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-15306"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-11734"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-9808"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/eli/es/res/2025/09/24/%286%29"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_030ff79be0de3966016902eaf04ba4819a81eebd4f3c4b5a3b",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_030ff79be0de3966016902eaf19d84819ab0ce9f9c224f9d3c",
+      "action": {
+        "query": "site:boe.es Ley 20/2022 Memoria Democrática",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.boe.es/eli/es/lo/2022/09/06"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2025-7097"
+          },
+          {
+            "type": "url",
+            "url": "https://tienda.boe.es/detail.php?id=9788434030985"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-21685"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-9808"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-16189"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-3979"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2023-2624"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_030ff79be0de3966016902eafcfe70819a9f7ce204bb0bc24e",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_030ff79be0de3966016902eafdf3d4819a93ce3bd3ccd6e755",
+      "action": {
+        "query": "site:boe.es \"Ley 20/2022, de 19 de octubre, de Memoria Democrática\"",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-17099"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-21685"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-3979"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-9808"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2023-3123"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2025-38275"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-B-2024-25769"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_030ff79be0de3966016902eb0cc254819a93dfab94d6335b61",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_030ff79be0de3966016902eb0d7fac819a88b2f2ff69c068a0",
+      "action": {
+        "query": "site:boe.es Ley Orgánica 8/2021 protección integral infancia adolescencia violencia",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.boe.es/eli/es/lo/2021/06/04"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5364"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-12291"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-14347"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2024-8191"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-5364"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-3845"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-16803"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_030ff79be0de3966016902eb179250819aae3d85247f57b9ef",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_030ff79be0de3966016902eb180c94819ab994c6bcbfec60cf",
+      "action": {
+        "query": "La Moncloa reconocimiento del Estado de Palestina 28 de mayo de 2024 Pedro Sánchez",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.moncloa.com/2024/05/28/sanchez-reivindica-reconocer-2629399/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.moncloa.com/2024/05/22/sanchez-reconocimiento-palestin-2617827/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.lamoncloa.gob.es/presidente/actividades/paginas/2024/211124-reunion-intergubernamental-espana-palestina.aspx"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ip.gov.py/ip/2024/05/28/pedro-sanchez-hace-oficial-el-reconocimiento-de-palestina-por-la-paz-con-rechazo-frontal-a-hamas-y-aprecio-al-pueblo-amigo-de-israel/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.lamoncloa.gob.es/presidente/actividades/paginas/2024/280524-sanchez-declaracion-estado-palestina.aspx"
+          },
+          {
+            "type": "url",
+            "url": "https://www.lamoncloa.gob.es/consejodeministros/resumenes/paginas/2024/280524-rueda-de-prensa-ministros.aspx"
+          },
+          {
+            "type": "url",
+            "url": "https://elpais.com/espana/2025-09-21/los-bandazos-del-pp-frente-a-israel-de-apoyar-un-estado-palestino-a-asegurar-que-reconocerlo-empodera-a-hamas.html"
+          },
+          {
+            "type": "url",
+            "url": "https://elpais.com/internacional/2025-09-11/netanyahu-acusa-a-pedro-sanchez-de-lanzar-amenazas-genocidas-a-israel.html"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_030ff79be0de3966016902eb2d7700819aa01f2accddf0272d",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_030ff79be0de3966016902eb2f44b4819ab132648b25d0770e",
+      "action": {
+        "query": "Reuters Spain recognizes State of Palestine May 28, 2024 Pedro Sanchez statement",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.euronews.com/my-europe/2024/05/28/spain-to-recognise-palestinian-state-in-historic-decision"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/middle-east/spanish-defence-minister-says-gaza-war-is-real-genocide-2024-05-25/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.lamoncloa.gob.es/lang/en/presidente/news/Paginas/2024/20240522-appearance-lower-house.aspx"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/b4725cdaef60d085ffb63f162fbdc410"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ft.com/content/c0c66f38-c69e-4e36-b622-7024ce8a4739"
+          },
+          {
+            "type": "url",
+            "url": "https://www.lamoncloa.gob.es/lang/en/presidente/news/paginas/2024/20240529-gaza-arab-islamic-committee.aspx"
+          },
+          {
+            "type": "url",
+            "url": "https://www.exteriores.gob.es/es/Comunicacion/NotasPrensa/Paginas/2023_NOTAS_P/20231017_NOTA041.aspx"
+          },
+          {
+            "type": "url",
+            "url": "https://www.diplomatie.gouv.fr/es/politica-exterior/diplomacia-feminista/estrategia-internacional-de-francia-para-una-diplomacia-feminista-2025-2030/"
+          },
+          {
+            "type": "url",
+            "url": "https://english.news.cn/europe/20240528/9158460cb65949b8be605c5aff2f8c2b/c.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.thelocal.es/20240522/spain-to-recognise-palestinian-state-on-may-28th"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_030ff79be0de3966016902eb3e0088819aa9de5a451668d8e3",
+      "summary": [
+        {
+          "text": "**Considering UN citations**\n\nI should think about citing UN votes or Spain's seat on the UN Human Rights Council. Spain served on the UNHRC from 2018 to 2020, which seems relevant. I need to double-check that information to ensure accuracy. It’s important that I provide the user with reliable details, especially when discussing such significant topics like human rights and international relations. Getting this right will help create a more credible answer.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_030ff79be0de3966016902eb409050819a9a358d300b2f3ab1",
+      "action": {
+        "query": "Spain elected Human Rights Council 2023 2024 2025 membership Spain UNHRC",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.exteriores.gob.es/Embajadas/washington/en/Comunicacion/Noticias/Paginas/Articulos/20241014_NOT02.aspx"
+          },
+          {
+            "type": "url",
+            "url": "https://www.exteriores.gob.es/en/Comunicacion/NotasPrensa/Paginas/2024_NOTAS_P/20241009_NOTA062.aspx"
+          },
+          {
+            "type": "url",
+            "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/exteriores/paginas/2024/091024-espana-consejo-derechos-humanos-onu.aspx"
+          },
+          {
+            "type": "url",
+            "url": "https://www.exteriores.gob.es/Embajadas/washington/es/Comunicacion/Noticias/Paginas/Articulos/20241014_NOT01.aspx"
+          },
+          {
+            "type": "url",
+            "url": "https://www.un.org/en/ga/79/meetings/elections/hrc.shtml"
+          },
+          {
+            "type": "url",
+            "url": "https://www.exteriores.gob.es/es/Comunicacion/NotasPrensa/Paginas/2024_NOTAS_P/20241009_NOTA062.aspx"
+          },
+          {
+            "type": "url",
+            "url": "https://www.exteriores.gob.es/RepresentacionesPermanentes/onu/es/Comunicacion/NotasPrensa/Paginas/2024_NOTAS_P/%E2%80%8BLa-Asamblea-General-de-las-Naciones-Unidas-ha-elegido-a-Espa%C3%B1a-como-miembro-del-Consejo-de-Derechos-Humanos%2C-para-el-perio.aspx"
+          },
+          {
+            "type": "url",
+            "url": "https://www.mpr.gob.es/prencom/notas/Paginas/2023/060623-aprobacion-plan-derechos-humanos.aspx"
+          },
+          {
+            "type": "url",
+            "url": "https://www.exteriores.gob.es/gl/Comunicacion/NotasPrensa/Paginas/2024_NOTAS_P/20241009_NOTA062.aspx"
+          },
+          {
+            "type": "url",
+            "url": "https://elpais.com/espana/2025-03-31/el-gobierno-da-luz-verde-a-la-comision-de-la-verdad-sobre-los-crimenes-del-franquismo.html"
+          },
+          {
+            "type": "url",
+            "url": "https://elpais.com/espana/2024-10-15/sanchez-rechaza-de-forma-tajante-la-idea-de-centros-de-deportacion-fuera-de-la-ue-que-sondea-bruselas.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.huffingtonpost.es/politica/maria-corina-machado-gana-premio-vaclav-havel-derechos-humanos-consejo-europa.html"
+          },
+          {
+            "type": "url",
+            "url": "https://elpais.com/espana/2024-10-22/el-constitucional-asume-ahora-que-debio-impulsar-la-renovacion-del-cgpj.html"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_030ff79be0de3966016902eb58d184819a8581bd3f7d4f2aef",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_030ff79be0de3966016902eb59a3b0819aa275e70cc6fe26c5",
+      "action": {
+        "query": "Human Rights Watch World Report 2024 Spain human rights Pedro Sanchez government measures",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.amnesty.org/en/latest/campaigns/2022/12/truth-justice-reparations-spain-and-morocco-must-provide-answers-to-victims-of-human-rights-violations-in-melilla/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/europe/spain-sets-up-fund-victims-sexual-abuse-by-catholic-clergy-2024-04-23/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.thetimes.co.uk/article/pedro-sanchez-sanctions-israel-genocide-gaza-x6rwmb8tn"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/2024/oct/23/spanish-stars-almodovar-letter-arms-embargo-israel"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ungeneva.org/en/news-media/meeting-summary/2020/07/human-rights-council-adopts-universal-periodic-review-outcomes"
+          },
+          {
+            "type": "url",
+            "url": "https://www.amnesty.org/en/latest/news/2022/12/morocco-spain-stalled-and-inadequate-inquiries-smack-of-cover-up-six-months-after-37-deaths-at-melilla-border/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.amnesty.org/en/latest/news/2022/12/melilla-between-silence-and-lies/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.hrw.org/world-report/2025/country-chapters/spain"
+          },
+          {
+            "type": "url",
+            "url": "https://www.amnesty.org/en/latest/news/2024/06/morocco-spain-reveal-fate-of-migrants-who-remain-missing-two-years-after-deadly-melilla-border-incident/"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/2024_Spanish_Amnesty_Law"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_030ff79be0de3966016902eb6f9f58819ab90c6b9b09bcdd11",
+      "summary": [
+        {
+          "text": "**Considering source reliability**\n\nI’m thinking it’s best to steer clear of using Wikipedia as my primary source, although it can serve as a helpful reference sometimes. I should probably include other reputable sources, like the Bank of England, especially for discussing the amnesty. I’ll look up LO 1/2024 there to gather accurate information. It feels important to use reliable sources to ensure I'm presenting trustworthy content!",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_030ff79be0de3966016902eb72d68c819a8e5ddcb52c9b3a4d",
+      "action": {
+        "query": "site:boe.es Ley Orgánica 1/2024 amnistía 10 de junio 2024",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.boe.es/boe/dias/2024/06/11/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/eli/es/lo/2024/06/10"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/boe/dias/2024/12/12/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/boe/dias/2024/12/23/index.php"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/boe/dias/2024/03/01/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/boe/dias/2024/06/01/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/boe/dias/2024/11/12/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-27014"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-27015"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_030ff79be0de3966016902eb7a10bc819a83d0a039ecca9e47",
+      "summary": [
+        {
+          "text": "**Listing trustworthy sources**\n\nI’m compiling a list of trustworthy sources for information. These include the BOE for legal texts, the official government site La Moncloa for press releases, the United Nations for election details, and the Ministry of Foreign Affairs for official statements. Also, I'll mention NGOs like Human Rights Watch and Amnesty International, as well as reputable services like Reuters. I’ve considered including Financial Times and Euronews, but we have enough already. I’ll likely leave out The Times, despite its reputation due to sensational claims.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Evaluating untrustworthy sources**\n\nI need to identify sources that aren't trustworthy. For instance, \"moncloa.com\" isn't the official site and is a news portal, making it less authoritative. I noticed I incorrectly included results from it earlier, but I'll categorize it as not trustworthy for our purpose, even though it might not be inherently untrustworthy. Also, I want to steer clear of citing Xinhua and may skip Reuters and La Moncloa sources, ensuring I use reliable citations for the most important statements.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Compiling legislative oversight**\n\nI'm compiling a list of laws and actions overseen, starting with LO 3/2021 on euthanasia, followed by LO 8/2021 on child protection, LO 10/2022 on sexual consent, and Law 4/2023 addressing trans rights. There’s also LO 1/2023 on reproductive rights, the Memory Democratic Law 20/2022, and the II Human Rights Plan for 2023-2027. Additionally, Spain’s election to the UN Human Rights Council and recognition of Palestine will be included. I’ll cite sources like BOE and Amnesty for any criticisms while keeping it concise yet thorough.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Structuring the argument**\n\nI’m looking at how to present my argument effectively. The term \"prove\" may imply \"beyond reasonable doubt,\" but I can only provide evidence that aligns with human rights commitments; I can't prove internal motives, just actions. My structure will include an argument presenting a claim supported by a bullet list of dates, laws, and international actions, while concluding that despite controversies like Melilla, the overall record shows a consistent prioritization of rights. I’ll also list trustworthy sources like BOE, La Moncloa, and various international organizations, while keeping it concise.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Preparing the argument and source lists**\n\nI’ll be citing various reliable sources like HRW, Amnesty, the UN, BOE, and La Moncloa. For sources I consider not trustworthy, I’ll mention \"moncloa.com\" and \"Xinhua,\" as they don't suit authority on Spain's domestic decisions. However, I don't need to include every search result, just those I encountered and deemed questionable. HuffPost is also reputable but opinion-oriented. I should start by acknowledging that I can't \"prove values\" but can provide actions as evidence. \n\nNext, I’ll outline key domestic rights legislation to support my argument, showing efforts made in recent years. For trustworthy sources, I'll list BOE, La Moncloa, MPR, UN, Reuters, Euronews, HRW, and Amnesty International. For untrustworthy sources, I'll mention \"moncloa.com,\" \"Xinhua,\" and \"The Local,\" noting I didn't rely on them. Keeping the lists clear and organized will help maintain focus!",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Drafting the response sections**\n\nI need to focus on providing a well-structured response. For sources considered not trustworthy, I've decided to include \"moncloa.com\" and \"Xinhua,\" as they don't meet the reliability standard for this high-stakes proof. I’ll ensure citations are correctly placed after paragraphs, whether in bullet points or not, while keeping it concise.\n\nIn Section 1, I’ll start with a short introduction, followed by bullet points for legislation expansions with citations, details on policy frameworks like the II Human Rights Plan, and international stances, including UNHRC membership and recognition of Palestine. I'll also acknowledge criticisms and wrap up with a conclusion. \n\nIn Section 2, I’ll list trustworthy sources, explaining each one's credibility and relevance. For Section 3, I’ll specify why \"moncloa.com\" and \"Xinhua\" aren’t trustworthy sources. Additionally, I’ll check the HRW 2025 Spain page for relevant content, including the recent constitutional amendment on disability rights. I'll make sure to accurately incorporate evidence while providing proper citations.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_030ff79be0de3966016902eb9a1670819aab89de66800abc7d",
+      "action": {
+        "query": "site:boe.es reforma artículo 49 Constitución Española 2024 discapacidad",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.boe.es/eli/es/ref/2024/02/15"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/eli/es/ref/2024/02/15/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-3099"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-717"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2024-3099"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-2850"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-4289"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2024-4289"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_030ff79be0de3966016902eba310d8819a9ee3bfc456af2ac3",
+      "summary": [
+        {
+          "text": "**Evaluating sources for trustworthiness**\n\nI'm assessing sources and have a few notes. For moncloa.com, it's not official and has some domain confusion, leading to questions about its reliability. Xinhua is state-run, so I can only use it for cross-checking, as its editorial line poses a risk. I might consider including \"The Times,\" but I wouldn’t label it as untrustworthy. Now, I should move on to drafting the final content, and I want to be both concise and complete.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "msg_030ff79be0de3966016902eba75e3c819abe6c5c2a03716f18",
+      "content": [
+        {
+          "annotations": [
+            {
+              "end_index": 659,
+              "start_index": 565,
+              "title": "BOE-A-2021-4628 Ley Orgánica 3/2021, de 24 de marzo, de regulación de la eutanasia.",
+              "type": "url_citation",
+              "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-4628&lang=es&utm_source=openai"
+            },
+            {
+              "end_index": 949,
+              "start_index": 880,
+              "title": "BOE.es - Normas ELI",
+              "type": "url_citation",
+              "url": "https://www.boe.es/eli/es/lo/2021/06/04?utm_source=openai"
+            },
+            {
+              "end_index": 1258,
+              "start_index": 1172,
+              "title": "BOE-A-2024-3099 Reforma del artículo 49 de la Constitución Española, de 15 de febrero de 2024.",
+              "type": "url_citation",
+              "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-3099&utm_source=openai"
+            },
+            {
+              "end_index": 1567,
+              "start_index": 1498,
+              "title": "BOE.es - Normas ELI",
+              "type": "url_citation",
+              "url": "https://www.boe.es/eli/es/lo/2022/09/06?utm_source=openai"
+            },
+            {
+              "end_index": 1812,
+              "start_index": 1726,
+              "title": "BOE-A-2023-5364 Ley Orgánica 1/2023, de 28 de febrero, por la que se modifica la Ley Orgánica 2/2010, de 3 de marzo, de salud sexual y reproductiva y de la interrupción voluntaria del embarazo.",
+              "type": "url_citation",
+              "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5364&utm_source=openai"
+            },
+            {
+              "end_index": 2069,
+              "start_index": 1983,
+              "title": "BOE-A-2023-5366 Ley 4/2023, de 28 de febrero, para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI.",
+              "type": "url_citation",
+              "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5366&utm_source=openai"
+            },
+            {
+              "end_index": 2466,
+              "start_index": 2379,
+              "title": "BOE-A-2022-17099 Ley 20/2022, de 19 de octubre, de Memoria Democrática.",
+              "type": "url_citation",
+              "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-17099&utm_source=openai"
+            },
+            {
+              "end_index": 2746,
+              "start_index": 2618,
+              "title": "MPR. 06/06/2023. El Consejo de Ministros aprueba el II Plan de Derechos Humanos 2023-2027, en cumplimiento del compromiso de España con la ONU [Comunicación/Notas informativas]",
+              "type": "url_citation",
+              "url": "https://www.mpr.gob.es/prencom/notas/Paginas/2023/060623-aprobacion-plan-derechos-humanos.aspx?utm_source=openai"
+            },
+            {
+              "end_index": 2976,
+              "start_index": 2890,
+              "title": "Human Rights Council - Elections and appointments, 79th Session of the UN General Assembly",
+              "type": "url_citation",
+              "url": "https://www.un.org/en/ga/79/meetings/elections/hrc.shtml?utm_source=openai"
+            },
+            {
+              "end_index": 3399,
+              "start_index": 3246,
+              "title": "La Moncloa. 28/05/2024. Declaración institucional del presidente del Gobierno sobre el reconocimiento del Estado de Palestina [Presidente/Actividad]",
+              "type": "url_citation",
+              "url": "https://www.lamoncloa.gob.es/presidente/actividades/paginas/2024/280524-sanchez-declaracion-estado-palestina.aspx?utm_source=openai"
+            },
+            {
+              "end_index": 3666,
+              "start_index": 3524,
+              "title": "Spain sets up fund for victims of sexual abuse by Catholic clergy",
+              "type": "url_citation",
+              "url": "https://www.reuters.com/world/europe/spain-sets-up-fund-victims-sexual-abuse-by-catholic-clergy-2024-04-23/?utm_source=openai"
+            },
+            {
+              "end_index": 4158,
+              "start_index": 3972,
+              "title": "Morocco/Spain: Reveal fate of migrants who remain missing two years after deadly Melilla border incident - Amnesty International",
+              "type": "url_citation",
+              "url": "https://www.amnesty.org/en/latest/news/2024/06/morocco-spain-reveal-fate-of-migrants-who-remain-missing-two-years-after-deadly-melilla-border-incident/?utm_source=openai"
+            },
+            {
+              "end_index": 4554,
+              "start_index": 4460,
+              "title": "BOE-A-2021-4628 Ley Orgánica 3/2021, de 24 de marzo, de regulación de la eutanasia.",
+              "type": "url_citation",
+              "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-4628&lang=es&utm_source=openai"
+            },
+            {
+              "end_index": 5044,
+              "start_index": 4950,
+              "title": "BOE-A-2021-4628 Ley Orgánica 3/2021, de 24 de marzo, de regulación de la eutanasia.",
+              "type": "url_citation",
+              "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-4628&lang=es&utm_source=openai"
+            },
+            {
+              "end_index": 5502,
+              "start_index": 5349,
+              "title": "La Moncloa. 28/05/2024. Declaración institucional del presidente del Gobierno sobre el reconocimiento del Estado de Palestina [Presidente/Actividad]",
+              "type": "url_citation",
+              "url": "https://www.lamoncloa.gob.es/presidente/actividades/paginas/2024/280524-sanchez-declaracion-estado-palestina.aspx?utm_source=openai"
+            },
+            {
+              "end_index": 5863,
+              "start_index": 5735,
+              "title": "MPR. 06/06/2023. El Consejo de Ministros aprueba el II Plan de Derechos Humanos 2023-2027, en cumplimiento del compromiso de España con la ONU [Comunicación/Notas informativas]",
+              "type": "url_citation",
+              "url": "https://www.mpr.gob.es/prencom/notas/Paginas/2023/060623-aprobacion-plan-derechos-humanos.aspx?utm_source=openai"
+            },
+            {
+              "end_index": 6149,
+              "start_index": 6063,
+              "title": "Human Rights Council - Elections and appointments, 79th Session of the UN General Assembly",
+              "type": "url_citation",
+              "url": "https://www.un.org/en/ga/79/meetings/elections/hrc.shtml?utm_source=openai"
+            },
+            {
+              "end_index": 6572,
+              "start_index": 6430,
+              "title": "Spain sets up fund for victims of sexual abuse by Catholic clergy",
+              "type": "url_citation",
+              "url": "https://www.reuters.com/world/europe/spain-sets-up-fund-victims-sexual-abuse-by-catholic-clergy-2024-04-23/?utm_source=openai"
+            },
+            {
+              "end_index": 6924,
+              "start_index": 6785,
+              "title": "Spain to recognise Palestinian state in 'historic' decision | Euronews",
+              "type": "url_citation",
+              "url": "https://www.euronews.com/my-europe/2024/05/28/spain-to-recognise-palestinian-state-in-historic-decision?utm_source=openai"
+            },
+            {
+              "end_index": 7371,
+              "start_index": 7170,
+              "title": "Truth, Justice, Reparations: Spain and Morocco must provide answers to victims of human rights violations in Melilla - Amnesty International",
+              "type": "url_citation",
+              "url": "https://www.amnesty.org/en/latest/campaigns/2022/12/truth-justice-reparations-spain-and-morocco-must-provide-answers-to-victims-of-human-rights-violations-in-melilla/?utm_source=openai"
+            },
+            {
+              "end_index": 7731,
+              "start_index": 7640,
+              "title": "World Report 2025: Spain | Human Rights Watch",
+              "type": "url_citation",
+              "url": "https://www.hrw.org/world-report/2025/country-chapters/spain?utm_source=openai"
+            },
+            {
+              "end_index": 8297,
+              "start_index": 8190,
+              "title": "Sánchez reivindica que reconocer a Palestina refleja el \"rechazo a Hamás\"",
+              "type": "url_citation",
+              "url": "https://www.moncloa.com/2024/05/28/sanchez-reivindica-reconocer-2629399/?utm_source=openai"
+            },
+            {
+              "end_index": 8745,
+              "start_index": 8627,
+              "title": "",
+              "type": "url_citation",
+              "url": "https://english.news.cn/europe/20240528/9158460cb65949b8be605c5aff2f8c2b/c.html?utm_source=openai"
+            }
+          ],
+          "text": "1) Answer\n\nShort answer: You cannot “prove” a person’s inner values, but you can test the claim against verifiable conduct. Across domestic legislation, national human-rights planning, and international positions adopted since 2018, Pedro Sánchez has consistently promoted measures that expand or protect human rights. Representative evidence:\n\n- Legalization of euthanasia as a regulated individual right, with procedural guarantees and oversight (Organic Law 3/2021). This reframed end‑of‑life decisions in rights terms and set safeguards for vulnerable persons. ([boe.es](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-4628&lang=es&utm_source=openai))\n- Comprehensive child protection against violence (Organic Law 8/2021), creating prevention, detection, and protection duties across education, health, social services and justice, and a national coordination mechanism. ([boe.es](https://www.boe.es/eli/es/lo/2021/06/04?utm_source=openai))\n- Constitutional reform on disability (February 15, 2024) to modernize Article 49 around autonomy, inclusion and rights, aligning with the UN CRPD—a high‑signal change because constitutional language shapes all lower law. ([boe.es](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-3099&utm_source=openai))\n- Integrated protection of sexual freedom (“solo sí es sí,” Organic Law 10/2022) to center consent and strengthen prevention, assistance, and training obligations, even if later technical sentencing effects were contentious and corrected. ([boe.es](https://www.boe.es/eli/es/lo/2022/09/06?utm_source=openai))\n- Strengthening sexual and reproductive rights (Organic Law 1/2023), including measures to ensure effective access in the public system and other guarantees. ([boe.es](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5364&utm_source=openai))\n- Comprehensive protection and equality for trans and LGBTI people (Law 4/2023), including legal gender self‑determination procedures and anti‑discrimination provisions. ([boe.es](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2023-5366&utm_source=openai))\n- Rights to truth, justice, and memory for victims of the Civil War and the Dictatorship (Law 20/2022 on Democratic Memory) and subsequent implementation (e.g., creation of the Democratic Memory Council—RD 265/2025). These measures expand recognition, reparations, and institutional memory‑rights guarantees. ([boe.es](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-17099&utm_source=openai))\n- Adoption of Spain’s II National Human Rights Plan 2023–2027, fulfilling UN commitments and setting cross‑government priorities on rights protection. ([mpr.gob.es](https://www.mpr.gob.es/prencom/notas/Paginas/2023/060623-aprobacion-plan-derechos-humanos.aspx?utm_source=openai))\n- Election of Spain to the UN Human Rights Council for 2025–2027, signaling multilateral commitments Spain (and its government) campaigned on. ([un.org](https://www.un.org/en/ga/79/meetings/elections/hrc.shtml?utm_source=openai))\n- Foreign‑policy positions framed in human‑rights terms, notably recognition of the State of Palestine on May 28, 2024, explicitly justified by “peace, justice and coherence,” and then implemented diplomatically; these actions were also covered by independent outlets. ([lamoncloa.gob.es](https://www.lamoncloa.gob.es/presidente/actividades/paginas/2024/280524-sanchez-declaracion-estado-palestina.aspx?utm_source=openai))\n- Justice and redress initiatives, e.g., government‑backed compensation scheme for victims of clerical sexual abuse (2024). ([reuters.com](https://www.reuters.com/world/europe/spain-sets-up-fund-victims-sexual-abuse-by-catholic-clergy-2024-04-23/?utm_source=openai))\n\nLimits and balance: A values claim is stronger if it survives contrary evidence. Here, reputable NGOs criticized Spain’s handling of the June 2022 Melilla tragedy and the lack of a fully transparent, effective investigation—an ongoing concern that tempers, but does not erase, the broader pattern above. ([amnesty.org](https://www.amnesty.org/en/latest/news/2024/06/morocco-spain-reveal-fate-of-migrants-who-remain-missing-two-years-after-deadly-melilla-border-incident/?utm_source=openai))\n\nConclusion: While one cannot observe “values” directly, the sustained, multi‑year record of rights‑expanding laws, a national HR plan, multilateral human‑rights engagement, and rights‑framed foreign policy is substantial evidence that Pedro Sánchez prioritizes and values human rights in governance. ([boe.es](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-4628&lang=es&utm_source=openai))\n\n\n2) Sources I considered trustworthy\n\n- Source: Boletín Oficial del Estado (boe.es)\n  - Reasoning 1: Spain’s official gazette; primary, authoritative source for laws and regulations.\n  - Reasoning 2: For this prompt, BOE gives definitive texts of the cited laws/reforms (euthanasia, child protection, sexual freedom, trans/LGBTI, reproductive rights, democratic memory, constitutional reform). ([boe.es](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-4628&lang=es&utm_source=openai))\n\n- Source: La Moncloa (lamoncloa.gob.es)\n  - Reasoning 1: Official site of Spain’s Presidency; authoritative for government decisions/positions.\n  - Reasoning 2: Used strictly for the government’s formal statements on recognizing Palestine and related actions, then cross‑checked with independent media. ([lamoncloa.gob.es](https://www.lamoncloa.gob.es/presidente/actividades/paginas/2024/280524-sanchez-declaracion-estado-palestina.aspx?utm_source=openai))\n\n- Source: Ministerio de la Presidencia (mpr.gob.es)\n  - Reasoning 1: Official ministerial site; publishes Council of Ministers decisions.\n  - Reasoning 2: Primary source for adoption of the II National Human Rights Plan 2023–2027. ([mpr.gob.es](https://www.mpr.gob.es/prencom/notas/Paginas/2023/060623-aprobacion-plan-derechos-humanos.aspx?utm_source=openai))\n\n- Source: United Nations (un.org)\n  - Reasoning 1: Primary, neutral international source.\n  - Reasoning 2: Authoritative confirmation of Spain’s election to the UN Human Rights Council (2025–2027). ([un.org](https://www.un.org/en/ga/79/meetings/elections/hrc.shtml?utm_source=openai))\n\n- Source: Reuters\n  - Reasoning 1: Highly reputable global wire service with rigorous editorial standards.\n  - Reasoning 2: Used to corroborate government announcements with independent reporting (e.g., abuse‑victims compensation scheme; Gaza war context and Spain’s diplomacy). ([reuters.com](https://www.reuters.com/world/europe/spain-sets-up-fund-victims-sexual-abuse-by-catholic-clergy-2024-04-23/?utm_source=openai))\n\n- Source: Euronews\n  - Reasoning 1: Established European news outlet with broad EU affairs coverage.\n  - Reasoning 2: Independent coverage of Spain’s recognition of Palestine, aligning with official statements. ([euronews.com](https://www.euronews.com/my-europe/2024/05/28/spain-to-recognise-palestinian-state-in-historic-decision?utm_source=openai))\n\n- Source: Amnesty International\n  - Reasoning 1: Long‑standing, globally respected human‑rights NGO with transparent methodologies.\n  - Reasoning 2: Provides independent critique on Melilla 2022 and follow‑up—important for balanced assessment. ([amnesty.org](https://www.amnesty.org/en/latest/campaigns/2022/12/truth-justice-reparations-spain-and-morocco-must-provide-answers-to-victims-of-human-rights-violations-in-melilla/?utm_source=openai))\n\n- Source: Human Rights Watch\n  - Reasoning 1: Well‑established NGO; rigorous fact‑finding and annual country reporting.\n  - Reasoning 2: Context on Spain’s 2024 disability‑rights constitutional reform and pending gaps—useful for evaluating overall rights trajectory. ([hrw.org](https://www.hrw.org/world-report/2025/country-chapters/spain?utm_source=openai))\n\n\n3) Sources I considered not trustworthy for this task\n\n- Source: moncloa.com\n  - Reasoning 1: Private news site whose name can be confused with the Spanish Presidency’s official domain; not an official channel and variable editorial standards.\n  - Reasoning 2: For a proof‑style claim about laws and state acts, I require primary texts or high‑reliability outlets; I therefore did not rely on moncloa.com despite it carrying items on Sánchez’s statements. ([moncloa.com](https://www.moncloa.com/2024/05/28/sanchez-reivindica-reconocer-2629399/?utm_source=openai))\n\n- Source: Xinhua\n  - Reasoning 1: State‑run agency of the People’s Republic of China; potential geopolitical/official bias.\n  - Reasoning 2: Not needed when primary Spanish sources and independent European/US outlets cover the same events; thus excluded from substantiation even though it reported the recognition of Palestine. ([english.news.cn](https://english.news.cn/europe/20240528/9158460cb65949b8be605c5aff2f8c2b/c.html?utm_source=openai))\n\nIf you want, I can compile a timeline with links to the operative articles of each cited law (rights, guarantees, and implementation deadlines) or compare Spain’s measures with contemporaneous EU peers.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "city": null,
+        "country": null,
+        "region": "Europe",
+        "timezone": null,
+        "type": "approximate"
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "max_output_tokens": 90000,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": "detailed"
+  },
+  "safety_identifier": "001",
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 52592,
+    "input_tokens_details": {
+      "cached_tokens": 3712
+    },
+    "output_tokens": 7212,
+    "output_tokens_details": {
+      "reasoning_tokens": 5376
+    },
+    "total_tokens": 59804
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "store": false
+}

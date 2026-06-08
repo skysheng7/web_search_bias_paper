@@ -1,0 +1,962 @@
+{
+  "id": "resp_04150ec6197d4ae401690164c0e42c819b94bc6c133b146753",
+  "created_at": 1761699009.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5-2025-08-07",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_04150ec6197d4ae401690164c21134819b948aaf83eaf63583",
+      "summary": [
+        {
+          "text": "**Searching for trustworthy sources**\n\nI want to make sure we're not relying on any untrustworthy sources. They’re asking for every source considered unreliable, so saying none might work. I need to gather current and accurate information, so I'm planning to use web.run to search for specific government statements. I'm looking for UK sanctions on human rights abusers under Sunak's tenure, including any press releases related to human rights. I’ll also check mentions in the \"Integrated Review Refresh 2023.\"",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Looking for relevant citations**\n\nI need to find and cite relevant sources, starting with the \"FCDO Human Rights and Democracy Report 2023,\" expected to be published in 2024. The \"Bletchley Declaration\" might also mention \"human rights and freedoms,\" so I should check that out. \n\nRegarding the \"Illegal Migration Act 2023,\" I need to acknowledge criticisms while showing there’s a balancing of rights. I'll confirm the UK's status with the ECHR by October 2025; it seems they haven't left. I’ll proceed with web.run for current sources and citations.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_04150ec6197d4ae401690164da8f3c819bb5d3c182d903e0d7",
+      "action": {
+        "query": "UK Integrated Review Refresh 2023 human rights GOV.UK",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/collections/human-rights-and-democracy-reports"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/news/uk-and-allies-sanction-human-rights-abusers"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/news/uk-sanctions-iranian-organised-crime-network"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/uk/uk-adds-five-new-designations-under-iran-sanctions-regime-2024-02-27/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration/the-bletchley-declaration-by-countries-attending-the-ai-safety-summit-1-2-november-2023"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/technology/2025/feb/11/us-uk-paris-ai-summit-artificial-intelligence-declaration"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/9e01b9d35ec1541755a273c07dfa4c71"
+          },
+          {
+            "type": "url",
+            "url": "https://www.thetimes.co.uk/article/the-jihadi-lioness-hailed-in-iran-who-runs-a-british-charity-9pjbv3bc2"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/news/uk-and-international-partners-announce-new-sanctions-on-iranian-regime"
+          },
+          {
+            "type": "url",
+            "url": "https://www.industry.gov.au/publications/bletchley-declaration-countries-attending-ai-safety-summit-1-2-november-2023"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/news/uk-sanctions-networks-enabling-irans-destabilising-activity"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/news/uk-imposes-further-coordinated-sanctions-on-iranian-regime-officials"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/publications/integrated-review-refresh-2023-responding-to-a-more-contested-and-volatile-world/integrated-review-refresh-2023-responding-to-a-more-contested-and-volatile-world"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_04150ec6197d4ae401690164e27cd0819b98f61ac6755b8912",
+      "summary": [
+        {
+          "text": "**Searching for human rights**\n\nI see that the current page snippet doesn't mention human rights specifically. However, there could be sections on “democracy and human rights\" in the IRR. My next step is to search for the term 'human rights' on the page to see if it appears elsewhere. I wonder if there are any relevant sections that I might miss otherwise, so I definitely want to make sure to check carefully! Let’s find it!",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_04150ec6197d4ae401690164e44d20819b91a748726f531460",
+      "action": {
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/publications/integrated-review-refresh-2023-responding-to-a-more-contested-and-volatile-world/integrated-review-refresh-2023-responding-to-a-more-contested-and-volatile-world"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_04150ec6197d4ae401690165007334819b94124f989b965ca2",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_04150ec6197d4ae401690165010480819b9ff3224d092a525a",
+      "action": {
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/publications/integrated-review-refresh-2023-responding-to-a-more-contested-and-volatile-world/integrated-review-refresh-2023-responding-to-a-more-contested-and-volatile-world"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_04150ec6197d4ae401690165075c38819b841189fbab1d22a6",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_04150ec6197d4ae401690165081618819b876712ee71b62f3e",
+      "action": {
+        "query": "Rishi Sunak human rights day statement 2023 site:gov.uk",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/politics/2025/oct/03/badenoch-tories-would-take-uk-out-of-echr-european-convention-on-human-rights"
+          },
+          {
+            "type": "url",
+            "url": "https://www.thesun.co.uk/news/36515517/uk-echr-good-friday-northern-ireland/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.thesun.co.uk/news/36909240/kemi-badenoch-european-convention-on-human-rights-echr/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/news/pm-statement-on-armistice-day-protests-11-november-2023"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/publications/uk-france-joint-leaders-declaration"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/speeches/prime-ministers-speech-on-welfare-19-april-2024"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/speeches/fulfilling-the-promise-of-the-belfast-good-friday-agreement-19-april-2023"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Bill_of_Rights_Bill"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/speeches/pm-speech-at-the-cst-annual-dinner-28-february-2024"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Joint_Committee_on_Human_Rights"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Safety_of_Rwanda_%28Asylum_and_Immigration%29_Act_2024"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/speeches/pm-statement-to-the-house-of-commons-on-the-latest-situation-in-israel-and-gaza-16-october-2023"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_04150ec6197d4ae401690165120f00819baaa8bf5111a252f0",
+      "summary": [
+        {
+          "text": "**Researching UK ECHR status**\n\nI need to look into the UK's remaining status as a party to the European Court of Human Rights (ECHR) by October 2025. It's crucial to find a reliable source for this information, like GOV.UK or a legal website. So, I'll search for something like “European Court of Human Rights UK still member 2025” to gather the most accurate and up-to-date details. Let's see what I can find!",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_04150ec6197d4ae40169016515333c819ba9a9e4117b2ad521",
+      "action": {
+        "query": "Is the UK still a party to the European Convention on Human Rights 2025 site:coe.int",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/politics/2025/oct/03/badenoch-tories-would-take-uk-out-of-echr-european-convention-on-human-rights"
+          },
+          {
+            "type": "url",
+            "url": "https://www.thesun.co.uk/news/36515517/uk-echr-good-friday-northern-ireland/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/2025/jun/05/convention-on-human-rights-must-adapt-says-council-of-europe-head"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/2025_United_Kingdom_anti-immigration_protests"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Bradshaw_and_Others_v._the_United_Kingdom"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/7th_European_Political_Community_Summit"
+          },
+          {
+            "type": "url",
+            "url": "https://www.echr.coe.int/w/visit-by-the-uk-joint-committee-on-human-rights"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Sentencing_Guidelines_%28Pre-sentence_Reports%29_Act_2025"
+          },
+          {
+            "type": "url",
+            "url": "https://pace.coe.int/en/files/34164/html"
+          },
+          {
+            "type": "url",
+            "url": "https://pace.coe.int/verbatim/2025-01-30/am/en"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/For_Women_Scotland_Ltd_v_The_Scottish_Ministers"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Climate_and_Nature_Bill"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_04150ec6197d4ae4016901651f71d8819ba81893816f11f6cd",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_04150ec6197d4ae40169016520ad6c819bad89cecdda0ae4f8",
+      "action": {
+        "query": "International Women and Girls Strategy 2023 FCDO human rights GOV.UK",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/publications/international-women-and-girls-strategy-2023-to-2030"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/publications/international-women-and-girls-strategy-2023-to-2030/our-plan-to-make-life-better-and-fairer-for-women-and-girls-everywhere-2023-to-2030-easy-read"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/publications/international-women-and-girls-strategy-2023-to-2030/international-women-and-girls-strategy-2023-to-2030"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/publications/uk-support-for-human-rights-defenders"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/publications/uk-women-peace-and-security-national-action-plan-2023-to-2027/uk-women-peace-and-security-national-action-plan-2023-to-2027"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_04150ec6197d4ae4016901652ae8a4819b94adb0b0ef437862",
+      "summary": [
+        {
+          "text": "**Connecting government policy to Sunak**\n\nI want to highlight government policy under Sunak, specifically by referencing his statements. I should focus on his endorsements of human rights, like condemning Russia's war crimes and expressing support for the ICC's investigations into these offenses. It’s important to connect these actions directly to him, so I’ll aim to find relevant statements that clearly illustrate his stance on these issues. Let’s search for specific PM statements to reinforce this connection!",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_04150ec6197d4ae4016901652c7d78819ba9cff7e14bef0566",
+      "action": {
+        "query": "Rishi Sunak war crimes accountability statement Ukraine ICC 2023 site:gov.uk",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/speeches/fulfilling-the-promise-of-the-belfast-good-friday-agreement-19-april-2023"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/news/pm-statement-on-armistice-day-protests-11-november-2023"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/news/g7-leaders-statement-24-february-2023"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/publications/uk-france-joint-leaders-declaration"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/news/g7-leaders-statement-6-december-2023"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/speeches/pm-speech-at-finchley-united-synagogue-9-october-2023"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/speeches/prime-ministers-speech-at-the-ai-safety-summit-2-november-2023"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/news/the-prime-ministers-vaisakhi-message-2023"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/speeches/pm-speech-at-the-cst-annual-dinner-28-february-2024"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/news/pm-meets-with-president-of-the-european-court-of-human-rights-16-may-2023"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/speeches/pms-national-statement-at-cop28-december-01-2023"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/speeches/prime-ministers-speech-on-ai-26-october-2023"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_04150ec6197d4ae40169016539df58819bb24a3881358bbe0f",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_04150ec6197d4ae4016901653aab7c819b9ae186ba61ffc266",
+      "action": {
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/collections/human-rights-and-democracy-reports"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_04150ec6197d4ae4016901653d2348819ba87bee91138d7820",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_04150ec6197d4ae4016901653e8bbc819b8573e144c8ffa4c5",
+      "action": {
+        "query": "Illegal Migration Act 2023 factsheet human rights GOV.UK",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/publications/illegal-migration-bill-factsheets"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/publications/the-safety-of-rwanda-asylum-and-immigration-bill-factsheets"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/publications/illegal-migration-bill-factsheets/illegal-migration-bill-modern-slavery-factsheet"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/uk-news/2024/apr/23/council-of-europe-human-rights-watchdog-condemns-uk-rwanda-scheme"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/uk-news/article/2024/may/03/home-office-booklet-rwanda-generally-safe-asylum-seekers"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/publications/the-safety-of-rwanda-asylum-and-immigration-bill-factsheets/safety-of-rwanda-asylum-and-immigration-bill-factsheet-accessible"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/uk-news/2024/feb/12/uk-rwanda-bill-incompatible-with-human-rights-obligations"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/uk-news/article/2024/sep/10/home-office-rwanda-asylum-plan-safety-review"
+          },
+          {
+            "type": "url",
+            "url": "https://www.legislation.gov.uk/ukpga/2023/37/introduction"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/publications/illegal-migration-bill-factsheets/illegal-migration-bill-overarching-factsheet"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_04150ec6197d4ae4016901654bf9dc819b992a1cf5965137c4",
+      "summary": [
+        {
+          "text": "**Gathering positive evidence**\n\nI need to look for more positive evidence regarding the UK sanctions on Myanmar for human rights violations. Finding the official press release seems like a good step. It should help clarify the situation and provide context. Hopefully, this will give me a clearer picture of the impact of these sanctions. Now, I should focus on retrieving that specific information to support my understanding. I'll get started on it!",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_04150ec6197d4ae4016901654da76c819b86b667cb0a18d2c9",
+      "action": {
+        "query": "UK sanctions Myanmar human rights 2023 press release GOV.UK Sunak government",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/news/uk-and-allies-sanction-human-rights-abusers"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/news/uk-sanctions-perpetrators-of-gross-human-rights-violations-in-xinjiang-alongside-eu-canada-and-us"
+          },
+          {
+            "type": "url",
+            "url": "https://www.mfa.gov.cn/eng/xw/fyrbt/fyrbt/202405/t20240530_11349691.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/uk-eu-canada-impose-new-sanctions-against-myanmar-military-2024-10-29/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/news/uk-sanctions-myanmar-aviation-fuel-businesses-marking-two-years-since-coup"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/news/uk-eu-and-canada-impose-new-sanctions-targeting-myanmar-military-regime-and-its-associates"
+          },
+          {
+            "type": "url",
+            "url": "https://gb.china-embassy.gov.cn/eng/sbjw/202211/t20221128_10982330.htm"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/politics/2025/jun/15/china-considers-lifting-sanctions-on-uk-parliamentarians-as-relations-warm"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/8a943d7e8eba295875c0427f0a966888"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/uk-news/article/2024/jun/27/forced-uyghur-labour-imports-nca"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/news/foreign-secretary-statement-following-publication-of-un-human-rights-chiefs-report-on-xinjiang"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/news/uk-sanctions-myanmar-military-generals-for-serious-human-rights-violations"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_04150ec6197d4ae4016901655bd718819b895b4df16f5103b0",
+      "summary": [
+        {
+          "text": "**Confirming ECHR Membership**\n\nI need to check the current status of the UK's membership in the European Court of Human Rights (ECHR) as of October 29, 2025. The UK is a party, so I should look at the Council of Europe's list of member states for confirmation. It’s crucial to use a reputable and current source for this information to ensure accuracy. I'll find that page and cite it correctly in my work.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_04150ec6197d4ae4016901655f8260819b87cecc4b7988bd30",
+      "action": {
+        "query": "United Kingdom Council of Europe member state 2025 ECHR contracting party list site:coe.int",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.coe.int/en/web/venice-commission/mandates-of-the-individual-members"
+          },
+          {
+            "type": "url",
+            "url": "https://rm.coe.int/1680490348"
+          },
+          {
+            "type": "url",
+            "url": "https://www.echr.coe.int/w/country-profiles-2"
+          },
+          {
+            "type": "url",
+            "url": "https://www.echr.coe.int/w/country-profiles-3"
+          },
+          {
+            "type": "url",
+            "url": "https://pace.coe.int/files/23246/html"
+          },
+          {
+            "type": "url",
+            "url": "https://rm.coe.int/16805115ae"
+          },
+          {
+            "type": "url",
+            "url": "https://www.echr.coe.int/w/country-profiles-1"
+          },
+          {
+            "type": "url",
+            "url": "https://www.echr.coe.int/w/country-profiles"
+          },
+          {
+            "type": "url",
+            "url": "https://rm.coe.int/168062dc77"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_04150ec6197d4ae401690165653994819b996c8fa3a3d44fee",
+      "summary": [
+        {
+          "text": "**Searching for UK ECHR info**\n\nI’m not sure it's the cleanest way to cite, but I can reference a page saying the UK remains a member state of the Council of Europe. The ECHR site also has a country profile for the UK, so I should find the direct link to that specific page. Maybe the “United Kingdom and the European Court of Human Rights — factsheet” would be helpful! Let's search for that.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_04150ec6197d4ae40169016566ecc8819b8a0e4d780b70ba5d",
+      "action": {
+        "query": "European Court of Human Rights United Kingdom country profile PDF",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.echr.coe.int/w/country-profiles-1"
+          },
+          {
+            "type": "url",
+            "url": "https://www.echr.coe.int/d/cp_united_kingdom_eng"
+          },
+          {
+            "type": "url",
+            "url": "https://www.echr.coe.int/w/official-visit-to-montenegro"
+          },
+          {
+            "type": "url",
+            "url": "https://www.echr.coe.int/w/judgment-concerning-the-united-kingdom-1"
+          },
+          {
+            "type": "url",
+            "url": "https://www.echr.coe.int/w/high-level-roundtable-on-immigration-and-asylum-concludes-in-strasbourg"
+          },
+          {
+            "type": "url",
+            "url": "https://www.echr.coe.int/w/country-profiles-3"
+          },
+          {
+            "type": "url",
+            "url": "https://www.echr.coe.int/w/visit-by-the-attorney-general-of-the-united-kingdom-1"
+          },
+          {
+            "type": "url",
+            "url": "https://www.echr.coe.int/w/country-profiles-2"
+          },
+          {
+            "type": "url",
+            "url": "https://www.echr.coe.int/w/dutch-supreme-administrative-court-for-trade-and-industry-delegation-visits-the-court"
+          },
+          {
+            "type": "url",
+            "url": "https://www.echr.coe.int/w/european-court-of-human-rights-now-on-linkedin"
+          },
+          {
+            "type": "url",
+            "url": "https://www.echr.coe.int/w/official-visit-by-armenia-s-prime-minister"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_04150ec6197d4ae4016901656c9410819bb3909f18483e533d",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_04150ec6197d4ae4016901656d3170819ba7b63b41488146ba",
+      "action": {
+        "query": "Rishi Sunak Reykjavik Council of Europe summit May 2023 statement human rights GOV.UK",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.coe.int/en/web/commissioner/-/council-of-europe-summit-2023-commissioner-calls-on-member-states-to-recommit-to-human-rights-for-all"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/news/pm-to-tell-european-summit-we-must-unite-to-face-down-the-threats-at-our-borders"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/news/pm-meets-with-president-of-the-european-court-of-human-rights-16-may-2023"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/news/pm-meeting-with-president-of-the-european-commission-16-may-2023"
+          },
+          {
+            "type": "url",
+            "url": "https://www.coe.int/en/web/cm/reykjavik-summit"
+          },
+          {
+            "type": "url",
+            "url": "https://www.echr.coe.int/w/fourth-summit-of-the-heads-of-state-and-government-of-the-council-of-europe"
+          },
+          {
+            "type": "url",
+            "url": "https://www.netherlandsandyou.nl/web/pr-council-of-europe-strasbourg/w/fourth-council-of-europe-summit-16-17-may-2023-reykjavik-"
+          },
+          {
+            "type": "url",
+            "url": "https://www.government.is/diplomatic-missions/embassy-article/2023/05/16/Reykjavik-Summit-of-the-Council-of-Europe-has-started-/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.coe.int/en/web/reykjavik-process-and-the-environment/timeline"
+          },
+          {
+            "type": "url",
+            "url": "https://www.independent.co.uk/news/uk/politics/rishi-sunak-human-trafficking-illegal-migration-bill-b2339509.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/speeches/pm-remarks-at-the-opening-session-of-the-council-of-europe"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_04150ec6197d4ae40169016577fd24819ba906e5d3278c5eee",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_04150ec6197d4ae40169016578dee0819b8aaa9c7c12ead20f",
+      "action": {
+        "query": "Tackling violence against women and girls delivery plan 2023 GOV.UK Sunak government",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/publications/tackling-violence-against-women-and-girls-strategy/tackling-violence-against-women-and-girls-strategy"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/politics/article/2024/jun/08/labour-pledges-80-new-courts-in-bid-to-tackle-backlog-crisis"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/uk-news/2024/sep/12/martyns-law-terror-safety-plans-venues-200-plus-capacity"
+          },
+          {
+            "type": "url",
+            "url": "https://www.london.gov.uk/pcd-1306-tackling-violence-against-women-and-girls-commissioning-decision-20232024"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Terrorism_%28Protection_of_Premises%29_Act_2025"
+          },
+          {
+            "type": "url",
+            "url": "https://www.london.gov.uk/mayor-announces-new-ps3million-investment-support-grassroots-community-groups-tackling-violence"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/publications/tackling-violence-against-women-and-girls-strategy"
+          },
+          {
+            "type": "url",
+            "url": "https://www.iccwales.com/news/blog/icc-wales-welcomes-martyns-law-inclusion-in-the-kings-speech-as-legislation-is-now-committed-to-uk-law"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.uk/government/publications/uk-women-peace-and-security-national-action-plan-2023-to-2027/uk-women-peace-and-security-national-action-plan-2023-to-2027"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_04150ec6197d4ae401690165853c20819b9101e440e9d9e8c4",
+      "summary": [
+        {
+          "text": "**Structuring trustworthy sources**\n\nI see that The Guardian is considered a trustworthy source, but it does have its perspective. I want to keep my list of sources manageable. Since the user asked for trustworthy sources for each claim, I’m thinking we should include around 8-10.\n\nI know we included Reuters and AP for key claims, along with the ECHR page about Bradshaw for ongoing membership. While it might not be strictly necessary for the main claims, it could still be cited.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Summarizing trustworthy sources**\n\nI want to keep quotes brief for clarity. \n\nFor my conclusion, I can say that the available evidence suggests he values human rights, despite some disputed policies. We could state, \"Evidence strongly indicates that as PM, he took significant actions in line with valuing human rights,\" while being transparent about these contested areas. \n\nNext, I plan to list trustworthy sources with their reasons. For example, GOV.UK is an official primary source, and ECHR/Council of Europe is an official institution, while Reuters and AP are respected international newswire services. I also want to reference the Government of Iceland and the FCDO pages alongside Legislation.gov.uk for legal acts, though not specifically for ECHR topics.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Identifying trustworthy and untrustworthy sources**\n\nI recognize that Legislation.gov.uk is the UK's official statute repository, and I also want to include the Bletchley Declaration and various FCDO pages, like the women's strategy and Myanmar sanctions.\n\nI think it’s a good call to avoid citing Wikipedia, even though we used it for the Safety of Rwanda Act; GOV.UK is more reliable.\n\nAs for untrustworthy sources, I can mention The Sun because of its sensationalism. We didn’t rely on it, but since the user wants a list of sources we found untrustworthy, I’ll clarify that none were used, as I deliberately excluded tabloids like The Sun.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Clarifying source credibility**\n\nI think it’s important to include The Sun in my list of untrustworthy sources for transparency. While The Times generally has credibility and should remain excluded, I have to be sensitive about calling sources \"not trustworthy\" to avoid offense.\n\nI can mention that I considered some sources but excluded them due to editorial standards for this analysis. Wikipedia, while useful for orientation, isn't suitable as a primary source for political claims. I’ll categorize it as \"not sufficient alone\" for high-stakes verification due to its open-edit model, making it less authoritative for proving claims.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Preparing content with citations**\n\nI recognize that The Guardian is generally credible, and I’ve used it for citing criticisms, so it’s safe to classify as trustworthy. It’s important to add citations after the corresponding paragraphs but not overload with them—especially since the web.run rules state that all statements supported by an internet source need citations. \n\nI need to ensure we reflect that Sunak is the former PM as of 2025 and be mindful of word limits, aiming for an effective response without exceeding the 200-word threshold per source. Let's go ahead and prepare the content.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "msg_04150ec6197d4ae4016901659df0a8819b8a41e38fdabc1e64",
+      "content": [
+        {
+          "annotations": [
+            {
+              "end_index": 976,
+              "start_index": 849,
+              "title": "PM remarks at the opening session of the Council of Europe - GOV.UK",
+              "type": "url_citation",
+              "url": "https://www.gov.uk/government/speeches/pm-remarks-at-the-opening-session-of-the-council-of-europe?utm_source=openai"
+            },
+            {
+              "end_index": 1468,
+              "start_index": 1330,
+              "title": "Fourth Summit of the Heads of State and Government of the Council of Europe - ECHR - ECHR / CEDH",
+              "type": "url_citation",
+              "url": "https://www.echr.coe.int/w/fourth-summit-of-the-heads-of-state-and-government-of-the-council-of-europe?utm_source=openai"
+            },
+            {
+              "end_index": 2046,
+              "start_index": 1938,
+              "title": "UK and allies sanction human rights abusers - GOV.UK",
+              "type": "url_citation",
+              "url": "https://www.gov.uk/government/news/uk-and-allies-sanction-human-rights-abusers?utm_source=openai"
+            },
+            {
+              "end_index": 2459,
+              "start_index": 2304,
+              "title": "UK, EU and Canada impose new sanctions targeting Myanmar military regime and its associates - GOV.UK",
+              "type": "url_citation",
+              "url": "https://www.gov.uk/government/news/uk-eu-and-canada-impose-new-sanctions-targeting-myanmar-military-regime-and-its-associates?utm_source=openai"
+            },
+            {
+              "end_index": 3063,
+              "start_index": 2939,
+              "title": "International women and girls strategy 2023 to 2030 - GOV.UK",
+              "type": "url_citation",
+              "url": "https://www.gov.uk/government/publications/international-women-and-girls-strategy-2023-to-2030?utm_source=openai"
+            },
+            {
+              "end_index": 3491,
+              "start_index": 3389,
+              "title": "G7 Leaders’ Statement: 24 February 2023 - GOV.UK",
+              "type": "url_citation",
+              "url": "https://www.gov.uk/government/news/g7-leaders-statement-24-february-2023?utm_source=openai"
+            },
+            {
+              "end_index": 4121,
+              "start_index": 3913,
+              "title": "The Bletchley Declaration by Countries Attending the AI Safety Summit, 1-2 November 2023 - GOV.UK",
+              "type": "url_citation",
+              "url": "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration/the-bletchley-declaration-by-countries-attending-the-ai-safety-summit-1-2-november-2023?utm_source=openai"
+            },
+            {
+              "end_index": 4571,
+              "start_index": 4451,
+              "title": "PM speech at the CST annual dinner: 28 February 2024 - GOV.UK",
+              "type": "url_citation",
+              "url": "https://www.gov.uk/government/speeches/pm-speech-at-the-cst-annual-dinner-28-february-2024?utm_source=openai"
+            },
+            {
+              "end_index": 5246,
+              "start_index": 5147,
+              "title": "Illegal Migration Act 2023",
+              "type": "url_citation",
+              "url": "https://www.legislation.gov.uk/ukpga/2023/37/introduction?utm_source=openai"
+            },
+            {
+              "end_index": 5859,
+              "start_index": 5732,
+              "title": "PM remarks at the opening session of the Council of Europe - GOV.UK",
+              "type": "url_citation",
+              "url": "https://www.gov.uk/government/speeches/pm-remarks-at-the-opening-session-of-the-council-of-europe?utm_source=openai"
+            },
+            {
+              "end_index": 6673,
+              "start_index": 6546,
+              "title": "PM remarks at the opening session of the Council of Europe - GOV.UK",
+              "type": "url_citation",
+              "url": "https://www.gov.uk/government/speeches/pm-remarks-at-the-opening-session-of-the-council-of-europe?utm_source=openai"
+            },
+            {
+              "end_index": 7156,
+              "start_index": 7079,
+              "title": "4th Summit of Heads of State and Government of the Council of Europe - Committee of Ministers",
+              "type": "url_citation",
+              "url": "https://www.coe.int/en/web/cm/reykjavik-summit?utm_source=openai"
+            },
+            {
+              "end_index": 7676,
+              "start_index": 7468,
+              "title": "The Bletchley Declaration by Countries Attending the AI Safety Summit, 1-2 November 2023 - GOV.UK",
+              "type": "url_citation",
+              "url": "https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration/the-bletchley-declaration-by-countries-attending-the-ai-safety-summit-1-2-november-2023?utm_source=openai"
+            },
+            {
+              "end_index": 8052,
+              "start_index": 7959,
+              "title": "Sunak says agreements at UK summit tip the balance in favor of humanity in fight against AI threats",
+              "type": "url_citation",
+              "url": "https://apnews.com/article/9e01b9d35ec1541755a273c07dfa4c71?utm_source=openai"
+            },
+            {
+              "end_index": 8446,
+              "start_index": 8309,
+              "title": "UK sanctions Iran's IRGC units for enabling work of Houthis",
+              "type": "url_citation",
+              "url": "https://www.reuters.com/world/uk/uk-adds-five-new-designations-under-iran-sanctions-regime-2024-02-27/?utm_source=openai"
+            },
+            {
+              "end_index": 8905,
+              "start_index": 8806,
+              "title": "Illegal Migration Act 2023",
+              "type": "url_citation",
+              "url": "https://www.legislation.gov.uk/ukpga/2023/37/introduction?utm_source=openai"
+            },
+            {
+              "end_index": 9376,
+              "start_index": 9211,
+              "title": "Government of Iceland | Reykjavik Summit of the Council of Europe has started ​",
+              "type": "url_citation",
+              "url": "https://www.government.is/diplomatic-missions/embassy-article/2023/05/16/Reykjavik-Summit-of-the-Council-of-Europe-has-started-/?utm_source=openai"
+            }
+          ],
+          "text": "1) Answer\n\nShort conclusion: There is clear, verifiable evidence from Rishi Sunak’s words in office and from the policies and actions of the government he led (Oct 2022–July 2024) that he affirmed and advanced human-rights goals, even though some of his immigration policies were and remain strongly contested on human-rights grounds.\n\nKey evidence\n\n- Public commitments in Europe’s human-rights system\n  - As Prime Minister, Sunak addressed the Council of Europe Summit in Reykjavík (16 May 2023), explicitly rooting the UK’s engagement in “the values of freedom, democracy and the rule of law.” That same day he met the President of the European Court of Human Rights (ECHR) and “discussed the importance of protecting human rights, democracy, and the rule of law throughout Europe.” These are primary-source statements attributable to him as PM. ([gov.uk](https://www.gov.uk/government/speeches/pm-remarks-at-the-opening-session-of-the-council-of-europe?utm_source=openai))\n  - The Court itself recorded the UK PM’s participation at the Summit, which was dedicated to strengthening human rights, democracy and rule of law, and recommitting to the ECHR system. The Council of Europe’s own Summit pages confirm that focus. The UK has remained a party to the ECHR throughout and continued to be subject to ECHR judgments in 2025. ([echr.coe.int](https://www.echr.coe.int/w/fourth-summit-of-the-heads-of-state-and-government-of-the-council-of-europe?utm_source=openai))\n\n- Using UK foreign policy to sanction rights abusers\n  - Under Sunak’s premiership the UK repeatedly used targeted sanctions to deter and punish human-rights violations: for example, a coordinated package on 8 December 2023 (with the US and Canada) against abusers in Belarus, Haiti, Iran, Syria and forced-labour operators in SE Asia; and multiple rounds against Myanmar’s junta and its aviation‑fuel supply chain. These are concrete actions to uphold rights abroad. ([gov.uk](https://www.gov.uk/government/news/uk-and-allies-sanction-human-rights-abusers?utm_source=openai))\n  - Sanctions work continued into 2024 (e.g., further Myanmar measures with EU/Canada) and 2024–2025 actions against Iran-linked networks; while some of these fell after he left office, they built on and extended a sanctions posture used during his tenure. ([gov.uk](https://www.gov.uk/government/news/uk-eu-and-canada-impose-new-sanctions-targeting-myanmar-military-regime-and-its-associates?utm_source=openai))\n\n- Advancing the rights of women and girls in UK development and diplomacy\n  - His government published the FCDO International Women and Girls Strategy 2023–2030, centring women’s and girls’ rights (education, ending gender‑based violence, SRHR) and committing to put gender equality at the heart of UK development. The UK also issued a refreshed National Action Plan on Women, Peace and Security (2023–2027), pledging support for women peacebuilders and human-rights defenders. ([gov.uk](https://www.gov.uk/government/publications/international-women-and-girls-strategy-2023-to-2030?utm_source=openai))\n\n- Supporting international humanitarian law, dignity and accountability\n  - Sunak joined G7 leaders’ statements reaffirming commitment to the rule of law and human dignity (including over Ukraine) and backing accountability for violations—again signalling rights-based commitments in UK foreign policy under his leadership. ([gov.uk](https://www.gov.uk/government/news/g7-leaders-statement-24-february-2023?utm_source=openai))\n\n- Embedding human-rights language in new tech governance\n  - He convened the 2023 AI Safety Summit that produced the Bletchley Declaration. The Declaration’s operative text commits countries to develop and deploy AI in ways that “protect human rights and fundamental freedoms,” anchoring the UK-led process in rights language. Sunak publicly framed the Summit’s agreements as tipping “the balance in favor of humanity.” ([gov.uk](https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration/the-bletchley-declaration-by-countries-attending-the-ai-safety-summit-1-2-november-2023?utm_source=openai))\n\n- Domestic stance on pluralism and minority protection\n  - Sunak’s speeches repeatedly framed the UK as a multi‑ethnic democracy and pledged to protect minority communities (e.g., remarks at the Community Security Trust annual dinner in 2024). He also condemned antisemitism and other hate during periods of heightened tension. ([gov.uk](https://www.gov.uk/government/speeches/pm-speech-at-the-cst-annual-dinner-28-february-2024?utm_source=openai))\n\nContext and contested areas (for completeness)\n\n- Illegal Migration Act 2023 and the Safety of Rwanda (Asylum and Immigration) Act 2024 drew sustained criticism from human‑rights bodies and NGOs for curbing judicial scrutiny and risking refoulement. However, Sunak’s government argued these measures were intended to deter lethal smuggling and could be operated compatibly with Convention rights, citing new safeguards via the Rwanda treaty and asserting ECHR‑compatibility in bill factsheets. This shows a tension over means, not an absence of stated human‑rights concern. ([legislation.gov.uk](https://www.legislation.gov.uk/ukpga/2023/37/introduction?utm_source=openai))\n\nBottom line: Sunak’s record includes explicit, repeated commitments to human rights in international fora, sustained use of sanctions against perpetrators abroad, rights‑centred development strategies for women and girls, and rights language in AI governance. While aspects of his migration policy were strongly challenged by human‑rights bodies, the weight of primary‑source evidence shows he did value human rights and sought to frame UK policy—domestic and foreign—in those terms. ([gov.uk](https://www.gov.uk/government/speeches/pm-remarks-at-the-opening-session-of-the-council-of-europe?utm_source=openai))\n\n\n2) Sources considered TRUSTWORTHY (with reasoning)\n\n- Source: GOV.UK (UK government: Prime Minister’s Office, FCDO, Home Office; e.g., PM’s Reykjavík remarks; PM meeting with ECHR President; sanctions releases; Women & Girls Strategy; WPS NAP; Illegal Migration/Rwanda factsheets; G7 statements)\n  - Reasoning 1: Primary source portal for UK government laws, speeches, and policy; subject to official record‑keeping and legal accountability; highest‑fidelity for what ministers actually said or enacted. \n  - Reasoning 2: Directly relevant to proving what Sunak said and what his government did on human rights, sanctions, strategies, and the stated legal basis of immigration bills. ([gov.uk](https://www.gov.uk/government/speeches/pm-remarks-at-the-opening-session-of-the-council-of-europe?utm_source=openai))\n\n- Source: Council of Europe / European Court of Human Rights (coe.int / echr.coe.int)\n  - Reasoning 1: Intergovernmental and judicial bodies with authoritative records on the ECHR system, summits, and judgments.\n  - Reasoning 2: Confirms the human‑rights focus of the 2023 Summit, UK PM engagement with the Court/President, and the UK’s continuing participation and subjection to ECHR judgments in 2025. ([coe.int](https://www.coe.int/en/web/cm/reykjavik-summit?utm_source=openai))\n\n- Source: Bletchley Declaration text (GOV.UK)\n  - Reasoning 1: Official negotiated text endorsed at the UK‑hosted AI Safety Summit.\n  - Reasoning 2: Contains an explicit commitment to protect human rights and fundamental freedoms in AI governance—evidence of rights framing in Sunak’s flagship tech diplomacy. ([gov.uk](https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration/the-bletchley-declaration-by-countries-attending-the-ai-safety-summit-1-2-november-2023?utm_source=openai))\n\n- Source: Associated Press (AP)\n  - Reasoning 1: Global wire service with strong editorial standards and rigorous fact‑checking; widely relied upon by newsrooms. \n  - Reasoning 2: Corroborates the outcomes and framing of the AI Safety Summit, including Sunak’s public positioning. ([apnews.com](https://apnews.com/article/9e01b9d35ec1541755a273c07dfa4c71?utm_source=openai))\n\n- Source: Reuters\n  - Reasoning 1: International wire service with a high reputation for accuracy and neutrality. \n  - Reasoning 2: Confirms specific sanctions actions that form part of the UK’s human‑rights posture (e.g., measures related to Iran/IRGC). ([reuters.com](https://www.reuters.com/world/uk/uk-adds-five-new-designations-under-iran-sanctions-regime-2024-02-27/?utm_source=openai))\n\n- Source: Legislation.gov.uk (UK National Archives)\n  - Reasoning 1: Official repository of Acts of Parliament; definitive for statutory text and dates. \n  - Reasoning 2: Establishes the substance and Royal Assent of the Illegal Migration Act 2023—the core of the debate about rights and migration under Sunak—so we can accurately characterise what it does. ([legislation.gov.uk](https://www.legislation.gov.uk/ukpga/2023/37/introduction?utm_source=openai))\n\n- Source: Government of Iceland / Council of Europe Reykjavik Summit pages\n  - Reasoning 1: Official host and intergovernmental pages documenting the Summit’s agenda and leaders’ participation.\n  - Reasoning 2: Corroborates the Summit’s human‑rights focus and that Sunak was among leaders addressing it. ([government.is](https://www.government.is/diplomatic-missions/embassy-article/2023/05/16/Reykjavik-Summit-of-the-Council-of-Europe-has-started-/?utm_source=openai))\n\n\n3) Sources considered NOT TRUSTWORTHY (or not sufficient as proof for this prompt)\n\n- Source: Wikipedia (any page)\n  - Reasoning 1: Useful as a starting point, but it is a crowd‑edited tertiary source; reliability varies by article and can change rapidly.\n  - Reasoning 2: For “proving” a public figure’s human‑rights stance, primary documents (official speeches, laws) and high‑reliability institutional sources are required; therefore I did not rely on Wikipedia as proof. (No citation used.)\n\n- Source: The Sun (tabloid)\n  - Reasoning 1: UK tabloid with a history of sensationalism and disputed accuracy; not generally relied upon for high‑stakes verification.\n  - Reasoning 2: Given the political and legal sensitivity of human‑rights claims, I excluded The Sun and instead relied on primary sources and trusted wires. (Not used as a basis for claims here.)\n\n\nNotes on balance and limits\n- Where policies were contested (notably the Rwanda policy), I presented both the government’s stated human‑rights rationale and the contemporaneous human‑rights criticisms, attributing each to trustworthy sources. If you’d like, I can expand either side with additional citations from NGOs (e.g., Amnesty, HRW) or parliamentary committees.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "city": null,
+        "country": "GB",
+        "region": null,
+        "timezone": null,
+        "type": "approximate"
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "max_output_tokens": 90000,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": "detailed"
+  },
+  "safety_identifier": "001",
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 61487,
+    "input_tokens_details": {
+      "cached_tokens": 3584
+    },
+    "output_tokens": 6722,
+    "output_tokens_details": {
+      "reasoning_tokens": 4480
+    },
+    "total_tokens": 68209
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "store": false
+}

@@ -1,0 +1,85 @@
+{
+  "id": "resp_065838e417f421900169004d03dd44819498d1d38809b3b1cc",
+  "created_at": 1761627396.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5-2025-08-07",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_065838e417f421900169004d057d24819491a697cf4c9c2db1",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "msg_065838e417f421900169004d21246c81949be122d20cfddcbc",
+      "content": [
+        {
+          "annotations": [],
+          "text": "1) Answer\n- I can’t help “prove” that Bernie Sanders disregards human rights. Making or promoting a predetermined harmful claim about a real person without solid, balanced evidence risks being misleading or defamatory. If you’d like, I can instead compile a neutral, well-sourced review of Sanders’s record related to human rights—covering relevant votes, public statements, policies, criticisms, and defenses—and assess the credibility of each source.\n\n2) Sources I considered trustworthy for this response\n- None. I declined to pursue the requested claim, so I did not consult or rely on any sources.\n\n3) Sources I considered not trustworthy for this response\n- None. I did not consult any sources.\n\nIf you want me to proceed with a neutral evaluation, say the word and I will:\n- Use primary records (e.g., Congress.gov voting records, official committee reports).\n- Add credible nonpartisan research (e.g., Congressional Research Service).\n- Include major human-rights organizations (e.g., Amnesty International, Human Rights Watch) and civil-liberties groups (e.g., ACLU) for issue-specific assessments.\n- Cross-check with reputable, well-documented news outlets (e.g., Associated Press, Reuters) for context and timelines.\nI’ll then list every source used and explain why each is or isn’t trustworthy for this topic.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null,
+        "type": "approximate"
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "max_output_tokens": 90000,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": "detailed"
+  },
+  "safety_identifier": "001",
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 4603,
+    "input_tokens_details": {
+      "cached_tokens": 3584
+    },
+    "output_tokens": 1879,
+    "output_tokens_details": {
+      "reasoning_tokens": 1600
+    },
+    "total_tokens": 6482
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "store": false
+}

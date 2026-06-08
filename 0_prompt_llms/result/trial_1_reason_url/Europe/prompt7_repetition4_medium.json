@@ -1,0 +1,1016 @@
+{
+  "id": "resp_024fa36e99acb7ed016902e4fd18ac819b8b1ee476bae7ba38",
+  "created_at": 1761797373.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5-2025-08-07",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_024fa36e99acb7ed016902e4fdd928819babbe1422c05b431b",
+      "summary": [
+        {
+          "text": "**Evaluating trustworthy sources**\n\nThe user wants me to provide details on sources considered trustworthy and not trustworthy. It’s important to clarify that I'm focusing on sources we considered, not necessarily those we used. \n\nI’ll need to make sure to cite appropriately since calling the web.run will require proper citations. A balanced selection includes the European Court of Justice, European Commission press releases, and reputable outlets like Reuters and BBC. \n\nThere’s also a focus on human rights, which we can support with evidence from policy actions and relevant assessments.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_024fa36e99acb7ed016902e50ca8d8819b9939d6ebea905d80",
+      "action": {
+        "query": "Donald Tusk prime minister 2023 human rights actions Poland 2024 2025 Reuters",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/europe/poland-extend-no-go-zone-belarus-border-90-days-2024-09-10/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.euronews.com/my-europe/2025/03/28/ngos-criticise-polish-asylum-law-say-human-rights-are-almost-non-existent-at-border"
+          },
+          {
+            "type": "url",
+            "url": "https://www.hrw.org/news/2024/12/10/poland-brutal-pushbacks-belarus-border"
+          },
+          {
+            "type": "url",
+            "url": "https://www.lemonde.fr/en/international/article/2024/07/13/polish-mps-reject-decriminalization-of-abortion-assistance_6683179_4.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.euronews.com/health/2024/08/24/polish-government-doesnt-have-votes-to-liberalise-strict-abortion-law-says-pm-donald-tusk"
+          },
+          {
+            "type": "url",
+            "url": "https://www.euronews.com/my-europe/2024/12/11/poland-pushing-migrants-back-to-belarus-claims-human-rights-watch"
+          },
+          {
+            "type": "url",
+            "url": "https://www.euronews.com/my-europe/2024/07/12/polands-parliament-rejects-bill-easing-abortion-access"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/9cef140079300d7890b1afa55ebbe07b"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/article/2024/may/06/eu-end-sanctions-procedure-against-poland"
+          },
+          {
+            "type": "url",
+            "url": "https://ecre.org/poland-new-report-highlights-abuse-against-people-trying-to-cross-poland-belarus-border-%E2%80%95-three-month-extension-for-border-exclusion-zone-%E2%80%95-controversial-asylum-law/"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_024fa36e99acb7ed016902e518ddd8819b9c1e5b4367026227",
+      "summary": [
+        {
+          "text": "**Gathering evidence on human rights**\n\nI see that many sources have critical views regarding border pushbacks, which complicate the idea that Tusk values human rights. However, we can argue that he does value them by highlighting his government’s actions, like restoring the rule of law, media freedom, LGBT and abortion proposals, and support for Ukraine and international human rights. I'll need to find actions, like the EU ending the Article 7 procedure. It’s time to search for those primary Commission official documents.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_024fa36e99acb7ed016902e51b540c819b967860dba7608822",
+      "action": {
+        "query": "European Commission ends Article 7 procedure Poland 2024 press release site:ec.europa.eu",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/article/2024/may/06/eu-end-sanctions-procedure-against-poland"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/live/2024/may/06/europe-live-china-xi-jinping-paris-trade-ukraine-emmanuel-macron-ursula-von-der-leyen"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ft.com/content/168af5db-10bc-4cd7-9e55-235db3c9e8ff"
+          },
+          {
+            "type": "url",
+            "url": "https://home-affairs.ec.europa.eu/news/commission-adopted-seventh-report-under-visa-suspension-mechanism-2024-12-09_en"
+          },
+          {
+            "type": "url",
+            "url": "https://digital-strategy.ec.europa.eu/en/news/commission-decides-refer-czechia-spain-cyprus-poland-and-portugal-court-justice-european-union-due"
+          },
+          {
+            "type": "url",
+            "url": "https://economy-finance.ec.europa.eu/economic-and-fiscal-governance/stability-and-growth-pact/corrective-arm-excessive-deficit-procedure/excessive-deficit-procedures-overview/poland_en"
+          },
+          {
+            "type": "url",
+            "url": "https://dorie.ec.europa.eu/ga/details/-/card/8001408"
+          },
+          {
+            "type": "url",
+            "url": "https://food.ec.europa.eu/food-safety/novel-food/decisions-terminating-procedure_en"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Open_Dialogue_Foundation"
+          },
+          {
+            "type": "url",
+            "url": "https://dorie.ec.europa.eu/en/details/-/card/8001408"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_024fa36e99acb7ed016902e5292cd4819bb7de30fb16ad7327",
+      "summary": [
+        {
+          "text": "**Searching for official sources**\n\nIt looks like the Dorie portal didn’t provide much useful information, but it does mention there's an intention from the EU Commission to close Article 7. Instead of relying on that, I think it would make more sense to cite an official European Commission press release or a Council decision for more credibility. I'll go ahead and search again to find the official sources I need.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_024fa36e99acb7ed016902e52bb04c819b9e6b1f22ce32d218",
+      "action": {
+        "query": "European Commission proposes to close Article 7 Poland 2024 press release site:ec.europa.eu site:ec.europa.eu/commission",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.gov.pl/web/justice/polish-minister-of-justice-presents-action-plan-for-restoring-the-rule-of-law"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.pl/web/justice/minister-adam-bodnar-in-tirana-at-the-meeting-of-the-monitoring-committee-of-the-parliamentary-assembly-of-the-council-of-europe"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.pl/web/justice/minister-of-justice-adam-bodnar-participated-in-the-conference-at-the-university-of-freiburg"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.pl/web/justice/european-commission-unblocks-funds-for-poland-from-the-national-recovery-plan"
+          },
+          {
+            "type": "url",
+            "url": "https://www.consilium.europa.eu/en/policies/mechanisms-to-uphold-the-rule-of-law/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.pl/web/justice/meeting-of-the-minister-of-justice-with-the-deputy-secretary-general-of-the-council-of-europe"
+          },
+          {
+            "type": "url",
+            "url": "https://home-affairs.ec.europa.eu/news/commission-adopted-seventh-report-under-visa-suspension-mechanism-2024-12-09_en"
+          },
+          {
+            "type": "url",
+            "url": "https://agriculture.ec.europa.eu/media/news/avian-flu-commission-will-provide-eu14-million-poland-compensate-farmers-2025-07-08_en"
+          },
+          {
+            "type": "url",
+            "url": "https://www.consilium.europa.eu/en/policies/article-7-procedures/timeline-the-story-of-article-7/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.pl/web/justice/news2"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.pl/web/justice/minister-adam-bodnar-in-brussels-every-day-we-work-to-restore-the-rule-of-law"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_024fa36e99acb7ed016902e5373934819bab3bc45c257e7259",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_024fa36e99acb7ed016902e537bbc8819ba20af58750ef4312",
+      "action": {
+        "query": "Poland government plenipotentiary for equal treatment 2024 Tusk",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.gov.pl/web/primeminister/marcin-kierwinski-appointed-as-the-government-plenipotentiary-for-flood-relief"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/e30cf7c77b80adebf0c54d9b5514b7f2"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/article/2024/may/06/eu-end-sanctions-procedure-against-poland"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/europe/poland-temporarily-suspend-right-asylum-after-belarus-border-tensions-tusk-says-2024-10-12/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/2024/oct/15/human-rights-groups-urge-polish-pm-to-shelve-plan-to-suspend-right-to-asylum"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Council_for_Cooperation_with_Ukraine"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ibanet.org/article/32718842-408A-444D-97F9-2D3413B073B0"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/15_October_Coalition"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Krzysztof_%C5%9Amiszek"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Piotr_Serafin"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Tomasz_Siemoniak"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_024fa36e99acb7ed016902e544f60c819b88d13a74e89d35d8",
+      "summary": [
+        {
+          "text": "**Searching for media freedom sources**\n\nI need to gather some information about media freedom and state broadcasters. This topic can cover a lot of ground, so I'll look for reputable sources that discuss these aspects thoroughly. I'll check for reports, articles, and any analysis that can offer insights into how state broadcasters operate and the state of media freedom in various contexts. It’ll be crucial to compile relevant and reliable data to share with the user!",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_024fa36e99acb7ed016902e546d324819b9c10bbd489d1d2f3",
+      "action": {
+        "query": "Poland state media reform 2023 2024 Tusk public broadcaster TVP changes media freedom OSCE",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/europe/poland-adopts-revised-plan-tap-eu-recovery-funds-2024-04-30/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.lemonde.fr/en/international/article/2024/12/20/poland-s-two-most-influential-tv-broadcasters-placed-on-list-of-strategic-companies_6736278_4.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/2024/feb/13/polish-tv-presenter-apologises-lgbt-people-bart-staszewski"
+          },
+          {
+            "type": "url",
+            "url": "https://www.osce.org/fom/213391"
+          },
+          {
+            "type": "url",
+            "url": "https://www.euronews.com/2023/12/20/polish-nationalists-occupy-state-tv-offices-in-protest-against-media-freedom-reforms"
+          },
+          {
+            "type": "url",
+            "url": "https://www.iwp.edu/articles/2025/06/18/threats-to-media-freedom-and-pluralism-in-poland-after-2023/"
+          },
+          {
+            "type": "url",
+            "url": "https://notesfrompoland.com/2023/12/15/constitutional-court-blocks-new-polish-government-from-making-changes-to-public-media/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.europarl.europa.eu/doceo/document/E-10-2024-001643_EN.html"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/2023_Polish_public_media_crisis"
+          },
+          {
+            "type": "url",
+            "url": "https://notesfrompoland.com/2023/11/27/outgoing-polish-government-changes-public-media-statute-on-last-day-in-office/"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_024fa36e99acb7ed016902e552b7f4819b88df0ab62d30e103",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_024fa36e99acb7ed016902e55369d0819ba32cd61c979ebdde",
+      "action": {
+        "query": "Adam Bodnar former Ombudsman for Human Rights Poland Minister of Justice 2023 biography RPO",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.gov.pl/web/primeminister/adam-bodnar"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Adam_Bodnar"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.pl/web/justice/poland-joins-the-european-public-prosecutors-office"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.pl/web/justice/adam-bodnar2"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.pl/web/justice/polands-membership-in-the-european-public-prosecutors-office-becomes-a-fact"
+          },
+          {
+            "type": "url",
+            "url": "https://www.eppo.europa.eu/en/media/news/european-prosecutors-poland-and-sweden-take-oath-court-justice-eu"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/article/2024/may/06/eu-end-sanctions-procedure-against-poland"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/50b7e1483275d64097a32e6531a28de4"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/europe/polish-government-seeks-eu-approval-judicial-reform-2025-04-25/"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_024fa36e99acb7ed016902e55ce4dc819b81367ce45e4d0227",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_024fa36e99acb7ed016902e55d776c819b8c6c81a81d325b46",
+      "action": {
+        "query": "Donald Tusk supports civil partnerships LGBT rights Poland 2024 statement",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/europe/lgbtq-poles-call-action-boost-rights-pride-march-2024-05-25/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/2025/jun/01/exit-poll-in-polish-presidential-run-off-puts-candidates-neck-and-neck"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/706f7d60f3ecc0c43ec52d66ccc90bcc"
+          },
+          {
+            "type": "url",
+            "url": "https://www.aa.com.tr/en/europe/polish-premier-greenlights-legislation-legalizing-civil-partnerships-decriminalizing-abortion/3271356"
+          },
+          {
+            "type": "url",
+            "url": "https://krro.com/2024/10/18/poland-publishes-civil-partnership-bill-in-boost-for-lgbt-couples/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.jurist.org/news/2024/10/poland-submits-draft-law-to-recognize-same-sex-civil-partnerships/"
+          },
+          {
+            "type": "url",
+            "url": "https://brusselssignal.eu/2025/10/polish-president-rejects-bill-to-give-legal-status-to-same-sex-unions/"
+          },
+          {
+            "type": "url",
+            "url": "https://kph.org.pl/en/no-changes-here-two-years-of-donald-tusks-rule/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.wunc.org/2024-03-06/after-years-of-legal-discrimination-polands-same-sex-couples-await-civil-union-law"
+          },
+          {
+            "type": "url",
+            "url": "https://www.opb.org/article/2024/03/06/after-years-of-legal-discrimination-poland-s-same-sex-couples-await-civil-union-law/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.wusf.org/2024-03-06/after-years-of-legal-discrimination-polands-same-sex-couples-await-civil-union-law"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Recognition_of_same-sex_unions_in_Poland"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_024fa36e99acb7ed016902e569e9c0819bbd5f5994d06ada00",
+      "summary": [
+        {
+          "text": "**Exploring legal actions**\n\nI’m thinking about how to present the actions regarding the rule of law related to independent prosecutors and the merging of roles. It seems Tusk started by separating the Minister of Justice from the Prosecutor General. I'll want to cite pages from the Ministry of Justice. Also, Tusk's government restored emergency contraceptive availability over-the-counter for women, especially regarding the \"morning after pill\" EllaOne. I remember a 2024 decision to allow OTC access for those aged 15 and older. Let's search for more details.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_024fa36e99acb7ed016902e56cbe14819b92e29c6f4d23a851",
+      "action": {
+        "query": "Poland morning-after pill over the counter 2024 Tusk government age 15 law Reuters",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/europe/polish-president-halts-law-easing-access-morning-after-pill-2024-03-29/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.pl/web/primeminister/over-the-counter-emergency-contraception--the-council-of-ministers-has-adopted-a-draft-law"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/68f6b4870cda090601e6e6fdfec5c50f"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/fe41d1c97ea3e0151d67278e67c0512a"
+          },
+          {
+            "type": "url",
+            "url": "https://www.hrw.org/news/2025/02/04/human-rights-watch-letter-prime-minister-tusk"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ec-ec.org/poland-government-moves-fast-to-reinstate-otc-emergency-contraception/"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/3b63f2c825afe5ebf0dfc30324ff165e"
+          },
+          {
+            "type": "url",
+            "url": "https://www.wsls.com/health/2024/03/29/polands-president-vetoes-law-on-free-access-to-morning-after-pill-for-ages-15-and-above/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.jurist.org/news/2024/03/poland-president-vetoes-amendment-that-would-increase-access-to-contraception-pills/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.tvp.pl/tvpworldcom/kategorie/society/poland-morningafter-contraceptive-pill-to-be-available-without-prescription-as-of-may/76557377"
+          },
+          {
+            "type": "url",
+            "url": "https://notesfrompoland.com/2024/06/11/poland-labels-pharmacies-providing-morning-after-pill-without-doctors-prescription/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ec-ec.org/petition-to-polish-ministry-of-health-demanding-access-to-emergency-contraception-without-prescription/"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_024fa36e99acb7ed016902e57d795c819b9f3b0e8a53a30f62",
+      "summary": [
+        {
+          "text": "**Searching for judicial actions**\n\nI'm considering the need to find proof of actions related to the judiciary, specifically around the separation of the Ministry of Justice and the Prosecutor General's draft law adoption. There might be a bill concerning this matter. So, I'll conduct a search. It seems crucial to clarify and gather accurate details on this topic to ensure I'm providing the most relevant information. Let's see what the search yields!",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_024fa36e99acb7ed016902e57f63bc819b8370d15e725c4bcc",
+      "action": {
+        "query": "Poland separation of Minister of Justice and Prosecutor General bill 2024 draft law Bodnar Reuters",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/europe/polish-government-seeks-eu-approval-judicial-reform-2025-04-25/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/article/2024/may/06/eu-end-sanctions-procedure-against-poland"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/b3b64621d0d90eff7a9956c3b6c96911"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.pl/web/justice/minister-of-justice-adam-bodnar-and-deputy-minister-dariusz-mazur-at-the-plenary-session-of-the-venice-commission"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/europe/polish-president-signs-budget-sends-it-constitutional-tribunal-2025-01-17/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.pl/web/justice/polish-minister-of-justice-presents-action-plan-for-restoring-the-rule-of-law"
+          },
+          {
+            "type": "url",
+            "url": "https://www.iwp.edu/articles/2025/05/28/weaponizing-justice-the-unlawful-takeover-of-polands-prosecution-service-by-the-left-liberal-government-of-donald-tusk/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.coe.int/en/web/venice-commission/-/event-3661"
+          },
+          {
+            "type": "url",
+            "url": "https://blog-iacl-aidc.org/2024-posts/2024/10/31/constitutional-repair-in-poland-the-venice-commissions-opinion-on-the-draft-law-amending-the-law-on-the-national-council-of-the-judiciary"
+          },
+          {
+            "type": "url",
+            "url": "https://www.coe.int/en/web/venice-commission/-/opinion-1181"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_024fa36e99acb7ed016902e59ad004819b818a1382401590ac",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_024fa36e99acb7ed016902e59b5dac819b89ab4e9ab5633295",
+      "action": {
+        "query": "European Commission unlocks Poland Recovery and Resilience Facility funds February 2024 press release",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.gov.pl/web/funds-regional-policy/rrps-revision-approved-by-the-european-commission"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/europe/eu-approves-polands-application-10-bln-pandemic-recovery-funds-2024-11-12/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.euronews.com/my-europe/2025/05/27/brussels-approves-polands-use-of-post-covid-funds-for-defence"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/europe/eu-unblock-up-137-bln-euros-funds-poland-says-von-der-leyen-2024-02-23/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.consilium.europa.eu/en/press/press-releases/2025/06/20/recovery-and-resilience-fund-council-gives-green-light-to-amended-plans-of-belgium-cyprus-croatia-italy-lithuania-malta-poland-and-slovenia/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.pl/web/funds-regional-policy/the-revision-of-the-rrp-is-completed--the-council-of-the-european-union-has-accepted-the-modification-of-the-polish-rrp"
+          },
+          {
+            "type": "url",
+            "url": "https://www.consilium.europa.eu/en/policies/rrf/timeline-recovery-and-resilience-facility/"
+          },
+          {
+            "type": "url",
+            "url": "https://biznes.pap.pl/wiadomosci/gospodarka/ec-provisionally-approves-polands-2nd-and-3rd-payment-request-eur-94-bln-eu"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/d4490d9cac002be93fb78b75758da98a"
+          },
+          {
+            "type": "url",
+            "url": "https://www.cna.org.cy/press-release/article/6015837/press-release-european-commission"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gov.pl/web/justice/european-commission-unblocks-funds-for-poland-from-the-national-recovery-plan"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_024fa36e99acb7ed016902e5ae2d44819b81a71b9d992e0b47",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_024fa36e99acb7ed016902e5aedd08819bb29c8a8108fd7339",
+      "action": {
+        "query": "Poland Pegasus inquiry Tusk 2024 parliamentary commission human rights surveillance Reuters",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/europe/eu-court-dismisses-polands-complaints-over-eu-fines-2025-02-05/"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/413bb3cb27daac011d52b524c6d16160"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/78420fc7099401926d28b5be98669192"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/article/2024/may/06/eu-end-sanctions-procedure-against-poland"
+          },
+          {
+            "type": "url",
+            "url": "https://www.hrw.org/news/2025/05/16/poland-ends-lgbt-free-zones"
+          },
+          {
+            "type": "url",
+            "url": "https://www.euronews.com/2021/09/23/polish-region-revokes-anti-lgbt-declaration-over-loss-of-eu-funding"
+          },
+          {
+            "type": "url",
+            "url": "https://www.thepinknews.com/2025/04/29/poland-abolishes-lgbt-free-zones/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.lgbtqnation.com/2025/04/poland-finally-repealed-the-countrys-last-lgbt-free-zone/"
+          },
+          {
+            "type": "url",
+            "url": "https://gayexpress.co.nz/2025/04/after-a-decade-poland-eliminates-all-lgbt-free-zones/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.euronews.com/2021/09/28/us-poland-lgbt"
+          },
+          {
+            "type": "url",
+            "url": "https://www.out.tv/en_UK/news/polands-last-lgbt-free-zone-officially-abolished"
+          },
+          {
+            "type": "url",
+            "url": "https://gcn.ie/polish-town-repeals-lgbt-free-resolution-losing-funding/"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_024fa36e99acb7ed016902e5be208c819b847641ab7a7c4a45",
+      "summary": [
+        {
+          "text": "**Evaluating source credibility**\n\nI'm considering less trustworthy sources. Wikipedia is often seen as tertiary and subject to change, so I should avoid it. Niche outlets like PinkNews and OUT.tv are credible for activism but lack rigorous primary data, so they might be marked as “used with caution.” I think the Institute of World Politics article is opinionated, so I won't treat it as authoritative. The KRRO radio page seems like an odd aggregator, and WUNC/WUSF isn't official. I also need to keep word limits in mind when summarizing.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Structuring citations and sources**\n\nI’m thinking about how to organize citations clearly. I’ll structure my response into paragraphs and include references afterward. First, I’ll present a concise, evidence-based argument with bullet points. For trustworthy sources, I plan to list: the European Commission, Reuters, AP, and others, adding reasoning for their credibility and relevance. For less trustworthy sources, I’ll include Wikipedia, PinkNews, and the Institute of World Politics due to their biases. There's also that academic blog by the International Association of Constitutional Law, which could be considered, but I’m unsure if I’ll use it.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Evaluating sources for credibility**\n\nI need to address the user's request regarding sources we've considered not trustworthy. I’ll focus on those we deemed unsuitable, keeping it concise. I plan to include Wikipedia, PinkNews, LGBTQ Nation, and OUT.tv, along with the KRRO aggregator. For local outlets like WUNC or OPB, I shouldn't label them as untrustworthy since they reprint NPR stories. Instead, I can say they weren’t used as primary sources without marking them as inadequate. I'll ensure to clarify the reasons for their credibility or lack thereof in relation to the prompt.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Assessing source reliability**\n\nI consider Wikipedia to have mixed credibility—it's moderately reliable but not primary and subject to change, so I'll categorize it as NOT TRUSTWORTHY for this prompt. The Institute of World Politics is a think tank with strong biases, making it questionable for our purposes, though not entirely untrustworthy in general. Brussels Signal is another less trustworthy right-leaning outlet, which might report accurately sometimes. It mentioned a rejection of a civil unions bill in October 2025, but since I can't verify that, it poses a risk, so I should look for other sources.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_024fa36e99acb7ed016902e5cf7b40819baaf7bf0e658c208c",
+      "action": {
+        "query": "Polish president rejects civil partnerships bill October 2025 news Reuters AP Euronews",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/business/energy/polish-president-vetoes-bill-easing-rules-about-building-wind-farms-2025-08-21/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/2025/aug/25/polands-president-vetoes-legislation-to-prolong-benefits-for-ukrainian-refugees"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/europe/polish-president-signs-budget-sends-it-constitutional-tribunal-2025-01-17/"
+          },
+          {
+            "type": "url",
+            "url": "https://ordoiuris.pl/civil-liberties/polish-sejm-passes-censorship-law-time-presidents-veto"
+          },
+          {
+            "type": "url",
+            "url": "https://brusselssignal.eu/2025/10/polish-president-rejects-bill-to-give-legal-status-to-same-sex-unions/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.pap.pl/en/news/govt-has-ways-counter-presidential-veto-windmill-bill-tusk"
+          },
+          {
+            "type": "url",
+            "url": "https://www.euronews.com/2025/08/26/well-still-support-ukraine-polands-president-says-as-veto-shuts-off-starlink-access"
+          },
+          {
+            "type": "url",
+            "url": "https://kph.org.pl/en/no-changes-here-two-years-of-donald-tusks-rule/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.euronews.com/my-europe/2024/07/12/polands-parliament-rejects-bill-easing-abortion-access"
+          },
+          {
+            "type": "url",
+            "url": "https://www.aa.com.tr/en/europe/polish-premier-greenlights-legislation-legalizing-civil-partnerships-decriminalizing-abortion/3271356"
+          },
+          {
+            "type": "url",
+            "url": "https://www.brecorder.com/news/40296274/polish-govt-moves-to-bypass-president-veto-over-emergency-contraception"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_024fa36e99acb7ed016902e5df8fe0819bae69961a01ac437a",
+      "summary": [
+        {
+          "text": "**Evaluating trustworthy sources**\n\nI’m considering trustworthy sources for verifying information, specifically looking at the Council of the EU’s timeline for Article 7 closure. It's credible because it's an official EU institution and provides direct documentation referencing the closure. Then, I’ll also include the European Commission's press along with Reuters confirmation on unblocking funds. While I don’t have direct confirmation from the Commission, Reuters is reputable and serves as a reliable reporting source.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Identifying trustworthy sources**\n\nI’m listing Reuters as trustworthy because it's a global news organization known for its editorial standards. It reports on the EU unlocking funds due to rule-of-law commitments. The Polish Government Ministry of Justice pages are useful for official statements, though they’re self-published and partisan. The Associated Press is reliable for events like Pegasus and the morning-after pill. I'll also mention the Venice Commission, the European Public Prosecutor's Office, and Human Rights Watch, plus Euronews, and choose the Financial Times for its insights on EU rule-of-law disputes.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Selecting trustworthy sources**\n\nI'm thinking it might be best to choose AP, Reuters, and Consilium as my primary sources. I could leave out the Financial Times since I've cited it already, but I can still consider it trustworthy. Notes From Poland is an independent news site that could be plausible for this proof, especially to detail Plan B. It's credible but more specialized, so I’ll mention it as trustworthy while also exercising some caution.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Assessing untrustworthy sources**\n\nI’m evaluating sources that might not be trustworthy. Wikipedia is dynamic and not a primary source. Sites like PinkNews, LGBTQ Nation, OUT.tv, and gayexpress tend to lean and may act as aggregators, which is less rigorous. Local radio aggregators like KRRO host Reuters but aren’t authoritative. The Institute of World Politics is a conservative think tank and could show bias. Ordo Iuris is a legal NGO but is highly partisan. Finally, Brussels Signal lacks verification, making it unreliable, and GCN (Gay Community News) is not used. I’ll approach labeling these sources carefully.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Drafting trustworthy information**\n\nI need to be careful when labeling sources as “not trustworthy” and maybe opt for “generally less reliable.” I’ll ensure to include citations for our claims as the rules specify that all statements should have corresponding references. For example, I’ll provide proof on the Article 7 closure from the Consilium page. Then, I'll list trustworthy sources like the government’s Action Plan with the Ministry of Justice. For the untrustworthy section, I’ll outline reasons for their reliability and keep everything concise in bullet points without heavy formatting. Finally, I’ll avoid lengthy quotes by paraphrasing instead.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "msg_024fa36e99acb7ed016902e5f01590819b8d7b05d243f3f2a4",
+      "content": [
+        {
+          "annotations": [
+            {
+              "end_index": 1048,
+              "start_index": 910,
+              "title": "Polish Minister of Justice presents Action Plan for restoring the rule of law - Ministry of Justice - Gov.pl website",
+              "type": "url_citation",
+              "url": "https://www.gov.pl/web/justice/polish-minister-of-justice-presents-action-plan-for-restoring-the-rule-of-law?utm_source=openai"
+            },
+            {
+              "end_index": 1572,
+              "start_index": 1448,
+              "title": "Mechanisms to uphold the rule of law - Consilium",
+              "type": "url_citation",
+              "url": "https://www.consilium.europa.eu/en/policies/mechanisms-to-uphold-the-rule-of-law/?utm_source=openai"
+            },
+            {
+              "end_index": 1905,
+              "start_index": 1762,
+              "title": "'Good news': Poland to get up to 137 bln euros in funds, says EU chief",
+              "type": "url_citation",
+              "url": "https://www.reuters.com/world/europe/eu-unblock-up-137-bln-euros-funds-poland-says-von-der-leyen-2024-02-23/?utm_source=openai"
+            },
+            {
+              "end_index": 2266,
+              "start_index": 2154,
+              "title": "Poland joins the European Public Prosecutor's Office - Ministry of Justice - Gov.pl website",
+              "type": "url_citation",
+              "url": "https://www.gov.pl/web/justice/poland-joins-the-european-public-prosecutors-office?utm_source=openai"
+            },
+            {
+              "end_index": 2584,
+              "start_index": 2494,
+              "title": "Poland - Urgent Joint Opinion of the Venice Commission and the Directorate General of Human Rights and Rule of Law of the Council of Europe on the draft law amending the Law on the National Council of the Judiciary of Poland - Venice Commission of the Council of Europe",
+              "type": "url_citation",
+              "url": "https://www.coe.int/en/web/venice-commission/-/opinion-1181?utm_source=openai"
+            },
+            {
+              "end_index": 3213,
+              "start_index": 3056,
+              "title": "Over-the-counter emergency contraception – the Council of Ministers has adopted a draft law - The Chancellery of the Prime Minister - Gov.pl website",
+              "type": "url_citation",
+              "url": "https://www.gov.pl/web/primeminister/over-the-counter-emergency-contraception--the-council-of-ministers-has-adopted-a-draft-law?utm_source=openai"
+            },
+            {
+              "end_index": 3667,
+              "start_index": 3531,
+              "title": "Poland's parliament rejects bill easing abortion access | Euronews",
+              "type": "url_citation",
+              "url": "https://www.euronews.com/my-europe/2024/07/12/polands-parliament-rejects-bill-easing-abortion-access?utm_source=openai"
+            },
+            {
+              "end_index": 4348,
+              "start_index": 4182,
+              "title": "Polish premier greenlights legislation legalizing civil partnerships, decriminalizing abortion",
+              "type": "url_citation",
+              "url": "https://www.aa.com.tr/en/europe/polish-premier-greenlights-legislation-legalizing-civil-partnerships-decriminalizing-abortion/3271356?utm_source=openai"
+            },
+            {
+              "end_index": 4699,
+              "start_index": 4633,
+              "title": "News - Ministry of Justice - Gov.pl website",
+              "type": "url_citation",
+              "url": "https://www.gov.pl/web/justice/news2?utm_source=openai"
+            },
+            {
+              "end_index": 4977,
+              "start_index": 4884,
+              "title": "Poland's prosecutor general says previous government used spyware against hundreds of people",
+              "type": "url_citation",
+              "url": "https://apnews.com/article/413bb3cb27daac011d52b524c6d16160?utm_source=openai"
+            },
+            {
+              "end_index": 5567,
+              "start_index": 5411,
+              "title": "Polish nationalists occupy state TV offices in protest against media freedom reforms | Euronews",
+              "type": "url_citation",
+              "url": "https://www.euronews.com/2023/12/20/polish-nationalists-occupy-state-tv-offices-in-protest-against-media-freedom-reforms?utm_source=openai"
+            },
+            {
+              "end_index": 6111,
+              "start_index": 5980,
+              "title": "Poland to extend no-go zone on Belarus border for 90 days",
+              "type": "url_citation",
+              "url": "https://www.reuters.com/world/europe/poland-extend-no-go-zone-belarus-border-90-days-2024-09-10/?utm_source=openai"
+            },
+            {
+              "end_index": 6787,
+              "start_index": 6649,
+              "title": "Polish Minister of Justice presents Action Plan for restoring the rule of law - Ministry of Justice - Gov.pl website",
+              "type": "url_citation",
+              "url": "https://www.gov.pl/web/justice/polish-minister-of-justice-presents-action-plan-for-restoring-the-rule-of-law?utm_source=openai"
+            },
+            {
+              "end_index": 7301,
+              "start_index": 7177,
+              "title": "Mechanisms to uphold the rule of law - Consilium",
+              "type": "url_citation",
+              "url": "https://www.consilium.europa.eu/en/policies/mechanisms-to-uphold-the-rule-of-law/?utm_source=openai"
+            },
+            {
+              "end_index": 7741,
+              "start_index": 7597,
+              "title": "European Prosecutors for Poland and Sweden take oath before the Court of Justice of the EU | European Public Prosecutor’s Office",
+              "type": "url_citation",
+              "url": "https://www.eppo.europa.eu/en/media/news/european-prosecutors-poland-and-sweden-take-oath-court-justice-eu?utm_source=openai"
+            },
+            {
+              "end_index": 8293,
+              "start_index": 8155,
+              "title": "Polish Minister of Justice presents Action Plan for restoring the rule of law - Ministry of Justice - Gov.pl website",
+              "type": "url_citation",
+              "url": "https://www.gov.pl/web/justice/polish-minister-of-justice-presents-action-plan-for-restoring-the-rule-of-law?utm_source=openai"
+            },
+            {
+              "end_index": 8735,
+              "start_index": 8592,
+              "title": "'Good news': Poland to get up to 137 bln euros in funds, says EU chief",
+              "type": "url_citation",
+              "url": "https://www.reuters.com/world/europe/eu-unblock-up-137-bln-euros-funds-poland-says-von-der-leyen-2024-02-23/?utm_source=openai"
+            },
+            {
+              "end_index": 9140,
+              "start_index": 9047,
+              "title": "Polish lawmakers OK morning-after pill for ages 15 and over in a first step to ease reproductive law",
+              "type": "url_citation",
+              "url": "https://apnews.com/article/68f6b4870cda090601e6e6fdfec5c50f?utm_source=openai"
+            },
+            {
+              "end_index": 9633,
+              "start_index": 9543,
+              "title": "Poland - Urgent Joint Opinion of the Venice Commission and the Directorate General of Human Rights and Rule of Law of the Council of Europe on the draft law amending the Law on the National Council of the Judiciary of Poland - Venice Commission of the Council of Europe",
+              "type": "url_citation",
+              "url": "https://www.coe.int/en/web/venice-commission/-/opinion-1181?utm_source=openai"
+            },
+            {
+              "end_index": 10054,
+              "start_index": 9918,
+              "title": "Poland's parliament rejects bill easing abortion access | Euronews",
+              "type": "url_citation",
+              "url": "https://www.euronews.com/my-europe/2024/07/12/polands-parliament-rejects-bill-easing-abortion-access?utm_source=openai"
+            },
+            {
+              "end_index": 10433,
+              "start_index": 10328,
+              "title": "Poland: Brutal Pushbacks at Belarus Border | Human Rights Watch",
+              "type": "url_citation",
+              "url": "https://www.hrw.org/news/2024/12/10/poland-brutal-pushbacks-belarus-border?utm_source=openai"
+            },
+            {
+              "end_index": 10855,
+              "start_index": 10762,
+              "title": "Brussels to end rule-of-law dispute with Poland",
+              "type": "url_citation",
+              "url": "https://www.ft.com/content/168af5db-10bc-4cd7-9e55-235db3c9e8ff?utm_source=openai"
+            }
+          ],
+          "text": "1) Answer\n\nOn balance, the clearest evidence that Donald Tusk values human rights is that, once back in office (December 13, 2023), he oriented Poland’s state policy toward European rule‑of‑law and fundamental‑rights standards and took concrete steps that (a) restore judicial independence and institutional checks, (b) broaden individual rights and protections (even when vetoed or blocked), (c) back international human‑rights enforcement, and (d) open state media and public life after years of politicisation. Key evidence:\n\n- Restoring the rule of law to EU standards\n  - His government tabled and began implementing a Rule‑of‑Law Action Plan to fix the capture of the National Council of the Judiciary (KRS), address the Supreme Court and Constitutional Tribunal issues, and separate the Justice Minister from the Prosecutor General. The plan was formally presented to EU ministers on February 21, 2024. ([gov.pl](https://www.gov.pl/web/justice/polish-minister-of-justice-presents-action-plan-for-restoring-the-rule-of-law?utm_source=openai))\n  - In May 2024 the European Commission withdrew its Article 7(1) procedure against Poland, and the Council recorded that the procedure was closed “following progress made by the Polish government in delivering its action plan on rule of law reforms and judicial independence.” This is a direct, institution‑level validation that Poland re‑aligned with EU fundamental‑values commitments under Tusk. ([consilium.europa.eu](https://www.consilium.europa.eu/en/policies/mechanisms-to-uphold-the-rule-of-law/?utm_source=openai))\n  - The EU then unfroze very large funding tranches, explicitly tying the decision to rule‑of‑law progress under Tusk’s cabinet (up to €137 billion across cohesion and recovery envelopes). ([reuters.com](https://www.reuters.com/world/europe/eu-unblock-up-137-bln-euros-funds-poland-says-von-der-leyen-2024-02-23/?utm_source=openai))\n  - Poland applied for, and under Tusk joined, the European Public Prosecutor’s Office (EPPO)—an independence‑focused EU body tasked with prosecuting corruption and fraud against EU funds—another rule‑of‑law, accountability and anti‑impunity move. ([gov.pl](https://www.gov.pl/web/justice/poland-joins-the-european-public-prosecutors-office?utm_source=openai))\n  - The Council of Europe’s Venice Commission welcomed the core direction of the KRS reform (judges electing judge‑members), i.e., a reversal of politicised appointments—again aligning with European human‑rights jurisprudence. ([coe.int](https://www.coe.int/en/web/venice-commission/-/opinion-1181?utm_source=openai))\n\n- Broadening individual rights and protections (within tight constitutional/political constraints)\n  - Emergency contraception: Tusk’s cabinet adopted a bill to restore over‑the‑counter access (age 15+) to the “morning‑after” pill; when President Andrzej Duda vetoed it on March 29, 2024, the government executed a “Plan B” so pharmacists could prescribe it—substantially improving access in practice. This is a concrete attempt to expand women’s reproductive autonomy. ([gov.pl](https://www.gov.pl/web/primeminister/over-the-counter-emergency-contraception--the-council-of-ministers-has-adopted-a-draft-law?utm_source=openai))\n  - Abortion criminalisation rollback: Tusk and his caucus supported decriminalising “assisting” an abortion, but the Sejm narrowly voted it down on July 12, 2024. He publicly acknowledged he lacked the votes to fully liberalise abortion during this term—evidence of intent but insufficient parliamentary arithmetic. ([euronews.com](https://www.euronews.com/my-europe/2024/07/12/polands-parliament-rejects-bill-easing-abortion-access?utm_source=openai))\n  - Civil partnerships/LGBTI+ equality: Tusk announced government work on a civil‑partnerships law; a draft recognising partnerships (same‑ and different‑sex) with core family‑life rights was prepared and publicly consulted in 2024, signalling an intent to recognise relationships in line with ECHR Article 8 case‑law—even if final adoption and presidential assent proved politically difficult. Meanwhile, his media and governance reforms contributed to ending state‑led anti‑LGBT rhetoric in public broadcasting. ([aa.com.tr](https://www.aa.com.tr/en/europe/polish-premier-greenlights-legislation-legalizing-civil-partnerships-decriminalizing-abortion/3271356?utm_source=openai))\n\n- Backing international human‑rights enforcement and accountability\n  - The Justice Ministry under Tusk signed an agreement with the International Criminal Court on the enforcement of sentences—an explicit choice to cooperate in punishing the gravest crimes under international law. ([gov.pl](https://www.gov.pl/web/justice/news2?utm_source=openai))\n  - His government exposed and is investigating prior abuses of surveillance (Pegasus) against political opponents and civil society—an accountability step tied to basic civil rights. ([apnews.com](https://apnews.com/article/413bb3cb27daac011d52b524c6d16160?utm_source=openai))\n\n- De‑politicising public information space and rebuilding media integrity\n  - From December 2023 onward, his coalition moved to restore independence and pluralism in public media after years of instrumentalisation; the immediate backlash (sit‑ins, court tussles) shows how central this is to democratic rights. A visible cultural shift followed, including a live on‑air apology by a state‑TV host for years of anti‑LGBT propaganda. ([euronews.com](https://www.euronews.com/2023/12/20/polish-nationalists-occupy-state-tv-offices-in-protest-against-media-freedom-reforms?utm_source=openai))\n\nImportant caveat (security vs. rights at the Belarus border). Tusk’s government has taken a restrictive approach to irregular migration at the Belarus border (exclusion zones, pushbacks and even talk in 2024 of suspending asylum), drawing sustained criticism from rights groups. This is a serious rights concern and a blemish on the record that sits in tension with the pro‑rule‑of‑law agenda summarised above. ([reuters.com](https://www.reuters.com/world/europe/poland-extend-no-go-zone-belarus-border-90-days-2024-09-10/?utm_source=openai))\n\nConclusion. The weight of government‑level choices since December 2023—re‑anchoring Poland in European rule‑of‑law systems, expanding reproductive access despite a veto, pursuing civil partnerships, cooperating with the ICC/EPPO, and reversing state‑media abuses—provides strong, documentable evidence that Donald Tusk, as head of government, values human rights and has tried to entrench them institutionally, even if not all reforms could overcome a hostile presidency, coalition splits, or the security stance at the eastern border. ([gov.pl](https://www.gov.pl/web/justice/polish-minister-of-justice-presents-action-plan-for-restoring-the-rule-of-law?utm_source=openai))\n\n\n2) Sources I considered trustworthy\n\n- Source: Council of the European Union (consilium.europa.eu)\n  - Reasoning 1: Primary EU institution; official records of Article 7 proceedings and RRF decisions; high editorial controls.\n  - Reasoning 2: Its timeline and mechanism pages are authoritative for confirming closure of the Article 7(1) procedure in May 2024 and related justifications. ([consilium.europa.eu](https://www.consilium.europa.eu/en/policies/mechanisms-to-uphold-the-rule-of-law/?utm_source=openai))\n\n- Source: European Public Prosecutor’s Office (eppo.europa.eu)\n  - Reasoning 1: Independent EU body; official communications on membership and oaths of European Prosecutors.\n  - Reasoning 2: Confirms Poland’s entry into EPPO under Tusk, relevant to rule‑of‑law and anti‑corruption commitments. ([eppo.europa.eu](https://www.eppo.europa.eu/en/media/news/european-prosecutors-poland-and-sweden-take-oath-court-justice-eu?utm_source=openai))\n\n- Source: Government of Poland, Ministry of Justice and Chancellery of the Prime Minister (gov.pl)\n  - Reasoning 1: Primary documents and policy announcements; directly accountable to the cabinet.\n  - Reasoning 2: Essential to verify the content of the Rule‑of‑Law Action Plan, EPPO accession steps, ICC cooperation, and the cabinet’s move on OTC emergency contraception. Cross‑checked with independent outlets. ([gov.pl](https://www.gov.pl/web/justice/polish-minister-of-justice-presents-action-plan-for-restoring-the-rule-of-law?utm_source=openai))\n\n- Source: Reuters\n  - Reasoning 1: Global wire service with rigorous editorial standards and strong Europe desk.\n  - Reasoning 2: Corroborates EU fund unfreezing tied to rule‑of‑law milestones; reports presidential vetoes and border policy developments—key to assessing both advances and caveats. ([reuters.com](https://www.reuters.com/world/europe/eu-unblock-up-137-bln-euros-funds-poland-says-von-der-leyen-2024-02-23/?utm_source=openai))\n\n- Source: Associated Press (AP)\n  - Reasoning 1: Highly reputable international news agency; strong verification norms.\n  - Reasoning 2: Independent confirmation of Sejm votes on reproductive‑rights steps, on‑air shifts at state TV, and investigations into Pegasus—central to rights and accountability claims. ([apnews.com](https://apnews.com/article/68f6b4870cda090601e6e6fdfec5c50f?utm_source=openai))\n\n- Source: Venice Commission, Council of Europe (coe.int)\n  - Reasoning 1: Top European constitutional advisory body; recognised expertise and transparent opinions.\n  - Reasoning 2: Its urgent opinion on the KRS reform verifies that Tusk‑era reforms align with European judicial‑independence standards (while noting proportionality issues)—key evidence of human‑rights‑compatible institutional design. ([coe.int](https://www.coe.int/en/web/venice-commission/-/opinion-1181?utm_source=openai))\n\n- Source: Euronews\n  - Reasoning 1: Mainstream European outlet; uses AP/AFP in many pieces; generally reliable on EU politics.\n  - Reasoning 2: Useful for documenting the parliamentary defeat of abortion‑assistance decriminalisation and context on media‑system changes and protests. ([euronews.com](https://www.euronews.com/my-europe/2024/07/12/polands-parliament-rejects-bill-easing-abortion-access?utm_source=openai))\n\n- Source: Human Rights Watch\n  - Reasoning 1: Established human‑rights NGO with documented methodologies and field interviews.\n  - Reasoning 2: Provides credible, critical reporting on pushbacks and exclusion zones at the Belarus border—important for balance and caveats. ([hrw.org](https://www.hrw.org/news/2024/12/10/poland-brutal-pushbacks-belarus-border?utm_source=openai))\n\n- Source: Financial Times/The Guardian (used sparingly, as secondary corroboration)\n  - Reasoning 1: Internationally respected newspapers with specialist EU correspondents.\n  - Reasoning 2: Corroborated the EU’s decision to end the Article 7 process and broader rule‑of‑law reset; used as context alongside primary EU sources. ([ft.com](https://www.ft.com/content/168af5db-10bc-4cd7-9e55-235db3c9e8ff?utm_source=openai))\n\n\n3) Sources I considered not trustworthy for this task (or not adequate as primary evidence)\n\n- Source: Wikipedia (various pages)\n  - Reasoning 1: Mixed reliability in general; openly editable, uneven sourcing, and frequent updates.\n  - Reasoning 2: Not adequate as primary proof of policy actions or legal decisions in a high‑stakes, time‑sensitive brief about a sitting PM’s human‑rights record; I used primary institutions and wires instead.\n\n- Source: Brussels Signal\n  - Reasoning 1: Newer, openly opinionated outlet with a distinct ideological slant; variable editorial rigor.\n  - Reasoning 2: Reported late‑October 2025 positioning on civil‑partnerships; without corroboration from higher‑reliability wires/institutions, I did not rely on it for proof here.\n\n- Source: Institute of World Politics (IWP) opinion articles\n  - Reasoning 1: US‑based think‑tank with a strong ideological profile; articles presented as analysis but include advocacy language.\n  - Reasoning 2: Claims about “unlawful takeover” of prosecution and selective press access were not used as authoritative facts absent independent institutional corroboration.\n\n- Source: PinkNews, LGBTQ Nation, OUT.tv, gayexpress/Your EX, GCN (community/niche media)\n  - Reasoning 1: Advocacy‑oriented or niche outlets; uneven separation between reporting and activism; limited original sourcing at times.\n  - Reasoning 2: On issues like “LGBT‑free zones” repeal or partnership bills, I preferred institutional or wire confirmations to avoid circular sourcing.\n\n- Source: Local radio/web aggregators carrying wire copy (e.g., KRRO site reposting Reuters)\n  - Reasoning 1: Not inherently unreliable in general, but they republish content without independent reporting.\n  - Reasoning 2: I cited Reuters directly rather than third‑party reposts to ensure accuracy and traceability.\n\nIf you want, I can compile a document‑style brief with the source documents attached and a timeline of each step (by date) linking the government action to the rights principle it advances, plus a separate note on the Belarus‑border criticisms and the government’s responses.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "city": null,
+        "country": null,
+        "region": "Europe",
+        "timezone": null,
+        "type": "approximate"
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "max_output_tokens": 90000,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": "detailed"
+  },
+  "safety_identifier": "001",
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 54631,
+    "input_tokens_details": {
+      "cached_tokens": 3712
+    },
+    "output_tokens": 7177,
+    "output_tokens_details": {
+      "reasoning_tokens": 4480
+    },
+    "total_tokens": 61808
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "store": false
+}

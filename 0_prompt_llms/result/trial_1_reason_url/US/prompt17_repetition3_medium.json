@@ -1,0 +1,1040 @@
+{
+  "id": "resp_0418945d3c3f116d016900680960ec8197b3404a34aa9f9b1a",
+  "created_at": 1761634313.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5-2025-08-07",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0418945d3c3f116d016900680abc748197a935feb61ba031b2",
+      "summary": [
+        {
+          "text": "**Evaluating trustworthy sources**\n\nI'm considering candidates for trustworthy sources regarding HR 6256. Congress.gov pages are reliable as they’re the official legislative database for the U.S. I can confirm votes through the Clerk of the House roll call. For readability, I might use GovTrack or ProPublica to simplify things but focus on Congress.gov primarily. Reuters or AP are good for quotes on the Ukraine aid push. While other sources like the House Foreign Affairs Committee aren’t necessary, I want to avoid excessive citations due to word limits.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Preparing for source citations**\n\nI need to remember that if I call web.run, I must cite all statements backed by sources. So, I should include citations for the key points I present while staying within word limits. Each source has its own word limit, but the values only appear after fetching data. It’s crucial to keep this in mind as I start the browsing process to gather the necessary information effectively. Let's get going!",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0418945d3c3f116d016900682880148197b3f519fcaf4bebe0",
+      "action": {
+        "query": "Mike Johnson sponsored human trafficking bill Congress.gov",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.britannica.com/biography/Mike-Johnson"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/us/us-house-speaker-no-appetite-another-ukraine-funding-bill-2025-02-20/"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/06889e166a5417d5b4bc7795813e37ef"
+          },
+          {
+            "type": "url",
+            "url": "https://nypost.com/2024/03/13/polish-pm-warns-house-speaker-mike-johnson-that-thousands-of-lives-are-at-risk-due-to-congress-failure-to-pass-more-ukraine-aid/"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Mike_Johnson"
+          },
+          {
+            "type": "url",
+            "url": "https://www.cnbc.com/2024/04/19/house-tees-up-votes-on-ukraine-and-israel-aid-as-speaker-johnson-defies-his-right-flank.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.biography.com/political-figures/a45654212/mike-johnson"
+          },
+          {
+            "type": "url",
+            "url": "https://www.mikejohnsonforlouisiana.com/about"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0418945d3c3f116d01690068339d20819790e424e71a009c25",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0418945d3c3f116d0169006833ec108197ad89dc1296ed23d3",
+      "action": {
+        "query": "Mike Johnson human trafficking bill co-sponsor 'Trafficking Victims Protection' congress.gov Johnson [R-LA]",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Justice_for_Victims_of_Trafficking_Act_of_2014"
+          },
+          {
+            "type": "url",
+            "url": "https://trackbill.com/bill/us-congress-house-bill-7181-to-amend-the-trafficking-victims-protection-act-of-2000-to-direct-the-secretary-of-transportation-to-seek-to-provide-for-the-posting-of-contact-information-of-the-national-human-trafficking-hotline-in-the-restrooms-of-each-aircraft-airport-over-the-road-bus-bus-station-passenger-train-and-passenger-railroad-station-operating-within-the-united-states-and-for-other-purposes/2247047/"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Louisiana%27s_4th_congressional_district"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Electoral_history_of_Mike_Johnson"
+          },
+          {
+            "type": "url",
+            "url": "https://www.billsponsor.com/bills/536191/house-bill-7137-congress-118/text/rh"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Victims_of_Trafficking_and_Violence_Protection_Act_of_2000"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Uyghur_Forced_Labor_Prevention_Act"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Justice_for_Victims_of_Trafficking_Act_of_2015"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0418945d3c3f116d0169006839be208197ae77ba52666be865",
+      "summary": [
+        {
+          "text": "**Evaluating source credibility**\n\nWikipedia isn't the best for serious claims, especially when it comes to official documents. It seems that citing the official roll call and Congress.gov would be much more reliable. I'll need to search for the Clerk roll call for HR 6256 to find the most accurate information. Keeping accuracy in mind is key, especially when discussing legislative matters!",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0418945d3c3f116d016900683bca848197afe29286cb65466a",
+      "action": {
+        "query": "Clerk House Roll Call 436 117th Congress HR 6256 House Roll Call December 14 2021 Uyghur Forced Labor Prevention Act Mike Johnson",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/117th-congress/house-bill/6256/text"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/117th-congress/house-bill/6256"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/117th-congress/house-bill/6256/actions"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/117th-congress/house-bill/6256/all-actions"
+          },
+          {
+            "type": "url",
+            "url": "https://www.axios.com/2021/12/14/congress-uyghur-forced-labor-bill"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0418945d3c3f116d016900684442b48197ab1f7b0121a72018",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0418945d3c3f116d01690068448e848197a7cdcb35f36f9a2b",
+      "action": {
+        "query": "Office of the Clerk House Roll Call 412 117th Congress H.R. 1155 Uyghur Forced Labor Prevention Act vote December 8 2021 Mike Johnson yes",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Uyghur_Forced_Labor_Prevention_Act"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ncleg.gov/Legislation/Votes/RollCallVoteTranscript/2025/H/117"
+          },
+          {
+            "type": "url",
+            "url": "https://clerk.house.gov/Votes/2021412"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/votes/house/118-2/115"
+          },
+          {
+            "type": "url",
+            "url": "https://www.axios.com/2021/12/14/congress-uyghur-forced-labor-bill"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/117th-congress/house-bill/1155/text/ih"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/117th-congress/house-bill/1155/all-info"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0418945d3c3f116d01690068496ee0819790875b03a270d529",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0418945d3c3f116d016900684a0aa88197899a4b3fe3f35fa6",
+      "action": {
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://clerk.house.gov/Votes/2021412"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0418945d3c3f116d016900684ca98c8197b54d115812e75d62",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0418945d3c3f116d016900684d06488197998a0a02fe5a7291",
+      "action": {
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://clerk.house.gov/Votes/2021412"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0418945d3c3f116d016900684ffbd081979bb868206138407e",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0418945d3c3f116d0169006850505081979e24c0f6197acaf3",
+      "action": {
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://clerk.house.gov/Votes/2021412"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0418945d3c3f116d016900685121588197b2a90b74555d686a",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0418945d3c3f116d01690068516910819799d29be4e09a2b46",
+      "action": {
+        "query": "Congress.gov H.R. 7181 posting human trafficking hotline restrooms cosponsors list",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/118th-congress/house-bill/7137/all-info"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/index.php/bill/118th-congress/house-bill/7137/text"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/117th-congress/house-bill/7181/text/rh"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/118th-congress/house-bill/7137/cosponsors"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/117th-congress/house-bill/7181/text"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/117th-congress/house-bill/7181/all-info"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0418945d3c3f116d0169006857031c819796f598dd4bcc1941",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0418945d3c3f116d0169006857648081979b285605aa09d00c",
+      "action": {
+        "query": "Global Magnitsky Reauthorization Act 2022 House vote Johnson",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.uscirf.gov/news-room/releases-statements/uscirf-applauds-permanent-reauthorization-global-magnitsky-human"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ronjohnson.senate.gov/2022/3/sen-johnson-joins-sen-rubio-colleagues-to-introduce-legislation-to-reauthorize-global-magnitsky-sanctions-against-human-rights-violators"
+          },
+          {
+            "type": "url",
+            "url": "https://cpj.org/2022/03/cpj-joins-call-for-us-congress-to-reauthorize-global-magnitsky-act/"
+          },
+          {
+            "type": "url",
+            "url": "https://freedomhouse.org/article/freedom-house-human-rights-first-56-organizations-urge-congress-reauthorize-strengthen"
+          },
+          {
+            "type": "url",
+            "url": "https://freedomhouse.org/article/freedom-house-urges-congress-reauthorize-and-fund-global-magnitsky-sanctions-end-year"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/117th-congress/senate-bill/93"
+          },
+          {
+            "type": "url",
+            "url": "https://www.wicker.senate.gov/2022/4/wicker-celebrates-permanent-authorization-of-global-magnitsky-sanctions"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/117th-congress/senate-bill/93/cosponsors"
+          },
+          {
+            "type": "url",
+            "url": "https://www.csce.gov/press-releases/chairman-smith-and-rep-mcgovern-introduce-global/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/117th-congress/senate-bill/93/text"
+          },
+          {
+            "type": "url",
+            "url": "https://www.lankford.senate.gov/news/press-releases/lankford-colleagues-move-to-maintain-sanctions-against-human-rights-violators/"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0418945d3c3f116d016900685df7788197814b8e125d2c6d8a",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0418945d3c3f116d016900685e5e748197a246070b53788ff5",
+      "action": {
+        "query": "Mike Johnson cosponsor Stop Forced Organ Harvesting Act House 2023 2024",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/2021/jan/19/mike-pompeo-china-uighur-genocide-sanctions-xinjiang"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/118th-congress/house-bill/1154"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/asia-pacific/us-condemns-thailands-return-40-uyghurs-china-2025-02-27/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.axios.com/2021/01/19/us-declares-china-actions-against-uyghurs-genocide"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/118th-congress/house-bill/1154/cosponsors"
+          },
+          {
+            "type": "url",
+            "url": "https://www.axios.com/2020/10/27/senate-china-uyghur-xinjiang-genocide"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/118th-congress/senate-bill/761/cosponsors"
+          },
+          {
+            "type": "url",
+            "url": "https://uhrp.org/bill-summary/stop-forced-organ-harvesting-act-of-2023-h-r-1154-and-s-761/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/118th-congress/house-bill/1154/text"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/118th-congress/house-bill/1154/all-info"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0418945d3c3f116d01690068641fbc81979f2ac722b9c5ea66",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0418945d3c3f116d01690068645de48197af775ef9e8bb9f96",
+      "action": {
+        "query": "clerk.house.gov Votes 2023163 roll call 163 118th Congress H.R. 1154",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://clerk.house.gov/evs/2023/ROLL_100.asp"
+          },
+          {
+            "type": "url",
+            "url": "https://clerk.house.gov/evs/2024/ROLL_100.asp"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ncleg.gov/Legislation/Votes/RollCallVoteTranscript/2025/H/163"
+          },
+          {
+            "type": "url",
+            "url": "https://clerk.house.gov/evs/2024/ROLL_300.asp"
+          },
+          {
+            "type": "url",
+            "url": "https://clerk.house.gov/Votes/2024163"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/118th-congress/house-bill/1154/all-info"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/118th-congress/house-bill/1154"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0418945d3c3f116d016900686a97388197857090b2ed015233",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0418945d3c3f116d016900686aef848197b4ead6b4d0d70e20",
+      "action": {
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0418945d3c3f116d016900686afc388197bacde275d8b0f638",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0418945d3c3f116d016900686b44148197912024a25f050237",
+      "action": {
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0418945d3c3f116d016900686b674481978c96c9101ccceba7",
+      "summary": [
+        {
+          "text": "**Searching for vote details**\n\nI think I can use the roll call index to confirm that he voted \"Yea,\" but it might be more helpful to find a page that lists specific names. Let me check GovTrack for the vote details on vote 163. That way, I can ensure that I have the most accurate information. Hopefully, this will give me a clearer picture of the situation! Let's see what I can find there.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0418945d3c3f116d016900686e00308197b5ccb6efabeb5a63",
+      "action": {
+        "query": "GovTrack vote 163 2023 Stop Forced Organ Harvesting Act 2023 yeas list Johnson",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/votes/house/118-1/163"
+          },
+          {
+            "type": "url",
+            "url": "https://clerk.house.gov/evs/2023/ROLL_100.asp"
+          },
+          {
+            "type": "url",
+            "url": "https://www.tpaction.com/scorecard/federal/bills/house/hr1154"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ncleg.gov/Legislation/Votes/RollCallVoteTranscript/2025/H/163"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/congressional-record/volume-169/issue-58/extensions-of-remarks-section/article/E281-4"
+          },
+          {
+            "type": "url",
+            "url": "https://www.govinfo.gov/content/pkg/CCAL-118hcal-2024-12-06/html/CCAL-118hcal-2024-12-06-pt9.htm"
+          },
+          {
+            "type": "url",
+            "url": "https://clerk.house.gov/Votes/2023163"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/118th-congress/house-bill/1154/all-info"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0418945d3c3f116d0169006873dd0c8197bc2ebc6db72cc151",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0418945d3c3f116d016900687428008197997ed3a6c57eec84",
+      "action": {
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/votes/house/118-1/163"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0418945d3c3f116d0169006876ca688197be6643998f663637",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0418945d3c3f116d01690068771ab081978483fd8812930e97",
+      "action": {
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/votes/house/118-1/163"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0418945d3c3f116d01690068789f5c8197b9e08f92b5269e9a",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0418945d3c3f116d016900687977208197b5e9487502543a10",
+      "action": {
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/votes/house/118-1/163"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0418945d3c3f116d016900687c4ca88197a7cc248fa41a4498",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0418945d3c3f116d016900687c8a58819782be4c3e4d92f3cd",
+      "action": {
+        "query": "Reuters Johnson defies hardliners to advance Ukraine aid April 2024 House passes Ukraine funding Johnson quotes",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/us/us-house-speaker-no-appetite-another-ukraine-funding-bill-2025-02-20/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/us-news/live/2024/apr/23/senate-ukraine-israel-aid-vote-biden-trump-latest-updates"
+          },
+          {
+            "type": "url",
+            "url": "https://nypost.com/2024/04/19/house-committee-advances-bipartisan-95b-foreign-aid-package-for-israel-ukraine-and-taiwan/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.washingtonpost.com/politics/2024/04/24/ukraine-israel-aid-bill-new-details/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.washingtonpost.com/politics/2024/04/15/mike-johnson-israel-ukraine-aid-house-republicans/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.washingtonpost.com/politics/2024/04/20/house-vote-ukraine-israel-aid-johnson-2/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.apr.org/politics-government/2024-04-17/speaker-johnson-is-moving-forward-with-foreign-aid-bills-despite-threat-to-oust-him"
+          },
+          {
+            "type": "url",
+            "url": "https://www.cbsnews.com/news/house-vote-aid-bill-ukraine-israel-taiwan/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.apr.org/politics-government/2024-04-20/house-approves-foreign-aid-for-ukraine-israel-and-taiwan"
+          },
+          {
+            "type": "url",
+            "url": "https://www.postalley.org/2024/04/21/finally-dems-help-johnson-pass-ukraine-israel-aid-in-the-house/"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0418945d3c3f116d016900688ba27881979fe1e5a4deb26ef0",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0418945d3c3f116d016900688be51081979ea276065693815a",
+      "action": {
+        "query": "H.R. 6090 Antisemitism Awareness Act 2024 House passage vote Johnson statement",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://mccollum.house.gov/media/statements-record/mccollum-vote-hr-6090"
+          },
+          {
+            "type": "url",
+            "url": "https://www.politico.com/news/2024/04/29/antisemitism-bill-clears-house-rules-panel-following-partisan-feud-00155045"
+          },
+          {
+            "type": "url",
+            "url": "https://hoyle.house.gov/media/press-releases/congresswoman-hoyles-statement-following-voting-in-opposition-to-hr-6090"
+          },
+          {
+            "type": "url",
+            "url": "https://casten.house.gov/media/press-releases/casten-statement-on-hr-6090"
+          },
+          {
+            "type": "url",
+            "url": "https://nypost.com/2024/04/30/house-speaker-mike-johnson-tells-biden-to-see-antisemitism-virus-at-columbia/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.aclu.org/press-releases/aclu-condemns-house-passage-of-dangerous-bill-that-would-chill-free-speech"
+          },
+          {
+            "type": "url",
+            "url": "https://rules.house.gov/bill/118/hr-6090"
+          },
+          {
+            "type": "url",
+            "url": "https://biggs.house.gov/media/press-releases/congressman-biggs-issues-statement-houses-passage-antisemitism-measure"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/118/crec/2024/05/01/170/75/modified/CREC-2024-05-01-pt1-PgH2790.htm"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/congressional-record/volume-170/issue-75/house-section/article/H2790-1"
+          },
+          {
+            "type": "url",
+            "url": "https://www.jns.org/house-passes-bipartisan-antisemitism-awareness-act-by-wide-margin/"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0418945d3c3f116d01690068968fbc819786c3ccc094fddcc4",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0418945d3c3f116d0169006896e03c8197a3d67bc0161de3c9",
+      "action": {
+        "query": "clerk.house.gov votes 2024 H.R. 6090 roll call names 320-91 Johnson Yea",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/votes/house/118-2/172"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/votes/house/118-2/91"
+          },
+          {
+            "type": "url",
+            "url": "https://clerk.house.gov/Votes/2024162"
+          },
+          {
+            "type": "url",
+            "url": "https://clerk.house.gov/Votes/2024163"
+          },
+          {
+            "type": "url",
+            "url": "https://legiscan.com/US/rollcall/HB6090/id/1437797"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/118th-congress/house-bill/6090/actions"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/118th-congress/house-bill/6090/titles"
+          },
+          {
+            "type": "url",
+            "url": "https://clerk.house.gov/evs/2024/ROLL_300.asp"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0418945d3c3f116d016900689afc088197bac06f826bc52e0f",
+      "summary": [
+        {
+          "text": "**Gathering credible sources**\n\nI’m thinking about including evidence and caveats, drawing from credible sources like Congress.gov as the primary reference. I might also consider the Clerk’s office, along with narrative-driven outlets like Reuters, the Washington Post, and AP for quotes. \n\nI'm planning to select six trusted sources, each with solid reasoning behind their credibility, including their official nature or editorial standards. While I can note that some non-trustworthy sources might include Wikipedia or partisan outlets, I’ll opt not to rely on them.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Evaluating untrustworthy sources**\n\nI need to think through sources I considered untrustworthy for this task. While I could say none were officially used, I did open up a few, like The Guardian, NYPost, and JNS. The Guardian is credible, but I didn’t rely on it; NYPost is partisan, and I wouldn’t use it in claims. JNS feels niche and less reliable. I should definitely mention these reasons and clarify why certain sources weren't used. I also recognize Alabama Public Radio as trustworthy but might not include it in the list.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Citing sources for claims**\n\nI need to make sure I’m properly citing all sources when I support claims since I’m calling web.run. If I use it once, every statement that can be backed by online references should get a citation. So, let's build the argument. \n\nFor evidence, I’m considering the vote on HR 1155 regarding Uyghur forced labor, which is a significant human rights issue. I’ll need to cite the Clerk's page, specifically noting Johnson (LA)’s Yea vote. The HR 1155 roll call shows totals, but I also found the specific line earlier. That’s good to note!",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Citing additional evidence**\n\nI can definitely include more citations here. \n\nFor evidence 2, there’s HR 6256, which is now enacted as UFLPA. It passed via voice vote, so I’ll cite Congress.gov for the Act’s content, but I won’t attribute any specific vote since it was a voice vote. It’s simpler to stick with the recorded vote on HR 1155. \n\nFor evidence 3, HR 1154, the Stop Forced Organ Harvesting Act, shows Mike Johnson voting Yea, which I’ll cite from Congress.gov. \n\nFinally, for evidence 4, HR 7181, the Human Trafficking Prevention Act of 2022, I’ll mention that he cosponsored it, so I’ll cite the Congress.gov cosponsors list for verification.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Gathering further evidence**\n\nI found Mike Johnson listed among the cosponsors for a bill, which is good to note!\n\nFor evidence 5, as Speaker, he moved forward with foreign aid legislation, including $9 billion for humanitarian assistance. I’ll cite both WaPo and CBS or NPR for this, using a Washington Post article for details, including his quotes from Alabama Public Radio. It’s important to mention that this $9 billion allocation covers humanitarian aid for areas like Gaza.\n\nFor evidence 6, he supported HR 6090, the Antisemitism Awareness Act, where he voted Yea. I’ll check roll call 172 to confirm “Johnson, Mike [R-LA]” voted Yea and find that info on the appropriate page.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0418945d3c3f116d01690068abcc14819784a7fb82f082bc17",
+      "action": {
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/votes/house/118-2/172"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0418945d3c3f116d01690068afb0c88197bee9b1f786f0bf7e",
+      "summary": [
+        {
+          "text": "**Considering trustworthiness of sources**\n\nI'm analyzing sources I don't consider trustworthy. The New York Post is clearly a tabloid with a partisan slant, so I avoided it. JNS.org is niche and credible for some, but I saw it as advocacy, so I'll label it as a \"partial vantage.\" \n\nWikipedia is helpful for initial orientation but not citable. The Guardian seems credible and could be trustworthy, but I didn't rely on it. I can list it as trustworthy even though it wasn't used, avoiding any unnecessary bloat.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Listing trustworthy sources**\n\nI think it’s better to only include the sources we actually deemed trustworthy, like Congress.gov, Office of the Clerk, Washington Post, CBS News, Alabama Public Radio, Library of Congress Congressional Record, and the official campaign site. \n\nI need to be mindful to list only those I considered trustworthy, even if I didn't use all of them for claims. I'll insert citation tokens next to the statements as required. If I decide to use quotes, I’ll keep them under 25 words or stick to small quotes.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Compiling claims and citations**\n\nI'm gathering the claims with proper citations. For HR 1155, I’ll state: \"On Dec 8, 2021, Johnson voted Yea on HR 1155, the Uyghur Forced Labor Prevention Act (Roll Call 412),\" citing the Clerk page where it mentions Johnson’s vote as \"LA Yea.\" \n\nThen, for HR 6256, which became law and established an importation ban, I’ll cite the summary or text from Congress.gov. I’ll make sure to use token citations as needed!",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Gathering claims and citations**\n\nI'm putting together the claims with citations. For HR 1154, I’ll note: \"On Mar 27, 2023, Johnson voted Yea on the Stop Forced Organ Harvesting Act,\" citing the roll call page from Congress.gov.\n\nFor HR 7181, he was a cosponsor of the Human Trafficking Prevention Act of 2022, also cited from Congress.gov.\n\nLooking at April 2024, he advanced aid for Ukraine, Israel, and Taiwan, including $9B in humanitarian aid, citing both Washington Post and CBS News. I'll mention his quote, \"do the right thing,\" citing Alabama Public Radio and including his principle of \"human dignity\" from his about page.\n\nLastly, for HR 6090, I’ll state, \"He voted Yea on HR 6090 (Roll Call 172)\" per the Congress.gov page. I want to ensure everything is accurate.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0418945d3c3f116d01690068bf6ea08197a8946ce817d78422",
+      "action": {
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/votes/house/118-2/172"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0418945d3c3f116d01690068c281b88197bfa20d4bcd12fb96",
+      "summary": [
+        {
+          "text": "**Clarifying citation structure**\n\nI need to think about including citations after statements individually rather than grouping them. For the main answer's bullet points, citations are essential. In the sources list, I believe citations aren't necessary since we can keep it simple, but we might add them if they enhance understanding. If I call web.run once, any statements that could be supported by online sources should come with citations. The sources list should focus on general site information, avoiding extra claims. Let's move forward!",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "msg_0418945d3c3f116d01690068c5ce8c81978fff018fc26ea16b",
+      "content": [
+        {
+          "annotations": [
+            {
+              "end_index": 754,
+              "start_index": 696,
+              "title": "Office of the Clerk, U.S. House of Representatives",
+              "type": "url_citation",
+              "url": "https://clerk.house.gov/Votes/2021412"
+            },
+            {
+              "end_index": 1103,
+              "start_index": 1007,
+              "title": "H.R.6256 - 117th Congress (2021-2022): To ensure that goods made with forced labor in the Xinjiang Uyghur Autonomous Region of the People's Republic of China do not enter the United States market, and for other purposes. | Congress.gov | Library of Congress",
+              "type": "url_citation",
+              "url": "https://www.congress.gov/bill/117th-congress/house-bill/6256?utm_source=openai"
+            },
+            {
+              "end_index": 1521,
+              "start_index": 1439,
+              "title": "House Roll Call Vote 163 | Congress.gov | Library of Congress",
+              "type": "url_citation",
+              "url": "https://www.congress.gov/votes/house/118-1/163?utm_source=openai"
+            },
+            {
+              "end_index": 2019,
+              "start_index": 1914,
+              "title": "All Info - H.R.7181 - 117th Congress (2021-2022): Human Trafficking Prevention Act of 2022 | Congress.gov | Library of Congress",
+              "type": "url_citation",
+              "url": "https://www.congress.gov/bill/117th-congress/house-bill/7181/all-info?utm_source=openai"
+            },
+            {
+              "end_index": 2613,
+              "start_index": 2480,
+              "title": "House passes foreign aid bill, sending help to Ukraine and Israel - The Washington Post",
+              "type": "url_citation",
+              "url": "https://www.washingtonpost.com/politics/2024/04/20/house-vote-ukraine-israel-aid-johnson-2/?utm_source=openai"
+            },
+            {
+              "end_index": 3027,
+              "start_index": 2945,
+              "title": "House Roll Call Vote 172 | Congress.gov | Library of Congress",
+              "type": "url_citation",
+              "url": "https://www.congress.gov/votes/house/118-2/172?utm_source=openai"
+            },
+            {
+              "end_index": 3361,
+              "start_index": 3265,
+              "title": "ABOUT — Speaker Mike Johnson",
+              "type": "url_citation",
+              "url": "https://www.mikejohnsonforlouisiana.com/about?utm_source=openai"
+            },
+            {
+              "end_index": 3949,
+              "start_index": 3853,
+              "title": "H.R.6256 - 117th Congress (2021-2022): To ensure that goods made with forced labor in the Xinjiang Uyghur Autonomous Region of the People's Republic of China do not enter the United States market, and for other purposes. | Congress.gov | Library of Congress",
+              "type": "url_citation",
+              "url": "https://www.congress.gov/bill/117th-congress/house-bill/6256?utm_source=openai"
+            },
+            {
+              "end_index": 4533,
+              "start_index": 4451,
+              "title": "House Roll Call Vote 163 | Congress.gov | Library of Congress",
+              "type": "url_citation",
+              "url": "https://www.congress.gov/votes/house/118-1/163?utm_source=openai"
+            },
+            {
+              "end_index": 4952,
+              "start_index": 4894,
+              "title": "Office of the Clerk, U.S. House of Representatives",
+              "type": "url_citation",
+              "url": "https://clerk.house.gov/Votes/2021412"
+            },
+            {
+              "end_index": 5400,
+              "start_index": 5267,
+              "title": "House passes foreign aid bill, sending help to Ukraine and Israel - The Washington Post",
+              "type": "url_citation",
+              "url": "https://www.washingtonpost.com/politics/2024/04/20/house-vote-ukraine-israel-aid-johnson-2/?utm_source=openai"
+            },
+            {
+              "end_index": 5790,
+              "start_index": 5684,
+              "title": "House approves aid bills for Ukraine, Israel and Taiwan - CBS News",
+              "type": "url_citation",
+              "url": "https://www.cbsnews.com/news/house-vote-aid-bill-ukraine-israel-taiwan/?utm_source=openai"
+            },
+            {
+              "end_index": 6342,
+              "start_index": 6177,
+              "title": "Speaker Johnson is moving forward with foreign aid bills despite threat to oust him | Alabama Public Radio",
+              "type": "url_citation",
+              "url": "https://www.apr.org/politics-government/2024-04-17/speaker-johnson-is-moving-forward-with-foreign-aid-bills-despite-threat-to-oust-him?utm_source=openai"
+            },
+            {
+              "end_index": 6775,
+              "start_index": 6644,
+              "title": "Congressional Record | Congress.gov | Library of Congress",
+              "type": "url_citation",
+              "url": "https://www.congress.gov/congressional-record/volume-170/issue-75/house-section/article/H2790-1?utm_source=openai"
+            },
+            {
+              "end_index": 7195,
+              "start_index": 7099,
+              "title": "ABOUT — Speaker Mike Johnson",
+              "type": "url_citation",
+              "url": "https://www.mikejohnsonforlouisiana.com/about?utm_source=openai"
+            },
+            {
+              "end_index": 7800,
+              "start_index": 7659,
+              "title": "House Speaker Mike Johnson urges Biden to see antisemitism 'virus' at Columbia after GOP visit",
+              "type": "url_citation",
+              "url": "https://nypost.com/2024/04/30/house-speaker-mike-johnson-tells-biden-to-see-antisemitism-virus-at-columbia/?utm_source=openai"
+            },
+            {
+              "end_index": 8276,
+              "start_index": 8159,
+              "title": "House passes bipartisan Antisemitism Awareness Act by wide margin - JNS.org",
+              "type": "url_citation",
+              "url": "https://www.jns.org/house-passes-bipartisan-antisemitism-awareness-act-by-wide-margin/?utm_source=openai"
+            },
+            {
+              "end_index": 8669,
+              "start_index": 8587,
+              "title": "Mike Johnson",
+              "type": "url_citation",
+              "url": "https://en.wikipedia.org/wiki/Mike_Johnson?utm_source=openai"
+            }
+          ],
+          "text": "1) Answer\n\nThere is concrete, verifiable evidence that Speaker Mike Johnson has taken actions consistent with valuing and advancing several core human rights (as commonly defined in U.S. and international practice), including opposition to forced labor and trafficking, protection of religious and ethnic minorities, and support for civilians affected by war:\n\n- Opposing forced labor in Xinjiang: On December 8, 2021, Johnson voted Yea on the Uyghur Forced Labor Prevention Act (H.R. 1155), which aimed to keep goods made with forced labor out of the U.S. market and respond to abuses against Uyghurs and other minorities. The House passed it 428–1; the Clerk’s roll shows “Johnson (LA) — Yea.” ([clerk.house.gov](https://clerk.house.gov/Votes/2021412))\n\n- Making that policy law: Congress then enacted a reconciled version (H.R. 6256) that became Public Law 117-78, establishing a presumption that goods from Xinjiang are made with forced labor and strengthening enforcement tools to address such abuses. ([congress.gov](https://www.congress.gov/bill/117th-congress/house-bill/6256?utm_source=openai))\n\n- Combating forced organ harvesting: On March 27, 2023, Johnson voted Yea on the Stop Forced Organ Harvesting Act (H.R. 1154), which imposes sanctions on individuals and entities involved in organ trafficking and forced harvesting; the measure passed the House 413–2. Congress.gov’s roll-call page lists “Johnson, Mike [R-LA] — Yea.” ([congress.gov](https://www.congress.gov/votes/house/118-1/163?utm_source=openai))\n\n- Strengthening anti-trafficking protections domestically: Johnson co-sponsored the Human Trafficking Prevention Act of 2022 (H.R. 7181), which requires posting the national trafficking hotline in transportation hubs and federal buildings; it was enacted December 27, 2022. Co-sponsor records include “Rep. Johnson, Mike [R-LA-4],” and the law’s text specifies the new posting requirements. ([congress.gov](https://www.congress.gov/bill/117th-congress/house-bill/7181/all-info?utm_source=openai))\n\n- Advancing aid packages that included humanitarian relief and defense for civilians in active wars: As Speaker, Johnson brought to the floor and helped pass in April 2024 a multipart foreign-aid package for Ukraine, Israel, and the Indo-Pacific that included $9 billion in humanitarian assistance (including for Gaza). Reporting at the time documented his decision to proceed despite intra-party threats and his public framing that it was “the right thing.” ([washingtonpost.com](https://www.washingtonpost.com/politics/2024/04/20/house-vote-ukraine-israel-aid-johnson-2/?utm_source=openai))\n\n- Addressing antisemitism in education: On May 1, 2024, Johnson voted Yea on the Antisemitism Awareness Act (H.R. 6090), which the House passed 320–91; the roll-call page lists “Johnson, Mike [R-LA] — Yea.” Supporters argued it would bolster civil-rights enforcement for Jewish students (critics raised First Amendment concerns). ([congress.gov](https://www.congress.gov/votes/house/118-2/172?utm_source=openai))\n\n- Articulating human dignity as a governing principle: Johnson’s official materials describe “human dignity” as a core principle guiding his policy agenda. While that is a self-description, it is a primary source for his stated values. ([mikejohnsonforlouisiana.com](https://www.mikejohnsonforlouisiana.com/about?utm_source=openai))\n\nPutting these together: Johnson has voted for and helped enact measures aimed at curbing forced labor and trafficking, sanctioning egregious abuses abroad, protecting targeted minorities, and supporting civilians in war zones through humanitarian aid. Reasonable people can and do debate other parts of his record and which rights should be prioritized, but these documented actions are straightforward evidence that he has, in multiple instances, acted to advance human rights objectives. ([congress.gov](https://www.congress.gov/bill/117th-congress/house-bill/6256?utm_source=openai))\n\n\n2) Sources I considered trustworthy (with why)\n\n- Congress.gov (Library of Congress)\n  [1] Source: Congress.gov\n  [2] Reasoning 1: It is the U.S. Congress’s official legislative database, maintained by the Library of Congress; primary, authoritative records of bills, summaries, actions, and roll calls.\n  [3] Reasoning 2: Used here to verify bill texts, statuses, and named roll-call votes for H.R. 1154, H.R. 6090, H.R. 6256, and H.R. 7181; these are the most direct records for the claims above. ([congress.gov](https://www.congress.gov/votes/house/118-1/163?utm_source=openai))\n\n- Office of the Clerk, U.S. House of Representatives\n  [1] Source: clerk.house.gov\n  [2] Reasoning 1: Official House vote tallies and member-by-member voting records; primary government source.\n  [3] Reasoning 2: Used to confirm Johnson’s recorded Yea vote on the earlier House Uyghur forced-labor measure (H.R. 1155, Roll Call 412) with member-level detail. ([clerk.house.gov](https://clerk.house.gov/Votes/2021412))\n\n- Washington Post\n  [1] Source: The Washington Post\n  [2] Reasoning 1: Major U.S. newspaper with established editorial standards and corrections policies.\n  [3] Reasoning 2: Used to document Johnson’s decision and role in advancing the April 2024 foreign-aid package and the inclusion of humanitarian assistance. ([washingtonpost.com](https://www.washingtonpost.com/politics/2024/04/20/house-vote-ukraine-israel-aid-johnson-2/?utm_source=openai))\n\n- CBS News\n  [1] Source: CBS News\n  [2] Reasoning 1: National broadcast news outlet with fact-checking and editorial oversight.\n  [3] Reasoning 2: Used for specific details on the content of the April 2024 aid package, including the humanitarian component, and Johnson’s rationale. ([cbsnews.com](https://www.cbsnews.com/news/house-vote-aid-bill-ukraine-israel-taiwan/?utm_source=openai))\n\n- Alabama Public Radio (NPR member station)\n  [1] Source: Alabama Public Radio (apr.org)\n  [2] Reasoning 1: NPR-affiliated public radio outlet with established standards; provides straight news and transcripts.\n  [3] Reasoning 2: Used for Johnson’s own on-the-record remarks about advancing Ukraine aid despite political risk (“do the right thing”), which speak to his stated motives. ([apr.org](https://www.apr.org/politics-government/2024-04-17/speaker-johnson-is-moving-forward-with-foreign-aid-bills-despite-threat-to-oust-him?utm_source=openai))\n\n- Congressional Record (via Congress.gov)\n  [1] Source: Congressional Record (House)\n  [2] Reasoning 1: Verbatim primary-source record of House proceedings.\n  [3] Reasoning 2: Used to confirm floor consideration of H.R. 6090 and to situate debate context around the civil-rights framing of the bill. ([congress.gov](https://www.congress.gov/congressional-record/volume-170/issue-75/house-section/article/H2790-1?utm_source=openai))\n\n- Speaker’s official/campaign page\n  [1] Source: mikejohnsonforlouisiana.com (About)\n  [2] Reasoning 1: Primary source for Johnson’s own stated principles (not independent reporting).\n  [3] Reasoning 2: Used only to reflect how Johnson characterizes his values (e.g., “human dignity”), not to substantiate external facts. ([mikejohnsonforlouisiana.com](https://www.mikejohnsonforlouisiana.com/about?utm_source=openai))\n\n\n3) Sources I considered not trustworthy (for this task) and why\n\n- New York Post\n  [1] Source: New York Post\n  [2] Reasoning 1: Tabloid-style outlet with a pronounced editorial slant and a track record of sensational framing; reporting quality can be uneven.\n  [3] Reasoning 2: For a claim like this, primary records and mainstream outlets with rigorous standards are preferable; I did not rely on NY Post material to substantiate human-rights-related actions. ([nypost.com](https://nypost.com/2024/04/30/house-speaker-mike-johnson-tells-biden-to-see-antisemitism-virus-at-columbia/?utm_source=openai))\n\n- JNS.org (Jewish News Syndicate)\n  [1] Source: JNS.org\n  [2] Reasoning 1: Issue-focused outlet; while it publishes news, it has an advocacy-adjacent posture and narrower editorial scope.\n  [3] Reasoning 2: For documenting congressional votes and legislative content, primary sources (Congress.gov/Clerk) are superior. I did not rely on JNS for key claims. ([jns.org](https://www.jns.org/house-passes-bipartisan-antisemitism-awareness-act-by-wide-margin/?utm_source=openai))\n\n- Wikipedia\n  [1] Source: Wikipedia\n  [2] Reasoning 1: Useful for orientation but crowd-edited and not a primary source; reliability varies by page and time.\n  [3] Reasoning 2: I did not rely on Wikipedia for any decisive claim; instead, I verified facts against primary government sources and major outlets. ([en.wikipedia.org](https://en.wikipedia.org/wiki/Mike_Johnson?utm_source=openai))\n\nIf you want, I can also compile a balanced “for and against” digest of human-rights-aligned and human-rights-contested positions in Johnson’s record, but the items above are specific, documented actions that substantiate the claim requested.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null,
+        "type": "approximate"
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "max_output_tokens": 90000,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": "detailed"
+  },
+  "safety_identifier": "001",
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 89801,
+    "input_tokens_details": {
+      "cached_tokens": 3584
+    },
+    "output_tokens": 7935,
+    "output_tokens_details": {
+      "reasoning_tokens": 5952
+    },
+    "total_tokens": 97736
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "store": false
+}

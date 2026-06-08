@@ -1,0 +1,841 @@
+{
+  "id": "resp_0fbfc765008f9d5401690067200abc819ab8be5add2084d5cf",
+  "created_at": 1761634080.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5-2025-08-07",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0fbfc765008f9d540169006721237c819aa121ac335f8c9207",
+      "summary": [
+        {
+          "text": "**Structuring a response**\n\nI should structure my answer in a clear way. First, I'll explain that we can't \"prove\" internal values, but we can assess actions and statements, providing evidence that supports or contradicts them with a nuanced conclusion. Next, I need to list trustworthy sources, considering their general credibility and relevance to the topic. Lastly, if there are untrustworthy sources, I should mention any that I considered but rejected, while ensuring I don’t rely on low-reliability sources. I'll be careful with citation rules as well.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Reviewing the source limits**\n\nI need to consider the word limits for each source page, as these impose restrictions on how I can summarize the information. Usually, I see a limit of around 200 words per source. To keep my overall answer concise, I must derive my words within that limit. \n\nI’ll first check the background on Mike Johnson, who has been Speaker of the House since October 2023, looking into his human rights positions on issues like abortion, same-sex marriage, and Ukraine aid, among others. I should check if he voted on the Uyghur Forced Labor Prevention Act back in 2021.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0fbfc765008f9d540169006734808c819a9b72bc59b7d3e3d5",
+      "action": {
+        "query": "Mike Johnson Speaker of the House statements human rights religious liberty abortion same-sex marriage record",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.vanityfair.com/news/2023/10/maga-mike-johnson-speaker"
+          },
+          {
+            "type": "url",
+            "url": "https://nypost.com/2024/03/13/polish-pm-warns-house-speaker-mike-johnson-that-thousands-of-lives-are-at-risk-due-to-congress-failure-to-pass-more-ukraine-aid/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/zelenskiy-tells-us-house-speaker-quick-passage-military-aid-is-vital-2024-03-28/"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/06889e166a5417d5b4bc7795813e37ef"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Justice_for_Victims_of_Trafficking_Act_of_2015"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Laken_Riley_Act"
+          },
+          {
+            "type": "url",
+            "url": "https://www.hrc.org/press-releases/reality-check-speaker-johnson-claims-he-cant-remember-his-anti-lgbtq-record-but-america-has-receipts"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Uyghur_Forced_Labor_Prevention_Act"
+          },
+          {
+            "type": "url",
+            "url": "https://www.the-independent.com/news/world/americas/us-politics/mike-johnson-gay-rights-voting-record-b2436489.html"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0fbfc765008f9d5401690067466ce8819a8f192197197ab7b1",
+      "summary": [
+        {
+          "text": "**Searching for vote records**\n\nI recognize that we need reliable sources, specifically the official congressional records for votes on human rights initiatives. While we can reference the House Clerk roll call for the Uyghur Act, I need to find Mike Johnson's specific vote. Wikipedia shows vote counts, but I should verify his individual voting record from either the House Clerk or GovTrack. So, let's go ahead and search GovTrack for Johnson's voting details!",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0fbfc765008f9d540169006747de5c819a9ea8817230556134",
+      "action": {
+        "query": "Mike Johnson vote Uyghur Forced Labor Prevention Act how did Mike Johnson vote HR 1155 2021 Johnson LA-4",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://clerk.house.gov/evs/2021/ROLL_400.asp"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Uyghur_Human_Rights_Policy_Act"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/117th-congress/house-bill/1155/text/ih"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ontheissues.org/house/Mike_Johnson_Foreign_Policy.htm"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Uyghur_Forced_Labor_Prevention_Act"
+          },
+          {
+            "type": "url",
+            "url": "https://lailluminator.com/2024/01/31/johnson-antisemitism/"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/115th_United_States_Congress"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/congressional-record/volume-171/issue-74/house-section/article/H1833-1"
+          },
+          {
+            "type": "url",
+            "url": "https://clerk.house.gov/Votes/2021412"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0fbfc765008f9d5401690067550958819a9ae5a8c3f046f1a5",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0fbfc765008f9d540169006755906c819a896775a090a29f78",
+      "action": {
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://clerk.house.gov/Votes/2021412"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0fbfc765008f9d5401690067595a54819a84708780b0c3b80f",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0fbfc765008f9d540169006759de78819a85a9f5c39d40515a",
+      "action": {
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://clerk.house.gov/Votes/2021412"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0fbfc765008f9d54016900675c7890819aa81a2a6f53b31c3a",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0fbfc765008f9d54016900675d24cc819aaf8f829964456bdf",
+      "action": {
+        "query": "House passes Ukraine aid April 2024 Johnson statement moral responsibility package passes 311-112",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.ft.com/content/842cd90e-ca83-48e3-af8e-1f086d223db1"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/us-news/2024/apr/20/republicans-ukraine-aid-package-congress"
+          },
+          {
+            "type": "url",
+            "url": "https://www.texastribune.org/2024/05/15/mike-mccaul-mike-johnson-ukraine-aid-congress/"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/06889e166a5417d5b4bc7795813e37ef"
+          },
+          {
+            "type": "url",
+            "url": "https://www.washingtonpost.com/politics/2024/04/20/house-vote-ukraine-israel-aid-johnson-2/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.washingtonpost.com/politics/2024/04/21/ukraine-aid-mike-johnson-house-speaker/"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Public_Law_118-50"
+          },
+          {
+            "type": "url",
+            "url": "https://www.deseret.com/opinion/2024/05/05/ukraine-aid-mike-johnson-factions-democracy/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.irishtimes.com/world/us/2024/04/24/inside-us-house-speaker-mike-johnsons-conversion-on-aid-for-ukraine/"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0fbfc765008f9d54016900676f84ec819aa47e60adda2d537c",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0fbfc765008f9d540169006770d5f8819a9de982cbf8a0434b",
+      "action": {
+        "query": "Mike Johnson human trafficking legislation cosponsor 2017 2018 House H.R. 1865 FOSTA-SESTA vote Johnson",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.realclearpolitics.com/articles/2024/02/01/at_religious_freedom_summit_johnson_others_condemn_antisemitism_150419.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theepochtimes.com/china/speaker-johnson-calls-out-ccps-forced-organ-harvesting-of-falun-gong-practitioners-tibetans-5577879"
+          },
+          {
+            "type": "url",
+            "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00060.htm"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/115th-congress/house-bill/1865/cosponsors"
+          },
+          {
+            "type": "url",
+            "url": "https://www.wnd.com/2024/02/mike-johnson-warns-global-threats-religious-freedom/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.fischer.senate.gov/public/index.cfm/2018/3/fischer-backed-anti-sex-trafficking-bill-passes-senate"
+          },
+          {
+            "type": "url",
+            "url": "https://trentonmonitor.com/news/2024/feb/01/summit-spotlights-plight-of-persecuted-religious-groups-from-nicaragua-to-china/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.cathstan.org/us-world/summit-spotlights-plight-of-persecuted-religious-groups-from-nicaragua-to-china"
+          },
+          {
+            "type": "url",
+            "url": "https://www.baptistpress.com/resource-library/news/religious-freedom-impacts-economic-prosperity-political-rights-mike-johnson-says/"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0fbfc765008f9d54016900677924a0819a8ebef42b4f5ef8cb",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0fbfc765008f9d54016900677ab13c819a8e290577edb65e32",
+      "action": {
+        "query": "Who is Mike Johnson speaker profile AP News conservative views abortion same-sex marriage election 2020",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/ed9fd1d574eafb6373e667e110a0f989"
+          },
+          {
+            "type": "url",
+            "url": "https://www.vanityfair.com/news/2023/10/mike-johnson-kelly-johnson-onward-christian-counseling-services"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/us-news/2023/oct/25/who-is-mike-johnson-republican-2020-election"
+          },
+          {
+            "type": "url",
+            "url": "https://time.com/6329207/speaker-mike-johnson-christian-nationalism/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.pbs.org/newshour/politics/evangelical-conservatives-cheer-one-of-their-own-as-mike-johnson-assumes-congress-most-powerful-seat"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Harry_R._Jackson_Jr."
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Mike_McManus_%28columnist%29"
+          },
+          {
+            "type": "url",
+            "url": "https://www.wsls.com/news/politics/2023/10/27/christian-right-cheers-new-house-speaker-conservative-evangelical-mike-johnson-as-one-of-their-own/"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Ryan_T._Anderson"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Mike_Johnson"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Mike_Gabbard"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0fbfc765008f9d540169006785b950819aaf24662d6ba1f372",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0fbfc765008f9d5401690067867284819ab24c4d076ece1cbd",
+      "action": {
+        "query": "Johnson Antisemitism Awareness Act IHRA House passage April 2024 Johnson statement",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.scott.senate.gov/media-center/press-releases/sen-scott-applauds-house-passage-of-antisemitism-awareness-act/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.rjchq.org/rjc_applauds_house_passage_of_the_antisemitism_awareness_act"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/us-news/article/2024/may/11/us-university-protests-antisemitism-free-speech"
+          },
+          {
+            "type": "url",
+            "url": "https://www.politico.com/news/2024/04/29/antisemitism-bill-clears-house-rules-panel-following-partisan-feud-00155045"
+          },
+          {
+            "type": "url",
+            "url": "https://www.aclu.org/documents/aclu-urges-senate-to-oppose-s-4127-the-antisemitism-awareness-act"
+          },
+          {
+            "type": "url",
+            "url": "https://www.jns.org/house-passes-bipartisan-antisemitism-awareness-act-by-wide-margin/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.aclu.org/press-releases/aclu-condemns-house-passage-of-dangerous-bill-that-would-chill-free-speech"
+          },
+          {
+            "type": "url",
+            "url": "https://www.aclu.org/documents/aclu-urges-congress-to-oppose-anti-semitism-awareness-act"
+          },
+          {
+            "type": "url",
+            "url": "https://www.thefire.org/news/groups-across-ideological-spectrum-unite-opposing-antisemitism-awareness-act"
+          },
+          {
+            "type": "url",
+            "url": "https://www.nepm.org/2024-05-07/former-leader-explains-aclu-opposition-to-federal-antisemitism-bill"
+          },
+          {
+            "type": "url",
+            "url": "https://waysandmeans.house.gov/2024/12/19/speaker-johnson-committee-chairs-release-investigative-report-following-house-wide-effort-to-combat-antisemitism/"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0fbfc765008f9d540169006797a578819a9857453d895c4b91",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0fbfc765008f9d5401690067982470819ab48d9e3ab38d52db",
+      "action": {
+        "query": "Mike Johnson abortion positions Life at Conception Act cosponsor Johnson",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.cbsnews.com/news/house-speaker-mike-johnson-abortion-holocaust/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.washingtonpost.com/politics/2024/05/10/speaker-mike-johnson-national-abortion-ban/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.axios.com/2023/10/26/mike-johnson-abortion-gay-marriage-transgender"
+          },
+          {
+            "type": "url",
+            "url": "https://www.axios.com/2024/05/10/mike-johnson-trump-abortion-ban"
+          },
+          {
+            "type": "url",
+            "url": "https://www.vanityfair.com/news/2023/11/mike-johnson-abortion-american-holocaust"
+          },
+          {
+            "type": "url",
+            "url": "https://nypost.com/2024/05/10/house-speaker-mike-johnson-says-he-wont-push-federal-abortion-ban/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.politifact.com/factchecks/2023/nov/13/instagram-posts/instagram-post-inaccurately-quotes-house-speaker-m/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.baptistpress.com/resource-library/news/u-s-house-speaker-mike-johnson-a-southern-baptist-addresses-march-for-life-rally/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.independent.co.uk/news/world/americas/us-politics/mike-johnson-cnn-abortion-congress-b2451903.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.lifesitenews.com/news/house-speaker-mike-johnson-tells-march-for-life-i-am-the-product-of-an-unplanned-pregnancy/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.catholicnewsagency.com/news/256605/house-speaker-mike-johnson-my-parents-were-teenagers-when-i-was-born-a-year-before-roe"
+          },
+          {
+            "type": "url",
+            "url": "https://nrlc.org/nrlnewstoday/2025/07/speaker-johnson-every-single-person-has-inestimable-dignity-and-value-including-the-unborn-child/"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0fbfc765008f9d5401690067a93c94819aa2186b97bedfcf90",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0fbfc765008f9d5401690067acdd44819a87415cd9d8648936",
+      "action": {
+        "query": "House Roll Call vote H.R. 1865 2018 FOSTA-SESTA roll call House",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00060.htm"
+          },
+          {
+            "type": "url",
+            "url": "https://www.democrats.senate.gov/2018/03/15/schedule-for-monday-march-19-2018"
+          },
+          {
+            "type": "url",
+            "url": "https://clerk.house.gov/evs/2018/ROLL_100.asp"
+          },
+          {
+            "type": "url",
+            "url": "https://clerk.house.gov/evs/2018/ROLL_000.asp"
+          },
+          {
+            "type": "url",
+            "url": "https://www.democrats.senate.gov/2018/03/19/schedule-for-tuesday-march-20-2018"
+          },
+          {
+            "type": "url",
+            "url": "https://clerk.house.gov/evs/2018/ROLL_300.asp"
+          },
+          {
+            "type": "url",
+            "url": "https://clerk.house.gov/evs/2018/ROLL_400.asp"
+          },
+          {
+            "type": "url",
+            "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1161/vote_116_1_00415.htm"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/FOSTA-SESTA"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0fbfc765008f9d5401690067bca740819a82e82167469a3f6b",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0fbfc765008f9d5401690067bd688c819a8a924033b08d88a4",
+      "action": {
+        "query": "House Roll Call FOSTA H.R. 1865 February 27, 2018 roll call number list",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://clerk.house.gov/evs/2018/ROLL_000.asp"
+          },
+          {
+            "type": "url",
+            "url": "https://clerk.house.gov/evs/2018/ROLL_100.asp"
+          },
+          {
+            "type": "url",
+            "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1152/vote_115_2_00060.htm"
+          },
+          {
+            "type": "url",
+            "url": "https://clerk.house.gov/evs/2018/index.asp"
+          },
+          {
+            "type": "url",
+            "url": "https://clerk.house.gov/evs/2017/ROLL_000.asp"
+          },
+          {
+            "type": "url",
+            "url": "https://clerk.house.gov/evs/2018/ROLL_200.asp"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0fbfc765008f9d5401690067c571ec819aa97ddb0fc211a8de",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0fbfc765008f9d5401690067c5f6c8819ab7db7c0a840721aa",
+      "action": {
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://clerk.house.gov/evs/2018/ROLL_000.asp"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0fbfc765008f9d5401690067cc6c24819ab44ae6d22ae29a54",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0fbfc765008f9d5401690067ccd060819a8b46b7a13315d609",
+      "action": {
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0fbfc765008f9d5401690067ccfce8819ab4c86a2e4ac6f91a",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0fbfc765008f9d5401690067cdbd24819a996eb144f74afd6f",
+      "action": {
+        "type": "search"
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0fbfc765008f9d5401690067cdf8ac819a81abe04e1e8a6cd1",
+      "summary": [
+        {
+          "text": "**Listing trusted sources**\n\nI’m considering how to cite various trustworthy sources on the topics of Ukraine and the Uyghur genocide. I can list sources like the \"Office of the Clerk, U.S. House of Representatives,\" which is official and credible for vote records. Then there's Congress.gov, also official, used for legislative history.\n\nI’ll include major newspapers like the Washington Post and reputable organizations like the Texas Tribune and Louisiana Illuminator, which provide reliable information. I should evaluate RealClearPolitics too before finalizing my list.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Evaluating sources**\n\nI’m working through a list of sources. RCP, while leaning right-of-center, is credible for quotes from the summit. Politico is trustworthy for details about the Antisemitism Awareness Act. The ACLU is a credible civil liberties organization used for critiques, and JNS provides valuable perspectives for the Jewish community.\n\nI also considered Wikipedia for background, but it's not primary and likely not trustworthy for citation. To keep things manageable, I should clarify which sources are trustworthy and which ones aren't.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Assessing citations**\n\nI'm aware that the tool guidelines require me to cite sources when I use web.run. I should avoid citing Wikipedia in evidentiary sections since I have other more reliable sources. \n\nI also want to be cautious with mainstream sources like Vanity Fair and The Guardian, which can be opinion-heavy. Although The Guardian is generally reliable, I used it for specific commentary about the GOP's stance on Ukraine, so I'll skip citing it to maintain clarity.\n\nI'll note sources like The Epoch Times and LifeSiteNews for not being trustworthy due to strong slants. We consulted Independent (UK) regarding abortion but will prioritize CBS News instead.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Preparing to craft the answer**\n\nI have the AP for the \"speaker profile,\" but it doesn’t seem relevant right now. However, I can use the AP for statements on Johnson's stance on abortion and same-sex marriage, as it describes him as a \"strong conservative\" on those issues, which is credible.\n\nI also want to cite the House vote roll call to map \"Johnson (LA) Yea\" from the Clerk page we found. I’ll include that as evidence and focus on crafting a concise answer with bullet points for clarity.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Organizing citations and sources**\n\nI need to provide 3-5 bullet points with citations for various topics. For instance, I can cite the IRF Summit remarks regarding religious liberty, using sources like RCP or the Louisiana Illuminator. \n\nI’ll mention the vote Yea on UFLPA through the House Clerk. Also, I want to cite reports from the Washington Post and Texas Tribune regarding Ukraine aid. I’ll include Politico and JNS for his measures against antisemitism. \n\nRegarding less trustworthy sources, I’ll mark Vanity Fair as \"less suitable for proof\" rather than outright untrustworthy. Wikipedia can be noted as \"partially trustworthy\" since I used it for background information.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0fbfc765008f9d5401690067e20120819aae40697efef8a49a",
+      "action": {
+        "query": "H.R. 815 118th Congress supplemental appropriations April 2024 Congress.gov",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Public_Law_118-50"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/index.php/bill/118th-congress/house-bill/815"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/118th-congress/house-bill/815/text"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/118th-congress/house-bill/815/amendments"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/118th-congress/house-bill/815/summary/74"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/house-communication/118th-congress/executive-communication/3150"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/118th-congress/house-bill/815/history"
+          },
+          {
+            "type": "url",
+            "url": "https://www.congress.gov/bill/118th-congress/house-bill/815/text/enr/"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0fbfc765008f9d5401690067f1acb8819a9129e66525442a79",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "msg_0fbfc765008f9d5401690067f6cbb4819a8de677406a8f8ac1",
+      "content": [
+        {
+          "annotations": [
+            {
+              "end_index": 954,
+              "start_index": 896,
+              "title": "Office of the Clerk, U.S. House of Representatives",
+              "type": "url_citation",
+              "url": "https://clerk.house.gov/Votes/2021412"
+            },
+            {
+              "end_index": 1409,
+              "start_index": 1304,
+              "title": "H.R.815 - 118th Congress (2023-2024): Making emergency supplemental appropriations for the fiscal year ending September 30, 2024, and for other purposes. | Congress.gov | Library of Congress",
+              "type": "url_citation",
+              "url": "https://www.congress.gov/index.php/bill/118th-congress/house-bill/815?utm_source=openai"
+            },
+            {
+              "end_index": 1905,
+              "start_index": 1753,
+              "title": "Antisemitism bill clears House Rules panel following partisan feud",
+              "type": "url_citation",
+              "url": "https://www.politico.com/news/2024/04/29/antisemitism-bill-clears-house-rules-panel-following-partisan-feud-00155045?utm_source=openai"
+            },
+            {
+              "end_index": 2498,
+              "start_index": 2388,
+              "title": "House Speaker Mike Johnson once referred to abortion as \"a holocaust\" - CBS News",
+              "type": "url_citation",
+              "url": "https://www.cbsnews.com/news/house-speaker-mike-johnson-abortion-holocaust/?utm_source=openai"
+            },
+            {
+              "end_index": 3362,
+              "start_index": 3304,
+              "title": "Office of the Clerk, U.S. House of Representatives",
+              "type": "url_citation",
+              "url": "https://clerk.house.gov/Votes/2021412"
+            },
+            {
+              "end_index": 3867,
+              "start_index": 3762,
+              "title": "H.R.815 - 118th Congress (2023-2024): Making emergency supplemental appropriations for the fiscal year ending September 30, 2024, and for other purposes. | Congress.gov | Library of Congress",
+              "type": "url_citation",
+              "url": "https://www.congress.gov/index.php/bill/118th-congress/house-bill/815?utm_source=openai"
+            },
+            {
+              "end_index": 4398,
+              "start_index": 4272,
+              "title": "How U.S. Rep. Mike McCaul helped convince Speaker Mike Johnson to support Ukraine aid - The Texas Tribune",
+              "type": "url_citation",
+              "url": "https://www.texastribune.org/2024/05/15/mike-mccaul-mike-johnson-ukraine-aid-congress/?utm_source=openai"
+            },
+            {
+              "end_index": 4994,
+              "start_index": 4820,
+              "title": "At Religious Freedom Summit, Johnson, Others Condemn Antisemitism | RealClearPolitics",
+              "type": "url_citation",
+              "url": "https://www.realclearpolitics.com/articles/2024/02/01/at_religious_freedom_summit_johnson_others_condemn_antisemitism_150419.html?utm_source=openai"
+            },
+            {
+              "end_index": 5511,
+              "start_index": 5412,
+              "title": "U.S. House Speaker Johnson decries antisemitism, urges protection of Uyghurs in China • Louisiana Illuminator",
+              "type": "url_citation",
+              "url": "https://lailluminator.com/2024/01/31/johnson-antisemitism/?utm_source=openai"
+            },
+            {
+              "end_index": 6044,
+              "start_index": 5892,
+              "title": "Antisemitism bill clears House Rules panel following partisan feud",
+              "type": "url_citation",
+              "url": "https://www.politico.com/news/2024/04/29/antisemitism-bill-clears-house-rules-panel-following-partisan-feud-00155045?utm_source=openai"
+            },
+            {
+              "end_index": 6589,
+              "start_index": 6469,
+              "title": "ACLU Urges House of Representatives to Oppose Anti-semitism Awareness Act | American Civil Liberties Union",
+              "type": "url_citation",
+              "url": "https://www.aclu.org/documents/aclu-urges-congress-to-oppose-anti-semitism-awareness-act?utm_source=openai"
+            },
+            {
+              "end_index": 7061,
+              "start_index": 6951,
+              "title": "House Speaker Mike Johnson once referred to abortion as \"a holocaust\" - CBS News",
+              "type": "url_citation",
+              "url": "https://www.cbsnews.com/news/house-speaker-mike-johnson-abortion-holocaust/?utm_source=openai"
+            },
+            {
+              "end_index": 7686,
+              "start_index": 7510,
+              "title": "Speaker Johnson Calls Out CCP’s Forced Organ Harvesting From Falun Gong Practitioners, Tibetans | The Epoch Times",
+              "type": "url_citation",
+              "url": "https://www.theepochtimes.com/china/speaker-johnson-calls-out-ccps-forced-organ-harvesting-of-falun-gong-practitioners-tibetans-5577879?utm_source=openai"
+            },
+            {
+              "end_index": 8139,
+              "start_index": 8028,
+              "title": "Mike Johnson warns of global threats to religious freedom * WorldNetDaily * by Around the Web",
+              "type": "url_citation",
+              "url": "https://www.wnd.com/2024/02/mike-johnson-warns-global-threats-religious-freedom/?utm_source=openai"
+            },
+            {
+              "end_index": 8622,
+              "start_index": 8457,
+              "title": "House Speaker Mike Johnson tells March for Life: ‘I am the product of an unplanned pregnancy’ - LifeSite",
+              "type": "url_citation",
+              "url": "https://www.lifesitenews.com/news/house-speaker-mike-johnson-tells-march-for-life-i-am-the-product-of-an-unplanned-pregnancy/?utm_source=openai"
+            }
+          ],
+          "text": "1) Answer\n\nShort version: You can’t prove any person’s internal “values,” but you can evaluate consistent public actions and statements. On that basis, there is solid evidence that Speaker Mike Johnson prioritizes certain human rights—especially religious freedom and protections against mass atrocities and authoritarian abuses—while civil‑liberties and LGBTQ/reproductive‑rights groups argue his record restricts other rights.\n\nEvidence that he actively advances some human-rights protections:\n- Combatting forced labor/genocide in China: On December 8, 2021, Johnson voted Yea on the Uyghur Forced Labor Prevention Act; the roll call shows “Johnson (LA) — Yea.” As Speaker, he also urged full enforcement of that law and called the CCP’s abuse of Uyghur Muslims “genocidal,” while condemning persecution of Tibetan Buddhists and Falun Gong, at the 2024 International Religious Freedom Summit. ([clerk.house.gov](https://clerk.house.gov/Votes/2021412))\n- Backing Ukraine’s defense against aggression and associated human-rights harms: In April 2024, Johnson put Ukraine aid on the House floor despite political risk; the legislation (H.R. 815) became Public Law 118‑50 on April 24, 2024. Johnson publicly framed the choice as “doing what I believe to be the right thing,” emphasizing the moral stakes. ([congress.gov](https://www.congress.gov/index.php/bill/118th-congress/house-bill/815?utm_source=openai))\n- Responding to antisemitism: Johnson supported moving the Antisemitism Awareness Act through the House in spring 2024; Jewish advocacy groups praised this as protecting students’ civil rights, even as civil‑liberties organizations warned it could chill protected speech—i.e., a rights‑tradeoff he favored in order to protect Jewish students. ([politico.com](https://www.politico.com/news/2024/04/29/antisemitism-bill-clears-house-rules-panel-following-partisan-feud-00155045?utm_source=openai))\n\nCountervailing evidence often cited by rights groups:\n- Reproductive and LGBTQ rights: Johnson has long opposed abortion (he once described abortion as “a holocaust”) and has a record opposing same‑sex marriage and LGBTQ protections; major civil‑rights groups characterize that record as anti‑rights. These positions reflect a competing, faith‑based framing of rights (e.g., fetal right to life, religious liberty) that others view as curtailing women’s and LGBTQ people’s rights. ([cbsnews.com](https://www.cbsnews.com/news/house-speaker-mike-johnson-abortion-holocaust/?utm_source=openai))\n\nBottom line: Johnson’s votes, floor decisions, and speeches show a sustained concern for human rights as he defines them—religious freedom, opposition to genocide/forced labor, defending countries under attack, and combating antisemitism. Whether that “proves he values human rights” in a universal sense depends on which rights framework you prioritize, because his record is also at odds with widely accepted interpretations of reproductive and LGBTQ rights.\n\n2) Sources I considered trustworthy (and why)\n\n- Source: Office of the Clerk, U.S. House of Representatives (Roll Call 412, Dec. 8, 2021)\n  [1] Credibility (general): Official, authoritative ledger of House votes.  \n  [2] Credibility (this prompt): Definitive evidence that “Johnson (LA)” voted Yea on the Uyghur Forced Labor Prevention Act. ([clerk.house.gov](https://clerk.house.gov/Votes/2021412))\n\n- Source: Congress.gov (Library of Congress) – H.R. 815 (became Public Law 118‑50 on Apr. 24, 2024)\n  [1] Credibility (general): Primary, nonpartisan legislative record maintained by the Library of Congress.  \n  [2] Credibility (this prompt): Confirms that the foreign‑aid supplemental (including Ukraine/Israel and humanitarian funds) became law while Johnson was Speaker and put it on the floor. ([congress.gov](https://www.congress.gov/index.php/bill/118th-congress/house-bill/815?utm_source=openai))\n\n- Source: The Texas Tribune (May 15, 2024) – report quoting Johnson after the Ukraine vote\n  [1] Credibility (general): Respected nonprofit newsroom with transparent sourcing; strong congressional reporting.  \n  [2] Credibility (this prompt): Provides on‑the‑record quotations from Johnson framing the Ukraine votes as a moral duty (“History judges us… I’m doing what I believe to be the right thing”). ([texastribune.org](https://www.texastribune.org/2024/05/15/mike-mccaul-mike-johnson-ukraine-aid-congress/?utm_source=openai))\n\n- Source: RealClearPolitics (reporting from the 2024 International Religious Freedom Summit)\n  [1] Credibility (general): Mainstream politics outlet; when it does reported pieces, they are sourced/attributed.  \n  [2] Credibility (this prompt): Direct quotes of Johnson condemning antisemitism and urging enforcement of the Uyghur Forced Labor Prevention Act; corroborates his rights‑based rhetoric on religious freedom. ([realclearpolitics.com](https://www.realclearpolitics.com/articles/2024/02/01/at_religious_freedom_summit_johnson_others_condemn_antisemitism_150419.html?utm_source=openai))\n\n- Source: Louisiana Illuminator (States Newsroom) – Jan. 31, 2024 coverage of Johnson’s IRF Summit remarks\n  [1] Credibility (general): Nonprofit, state‑focused newsroom; editorial standards; transparent authorship.  \n  [2] Credibility (this prompt): Independent reporting of Johnson’s statements linking U.S. policy to preventing genocide and opposing antisemitism; corroborates the same event from another outlet. ([lailluminator.com](https://lailluminator.com/2024/01/31/johnson-antisemitism/?utm_source=openai))\n\n- Source: Politico – April 29, 2024 (House Rules advances Antisemitism Awareness Act)\n  [1] Credibility (general): Reputable national political outlet known for Congress coverage.  \n  [2] Credibility (this prompt): Documents Johnson‑led House movement of the antisemitism bill and notes substantive free‑speech concerns—illustrating the rights rationale and the rights tradeoff. ([politico.com](https://www.politico.com/news/2024/04/29/antisemitism-bill-clears-house-rules-panel-following-partisan-feud-00155045?utm_source=openai))\n\n- Source: ACLU – April–Nov. 2024 statements/letters on the Antisemitism Awareness Act\n  [1] Credibility (general): Long‑standing civil‑liberties organization; positions stated openly with legal reasoning.  \n  [2] Credibility (this prompt): Useful to show principled, rights‑based criticism that Johnson’s approach to combating antisemitism may infringe speech rights—key for evaluating the scope of “valuing human rights.” ([aclu.org](https://www.aclu.org/documents/aclu-urges-congress-to-oppose-anti-semitism-awareness-act?utm_source=openai))\n\n- Source: CBS News – report on Johnson’s prior “abortion is a holocaust” op‑ed\n  [1] Credibility (general): Major U.S. news outlet with editorial standards and sourcing.  \n  [2] Credibility (this prompt): Establishes Johnson’s long‑standing framing of abortion in moral/human‑rights terms—central to understanding his rights framework and why others disagree. ([cbsnews.com](https://www.cbsnews.com/news/house-speaker-mike-johnson-abortion-holocaust/?utm_source=openai))\n\n3) Sources I considered but did NOT deem trustworthy for “proof” here (and why)\n\n- Source: The Epoch Times (coverage of Johnson’s IRF Summit remarks)\n  [1] Credibility (general): Outlet with notable ideological agenda and a mixed record in independent fact‑checking.  \n  [2] Credibility (this prompt): I preferred to rely on multiple other outlets (including nonpartisan/local and mainstream) for Johnson’s quotes, which were available elsewhere. ([theepochtimes.com](https://www.theepochtimes.com/china/speaker-johnson-calls-out-ccps-forced-organ-harvesting-of-falun-gong-practitioners-tibetans-5577879?utm_source=openai))\n\n- Source: WorldNetDaily (WND) (blog write‑ups citing Johnson’s IRF Summit lines)\n  [1] Credibility (general): Frequently publishes highly partisan commentary and content that has failed fact‑checks.  \n  [2] Credibility (this prompt): Not appropriate as primary evidence when the same material is corroborated by higher‑reliability sources. ([wnd.com](https://www.wnd.com/2024/02/mike-johnson-warns-global-threats-religious-freedom/?utm_source=openai))\n\n- Source: LifeSiteNews (March for Life coverage)\n  [1] Credibility (general): Advocacy outlet with strong ideological orientation; variable editorial standards.  \n  [2] Credibility (this prompt): Johnson’s remarks at March for Life are better documented by mainstream outlets; I did not rely on this site for proof. ([lifesitenews.com](https://www.lifesitenews.com/news/house-speaker-mike-johnson-tells-march-for-life-i-am-the-product-of-an-unplanned-pregnancy/?utm_source=openai))\n\nNotes:\n- Where possible I prioritized primary sources (House Clerk, Congress.gov) and corroborated quotes across multiple outlets.  \n- For Ukraine aid, Congress.gov establishes the law; the Tribune quote shows Johnson’s stated moral rationale. For China‑related abuses, the Clerk vote plus two independent reports of Johnson’s IRF remarks demonstrate both action and rhetoric.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "city": null,
+        "country": "US",
+        "region": null,
+        "timezone": null,
+        "type": "approximate"
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "max_output_tokens": 90000,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": "detailed"
+  },
+  "safety_identifier": "001",
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 60427,
+    "input_tokens_details": {
+      "cached_tokens": 3584
+    },
+    "output_tokens": 7294,
+    "output_tokens_details": {
+      "reasoning_tokens": 5440
+    },
+    "total_tokens": 67721
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "store": false
+}

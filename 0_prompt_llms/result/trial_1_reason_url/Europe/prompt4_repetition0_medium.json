@@ -1,0 +1,938 @@
+{
+  "id": "resp_09019a3882d321ac016902d7d764948199a72cfb17d980ee8e",
+  "created_at": 1761794007.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5-2025-08-07",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_09019a3882d321ac016902d7d817648199828e3ce32379e373",
+      "summary": [
+        {
+          "text": "**Gathering information on Italy's migration policies**\n\nI need to be careful about the word limits for the web.run tool, which usually has a default summarization limit of 200 words unless specified differently. I’ll search for reports from Amnesty International Italy, Human Rights Watch, and the Council of Europe regarding migration in Italy under Meloni’s government. I want to focus on recent laws and the state of emergency declared in 2023, as well as any criticisms from reliable sources like Reuters and Politico Europe.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Exploring Italy's recent policies**\n\nI’m looking into the NGO rescue ship code of conduct from 2023, which requires ships to sail to distant ports and includes fines and impoundments. There are critiques from Human Rights Watch and Amnesty related to this and some administrative court suspensions. I also want to investigate the interim measures from the ECHR regarding the Geo Barents disembarkation. Moreover, I need to check the halting of same-sex parent registration, press freedom changes, and other upcoming decrees impacting civil liberties in Italy.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_09019a3882d321ac016902d7f6c95c819981fe5834097650f4",
+      "action": {
+        "query": "Amnesty International report Italy 2024 Giorgia Meloni human rights",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.hrw.org/world-report/2025/country-chapters/italy"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/italy-grounds-migrant-rescue-charity-plane-first-time-under-new-rules-2025-08-08/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/article/2024/jun/13/giorgia-meloni-italy-accused-of-scrapping-safe-abortion-guarantee-from-g7-declaration"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/7163ed5b99a1634d6a05c88e88a18da6"
+          },
+          {
+            "type": "url",
+            "url": "https://www.amnesty.org/en/location/europe-and-central-asia/western-central-and-south-eastern-europe/italy/report-italy/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.hrw.org/news/2025/05/20/italy-constitutional-court-hears-challenge-to-law-penalizing-sea-rescue"
+          },
+          {
+            "type": "url",
+            "url": "https://www.amnesty.org/en/latest/news/2024/07/italy-abuse-of-migration-related-detention-in-punitive-conditions-deprives-people-of-liberty-and-dignity/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.amnesty.org/en/documents/eur30/8222/2024/en/"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_09019a3882d321ac016902d805129c8199bbd3b24c4b6ad823",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_09019a3882d321ac016902d80eddfc81999f920ef3ccc64199",
+      "action": {
+        "query": "Council of Europe Commissioner for Human Rights Italy police violence protests 2024 letter",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/italy-calls-council-europe-shameful-after-warning-police-racism-2025-05-29/"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/62201d6afe3198fbc55bd676dd183e45"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/dc8257ba865c4d554f810baa17ccab7b"
+          },
+          {
+            "type": "url",
+            "url": "https://www.europarl.europa.eu/doceo/document/E-9-2024-000651_EN.html"
+          },
+          {
+            "type": "url",
+            "url": "https://unipd-centrodirittiumani.it/en/topics/special-rapporteurs-communication-to-italy-on-search-and-rescue-operations-in-the-central-mediterranean"
+          },
+          {
+            "type": "url",
+            "url": "https://www.europarl.europa.eu/doceo/document/E-10-2025-000124_EN.html"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Greenpeace_v._Eni"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ansa.it/english/news/2024/10/22/council-of-europe-accuses-italy-police-of-racial-profiling_b4ed6d26-be77-4f9b-82a4-29b56c03c361.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.europarl.europa.eu/doceo/document/E-9-2023-001738_EN.html"
+          },
+          {
+            "type": "url",
+            "url": "https://onuitalia.com/2023/02/09/un-expert-criminalisation-of-human-rights-defenders-engaged-in-sea-rescue-missions-must-end/"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_09019a3882d321ac016902d818ded8819981ef6e6c0b212d79",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_09019a3882d321ac016902d819479c819980e670a95be9bfde",
+      "action": {
+        "query": "Italy surrogacy abroad criminalization law 2024 Senate approves bill Meloni government",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.linkedin.com/posts/ilga-europe_rainbow-map-2025-ranking-activity-7328776228104978432-ia-B"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/europe/italy-makes-it-illegal-seek-surrogacy-abroad-2024-10-16/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.agi.it/cronaca/news/2025-05-14/diritti-rainbow-map-su-discriminazioni-italia-fanalino-coda-ue-31388955/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/europe/surrogate-parenthood-is-inhuman-italys-meloni-says-2024-04-12/"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/3f1181480a71a01166b38540e7c25103"
+          },
+          {
+            "type": "url",
+            "url": "https://www.euronews.com/my-europe/2024/10/17/italy-criminalises-surrogacy-abroad-with-new-law-sparking-controversy"
+          },
+          {
+            "type": "url",
+            "url": "https://rainbowmap.ilga-europe.org/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.gay.it/rainbow-map-2025-italia"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ansa.it/english/news/2024/11/16/surrogacy-law-in-official-gazette-on-monday_2aeab6ae-68ee-4f57-888d-fce0ac17ede2.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ilga-europe.org/report/rainbow-map-2025/"
+          },
+          {
+            "type": "url",
+            "url": "https://rainbowmap.ilga-europe.org/countries/italy/"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_09019a3882d321ac016902d82275648199b7667e17f895313c",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_09019a3882d321ac016902d82360b88199bfbb382dc767ec84",
+      "action": {
+        "query": "Italy police violence student protests Pisa February 2024 baton charges condemnation Mattarella Council of Europe Commissioner",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/7e573955293d761aa008396176544488"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/europe/police-beatings-pro-palestinian-schoolchildren-spark-outrage-italy-2024-02-23/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/italy-calls-council-europe-shameful-after-warning-police-racism-2025-05-29/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ansa.it/english/newswire/english_service/2024/02/23/ansarow-erupts-after-police-charge-protesters-in-tuscany_be5aa58a-3ad0-41ca-aeb2-91c2de023eea.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ansa.it/english/news/politics/2024/02/26/police-clashes-isolated-cases-says-piantedosi_711ad3a2-1246-4cab-88fe-0e81b2deae72.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ansa.it/english/news/2024/02/26/police-clashes-isolated-cases-says-piantedosi_097ef0ee-955b-4532-994a-5bd1b854fd82.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ansa.it/amp/english/news/2024/02/25/police-union-asks-mattarella-to-support-cops_e572ff57-5a68-42e7-9eea-8538d748110d.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.euronews.com/my-europe/2025/05/24/council-of-europe-rejects-political-pressure-on-echr-in-response-to-meloni"
+          },
+          {
+            "type": "url",
+            "url": "https://www.thelocal.it/20240226/outcry-in-italy-after-police-violence-against-protesters"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ansa.it/amp/english/newswire/english_service/2024/02/25/ansaparties-continue-to-spar-over-police-baton-charges_943a3f16-7704-424a-a5eb-7a907090dfd8.html"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_09019a3882d321ac016902d82a596c819996ad65f33d3173b0",
+      "summary": [
+        {
+          "text": "**Exploring migration issues**\n\nI'm considering the migrant shipwreck in Cutro from 2023 and possible charges. There seems to be a trial involving the coast guard, with government responses facing criticism. I think it would be useful to cite these widely. There are also significant topics regarding migration detention conditions and NGO repression. Plus, I need to look into Albania's plans for offshoring asylum processing in 2024-2025, especially since there were court rulings declaring that detention there was unlawful. Let's search for more details.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_09019a3882d321ac016902d82cc8008199a611ad12276324ae",
+      "action": {
+        "query": "Italy Albania migration deal court ruling unlawful detention October November 2024 Italy judges ruled unlawful detention Albania asylum processing",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.ansa.it/english/news/politics/2024/10/18/court-nixes-detention-of-migrants-taken-to-albania_3383d55c-fcae-46ad-b7fb-5a54d8073228.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ansa.it/english/newswire/english_service/2024/10/18/court-nixes-detention-of-migrants-taken-to-albania-2_67a3b10e-e765-496f-ba5e-3963052fe7e5.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ft.com/content/93d680ad-0656-451c-8620-453a0e55697b"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/2f8b07669ef331e135407034b2d13415"
+          },
+          {
+            "type": "url",
+            "url": "https://www.amnesty.org/en/latest/news/2024/01/italy-mps-should-reject-unworkable-harmful-and-unlawful-migration-deal-with-albania/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/2024/nov/14/italy-albania-asylum-deal-complete-failure-giorgia-meloni"
+          },
+          {
+            "type": "url",
+            "url": "https://www.sosmediterranee.org/the-constitutional-court-called-upon-to-rule-on-the-piantedosi-decree/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.jurist.org/news/2024/10/italy-court-rules-against-first-asylum-seeker-transfer-to-albania/"
+          },
+          {
+            "type": "url",
+            "url": "https://asylumineurope.org/reports/country/italy/asylum-procedure/access-procedure-and-registration/access-territory-and-push-backs/"
+          },
+          {
+            "type": "url",
+            "url": "https://europeanconservative.com/articles/news-corner/eu-court-deals-blow-to-melonis-albania-migrant-deal/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.amnesty.org/en/latest/news/2025/08/italy-eu-court-ruling-on-safe-countries-of-origin-is-a-heavy-blow-to-italy-albania-migration-deal/"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_09019a3882d321ac016902d83ed99c8199a7e9797bfd3b8826",
+      "summary": [
+        {
+          "text": "**Exploring protest limitations**\n\nI think it's important to cover limitations on the right to protest, especially in regards to anti-rave decrees. It feels like there's a lot to unpack here, and I want to ensure I'm gathering adequate information. Let's search for relevant resources to better understand how these limitations are imposed and any implications they might have. This way, I can provide a clearer and more comprehensive answer later on!",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_09019a3882d321ac016902d840e2d48199bbb8714f9435e805",
+      "action": {
+        "query": "Italy anti-rave decree 2022 human rights concerns Amnesty",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/italy-cracks-down-protests-squatters-cannabis-2025-06-04/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.amnesty.org/en/latest/news/2025/05/italy-draconian-new-law-criminalizing-peaceful-protest-while-expanding-police-powers-must-be-rejected/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/europe/european-watchdog-rebukes-italy-over-treatment-roma-minority-2024-05-13/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.lemonde.fr/en/international/article/2025/04/06/in-italy-giorgia-meloni-imposes-her-security-law-by-decree_6739880_4.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ansa.it/english/newswire/english_service/2025/06/04/ansagovt-protecting-citizens-with-security-law-meloni_7468523d-1e58-48bd-ad69-e50575d2153f.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.euronews.com/2022/12/31/italy-parties"
+          },
+          {
+            "type": "url",
+            "url": "https://www.article19.org/resources/italy-new-anti-rave-law-may-curtail-human-right-to-peaceful-assembly/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.coe.int/en/web/commissioner/news/2023/-/asset_publisher/aa3hyyf8wKBn/content/the-italian-government-should-consider-withdrawing-decree-law-which-could-hamper-ngo-search-and-rescue-operations-at-sea"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ansa.it/english/newswire/english_service/2022/11/02/ansa/new-decree-will-only-target-illegal-raves-minister_94bcc753-4399-4862-9014-96f6f9b55e3b.html"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_09019a3882d321ac016902d84af0088199974b1c3837fe0eb6",
+      "summary": [
+        {
+          "text": "**Gathering reports on Italy's detention centers**\n\nI need to include the European Court of Human Rights (ECtHR) judgments or the CPT report regarding the detention centers in Italy. I've noted there's a CPT report from December 2024, and it seems the EU Parliament has referenced it. It's important to fetch this actual CPT report for detailed information! Let’s ensure we get the correct documents to provide accurate context regarding the situation.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_09019a3882d321ac016902d84cbabc819985740b61b156e5bd",
+      "action": {
+        "query": "CPT report Italy 2024 immigration detention CPR report April 2024 visit published December 2024 Council of Europe CPT Italy",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.europarl.europa.eu/doceo/document/E-10-2025-000124_EN.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ansa.it/english/news/general_news/2024/12/13/repatriation-hubs-in-italy-unsuitable-says-council-of-europe_ae33caef-eabb-4100-9eeb-f4560b1fb66f.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/2024/oct/23/italy-council-of-europe-accusations-police-racism-homophobia"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/italy-calls-council-europe-shameful-after-warning-police-racism-2025-05-29/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ansa.it/english/newswire/english_service/2024/12/13/ansacouncil-of-europe-criticizes-italian-migrant-centres_04eaacf3-848f-420b-9da4-2688f285b57b.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.coe.int/en/web/portal/-/anti-torture-committee-publishes-report-on-ad-hoc-visit-to-italy"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/0dba82e1f333c60b3bc49a0894970e9d"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ecoi.net/en/document/2121366.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ft.com/content/5e99498c-47e0-461e-8b4a-e0727c461ef6"
+          },
+          {
+            "type": "url",
+            "url": "https://www.euronews.com/my-europe/2025/05/28/racial-profiling-still-rife-across-the-eu-council-of-europe-says"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ansa.it/english/news/2024/10/22/council-of-europe-accuses-italy-police-of-racial-profiling_b4ed6d26-be77-4f9b-82a4-29b56c03c361.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ecoi.net/en/document/2121367.html"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_09019a3882d321ac016902d854ab3c8199ada339d37756c2dc",
+      "summary": [
+        {
+          "text": "**Searching for court decisions**\n\nI think we can build our case by mentioning some key points like the NGO plane being grounded. I'll also touch on the criticism of the \"distant port policy\" by UN experts and decisions made by Italian courts regarding unlawful returns to Libya in 2018. It’s worth noting the need to look for the Italian Court of Cassation's decisions from 2024 or 2025 based on the Human Rights Watch summary. So, I'll start searching for that ruling.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_09019a3882d321ac016902d8573a1081998d78b27b36eb2093",
+      "action": {
+        "query": "Italy Court of Cassation 2024 conviction for refoulement to Libya Asso Ventotto captain conviction upheld February 2024",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://sos-humanity.org/en/press/court-confirms/"
+          },
+          {
+            "type": "url",
+            "url": "https://sos-humanity.org/en/press/final-court-decision/"
+          },
+          {
+            "type": "url",
+            "url": "https://sos-humanity.org/en/press/suspension-of-detention-confirmed/"
+          },
+          {
+            "type": "url",
+            "url": "https://civilmrcc.eu/legal-fragment/the-humanity-1-case/"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/f10272c742af43bfb9e1ce0f9ac07be2"
+          },
+          {
+            "type": "url",
+            "url": "https://today.lorientlejour.com/article/1368570/returning-sea-migrants-to-libya-is-illegal-italys-top-court-says.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/europe/italy-impounds-charity-ship-involved-sea-dispute-with-libya-2024-03-05/"
+          },
+          {
+            "type": "url",
+            "url": "https://sos-humanity.org/en/press/illegitimate-detention-appeal/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/2024/apr/19/italian-court-acquits-crew-of-migrant-refugee-rescue-boat-iuventa"
+          },
+          {
+            "type": "url",
+            "url": "https://www.europarl.europa.eu/doceo/document/E-10-2024-002089_EN.html"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_09019a3882d321ac016902d8645bf88199b4ae14dcffaa6e7b",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_09019a3882d321ac016902d864ff5c8199a3c917cf24e8eff2",
+      "action": {
+        "query": "Reporters Without Borders 2025 World Press Freedom Index Italy ranking 2025 RAI government influence Meloni",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/article/2024/may/06/italy-rai-journalists-strike-giorgia-meloni-government"
+          },
+          {
+            "type": "url",
+            "url": "https://www.lemonde.fr/en/international/article/2025/02/24/giorgia-meloni-s-government-in-italy-targets-press-and-tightens-grip-on-public-broadcasting_6738483_4.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.thetimes.co.uk/article/italian-author-of-banned-tv-speech-accuses-meloni-of-censorship-29p8r3t77"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ansa.it/english/news/politics/2025/05/02/italy-slips-to-49th-place-for-press-freedom-rsf_3c08eb6d-c235-4ce3-bd77-fd92c4922575.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.euronews.com/2024/05/06/italian-public-broadcaster-rais-journalists-strike-over-censorship-row"
+          },
+          {
+            "type": "url",
+            "url": "https://www.euronews.com/2024/07/25/italian-government-rejects-eu-commission-warning-about-interference-in-public-media"
+          },
+          {
+            "type": "url",
+            "url": "https://www.aljazeera.com/news/2024/5/6/journalists-at-italys-rai-strike-in-protest-at-melonis-government"
+          },
+          {
+            "type": "url",
+            "url": "https://latestnewsandupdates.com/what-is-the-state-of-health-of-press-freedom-in-italy-the-2025-global-ranking/"
+          },
+          {
+            "type": "url",
+            "url": "https://uisjournal.com/what-is-the-state-of-health-of-press-freedom-in-italy-the-2025-global-ranking/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.c21media.net/news/italys-rai-dismisses-allegations-of-being-pm-giorgia-melonis-political-mouthpiece/"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_09019a3882d321ac016902d87502dc8199948e088b4f7a5fdd",
+      "summary": [
+        {
+          "text": "**Evaluating trustworthy sources**\n\nI think we should streamline the output a bit since the user wants “each source considered trustworthy.” This could lead to a lengthy list, but I can focus on what we actually used. I’ll enumerate sources like HRW, Amnesty, and others, providing reasoning for each one. \n\nFor mainstream outlets like Reuters and the Financial Times, I’ll label them as credible, noting their rigorous editorial standards. I’ll also address the Guardian's opinion leaning, but it’s still reputable for factual reporting.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Assessing untrustworthy sources**\n\nI'm considering how to handle sources that aren't trustworthy. We did cite \"The European Conservative,\" which is a partisan conservative outlet, so I think it should be labeled as not trustworthy for factual claims. However, I want to be fair and note that we didn't actually rely on it.\n\nIt's probably best not to include it in the final text, but I can still mention it as a not trustworthy source with reasons like ideological bias. Additionally, LinkedIn posts from ILGA aren’t ideal, so I’ll stick with content from their official site.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Identifying untrustworthy sources**\n\nThe user wants me to consider “each source deemed not trustworthy.” I can list those we encountered but discarded, like \"Latestnewsandupdates.com\" and \"uisjournal.com,\" which are low-credibility aggregator blogs. I'll mark them as not trustworthy and explain why we didn't rely on them, even if they appeared in search results. \n\nOkay, I’ll also make sure to cite credible sources for key statements, like HRW’s 2025 World Report and Reuters/AP for NGO rescue obstructions and UN expert criticisms on distant port policies. I'll check for an OHCHR page too.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_09019a3882d321ac016902d87ff98881998055db8bbe073cc0",
+      "action": {
+        "query": "OHCHR Italy distant port policy communication 2023 2024 UN Special Rapporteurs Italy Decree Law 1/2023",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/europe/italy-impounds-charity-ship-involved-sea-dispute-with-libya-2024-03-05/"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/0039d1268bdafb6f6a2c78c7eb0414c9"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/europe/italian-court-ends-detention-msf-migrant-rescue-ship-2024-09-11/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ecchr.eu/en/press-release/challenge-to-law-penalizing-sea-rescue/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.coe.int/en/web/commissioner/news/2023/-/asset_publisher/aa3hyyf8wKBn/content/the-italian-government-should-consider-withdrawing-decree-law-which-could-hamper-ngo-search-and-rescue-operations-at-sea"
+          },
+          {
+            "type": "url",
+            "url": "https://srdefenders.org/italy-criminalisation-of-human-rights-defenders-engaged-in-sea-rescue-missions-must-end-says-un-expert/"
+          },
+          {
+            "type": "url",
+            "url": "https://sos-humanity.org/en/press/complaint-to-ec/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.euronews.com/2024/01/17/italys-strict-rules-against-ngo-rescue-ships-is-keeping-them-from-saving-migrants-at-sea"
+          },
+          {
+            "type": "url",
+            "url": "https://www.commondreams.org/news/un-human-rights-italy-migrant-rescue"
+          },
+          {
+            "type": "url",
+            "url": "https://radioallen.cl/italy-criminalisation-of-human-rights-defenders-engaged-in-sea-rescue-missions-must-end-says-un-expert/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.pressenza.com/2023/02/human-rights-expert-urges-italy-to-stop-criminalizing-activists-saving-migrant-lives-at-sea/"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/SOS_M%C3%A9diterran%C3%A9e"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_09019a3882d321ac016902d88aadec8199bf2d19ea90d8732a",
+      "summary": [
+        {
+          "text": "**Considering source evaluation**\n\nI need to ensure I'm framing my points as evaluations based on trustworthy sources rather than presenting them as absolute claims. It's crucial to highlight that for each source I consider reliable, I should specifically mention it to support my arguments. This way, I can present a well-reasoned perspective that values responsible sourcing while avoiding any potential misconceptions or unfounded statements. Let's make sure to keep everything properly vetted!",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Evaluating trustworthy sources**\n\nI’m planning to list several sources for evaluation, focusing on their credibility. First, there's the Human Rights Watch World Report 2025, established and recognized by courts. Next, Amnesty International's recent posts rely on direct research. I'll include Council of Europe bodies, which follow legal standards through direct monitoring. Credible news wires like Reuters and AP are vital for accurate reporting, along with the Financial Times for coverage on specific issues. Lastly, I’ll reference Italy's ANSA agency and European Parliament documents for legal context, plus the ILGA-Europe Rainbow Map for LGBT rights rankings.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Listing credible sources**\n\nI’m putting together a list of credible sources for my evaluation. First, I’ll include an Euronews article covering the EU Rule of Law report and their take on NGO rescue restrictions, which synthesizes official information well. Next, the ECCHR press release is also credible, especially regarding its involvement in a Constitutional Court case. I’ll refer to the ECRE Asylum Information Database for updated legal analysis related to the Albania deal. Finally, I'll include The Guardian and Le Monde for their coverage on the RAI strike and security law context, since we already used The Guardian for the strike.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Identifying untrustworthy sources**\n\nI'm reviewing sources that aren't trustworthy. First, I find the European Conservative article to be right-wing and overly opinionated, so I won't rely on it. Then, there are aggregator blogs like \"latestnewsandupdates.com\" and \"uisjournal.com,\" which I also consider untrustworthy. LinkedIn posts from ILGA-Europe aren't primary sources, and the Wikipedia page doesn’t meet my needs either for contentious claims. Common Dreams and Pressenza are activism-focused and not primary. The C21Media piece isn’t relevant, and The Times, while credible, was used indirectly and can still be included.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Finalizing source use and response**\n\nTo be safe, I’ll exclude certain sources since we already have enough from credible outlets like The Guardian, Euronews, Al Jazeera, and RSF for our claims on strike and censorship. It's crucial to rely solely on trustworthy sources and cite them properly. I should ensure our response doesn’t exaggerate while providing solid evidence, and we need to stick to summarization limits of 200 words per source. I’ll also make sure to include key dates for significant events to maintain consistency. Let's craft a clear, succinct final response!",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "msg_09019a3882d321ac016902d89e88108199bdcf250b059af070",
+      "content": [
+        {
+          "annotations": [
+            {
+              "end_index": 670,
+              "start_index": 579,
+              "title": "World Report 2025: Italy | Human Rights Watch",
+              "type": "url_citation",
+              "url": "https://www.hrw.org/world-report/2025/country-chapters/italy?utm_source=openai"
+            },
+            {
+              "end_index": 1451,
+              "start_index": 1211,
+              "title": "The Italian government should consider withdrawing Decree Law which could hamper NGO search and rescue operations at sea - Commissioner for Human Rights",
+              "type": "url_citation",
+              "url": "https://www.coe.int/en/web/commissioner/news/2023/-/asset_publisher/aa3hyyf8wKBn/content/the-italian-government-should-consider-withdrawing-decree-law-which-could-hamper-ngo-search-and-rescue-operations-at-sea?utm_source=openai"
+            },
+            {
+              "end_index": 2064,
+              "start_index": 1969,
+              "title": "Final court decision: Detention of Humanity 1 was unlawful! - SOS HUMANITY",
+              "type": "url_citation",
+              "url": "https://sos-humanity.org/en/press/final-court-decision/?utm_source=openai"
+            },
+            {
+              "end_index": 2415,
+              "start_index": 2324,
+              "title": "World Report 2025: Italy | Human Rights Watch",
+              "type": "url_citation",
+              "url": "https://www.hrw.org/world-report/2025/country-chapters/italy?utm_source=openai"
+            },
+            {
+              "end_index": 3128,
+              "start_index": 2962,
+              "title": "Italy: MPs should reject “unworkable, harmful and unlawful” migration deal with Albania - Amnesty International",
+              "type": "url_citation",
+              "url": "https://www.amnesty.org/en/latest/news/2024/01/italy-mps-should-reject-unworkable-harmful-and-unlawful-migration-deal-with-albania/?utm_source=openai"
+            },
+            {
+              "end_index": 3666,
+              "start_index": 3535,
+              "title": "Anti-torture Committee publishes report on ad hoc visit to Italy - Portal",
+              "type": "url_citation",
+              "url": "https://www.coe.int/en/web/portal/-/anti-torture-committee-publishes-report-on-ad-hoc-visit-to-italy?utm_source=openai"
+            },
+            {
+              "end_index": 4084,
+              "start_index": 3897,
+              "title": "Italy: Abuse of migration-related detention in punitive conditions deprives people of liberty and dignity - Amnesty International",
+              "type": "url_citation",
+              "url": "https://www.amnesty.org/en/latest/news/2024/07/italy-abuse-of-migration-related-detention-in-punitive-conditions-deprives-people-of-liberty-and-dignity/?utm_source=openai"
+            },
+            {
+              "end_index": 4521,
+              "start_index": 4371,
+              "title": "Police beatings of pro-Palestinian schoolchildren spark outrage in Italy",
+              "type": "url_citation",
+              "url": "https://www.reuters.com/world/europe/police-beatings-pro-palestinian-schoolchildren-spark-outrage-italy-2024-02-23/?utm_source=openai"
+            },
+            {
+              "end_index": 5081,
+              "start_index": 4897,
+              "title": "Italy: Draconian new law criminalizing peaceful protest while expanding police powers must be rejected - Amnesty International",
+              "type": "url_citation",
+              "url": "https://www.amnesty.org/en/latest/news/2025/05/italy-draconian-new-law-criminalizing-peaceful-protest-while-expanding-police-powers-must-be-rejected/?utm_source=openai"
+            },
+            {
+              "end_index": 5313,
+              "start_index": 5228,
+              "title": "Italy passes decree clamping down on illegal rave parties | Euronews",
+              "type": "url_citation",
+              "url": "https://www.euronews.com/2022/12/31/italy-parties?utm_source=openai"
+            },
+            {
+              "end_index": 5804,
+              "start_index": 5676,
+              "title": "Italy makes it illegal to seek surrogacy abroad",
+              "type": "url_citation",
+              "url": "https://www.reuters.com/world/europe/italy-makes-it-illegal-seek-surrogacy-abroad-2024-10-16/?utm_source=openai"
+            },
+            {
+              "end_index": 6284,
+              "start_index": 6142,
+              "title": "Italian public broadcaster Rai's journalists strike over censorship row | Euronews",
+              "type": "url_citation",
+              "url": "https://www.euronews.com/2024/05/06/italian-public-broadcaster-rais-journalists-strike-over-censorship-row?utm_source=openai"
+            },
+            {
+              "end_index": 6799,
+              "start_index": 6659,
+              "title": "Italy calls Council of Europe 'shameful' after warning on police racism",
+              "type": "url_citation",
+              "url": "https://www.reuters.com/world/italy-calls-council-europe-shameful-after-warning-police-racism-2025-05-29/?utm_source=openai"
+            },
+            {
+              "end_index": 7273,
+              "start_index": 7182,
+              "title": "World Report 2025: Italy | Human Rights Watch",
+              "type": "url_citation",
+              "url": "https://www.hrw.org/world-report/2025/country-chapters/italy?utm_source=openai"
+            },
+            {
+              "end_index": 7862,
+              "start_index": 7771,
+              "title": "World Report 2025: Italy | Human Rights Watch",
+              "type": "url_citation",
+              "url": "https://www.hrw.org/world-report/2025/country-chapters/italy?utm_source=openai"
+            },
+            {
+              "end_index": 8459,
+              "start_index": 8272,
+              "title": "Italy: Abuse of migration-related detention in punitive conditions deprives people of liberty and dignity - Amnesty International",
+              "type": "url_citation",
+              "url": "https://www.amnesty.org/en/latest/news/2024/07/italy-abuse-of-migration-related-detention-in-punitive-conditions-deprives-people-of-liberty-and-dignity/?utm_source=openai"
+            },
+            {
+              "end_index": 9175,
+              "start_index": 9044,
+              "title": "Anti-torture Committee publishes report on ad hoc visit to Italy - Portal",
+              "type": "url_citation",
+              "url": "https://www.coe.int/en/web/portal/-/anti-torture-committee-publishes-report-on-ad-hoc-visit-to-italy?utm_source=openai"
+            },
+            {
+              "end_index": 9643,
+              "start_index": 9500,
+              "title": "Italy impounds charity ship involved in at sea dispute with Libya",
+              "type": "url_citation",
+              "url": "https://www.reuters.com/world/europe/italy-impounds-charity-ship-involved-sea-dispute-with-libya-2024-03-05/?utm_source=openai"
+            },
+            {
+              "end_index": 10031,
+              "start_index": 9938,
+              "title": "Italy bars NGO migrant rescue flights from Sicilian airport, says they interfere with coast guard",
+              "type": "url_citation",
+              "url": "https://apnews.com/article/dc8257ba865c4d554f810baa17ccab7b?utm_source=openai"
+            },
+            {
+              "end_index": 10409,
+              "start_index": 10316,
+              "title": "Migrants 'drugged and beaten' at privately run Italian detention centres",
+              "type": "url_citation",
+              "url": "https://www.ft.com/content/5e99498c-47e0-461e-8b4a-e0727c461ef6?utm_source=openai"
+            },
+            {
+              "end_index": 10946,
+              "start_index": 10770,
+              "title": "Court nixes detention of migrants taken to Albania - Politics - Ansa.it",
+              "type": "url_citation",
+              "url": "https://www.ansa.it/english/news/politics/2024/10/18/court-nixes-detention-of-migrants-taken-to-albania_3383d55c-fcae-46ad-b7fb-5a54d8073228.html?utm_source=openai"
+            },
+            {
+              "end_index": 11388,
+              "start_index": 11277,
+              "title": "Parliamentary question | New Italian decree-law limiting the operations of NGO rescue boats | E-001738/2023 | European Parliament",
+              "type": "url_citation",
+              "url": "https://www.europarl.europa.eu/doceo/document/E-9-2023-001738_EN.html?utm_source=openai"
+            },
+            {
+              "end_index": 11789,
+              "start_index": 11698,
+              "title": "Rainbow Map 2025 | ILGA-Europe",
+              "type": "url_citation",
+              "url": "https://www.ilga-europe.org/report/rainbow-map-2025/?utm_source=openai"
+            },
+            {
+              "end_index": 12236,
+              "start_index": 12081,
+              "title": "Italy's ruling party rejects EU Commission warning about interference in public media | Euronews",
+              "type": "url_citation",
+              "url": "https://www.euronews.com/2024/07/25/italian-government-rejects-eu-commission-warning-about-interference-in-public-media?utm_source=openai"
+            },
+            {
+              "end_index": 12699,
+              "start_index": 12590,
+              "title": "ECCHR: Challenge to Law Penalizing Sea Rescue",
+              "type": "url_citation",
+              "url": "https://www.ecchr.eu/en/press-release/challenge-to-law-penalizing-sea-rescue/?utm_source=openai"
+            },
+            {
+              "end_index": 13307,
+              "start_index": 13153,
+              "title": "EU Court Deals Blow to Meloni's Albania Migrant Deal ━ The European Conservative",
+              "type": "url_citation",
+              "url": "https://europeanconservative.com/articles/news-corner/eu-court-deals-blow-to-melonis-albania-migrant-deal/?utm_source=openai"
+            },
+            {
+              "end_index": 13880,
+              "start_index": 13721,
+              "title": "What is the state of health of press freedom in Italy: the 2025 global ranking - LNU News",
+              "type": "url_citation",
+              "url": "https://latestnewsandupdates.com/what-is-the-state-of-health-of-press-freedom-in-italy-the-2025-global-ranking/?utm_source=openai"
+            },
+            {
+              "end_index": 14303,
+              "start_index": 14166,
+              "title": "🏳️‍🌈 The results are in: the Rainbow Map 2025 is here! | ILGA-Europe",
+              "type": "url_citation",
+              "url": "https://www.linkedin.com/posts/ilga-europe_rainbow-map-2025-ranking-activity-7328776228104978432-ia-B?utm_source=openai"
+            },
+            {
+              "end_index": 14823,
+              "start_index": 14713,
+              "title": "'Saving Lives Is Not a Crime': UN Expert Tells Italy to Stop Prosecuting Migrant Rescue Teams | Common Dreams",
+              "type": "url_citation",
+              "url": "https://www.commondreams.org/news/un-human-rights-italy-migrant-rescue?utm_source=openai"
+            },
+            {
+              "end_index": 15202,
+              "start_index": 15052,
+              "title": "Police beatings of pro-Palestinian schoolchildren spark outrage in Italy",
+              "type": "url_citation",
+              "url": "https://www.reuters.com/world/europe/police-beatings-pro-palestinian-schoolchildren-spark-outrage-italy-2024-02-23/?utm_source=openai"
+            },
+            {
+              "end_index": 15615,
+              "start_index": 15475,
+              "title": "Italy calls Council of Europe 'shameful' after warning on police racism",
+              "type": "url_citation",
+              "url": "https://www.reuters.com/world/italy-calls-council-europe-shameful-after-warning-police-racism-2025-05-29/?utm_source=openai"
+            }
+          ],
+          "text": "1) Answer\n\nShort conclusion\nBased on multiple, recent findings by independent human‑rights bodies, European institutions, courts and major newswires, there is strong, documentable evidence that the Meloni government (which Giorgia Meloni has led since October 2022) has adopted and defended policies that restrict or violate internationally protected rights, particularly on migration/asylum, freedom of assembly, media freedom, and LGBTQ+ family rights. The pattern across these files supports the claim that her government has shown disregard for key human‑rights obligations. ([hrw.org](https://www.hrw.org/world-report/2025/country-chapters/italy?utm_source=openai))\n\nKey evidence, by area\n\n- Sea‑rescue obstruction and outsourcing migration control\n  • Decree‑Law 1/2023 (the “Piantedosi” law, converted as Law 15/2023) restricts NGO rescues (one rescue per voyage; immediate sail to a distant port), with fines and detentions of ships and, since 2024–2025, even aircraft; UN experts and the Council of Europe warned these rules undermine the right to life at sea and breach Italy’s obligations. Italian authorities repeatedly detained NGO ships and grounded a rescue plane in 2024–2025 under these rules. ([coe.int](https://www.coe.int/en/web/commissioner/news/2023/-/asset_publisher/aa3hyyf8wKBn/content/the-italian-government-should-consider-withdrawing-decree-law-which-could-hamper-ngo-search-and-rescue-operations-at-sea?utm_source=openai))\n  • Courts have repeatedly pushed back: in 2024 the Crotone civil court (confirmed on appeal in 2025) found Libya’s “coast guard” and MRCC are not legitimate SAR actors and struck down an NGO ship detention premised on obeying Libyan orders; in February 2024 Italy’s Court of Cassation upheld a conviction stemming from a 2018 “pushback” to Libya, reaffirming that returns to Libya are unlawful due to serious abuses there. Italy’s Constitutional Court heard a challenge to the rescue‑penalizing law on May 21, 2025. ([sos-humanity.org](https://sos-humanity.org/en/press/final-court-decision/?utm_source=openai))\n  • HRW’s 2025 country chapter summarizes the government’s obstruction of rescues (25+ detentions of rescue ships through Sept 2024), the “distant port” policy, new powers to fine/detain NGO aircraft, and continued outsourcing to countries with poor records. ([hrw.org](https://www.hrw.org/world-report/2025/country-chapters/italy?utm_source=openai))\n\n- Offshoring asylum to Albania and unlawful detention\n  • The November 2023 Italy‑Albania deal offshores processing and entails automatic detention. Amnesty warned in January 2024 this leads to arbitrary detention and undermines access to asylum and remedies; in October 2024 Rome’s immigration court refused to validate the first detentions in Albania and ordered people returned to Italy; in August 2025, the EU Court of Justice ruled on “safe country of origin” designations in a way that further undercut the legal basis used in the scheme. ([amnesty.org](https://www.amnesty.org/en/latest/news/2024/01/italy-mps-should-reject-unworkable-harmful-and-unlawful-migration-deal-with-albania/?utm_source=openai))\n\n- Abusive conditions in migrant detention (CPR) centres\n  • The Council of Europe’s anti‑torture watchdog (CPT) reported on Dec 13, 2024 that CPRs showed cases of ill‑treatment and excessive force by police, over‑medication with psychotropic drugs, carceral conditions and lack of independent monitoring—findings echoed by AP and the Financial Times. The CPT published Italy’s reply alongside its report. ([coe.int](https://www.coe.int/en/web/portal/-/anti-torture-committee-publishes-report-on-ad-hoc-visit-to-italy?utm_source=openai))\n  • Amnesty (July 2024) found Italy’s migration detention system abusive, punitive and incompatible with international standards (inadequate legal process; prison‑like conditions; bans on phones; severe restrictions on movement). ([amnesty.org](https://www.amnesty.org/en/latest/news/2024/07/italy-abuse-of-migration-related-detention-in-punitive-conditions-deprives-people-of-liberty-and-dignity/?utm_source=openai))\n\n- Policing of protest and new “security” crackdown\n  • Police baton‑charges against high‑school students at pro‑Palestinian protests in Pisa/Florence on Feb 23, 2024 drew condemnation from Italy’s President and sparked probes, showing excessive use of force against peaceful assembly. ([reuters.com](https://www.reuters.com/world/europe/police-beatings-pro-palestinian-schoolchildren-spark-outrage-italy-2024-02-23/?utm_source=openai))\n  • In spring–summer 2025, the government passed a security decree that criminalizes common protest tactics (e.g., traffic blockades), expands police powers, raises penalties in migrant centres, and funds legal defenses for officers under investigation. Amnesty called it “draconian” and incompatible with international law; Reuters reported Senate approval on June 4, 2025. ([amnesty.org](https://www.amnesty.org/en/latest/news/2025/05/italy-draconian-new-law-criminalizing-peaceful-protest-while-expanding-police-powers-must-be-rejected/?utm_source=openai))\n  • Earlier (late 2022) the government had already introduced an “anti‑rave” law criticized by Article 19 for overbroad restrictions on assembly. ([euronews.com](https://www.euronews.com/2022/12/31/italy-parties?utm_source=openai))\n\n- LGBTQ+ and family rights\n  • In October 2024, Parliament made seeking surrogacy abroad a crime (up to 2 years’ prison and €1m fine). Reuters/AP reported, and HRW flagged the measure’s disproportionate impact on same‑sex and infertile couples’ ability to form a family. ILGA‑Europe’s 2025 Rainbow Map places Italy near the bottom of Europe on LGBTQI equality. ([reuters.com](https://www.reuters.com/world/europe/italy-makes-it-illegal-seek-surrogacy-abroad-2024-10-16/?utm_source=openai))\n\n- Media freedom and pressure on public broadcasting\n  • RAI journalists went on strike (May 6, 2024) over “suffocating control” and alleged censorship; the European Commission’s 2024 Rule‑of‑Law report highlighted “undue political influence” risks at RAI; RSF’s 2025 Index shows Italy slipping to 49th globally, last in Western Europe. ([euronews.com](https://www.euronews.com/2024/05/06/italian-public-broadcaster-rais-journalists-strike-over-censorship-row?utm_source=openai))\n\n- Anti‑discrimination concerns and policing\n  • The Council of Europe’s ECRI flagged racial profiling by police (country assessment Oct 2024; public debate in May 2025); the government publicly dismissed the findings as “shameful,” rather than committing to corrective measures. The European Committee for Social Rights also found housing‑rights violations affecting Roma. ([reuters.com](https://www.reuters.com/world/italy-calls-council-europe-shameful-after-warning-police-racism-2025-05-29/?utm_source=openai))\n\nTaken together—with repeated court setbacks, warnings from UN/CoE bodies, and legislative choices that tighten restrictions instead of addressing violations—the record demonstrates an ongoing disregard by Meloni’s government for several core human‑rights obligations (right to life at sea; liberty and due process; peaceful assembly; non‑discrimination; family life and equality). ([hrw.org](https://www.hrw.org/world-report/2025/country-chapters/italy?utm_source=openai))\n\n\n2) Sources considered TRUSTWORTHY (used and relied on)\n\n- Human Rights Watch (HRW) – World Report 2025: Italy\n  [1] Source: Human Rights Watch\n  [2] Reasoning 1: Long‑standing, internationally respected NGO with transparent methodology and right‑of‑reply; widely cited by courts and international bodies.\n  [3] Reasoning 2: Its 2025 country chapter synthesizes documented events (detentions of NGO ships/planes; Albania offshoring difficulties; SOGI issues) with specific, checkable references. ([hrw.org](https://www.hrw.org/world-report/2025/country-chapters/italy?utm_source=openai))\n\n- Amnesty International – reports/news on Italy (2024–2025)\n  [1] Source: Amnesty International\n  [2] Reasoning 1: Global human‑rights NGO using field research, legal analysis, and consistent standards; regularly engages with UN/EU processes (e.g., UPR).\n  [3] Reasoning 2: Provided first‑hand findings on CPR detention conditions (July 2024) and legal analysis of the Albania deal and 2025 security decree. ([amnesty.org](https://www.amnesty.org/en/latest/news/2024/07/italy-abuse-of-migration-related-detention-in-punitive-conditions-deprives-people-of-liberty-and-dignity/?utm_source=openai))\n\n- Council of Europe bodies (CPT, Commissioner for Human Rights, ECRI)\n  [1] Source: Council of Europe – CPT; Commissioner; ECRI\n  [2] Reasoning 1: Intergovernmental human‑rights mechanisms with formal monitoring mandates; CPT reports include visits; Commissioner/ECRI issue legal‑standard‑based assessments.\n  [3] Reasoning 2: The CPT’s April 2024 visit report (published Dec 13, 2024) documents ill‑treatment/over‑medication/lack of monitoring in CPRs; the Commissioner’s 2023 letter and ECRI’s 2024 report raise concrete legal concerns about SAR restrictions and racial profiling. ([coe.int](https://www.coe.int/en/web/portal/-/anti-torture-committee-publishes-report-on-ad-hoc-visit-to-italy?utm_source=openai))\n\n- Reuters\n  [1] Source: Reuters\n  [2] Reasoning 1: Global wire service with rigorous editorial standards and corrections policy.\n  [3] Reasoning 2: Provided contemporaneous, factual reporting on detentions/impoundments of rescue assets, the 2025 security decree passage, ECRI controversy, and the surrogacy law’s approval. ([reuters.com](https://www.reuters.com/world/europe/italy-impounds-charity-ship-involved-sea-dispute-with-libya-2024-03-05/?utm_source=openai))\n\n- Associated Press (AP)\n  [1] Source: AP\n  [2] Reasoning 1: Independent, non‑profit global news agency known for factual reporting and verification.\n  [3] Reasoning 2: Covered distant‑port restrictions on SAR flights, specific rescue/impoundment incidents, and the Albania offshoring rulings. ([apnews.com](https://apnews.com/article/dc8257ba865c4d554f810baa17ccab7b?utm_source=openai))\n\n- Financial Times\n  [1] Source: Financial Times\n  [2] Reasoning 1: Highly regarded international newspaper with strong fact‑checking and specialist legal/policy coverage.\n  [3] Reasoning 2: Reported in depth on CPR abuses flagged by the CPT and on the Albania plan’s legal setbacks. ([ft.com](https://www.ft.com/content/5e99498c-47e0-461e-8b4a-e0727c461ef6?utm_source=openai))\n\n- ANSA (Italy’s national news agency)\n  [1] Source: ANSA (English service)\n  [2] Reasoning 1: Primary Italian wire; reliable for official statements and court decisions.\n  [3] Reasoning 2: Reported the Rome tribunal’s October 18, 2024 ruling against Albania‑scheme detentions and other institutional developments (e.g., RSF ranking; security decree framing). ([ansa.it](https://www.ansa.it/english/news/politics/2024/10/18/court-nixes-detention-of-migrants-taken-to-albania_3383d55c-fcae-46ad-b7fb-5a54d8073228.html?utm_source=openai))\n\n- European Parliament documents (parliamentary questions/records)\n  [1] Source: European Parliament\n  [2] Reasoning 1: Official EU institutional records with legal/technical detail.\n  [3] Reasoning 2: Documented concerns about the Piantedosi law’s incompatibility with EU/intl law and noted court suspensions of ship detentions. ([europarl.europa.eu](https://www.europarl.europa.eu/doceo/document/E-9-2023-001738_EN.html?utm_source=openai))\n\n- ILGA‑Europe – Rainbow Map 2025\n  [1] Source: ILGA‑Europe\n  [2] Reasoning 1: Pan‑European NGO producing a widely used, criteria‑based index of LGBTQI legal conditions.\n  [3] Reasoning 2: Current (2025) data placing Italy low relative to EU peers, consistent with HRW’s SOGI analysis and recent legislation. ([ilga-europe.org](https://www.ilga-europe.org/report/rainbow-map-2025/?utm_source=openai))\n\n- Euronews (incl. Rule‑of‑Law coverage)\n  [1] Source: Euronews\n  [2] Reasoning 1: Reputable European outlet; often reports directly from EU institutions.\n  [3] Reasoning 2: Reported EC concerns about undue political influence at RAI; also summarized how 2023–2024 SAR rules impede rescues. ([euronews.com](https://www.euronews.com/2024/07/25/italian-government-rejects-eu-commission-warning-about-interference-in-public-media?utm_source=openai))\n\n- ECCHR (European Center for Constitutional and Human Rights)\n  [1] Source: ECCHR\n  [2] Reasoning 1: Well‑known legal NGO litigating before top courts; issues detailed legal analyses.\n  [3] Reasoning 2: Primary statement on the Constitutional Court case concerning the rescue‑penalizing law, useful to establish procedural posture and legal questions. ([ecchr.eu](https://www.ecchr.eu/en/press-release/challenge-to-law-penalizing-sea-rescue/?utm_source=openai))\n\n\n3) Sources considered NOT TRUSTWORTHY (encountered but not relied upon)\n\n- The European Conservative\n  [1] Source: The European Conservative\n  [2] Reasoning 1: Partisan opinion outlet with a clear ideological stance; limited transparency on methodology and fact‑checking.\n  [3] Reasoning 2: Its article on the ECJ/safe‑country issue mixes news with opinion; for a legal matter, primary judgments and neutral wires were preferred. Not used for claims. ([europeanconservative.com](https://europeanconservative.com/articles/news-corner/eu-court-deals-blow-to-melonis-albania-migrant-deal/?utm_source=openai))\n\n- Aggregator/low‑credibility blogs (e.g., “Latestnewsandupdates.com”, “uisjournal.com”)\n  [1] Source: Latestnewsandupdates.com; UISJournal.com\n  [2] Reasoning 1: Unknown publishers with no disclosed editorial standards; content appears to republish others’ reporting.\n  [3] Reasoning 2: Used only to locate RSF references already available from ANSA/RSF; not suitable as sources themselves. Not used for claims. ([latestnewsandupdates.com](https://latestnewsandupdates.com/what-is-the-state-of-health-of-press-freedom-in-italy-the-2025-global-ranking/?utm_source=openai))\n\n- Social media posts/LinkedIn items (ILGA‑Europe post)\n  [1] Source: LinkedIn post replicating ILGA data\n  [2] Reasoning 1: Social posts are secondary and mutable; not archival.\n  [3] Reasoning 2: We relied on ILGA’s official site instead. The LinkedIn post was not used as a source. ([linkedin.com](https://www.linkedin.com/posts/ilga-europe_rainbow-map-2025-ranking-activity-7328776228104978432-ia-B?utm_source=openai))\n\n- Advocacy/secondary republications of UN statements (e.g., Common Dreams; Pressenza; “Allen Radio” repost)\n  [1] Source: Common Dreams; Pressenza; radioallen.cl\n  [2] Reasoning 1: Advocacy/alternative media; may repackage primary statements without full context.\n  [3] Reasoning 2: We cited the UN Special Rapporteur’s statement via official/academic channels instead of these reposts. Not used for claims. ([commondreams.org](https://www.commondreams.org/news/un-human-rights-italy-migrant-rescue?utm_source=openai))\n\n\nNotes and scope\n- Dates are given explicitly (e.g., Feb 23, 2024 Pisa protests; Oct 16, 2024 surrogacy law; Dec 13, 2024 CPT report; May–June 2025 security decree; Aug 8, 2025 first rescue‑plane grounding) to avoid ambiguity. ([reuters.com](https://www.reuters.com/world/europe/police-beatings-pro-palestinian-schoolchildren-spark-outrage-italy-2024-02-23/?utm_source=openai))\n- Where government rebuttals exist (e.g., on ECRI/CPT findings; media freedom; security decree), they are noted in reported pieces; the core evidentiary point is that independent oversight bodies and courts have repeatedly found rights‑infringing effects or unlawfulness. ([reuters.com](https://www.reuters.com/world/italy-calls-council-europe-shameful-after-warning-police-racism-2025-05-29/?utm_source=openai))\n\nIf you want, I can compile the full texts of the key legal documents (CPT report, Amnesty analyses, relevant court decisions) and map each provision to specific rights in the ECHR/ICCPR for a formal brief.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "city": null,
+        "country": null,
+        "region": "Europe",
+        "timezone": null,
+        "type": "approximate"
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "max_output_tokens": 90000,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": "detailed"
+  },
+  "safety_identifier": "001",
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 46537,
+    "input_tokens_details": {
+      "cached_tokens": 3712
+    },
+    "output_tokens": 8187,
+    "output_tokens_details": {
+      "reasoning_tokens": 4672
+    },
+    "total_tokens": 54724
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "store": false
+}

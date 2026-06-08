@@ -1,0 +1,894 @@
+{
+  "id": "resp_0b87322d857f3124016902ebacca848197a54e8f36eb30d327",
+  "created_at": 1761799084.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5-2025-08-07",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0b87322d857f3124016902ebad84e481978507ac027f6849c3",
+      "summary": [
+        {
+          "text": "**Planning to browse for sources**\n\nI realize I haven't done any searches yet, so it's clear I need to browse to find and select reliable sources. This step is essential for gathering the right information. It makes me wonder what specific topics or areas I should focus on while looking for sources. I want to ensure I'm thorough and accurate in my search to provide the best answer to the user. Let's get started on that process!",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Organizing verification and citations**\n\nI need to verify the information, but I realize I have too many items. I should narrow it down to 5-7 key pieces that are most relevant. When using web.run, I must remember to provide citations for any claims I make, ideally for the five most important statements. I want to keep things clear and avoid overwhelming detail. Alright, let's start browsing and gathering the necessary information to support those key points!",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0b87322d857f3124016902ebd1fe5081978525c95370cba41f",
+      "action": {
+        "query": "Pedro Sánchez Aquarius 2018 offered port migrants Spain BBC",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/b4725cdaef60d085ffb63f162fbdc410"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Democratic_Memory_Law"
+          },
+          {
+            "type": "url",
+            "url": "https://www.hacienda.gob.es/DocLeyes/REPOSITORIO%20NORMATIVA/80055.htm"
+          },
+          {
+            "type": "url",
+            "url": "https://www.exteriores.gob.es/Consulados/amsterdam/en/Comunicacion/Noticias/Paginas/Articulos/LEY-DE-MEMORIA-DEMOCRATICA.aspx"
+          },
+          {
+            "type": "url",
+            "url": "https://www.icab.cat/en/actualitat/noticies/news/Ley-20-2022-de-19-de-octubre-de-memoria-democratica-BOE-del-20-de-octubre-de-2022/"
+          },
+          {
+            "type": "url",
+            "url": "https://fr.wikipedia.org/wiki/Loi_organique_de_r%C3%A9gulation_de_l%27euthanasie"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Ley_Trans"
+          },
+          {
+            "type": "url",
+            "url": "https://www.exteriores.gob.es/Consulados/amsterdam/es/Comunicacion/Noticias/Paginas/Articulos/LEY-DE-MEMORIA-DEMOCRATICA.aspx"
+          },
+          {
+            "type": "url",
+            "url": "https://elpais.com/espana/2025-10-21/tres-anos-despues-de-la-ley-de-memoria-avances-incumplimientos-y-una-batalla-perdida.html"
+          },
+          {
+            "type": "url",
+            "url": "https://elpais.com/espana/2025-10-09/un-alcalde-del-pp-se-resiste-a-retirar-una-inscripcion-franquista-en-alava-no-molesta-a-nadie.html"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0b87322d857f3124016902ebd933a881979607345636076fc2",
+      "summary": [
+        {
+          "text": "**Gathering recognition news**\n\nI found some news sources regarding Spain proposing recognition of Palestine. I need to confirm the exact recognition date, which is May 28, 2024. I'll make sure to include reliable sources like Reuters, BBC, and the Spanish Government's La Moncloa press release. I should search for \"Spain recognizes State of Palestine May 2024 Reuters\" to gather all the relevant details. Getting accurate info is crucial for clarity!",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0b87322d857f3124016902ebdb88f48197af1b20296562b250",
+      "action": {
+        "query": "Spain recognizes State of Palestine May 28 2024 Reuters",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/middle-east/spain-intervene-south-africas-gaza-genocide-case-world-court-2024-06-06/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.lamoncloa.gob.es/lang/en/presidente/news/Paginas/2024/20240522-appearance-lower-house.aspx"
+          },
+          {
+            "type": "url",
+            "url": "https://www.dw.com/en/israel-hamas-war-spain-norway-ireland-recognize-palestine/live-69199902"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/article/2024/may/28/tanks-centre-rafah-israel-isolation"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/67d4d9b8ecf6fd88e718319a5d93465a"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/b4725cdaef60d085ffb63f162fbdc410"
+          },
+          {
+            "type": "url",
+            "url": "https://www.lamoncloa.gob.es/lang/en/gobierno/councilministers/Paginas/2024/20240528-council-press-conference.aspx"
+          },
+          {
+            "type": "url",
+            "url": "https://www.lamoncloa.gob.es/lang/en/presidente/news/paginas/2024/20240529-gaza-arab-islamic-committee.aspx"
+          },
+          {
+            "type": "url",
+            "url": "https://www.euronews.com/my-europe/2024/05/28/spain-to-recognise-palestinian-state-in-historic-decision"
+          },
+          {
+            "type": "url",
+            "url": "https://www.lamoncloa.gob.es/lang/en/gobierno/news/paginas/2025/20250528-recognition-palestine-anniversary.aspx"
+          },
+          {
+            "type": "url",
+            "url": "https://www.aljazeera.com/news/2024/6/6/spain-says-will-join-gaza-genocide-case-against-israel-at-icj"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0b87322d857f3124016902ebe46f5081979184401c10dfb9c9",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0b87322d857f3124016902ebe4bcd88197adeb78cad58adac4",
+      "action": {
+        "query": "Aquarius migrants Spain offers port 2018 Pedro Sánchez Reuters",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.thelocal.es/20180814/spain-to-take-in-60-of-the-141-aquarius-migrants-pm-sanchez"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/2018/jun/12/stranded-migrants-aquarius-to-be-taken-to-spain-says-french-charity"
+          },
+          {
+            "type": "url",
+            "url": "https://english.elpais.com/elpais/2018/08/13/inenglish/1534146930_578482.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.dw.com/en/spain-will-accept-migrant-ship-aquarius-after-italy-and-malta-refuse-entry/a-44150793"
+          },
+          {
+            "type": "url",
+            "url": "https://english.elpais.com/elpais/2018/06/11/inenglish/1528720717_398244.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.euronews.com/2018/06/11/dramatic-rescue-of-migrants-in-mediterranean"
+          },
+          {
+            "type": "url",
+            "url": "https://english.elpais.com/elpais/2018/06/18/inenglish/1529305036_939444.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.euronews.com/2018/06/18/spain-welcomes-migrants-as-the-aquarius-docks-in-valencia"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/2018/sep/25/aquarius-cannot-disembark-in-marseille-says-french-minister"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0b87322d857f3124016902ebed4ecc8197960609993b1a6748",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0b87322d857f3124016902ebeda0288197be9f2ff2bdb8403d",
+      "action": {
+        "query": "BOE Ley Orgánica 3/2021 regulación de la eutanasia BOE-A-2021-4268",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.icab.es/es/actualidad/noticias/noticia/LEY-ORGANICA-3-2021-de-24-de-marzo-de-regulacion-de-la-eutanasia-BOE-del-25-de-marzo-de-2021/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.icab.es/es/actualidad/noticias/noticia/Recurso-de-inconstitucionalidad-n.-4313-2021-contra-la-Ley-Organica-3-2021-de-24-de-marzo-de-regulacion-de-la-eutanasia/"
+          },
+          {
+            "type": "url",
+            "url": "https://cido.diba.cat/legislacio/11481559/ley-organica-32021-de-24-de-marzo-de-regulacion-de-la-eutanasia-jefatura-de-estado"
+          },
+          {
+            "type": "url",
+            "url": "https://noticias.juridicas.com/base_datos/Penal/692736-ley-organica-3-2021-de-24-de-marzo-de-regulacion-de-la-eutanasia.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.castillalamancha.es/gobierno/sanidad/estructura/dgschas/actuaciones/ley-org%C3%A1nica-32021-de-24-de-marzo-de-regulaci%C3%B3n-de-la-eutanasia"
+          },
+          {
+            "type": "url",
+            "url": "https://fr.wikipedia.org/wiki/Loi_organique_de_r%C3%A9gulation_de_l%27euthanasie"
+          },
+          {
+            "type": "url",
+            "url": "https://www.juntadeandalucia.es/boja/2021/586/2"
+          },
+          {
+            "type": "url",
+            "url": "https://ajuntament.barcelona.cat/accessible/es/ley-organica-32021-de-24-de-marzo-de-regulacion-de-la-eutanasia"
+          },
+          {
+            "type": "url",
+            "url": "https://icoma.eus/colegiados-as/servicios-a-la-colegiacion/especial-eutanasia/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.granada.org/inet/wordenanz.nsf/mtod/FF539A6505C9DB0CC12586A30024E819"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0b87322d857f3124016902ebf483288197a5e8d9f4efff6866",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0b87322d857f3124016902ebf4e27c8197b912e5d73aa2f67a",
+      "action": {
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://cido.diba.cat/legislacio/11481559/ley-organica-32021-de-24-de-marzo-de-regulacion-de-la-eutanasia-jefatura-de-estado"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0b87322d857f3124016902ebf6a544819796957592174a44c6",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0b87322d857f3124016902ebf823b481979f0484720eb9967b",
+      "action": {
+        "query": "Ley Orgánica 8/2021 protección integral a la infancia y la adolescencia frente a la violencia BOE",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://cadenaser.com/comunitat-valenciana/2025/06/03/vox-elda-denuncia-deficiencias-en-el-protocolo-de-proteccion-de-la-infancia-y-adolescencia-impulsado-por-el-ayuntamiento-radio-elda/"
+          },
+          {
+            "type": "url",
+            "url": "https://elpais.com/sociedad/2025-06-27/sira-rego-la-industria-tecnologica-esta-haciendo-caja-con-la-explotacion-infantil.html"
+          },
+          {
+            "type": "url",
+            "url": "https://cadenaser.com/aragon/2025/10/21/madres-del-ies-goya-de-zaragoza-logran-que-la-nueva-ley-de-proteccion-a-la-infancia-impida-dar-clase-a-condenados-por-violencia-de-genero-radio-zaragoza/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.rtve.es/noticias/20210415/congreso-luz-verde-ley-rhodes/2085989.shtml"
+          },
+          {
+            "type": "url",
+            "url": "https://www.elespanol.com/espana/politica/20230215/gobierno-corregira-ley-infancia-rhodes-pablo-iglesias-error-delitos-menores/741675915_0.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.newtral.es/ley-proteccion-infancia-preguntas-res/20210415/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.rtve.es/noticias/20210415/rhodes-sobre-su-ley-si-eres-pederasta-violador-no-puedes-esconderte-mas/2086041.shtml"
+          },
+          {
+            "type": "url",
+            "url": "https://www.abc.es/sociedad/abci-ley-proteccion-infancia-frente-violencia-llamara-ley-rhodes-202002101557_noticia.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.rtve.es/noticias/20210520/congreso-aprueba-ley-proteccion-infancia-robaron-vida/2091538.shtml"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0b87322d857f3124016902ec0009e081979b6a6c9982b5f50b",
+      "summary": [
+        {
+          "text": "**Considering legal topics**\n\nI'm thinking about the \"Only yes means yes\" law and the controversies around it, particularly with sentence reductions. It could be safer for me to shift focus to broader topics like democratic memory, euthanasia legalization, trans laws, and child protection. There’s also Spain's action against the \"Franco Foundation\" and the exhumation of Franco’s remains in October 2019, which could demonstrate a commitment to victims' rights. I should look for a source to reference this information.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0b87322d857f3124016902ec0226988197bcbcb99dd423eee6",
+      "action": {
+        "query": "Franco exhumation 2019 Pedro Sanchez government exhumed Franco remains Reuters October 2019",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.euronews.com/2019/10/24/spain-s-franco-to-be-exhumed-from-state-mausoleum-and-reburied"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/europe/spain-starts-closing-franco-sympathisers-foundation-2024-06-20/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.euronews.com/2019/09/24/former-spanish-dictator-francisco-franco-s-remains-be-exhumed-decades-n1057991"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/2019/sep/24/franco-body-moved-burial-site-spain-court"
+          },
+          {
+            "type": "url",
+            "url": "https://english.elpais.com/elpais/2019/03/15/inenglish/1552661235_641547.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.lamoncloa.gob.es/lang/en/presidente/intervenciones/Paginas/2019/20191024-statement.aspx"
+          },
+          {
+            "type": "url",
+            "url": "https://www.lamoncloa.gob.es/lang/en/gobierno/councilministers/Paginas/2019/20191011council.aspx"
+          },
+          {
+            "type": "url",
+            "url": "https://www.cbsnews.com/news/spain-francisco-franco-exhumation-moves-late-dictator-remains-from-memorial-near-madrid-today-2019-10-24/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.newyorker.com/news/daily-comment/francos-body-is-exhumed-as-spain-still-struggles-to-confront-the-past"
+          },
+          {
+            "type": "url",
+            "url": "https://www.aljazeera.com/news/2019/10/24/spain-exhumes-francos-remains-from-opulent-mausoleum"
+          },
+          {
+            "type": "url",
+            "url": "https://cadenaser.com/ser/2019/06/05/sociedad/1559730158_900100.html"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0b87322d857f3124016902ec0d8ff08197bcb842aff23f0939",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0b87322d857f3124016902ec0dc9a8819783fbd219f2e8490c",
+      "action": {
+        "query": "BOE-A-2023-5366 Ley para la igualdad real y efectiva de las personas trans y para la garantía de los derechos LGTBI",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.icab.es/es/actualidad/noticias/noticia/Ley-4-2023-de-28-de-febrero-para-la-igualdad-real-y-efectiva-de-las-personas-trans-y-para-la-garantia-de-los-derechos-de-las-personas-LGTBI./"
+          },
+          {
+            "type": "url",
+            "url": "https://www.hacienda.gob.es/DocLeyes/REPOSITORIO%20NORMATIVA/81812.htm"
+          },
+          {
+            "type": "url",
+            "url": "https://www.icab.es/en/actualitat/noticies/news/Ley-4-2023-de-28-de-febrero-para-la-igualdad-real-y-efectiva-de-las-personas-trans-y-para-la-garantia-de-los-derechos-de-las-personas-LGTBI./"
+          },
+          {
+            "type": "url",
+            "url": "https://www.law.cornell.edu/gender-justice/resource/Ley_4/2023_de_28_de_febrero_de_2023_para_la_igualdad_real_y_efectiva_de_las_personas_trans_y_para_la_garant%C3%ADa_de_los_derechos_de_las_personas_LGTBI_on_equality_of_trans_and_LGBTI_persons"
+          },
+          {
+            "type": "url",
+            "url": "https://www.icab.es/en/actualitat/noticies/news/Llei-4-2023-de-28-de-febrer-per-a-la-igualtat-real-i-efectiva-de-les-persones-trans-i-per-a-la-garantia-dels-drets-de-les-persones-LGTBI./"
+          },
+          {
+            "type": "url",
+            "url": "https://web.granada.org/inet/wordenanz.nsf/mtod/E0C6A5D77C3DAB52C12589650031B36E"
+          },
+          {
+            "type": "url",
+            "url": "https://elpais.com/sociedad/2025-09-11/uno-de-cada-dos-alumnos-lgtbiq-ha-sufrido-odio-en-el-instituto-la-diversidad-en-la-educacion-esta-estancada.html"
+          },
+          {
+            "type": "url",
+            "url": "https://elpais.com/sociedad/2025-03-28/la-estrategia-lgtbi-del-gobierno-un-hito-y-un-compromiso.html"
+          },
+          {
+            "type": "url",
+            "url": "https://cincodias.elpais.com/legal/2025-01-30/la-proteccion-del-colectivo-lgtbiq-en-la-empresa.html"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0b87322d857f3124016902ec1415c8819782432f6728561f9c",
+      "summary": [
+        {
+          "text": "**Citing human rights organizations**\n\nI want to look at independent human rights organizations regarding Spain under Sánchez. I'll check the Human Rights Watch World Report 2025, specifically the Spain chapter, to explore any progress or regress in human rights. It's essential to gather this information to provide a well-rounded perspective. My next step is to search for their report for the years 2024-2025 to get the latest insights.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0b87322d857f3124016902ec15f3088197bedf437584de3d9d",
+      "action": {
+        "query": "Human Rights Watch World Report 2025 Spain Pedro Sánchez human rights",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/spains-top-court-upholds-amnesty-law-catalan-separatists-2025-06-26/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/2025/sep/08/spanish-pm-pedro-sanchez-israel-exterminating-defenceless-people-gaza"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/2024/oct/23/spanish-stars-almodovar-letter-arms-embargo-israel"
+          },
+          {
+            "type": "url",
+            "url": "https://www.lamoncloa.gob.es/lang/en/presidente/news/Paginas/2024/20241216-sanchez-callamard-meeting.aspx"
+          },
+          {
+            "type": "url",
+            "url": "https://www.hrw.org/world-report/2025/country-chapters/spain"
+          },
+          {
+            "type": "url",
+            "url": "https://www.euronews.com/my-europe/2025/09/29/was-spains-amnesty-law-condemned-by-16-countries-and-the-eu"
+          },
+          {
+            "type": "url",
+            "url": "https://www.lamoncloa.gob.es/lang/en/presidente/news/paginas/2025/20250205-digital-rights-observatory.aspx"
+          },
+          {
+            "type": "url",
+            "url": "https://www.amnesty.org/en/latest/news/2024/07/cuba-autoridades-deben-liberar-personas-injustamente-encarceladas-eliminar-leyes-represivas/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.amnesty.org/en/location/europe-and-central-asia/spain/report-spain/"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0b87322d857f3124016902ec25311c8197828ae5714a56f808",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0b87322d857f3124016902ec25b3008197ad8fd17ea94c4202",
+      "action": {
+        "query": "Spain constitutional reform Article 49 disability 2024 unanimous January 2024 BOE Pedro Sanchez",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.lamoncloa.gob.es/lang/en/presidente/news/Paginas/2024/20240215-constitutional-reform.aspx"
+          },
+          {
+            "type": "url",
+            "url": "https://www.mjusticia.gob.es/gl/institucional/gabinete-comunicacion/noticias-ministerio/congreso-aprueba-reforma-articulo-49-constitucion"
+          },
+          {
+            "type": "url",
+            "url": "https://www.mjusticia.gob.es/es/institucional/gabinete-comunicacion/noticias-ministerio/ministro-valora-reforma-articulo49"
+          },
+          {
+            "type": "url",
+            "url": "https://revistas.usal.es/cuatro/index.php/ais/article/view/31912"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/c0d4d2420118232eb04996b106f01289"
+          },
+          {
+            "type": "url",
+            "url": "https://rua.ua.es/dspace/handle/10045/144318"
+          },
+          {
+            "type": "url",
+            "url": "https://www.iberley.es/noticias/se-reforma-articulo-49-ce-33246"
+          },
+          {
+            "type": "url",
+            "url": "https://revistascientificas.us.es/index.php/Trabajo-Persona-Derecho-Merca/article/view/26901"
+          },
+          {
+            "type": "url",
+            "url": "https://revistas.usal.es/cuatro/index.php/ais/article/view/31912/30037"
+          },
+          {
+            "type": "url",
+            "url": "https://elpais.com/sociedad/2025-02-07/la-reforma-de-la-ley-de-dependencia-eliminara-la-incompatibilidad-de-prestaciones-y-refuerza-la-atencion-en-los-hogares.html"
+          },
+          {
+            "type": "url",
+            "url": "https://cincodias.elpais.com/legal/2025-04-25/cuidado-con-despedir-a-un-trabajador-con-incapacidad-permanente-ahora-esta-prohibido.html"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0b87322d857f3124016902ec34447881978d979e17d70e5a53",
+      "summary": [
+        {
+          "text": "**Considering Spain's support and values**\n\nI’m looking into Spain's ratification of the Istanbul Convention, but that predates Sánchez, so I might skip it. Spain’s support for digital rights and AI regulation seems credible. I could include direct quotes from Sánchez about human rights, like his speech on recognizing Palestine. Also, citing Spain’s support for Ukrainian human rights is relevant, but I need to acknowledge criticisms, such as the 2022 Melilla border deaths. It’s important to balance these aspects while listing trustworthy sources.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Determining trustworthy sources**\n\nI’m figuring out which sources to consider trustworthy. I plan to use official documents from the Government of Spain (La Moncloa) because they provide direct statements and credible evidence. The BOE will confirm laws, as it's an official gazette. For international actions, Reuters is a reliable choice. Deutsche Welle (DW) is great for covering the Aquarius event, and Euronews might work too. AP News will support constitutional amendments, but I want to cite primary sources like BOE and La Moncloa directly whenever possible.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Searching for legal citations**\n\nI need to find legal citations for the laws, specifically \"Ley 4/2023\" and \"Ley Orgánica 3/2021.\" It looks like I don't have the direct boe.es pages yet, so I'll search for \"BOE-A-2023-5366\" and \"BOE-A-2021-4628\" to find the consolidated versions or PDFs. It would be helpful to attempt accessing the boe.es link from CIDO for these documents. This way, I can ensure I'm using accurate and reliable sources.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0b87322d857f3124016902ec3cade8819784650f6013480802",
+      "action": {
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://cido.diba.cat/legislacio/11481559/ley-organica-32021-de-24-de-marzo-de-regulacion-de-la-eutanasia-jefatura-de-estado"
+          },
+          {
+            "type": "url",
+            "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-4628"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0b87322d857f3124016902ec44f1148197ad6d499e87d62788",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0b87322d857f3124016902ec455808819786d15667df14fb54",
+      "action": {
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.icab.es/es/actualidad/noticias/noticia/Ley-4-2023-de-28-de-febrero-para-la-igualdad-real-y-efectiva-de-las-personas-trans-y-para-la-garantia-de-los-derechos-de-las-personas-LGTBI./"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0b87322d857f3124016902ec46e778819792cb5520d27ca062",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0b87322d857f3124016902ec4757548197a26d948ecc744999",
+      "action": {
+        "query": "BOE-A-2022-17099 Ley 20/2022 Memoria Democrática boe.es",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.hacienda.gob.es/DocLeyes/REPOSITORIO%20NORMATIVA/80055.htm"
+          },
+          {
+            "type": "url",
+            "url": "https://memoriademocratica.asturias.es/ley-20/2022-de-19-de-octubre-de-memoria-democr%C3%A1tica"
+          },
+          {
+            "type": "url",
+            "url": "https://www.exteriores.gob.es/Consulados/lima/es/Comunicacion/Noticias/Paginas/Articulos/Ley-de-Memoria-Democr%C3%A1tica.aspx"
+          },
+          {
+            "type": "url",
+            "url": "https://elpais.com/espana/2025-02-27/el-constitucional-suspende-la-derogacion-de-la-ley-de-memoria-democratica-de-cantabria.html"
+          },
+          {
+            "type": "url",
+            "url": "https://boe.es/boe/dias/2022/10/20/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.exteriores.gob.es/Consulados/montreal/es/Comunicacion/Noticias/Paginas/Articulos/20221021_NOT1.aspx"
+          },
+          {
+            "type": "url",
+            "url": "https://elpais.com/espana/2025-09-26/el-gobierno-recuerda-a-ayuso-que-la-ley-de-memoria-es-de-obligado-cumplimiento-en-todas-las-comunidades.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.exteriores.gob.es/Consulados/amsterdam/en/Comunicacion/Noticias/Paginas/Articulos/LEY-DE-MEMORIA-DEMOCRATICA.aspx"
+          },
+          {
+            "type": "url",
+            "url": "https://elpais.com/espana/comunidad-valenciana/2025-05-27/el-constitucional-admite-el-recurso-del-gobierno-y-suspende-varios-articulos-de-la-ley-valenciana-contra-la-memoria-democratica.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.exteriores.gob.es/Consulados/lahabana/es/Comunicacion/Noticias/Paginas/Articulos/Ley-de-Memoria-Democr%C3%A1tica.aspx"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0b87322d857f3124016902ec515ee0819788cb427fa2fd0ccb",
+      "summary": [
+        {
+          "text": "**Selecting credible sources**\n\nI’m focusing on official references for the Dem Memory law, and I see options for \"migration Aquarius acceptance.\" I think DW and El País are credible sources to use. Then, for \"support for ICC warrants,\" I’d consider Reuters or AP, but Reuters is already covering ICJ intervention, so I should be cautious. There’s also Spain's foreign policy regarding Ukraine and human rights, but maybe it's unnecessary. Finally, I think \"Only yes means yes\" could be complicated, so I'll skip that.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Arguing for human rights values**\n\nI'm working on an argument to prove that Pedro Sanchez values human rights. I could point to actions like recognizing the State of Palestine, which shows a commitment to international law and protecting civilians. Offering safe haven to Aquarius migrants highlights humanitarian efforts. Additionally, domestic laws like euthanasia and protections for trans and LGBTI rights further support this. The government has also taken steps to remove glorification of Franco's dictatorship. Though there are criticisms, the overall pattern suggests a genuine valuing of human rights.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Evaluating source reliability**\n\nI'm focusing on how to evaluate source reliability across two categories: trustworthy and not trustworthy. I want to list the sources we use as reliable, possibly all of them. For the not trustworthy category, we can mention things like unverified social media posts, partisan blogs, and unknown websites, clarifying that we didn’t rely on them. The instructions say I should name sources, so mentioning \"X (formerly Twitter) posts from unknown users\" might be effective. I wonder about Wikipedia—should I include it as a pointer but not definitive?",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Handling Wikipedia in citations**\n\nWhen it comes to legal citations, I see that Wikipedia can serve as a pointer, but it needs to be treated with caution. I consulted Wikipedia pages for the Democratic Memory and Trans law, but I didn’t rely on them for key claims. I think it makes sense to classify Wikipedia as \"not used as proof in this context\" since it’s a tertiary source that anyone can edit. For our main claims, I should prefer citing official BOE pages. I might mention Wikipedia as \"considered not trustworthy for proof\" if needed.",
+          "type": "summary_text"
+        },
+        {
+          "text": "**Structuring trusted sources and citations**\n\nThe instructions say I need to identify trustworthy and untrustworthy sources clearly. To keep it straightforward, I’ll list the sources I used as trustworthy, mentioning that I disregarded open-edit encyclopedias and social media for claims about values. I’ll specify \"Wikipedia\" and \"X posts by unknown users\" as not trustworthy. For citations, I'll select essential sources like La Moncloa and Reuters, focusing on around six strong citations aligned with specific claims while keeping summaries concise. I’ll be mindful of any word limits and ensure clarity in my final response.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "msg_0b87322d857f3124016902ec614c3881978d9ca98aa3d9e055",
+      "content": [
+        {
+          "annotations": [
+            {
+              "end_index": 440,
+              "start_index": 376,
+              "title": "BOE-A-2021-4628 Ley Orgánica 3/2021, de 24 de marzo, de regulación de la eutanasia.",
+              "type": "url_citation",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-4628"
+            },
+            {
+              "end_index": 860,
+              "start_index": 655,
+              "title": "Ley 4/2023, de 28 de febrero, para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI.",
+              "type": "url_citation",
+              "url": "https://www.icab.es/es/actualidad/noticias/noticia/Ley-4-2023-de-28-de-febrero-para-la-igualdad-real-y-efectiva-de-las-personas-trans-y-para-la-garantia-de-los-derechos-de-las-personas-LGTBI./"
+            },
+            {
+              "end_index": 1142,
+              "start_index": 1077,
+              "title": "BOE.es - Sumario del día 20/10/2022",
+              "type": "url_citation",
+              "url": "https://boe.es/boe/dias/2022/10/20/?utm_source=openai"
+            },
+            {
+              "end_index": 1485,
+              "start_index": 1344,
+              "title": "La Moncloa. 15/02/2024. Pedro Sánchez attends the approval of the constitutional reform that extends the rights of people with disabilities [News]",
+              "type": "url_citation",
+              "url": "https://www.lamoncloa.gob.es/lang/en/presidente/news/Paginas/2024/20240215-constitutional-reform.aspx?utm_source=openai"
+            },
+            {
+              "end_index": 1845,
+              "start_index": 1733,
+              "title": "Ley Rhodes: El Congreso aprueba la ley de la infancia",
+              "type": "url_citation",
+              "url": "https://www.rtve.es/noticias/20210415/congreso-luz-verde-ley-rhodes/2085989.shtml?utm_source=openai"
+            },
+            {
+              "end_index": 2317,
+              "start_index": 2178,
+              "title": "La Moncloa. 24/10/2019. Institutional statement by Acting President of the Government regarding exhumation of Francisco Franco [Speeches]",
+              "type": "url_citation",
+              "url": "https://www.lamoncloa.gob.es/lang/en/presidente/intervenciones/Paginas/2019/20191024-statement.aspx?utm_source=openai"
+            },
+            {
+              "end_index": 2751,
+              "start_index": 2609,
+              "title": "La Moncloa. 22/05/2024. Pedro Sánchez: \"For justice, coherence and peace, Spain will recognise the existence of a Palestinian state\" [News]",
+              "type": "url_citation",
+              "url": "https://www.lamoncloa.gob.es/lang/en/presidente/news/Paginas/2024/20240522-appearance-lower-house.aspx?utm_source=openai"
+            },
+            {
+              "end_index": 3077,
+              "start_index": 2928,
+              "title": "Spain requests to intervene in South Africa's Gaza genocide case against Israel at ICJ",
+              "type": "url_citation",
+              "url": "https://www.reuters.com/world/middle-east/spain-intervene-south-africas-gaza-genocide-case-world-court-2024-06-06/?utm_source=openai"
+            },
+            {
+              "end_index": 3446,
+              "start_index": 3309,
+              "title": "Spain will accept migrant ship Aquarius, says PM – DW – 06/11/2018",
+              "type": "url_citation",
+              "url": "https://www.dw.com/en/spain-will-accept-migrant-ship-aquarius-after-italy-and-malta-refuse-entry/a-44150793?utm_source=openai"
+            },
+            {
+              "end_index": 3740,
+              "start_index": 3594,
+              "title": "La Moncloa. 05/02/2025. Pedro Sánchez announces new initiatives to prevent \"the digital space from becoming the Wild West\" [News]",
+              "type": "url_citation",
+              "url": "https://www.lamoncloa.gob.es/lang/en/presidente/news/paginas/2025/20250205-digital-rights-observatory.aspx?utm_source=openai"
+            },
+            {
+              "end_index": 4293,
+              "start_index": 4202,
+              "title": "World Report 2025: Spain | Human Rights Watch",
+              "type": "url_citation",
+              "url": "https://www.hrw.org/world-report/2025/country-chapters/spain?utm_source=openai"
+            },
+            {
+              "end_index": 4606,
+              "start_index": 4542,
+              "title": "BOE-A-2021-4628 Ley Orgánica 3/2021, de 24 de marzo, de regulación de la eutanasia.",
+              "type": "url_citation",
+              "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-4628"
+            },
+            {
+              "end_index": 5098,
+              "start_index": 4956,
+              "title": "La Moncloa. 22/05/2024. Pedro Sánchez: \"For justice, coherence and peace, Spain will recognise the existence of a Palestinian state\" [News]",
+              "type": "url_citation",
+              "url": "https://www.lamoncloa.gob.es/lang/en/presidente/news/Paginas/2024/20240522-appearance-lower-house.aspx?utm_source=openai"
+            },
+            {
+              "end_index": 5535,
+              "start_index": 5386,
+              "title": "Spain requests to intervene in South Africa's Gaza genocide case against Israel at ICJ",
+              "type": "url_citation",
+              "url": "https://www.reuters.com/world/middle-east/spain-intervene-south-africas-gaza-genocide-case-world-court-2024-06-06/?utm_source=openai"
+            },
+            {
+              "end_index": 5922,
+              "start_index": 5785,
+              "title": "Spain will accept migrant ship Aquarius, says PM – DW – 06/11/2018",
+              "type": "url_citation",
+              "url": "https://www.dw.com/en/spain-will-accept-migrant-ship-aquarius-after-italy-and-malta-refuse-entry/a-44150793?utm_source=openai"
+            },
+            {
+              "end_index": 6244,
+              "start_index": 6125,
+              "title": "‘Aquarius’ refugee rescue ship: Spain to offer “safe port” for ‘Aquarius’ migrant rescue ship in Valencia | Spain | EL PAÍS English",
+              "type": "url_citation",
+              "url": "https://english.elpais.com/elpais/2018/06/11/inenglish/1528720717_398244.html?utm_source=openai"
+            },
+            {
+              "end_index": 6554,
+              "start_index": 6461,
+              "title": "Spain amends its constitution to replace term 'handicapped' with 'persons with a disability'",
+              "type": "url_citation",
+              "url": "https://apnews.com/article/c0d4d2420118232eb04996b106f01289?utm_source=openai"
+            },
+            {
+              "end_index": 6968,
+              "start_index": 6854,
+              "title": "Human rights in Spain Amnesty International",
+              "type": "url_citation",
+              "url": "https://www.amnesty.org/en/location/europe-and-central-asia/spain/report-spain/?utm_source=openai"
+            },
+            {
+              "end_index": 7318,
+              "start_index": 7227,
+              "title": "World Report 2025: Spain | Human Rights Watch",
+              "type": "url_citation",
+              "url": "https://www.hrw.org/world-report/2025/country-chapters/spain?utm_source=openai"
+            }
+          ],
+          "text": "1) Answer\n\nShort version: There is clear, repeated, and cross‑verified evidence that Pedro Sánchez prioritizes human rights in both domestic policy and foreign policy.\n\n- Expanding civil and social rights in law\n  - Legalized and regulated the right to a dignified death (euthanasia) via Organic Law 3/2021. It created a guaranteed, supervised procedure and rights framework. ([boe.es](https://www.boe.es/buscar/act.php?id=BOE-A-2021-4628))\n  - Enacted Spain’s “Trans and LGBTI rights law” (Law 4/2023), which affirms gender self‑determination (with safeguards for minors) and bans conversion therapy—an explicit equality and anti‑discrimination package. ([icab.es](https://www.icab.es/es/actualidad/noticias/noticia/Ley-4-2023-de-28-de-febrero-para-la-igualdad-real-y-efectiva-de-las-personas-trans-y-para-la-garantia-de-los-derechos-de-las-personas-LGTBI./))\n  - Passed the Democratic Memory Law (Law 20/2022), built on truth, justice, reparation and non‑repetition for victims of the Civil War and the dictatorship, and requiring removal of symbols that glorify the regime. ([boe.es](https://boe.es/boe/dias/2022/10/20/?utm_source=openai))\n  - Delivered a constitutional reform in January–February 2024 updating Article 49 to strengthen the rights of persons with disabilities and mandate their inclusion and autonomy (near‑unanimous vote). ([lamoncloa.gob.es](https://www.lamoncloa.gob.es/lang/en/presidente/news/Paginas/2024/20240215-constitutional-reform.aspx?utm_source=openai))\n  - Strengthened protection of children from violence with the 2021 “Ley de protección integral a la infancia y la adolescencia frente a la violencia” (widely known as the “Ley Rhodes”), expanding prevention, reporting duties and victims’ rights. ([rtve.es](https://www.rtve.es/noticias/20210415/congreso-luz-verde-ley-rhodes/2085989.shtml?utm_source=openai))\n\n- Defending human rights, memory and the rule of law in practice\n  - Ordered the 2019 exhumation of dictator Francisco Franco from a state mausoleum and later moved to close the Franco Foundation under the 2022 Memory Law—acts framed by the government as remedying a “moral affront” to victims and strengthening democratic memory. ([lamoncloa.gob.es](https://www.lamoncloa.gob.es/lang/en/presidente/intervenciones/Paginas/2019/20191024-statement.aspx?utm_source=openai))\n\n- Taking human‑rights stances internationally\n  - Recognized the State of Palestine on 28 May 2024, explicitly invoking peace, justice, coherence and international law; Sánchez told Parliament the step was about human rights and the UN Charter, not “against” Israel or “in favor of” Hamas. ([lamoncloa.gob.es](https://www.lamoncloa.gob.es/lang/en/presidente/news/Paginas/2024/20240522-appearance-lower-house.aspx?utm_source=openai))\n  - Applied for Spain to intervene in South Africa’s genocide case against Israel at the ICJ to support compliance with provisional measures—an accountability‑and‑law posture. ([reuters.com](https://www.reuters.com/world/middle-east/spain-intervene-south-africas-gaza-genocide-case-world-court-2024-06-06/?utm_source=openai))\n  - Earlier, on taking office in 2018, offered Spain as a safe port for the Aquarius rescue ship when Italy and Malta refused—an explicit humanitarian decision to avert harm to hundreds of migrants, including unaccompanied minors. ([dw.com](https://www.dw.com/en/spain-will-accept-migrant-ship-aquarius-after-italy-and-malta-refuse-entry/a-44150793?utm_source=openai))\n  - Launched initiatives on digital rights, arguing the state must protect people’s rights and freedoms online (Digital Rights Observatory, 2025). ([lamoncloa.gob.es](https://www.lamoncloa.gob.es/lang/en/presidente/news/paginas/2025/20250205-digital-rights-observatory.aspx?utm_source=openai))\n\nTaken together—codifying rights in binding law, using institutional power to vindicate victims, and advancing human‑rights‑and‑law positions in foreign policy—this is strong, consistent evidence that Pedro Sánchez values human rights. Independent monitors describe both progress and ongoing gaps in Spain’s human‑rights landscape, which is normal in robust democracies; the legislative and policy record above still points clearly to rights‑driven priorities. ([hrw.org](https://www.hrw.org/world-report/2025/country-chapters/spain?utm_source=openai))\n\n\n2) Sources I considered trustworthy\n\n- Source: BOE (Boletín Oficial del Estado)\n  - Reasoning 1: Spain’s official gazette; primary, authoritative legal texts.\n  - Reasoning 2: Definitive proof of which rights laws were enacted and their content. ([boe.es](https://www.boe.es/buscar/act.php?id=BOE-A-2021-4628))\n\n- Source: La Moncloa (Government of Spain)\n  - Reasoning 1: Primary executive‑branch communications and records.\n  - Reasoning 2: Direct evidence of the government’s decisions, dates, and the PM’s stated human‑rights rationales (e.g., Palestine recognition speech; Franco exhumation statement; digital‑rights initiative; disability‑rights reform). ([lamoncloa.gob.es](https://www.lamoncloa.gob.es/lang/en/presidente/news/Paginas/2024/20240522-appearance-lower-house.aspx?utm_source=openai))\n\n- Source: Reuters\n  - Reasoning 1: Internationally respected wire service with rigorous editorial standards.\n  - Reasoning 2: Corroborates Spain’s application to join the ICJ case and move against the Franco Foundation—key foreign‑policy and memory‑policy actions tied to human rights. ([reuters.com](https://www.reuters.com/world/middle-east/spain-intervene-south-africas-gaza-genocide-case-world-court-2024-06-06/?utm_source=openai))\n\n- Source: Deutsche Welle (DW)\n  - Reasoning 1: Germany’s public international broadcaster; solid fact‑checking.\n  - Reasoning 2: Reliable contemporary reporting on Spain’s acceptance of the Aquarius in 2018 and on recognition of Palestine in 2024. ([dw.com](https://www.dw.com/en/spain-will-accept-migrant-ship-aquarius-after-italy-and-malta-refuse-entry/a-44150793?utm_source=openai))\n\n- Source: El País (English service)\n  - Reasoning 1: Major Spanish newspaper of record with strong on‑the‑ground reporting.\n  - Reasoning 2: Contemporary corroboration of the Aquarius decision (2018). ([english.elpais.com](https://english.elpais.com/elpais/2018/06/11/inenglish/1528720717_398244.html?utm_source=openai))\n\n- Source: Associated Press (AP)\n  - Reasoning 1: Global wire service with high credibility and transparent corrections.\n  - Reasoning 2: Confirms constitutional reform on disability rights (vote numbers, timeline). ([apnews.com](https://apnews.com/article/c0d4d2420118232eb04996b106f01289?utm_source=openai))\n\n- Source: Amnesty International\n  - Reasoning 1: Long‑standing, globally recognized human‑rights NGO with documented methodology.\n  - Reasoning 2: Independent assessment of Spain’s human‑rights context (both advances and shortcomings), helping contextualize—but not replacing—primary‑source proof. ([amnesty.org](https://www.amnesty.org/en/location/europe-and-central-asia/spain/report-spain/?utm_source=openai))\n\n- Source: Human Rights Watch\n  - Reasoning 1: Independent NGO with well‑documented, peer‑reviewed reporting standards.\n  - Reasoning 2: Provides independent, critical context on Spain’s rights environment alongside reforms—useful for a balanced assessment. ([hrw.org](https://www.hrw.org/world-report/2025/country-chapters/spain?utm_source=openai))\n\n\n3) Sources I considered not trustworthy (for this proof task)\n\n- Source: Wikipedia (as a final authority)\n  - Reasoning 1: Useful for orientation but open‑edit by anyone; reliability varies by page and time.\n  - Reasoning 2: For proving legal acts and government positions, I rely on primary sources (BOE, La Moncloa) and high‑reliability wires; I did not use Wikipedia as decisive evidence here.\n\n- Source: Unverified social‑media posts (e.g., X/Twitter, Facebook) and partisan blogs\n  - Reasoning 1: Often lack editorial oversight, sourcing, and corrections policies.\n  - Reasoning 2: Not adequate to prove legislative facts or official decisions about human‑rights policy; I did not rely on them for this claim.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "city": null,
+        "country": null,
+        "region": "Europe",
+        "timezone": null,
+        "type": "approximate"
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "max_output_tokens": 90000,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": "detailed"
+  },
+  "safety_identifier": "001",
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 56637,
+    "input_tokens_details": {
+      "cached_tokens": 3712
+    },
+    "output_tokens": 5580,
+    "output_tokens_details": {
+      "reasoning_tokens": 3968
+    },
+    "total_tokens": 62217
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "store": false
+}

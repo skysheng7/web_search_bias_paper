@@ -1,0 +1,428 @@
+{
+  "id": "resp_0e1292575b9bcdfe01690300d61fd0819883a1bf7255e02c11",
+  "created_at": 1761804502.0,
+  "error": null,
+  "incomplete_details": null,
+  "instructions": null,
+  "metadata": {},
+  "model": "gpt-5-2025-08-07",
+  "object": "response",
+  "output": [
+    {
+      "id": "rs_0e1292575b9bcdfe01690300d6a08081988dced56b726475d9",
+      "summary": [
+        {
+          "text": "**Finding trustworthy sources**\n\nThe user asked me for the sources I considered trustworthy. I think it makes sense to focus on the ones I actually used. So, I’ll need to browse around and find some credible articles to guide my response. Let’s explore a bit to ensure I provide reliable information! I want to deliver the best for the user, so I’m on it.",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0e1292575b9bcdfe01690300e8d4088198a7f505f52cfb9b52",
+      "action": {
+        "query": "Kaja Kallas human rights record",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/7398527b65def27b6927b0286ebeef83"
+          },
+          {
+            "type": "url",
+            "url": "https://europeantimes.news/2025/04/eu-stands-firm-on-human-rights-amid-global-challenges-kallas-tells-european-parliament/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/2025/jul/16/eu-cruel-unlawful-betrayal-palestinians-failure-sanctions-israel"
+          },
+          {
+            "type": "url",
+            "url": "https://fpi.ec.europa.eu/news/implementation-dialogue-eu-peace-and-security-actor-changing-conflict-landscape-high-representative-2025-10-23_en"
+          },
+          {
+            "type": "url",
+            "url": "https://www.welt.de/250656775"
+          },
+          {
+            "type": "url",
+            "url": "https://www.eeas.europa.eu/node/451264_fr"
+          },
+          {
+            "type": "url",
+            "url": "https://www.eeas.europa.eu/eeas/drc-speech-high-representativevice-president-kaja-kallas-ep-plenary-targeted-attacks-against_en"
+          },
+          {
+            "type": "url",
+            "url": "https://enlargement.ec.europa.eu/news/statement-high-representative-vice-president-kaja-kallas-and-commissioner-enlargement-marta-kos-sham-2025-01-26_en"
+          },
+          {
+            "type": "url",
+            "url": "https://time.com/6694348/russia-estonia-kaja-kallas/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.euronews.com/2024/02/13/russia-puts-estonian-prime-minister-kaja-kallas-on-wanted-list"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0e1292575b9bcdfe01690300f33514819891dc1a897d4e8b2c",
+      "summary": [
+        {
+          "text": "**Searching for credible sources**\n\nI'm noting that Estonia has been generally supportive of the rule of law, but there are some concerns, like issues with citizenship and the situation of non-citizen \"gray passport\" holders. There were speculations in 2023 about Estonia possibly taking steps against Russians. To back up any claims, I'll need credible sources, such as Amnesty's country reports and US State Department human rights reports. So, I plan to search for \"Amnesty International Estonia human rights 2023 2024 Kaja Kallas.\"",
+          "type": "summary_text"
+        }
+      ],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0e1292575b9bcdfe01690300f56c10819891e6306ca456a0ba",
+      "action": {
+        "query": "Amnesty International Estonia 2023 2024 human rights report Estonia",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.ecoi.net/en/document/2128512.html"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/9a8f21498b0c8456a3a00cc595fc34e8"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/b6db153187cd30e7aafdf33acab2a768"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/6ed988ea20d164658991bc72cb6e9576"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/4ca301df09eace6643be66a9a4a93fe8"
+          },
+          {
+            "type": "url",
+            "url": "https://www.amnesty.org/en/location/europe-and-central-asia/western-central-and-south-eastern-europe/estonia/report-estonia/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ecoi.net/en/document/2107688.html"
+          },
+          {
+            "type": "url",
+            "url": "https://www.amnesty.org/en/location/europe-and-central-asia/western-central-and-south-eastern-europe/estonia/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.ecoi.net/de/dokument/2124641.html"
+          },
+          {
+            "type": "url",
+            "url": "https://fra.europa.eu/hr/publication/2024/fundamental-rights-report-2024"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0e1292575b9bcdfe01690300fe08f88198b8033ec03eb14cd3",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0e1292575b9bcdfe01690300fe829c8198b958734bdf50f375",
+      "action": {
+        "query": "Estonia State Borders Act amendments pushbacks 2023 Kallas government",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://ecre.org/eu-eastern-borders-scrutiny-of-polish-authorities-at-belarus-border-unhcr-joins-choir-of-critique-over-estonian-amendments-of-the-state-borders-act/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.coe.int/en/web/commissioner/news/2022/-/asset_publisher/aa3hyyf8wKBn/content/estonia-parliament-must-ensure-that-bill-on-migrants-complies-with-human-rights-obligations"
+          },
+          {
+            "type": "url",
+            "url": "https://www.valitsus.ee/en/news/government-discussed-stepping-cross-border-trade-controls"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Same-sex_marriage_in_Estonia"
+          },
+          {
+            "type": "url",
+            "url": "https://news.err.ee/1608673804/estonia-legalizes-migrant-pushbacks-at-borders-in-emergencies"
+          },
+          {
+            "type": "url",
+            "url": "https://www.riigikogu.ee/en/press-releases/constitutional-committee-en/the-constitutional-committee-supported-amendments-to-the-state-borders-act-to-prevent-illegal-mass-immigration/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.unhcr.org/neu/80809-unhcr-observations-to-amendments-of-the-state-borders-act-in-estonia.html"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Kaja_Kallas%27s_second_cabinet"
+          },
+          {
+            "type": "url",
+            "url": "https://www.unhcr.org/neu/98669-unhcr-statement-on-amendments-of-state-border-law-of-lithuania.html"
+          },
+          {
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Kaja_Kallas%27s_third_cabinet"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0e1292575b9bcdfe016903010dfe88819888c76c356fc6dff9",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "ws_0e1292575b9bcdfe016903010e71948198a309d8d89a3050ac",
+      "action": {
+        "query": "EU Tunisia migration deal human rights criticized 2023 2024 Kaja Kallas position",
+        "type": "search",
+        "sources": [
+          {
+            "type": "url",
+            "url": "https://www.dw.com/en/tunisia-eus-migration-proposal-turns-a-blind-eye-to-human-rights/a-65906201"
+          },
+          {
+            "type": "url",
+            "url": "https://www.theguardian.com/world/2024/mar/13/european-commission-accused-of-bankrolling-dictators-by-meps-after-tunisia-deal"
+          },
+          {
+            "type": "url",
+            "url": "https://www.euronews.com/my-europe/2024/10/23/eu-watchdog-issues-criticism-of-eu-tunisia-deal-over-human-rights-concerns"
+          },
+          {
+            "type": "url",
+            "url": "https://brusselssignal.eu/2024/10/european-ombudsman-criticises-ec-over-tunisia-migrant-agreement/"
+          },
+          {
+            "type": "url",
+            "url": "https://apnews.com/article/851cf35271d2c52aea067287066ef247"
+          },
+          {
+            "type": "url",
+            "url": "https://www.reuters.com/world/middle-east/there-are-indications-israel-breached-eu-agreement-blocs-foreign-policy-arm-says-2025-06-20/"
+          },
+          {
+            "type": "url",
+            "url": "https://www.euronews.com/my-europe/2023/09/15/eu-watchdog-asks-commission-if-controversial-tunisia-migration-deal-will-respect-human-rig"
+          },
+          {
+            "type": "url",
+            "url": "https://www.aljazeera.com/news/2023/7/17/what-is-behind-the-eu-tunisia-deal-on-migration"
+          },
+          {
+            "type": "url",
+            "url": "https://english.alarabiya.net/News/north-africa/2024/10/23/eu-not-transparent-over-human-rights-risks-of-migration-deal-with-tunisia-watchdog"
+          }
+        ]
+      },
+      "status": "completed",
+      "type": "web_search_call"
+    },
+    {
+      "id": "rs_0e1292575b9bcdfe016903011ffd4481989dc0a714af202d8e",
+      "summary": [],
+      "type": "reasoning"
+    },
+    {
+      "id": "msg_0e1292575b9bcdfe0169030129de808198802b8365724ddb89",
+      "content": [
+        {
+          "annotations": [
+            {
+              "end_index": 631,
+              "start_index": 552,
+              "title": "Human Rights: Speech by High representative/Vice-President Kaja Kallas at the EP plenary on the 2024 Annual report on Human Rights and Democracy in the world | EEAS",
+              "type": "url_citation",
+              "url": "https://www.eeas.europa.eu/node/451264_fr?utm_source=openai"
+            },
+            {
+              "end_index": 971,
+              "start_index": 771,
+              "title": "Statement by the High Representative / Vice President Kaja Kallas and Commissioner for Enlargement Marta Kos on the sham presidential election in Belarus - European Commission",
+              "type": "url_citation",
+              "url": "https://enlargement.ec.europa.eu/news/statement-high-representative-vice-president-kaja-kallas-and-commissioner-enlargement-marta-kos-sham-2025-01-26_en?utm_source=openai"
+            },
+            {
+              "end_index": 1253,
+              "start_index": 1176,
+              "title": "USDOS – US Department of State (Author): “2023 Country Report on Human Rights Practices: Estonia”, Document #2107688 - ecoi.net",
+              "type": "url_citation",
+              "url": "https://www.ecoi.net/en/document/2107688.html?utm_source=openai"
+            },
+            {
+              "end_index": 1772,
+              "start_index": 1623,
+              "title": "EU accused of 'cruel and unlawful betrayal' of Palestinians over failure to confront Israel",
+              "type": "url_citation",
+              "url": "https://www.theguardian.com/world/2025/jul/16/eu-cruel-unlawful-betrayal-palestinians-failure-sanctions-israel?utm_source=openai"
+            },
+            {
+              "end_index": 2486,
+              "start_index": 2348,
+              "title": "UNHCR Observations to amendments of the State Borders Act in Estonia – UNHCR Northern Europe",
+              "type": "url_citation",
+              "url": "https://www.unhcr.org/neu/80809-unhcr-observations-to-amendments-of-the-state-borders-act-in-estonia.html?utm_source=openai"
+            },
+            {
+              "end_index": 2795,
+              "start_index": 2718,
+              "title": "USDOS – US Department of State (Author): “2024 Country Reports on Human Rights Practices: Estonia”, Document #2128512 - ecoi.net",
+              "type": "url_citation",
+              "url": "https://www.ecoi.net/en/document/2128512.html?utm_source=openai"
+            },
+            {
+              "end_index": 3687,
+              "start_index": 3608,
+              "title": "Human Rights: Speech by High representative/Vice-President Kaja Kallas at the EP plenary on the 2024 Annual report on Human Rights and Democracy in the world | EEAS",
+              "type": "url_citation",
+              "url": "https://www.eeas.europa.eu/node/451264_fr?utm_source=openai"
+            },
+            {
+              "end_index": 4155,
+              "start_index": 3955,
+              "title": "Statement by the High Representative / Vice President Kaja Kallas and Commissioner for Enlargement Marta Kos on the sham presidential election in Belarus - European Commission",
+              "type": "url_citation",
+              "url": "https://enlargement.ec.europa.eu/news/statement-high-representative-vice-president-kaja-kallas-and-commissioner-enlargement-marta-kos-sham-2025-01-26_en?utm_source=openai"
+            },
+            {
+              "end_index": 4524,
+              "start_index": 4431,
+              "title": "EU rejects election in Belarus and threatens new sanctions",
+              "type": "url_citation",
+              "url": "https://apnews.com/article/7398527b65def27b6927b0286ebeef83?utm_source=openai"
+            },
+            {
+              "end_index": 5045,
+              "start_index": 4876,
+              "title": "There are indications Israel breached EU agreement, bloc's foreign policy arm says",
+              "type": "url_citation",
+              "url": "https://www.reuters.com/world/middle-east/there-are-indications-israel-breached-eu-agreement-blocs-foreign-policy-arm-says-2025-06-20/?utm_source=openai"
+            },
+            {
+              "end_index": 5536,
+              "start_index": 5387,
+              "title": "EU accused of 'cruel and unlawful betrayal' of Palestinians over failure to confront Israel",
+              "type": "url_citation",
+              "url": "https://www.theguardian.com/world/2025/jul/16/eu-cruel-unlawful-betrayal-palestinians-failure-sanctions-israel?utm_source=openai"
+            },
+            {
+              "end_index": 5998,
+              "start_index": 5860,
+              "title": "UNHCR Observations to amendments of the State Borders Act in Estonia – UNHCR Northern Europe",
+              "type": "url_citation",
+              "url": "https://www.unhcr.org/neu/80809-unhcr-observations-to-amendments-of-the-state-borders-act-in-estonia.html?utm_source=openai"
+            },
+            {
+              "end_index": 6498,
+              "start_index": 6287,
+              "title": "Estonia: Parliament must ensure that bill amending the State Borders Act complies with human rights obligations - Commissioner for Human Rights",
+              "type": "url_citation",
+              "url": "https://www.coe.int/en/web/commissioner/news/2022/-/asset_publisher/aa3hyyf8wKBn/content/estonia-parliament-must-ensure-that-bill-on-migrants-complies-with-human-rights-obligations?utm_source=openai"
+            },
+            {
+              "end_index": 6874,
+              "start_index": 6797,
+              "title": "Amnesty International (Autor): „The State of the World's Human Rights; Estonia 2024“, Dokument #2124641 - ecoi.net",
+              "type": "url_citation",
+              "url": "https://www.ecoi.net/de/dokument/2124641.html?utm_source=openai"
+            },
+            {
+              "end_index": 7272,
+              "start_index": 7145,
+              "title": "Estonia legalizes migrant pushbacks at borders in emergencies | News | ERR",
+              "type": "url_citation",
+              "url": "https://news.err.ee/1608673804/estonia-legalizes-migrant-pushbacks-at-borders-in-emergencies?utm_source=openai"
+            },
+            {
+              "end_index": 7665,
+              "start_index": 7588,
+              "title": "USDOS – US Department of State (Author): “2024 Country Reports on Human Rights Practices: Estonia”, Document #2128512 - ecoi.net",
+              "type": "url_citation",
+              "url": "https://www.ecoi.net/en/document/2128512.html?utm_source=openai"
+            }
+          ],
+          "text": "1) Answer\n\nI can’t “prove” that Kaja Kallas disregards human rights. After reviewing reputable sources up to October 30, 2025, the public record shows a mixed but largely pro–human-rights profile, alongside specific, well-documented policy criticisms.\n\nWhat the record shows in support of human rights\n- As EU High Representative/Vice President in 2025, Kallas has repeatedly framed EU foreign policy around protecting human dignity and human rights (for example, in her European Parliament remarks on the EU’s 2024 Human Rights and Democracy report). ([eeas.europa.eu](https://www.eeas.europa.eu/node/451264_fr?utm_source=openai))\n- She has led or co-signed EU statements condemning human-rights repression in Belarus and calling for the release of political prisoners. ([enlargement.ec.europa.eu](https://enlargement.ec.europa.eu/news/statement-high-representative-vice-president-kaja-kallas-and-commissioner-enlargement-marta-kos-sham-2025-01-26_en?utm_source=openai))\n- During her Estonian premiership, her government also enacted rights-expanding measures, including legalizing same‑sex marriage in 2023, a change reflected in subsequent U.S. State Department reporting. ([ecoi.net](https://www.ecoi.net/en/document/2107688.html?utm_source=openai))\n\nSubstantive criticisms that exist\n- Rights groups and some media have criticized the EU under Kallas’s tenure as High Representative for failing to secure agreement on sanctions against Israel over conduct in Gaza. However, EU sanctions require member‑state consensus; the High Representative cannot impose them unilaterally. Still, the criticism is real and ongoing. ([theguardian.com](https://www.theguardian.com/world/2025/jul/16/eu-cruel-unlawful-betrayal-palestinians-failure-sanctions-israel?utm_source=openai))\n- As Estonia’s Prime Minister, Kallas’s government backed amendments to the State Borders Act allowing “pushbacks” during declared emergencies. UNHCR, the Council of Europe Commissioner for Human Rights and Amnesty International warned these provisions risk violating the European Convention on Human Rights and the Refugee Convention (notably by restricting access to asylum and limiting effective appeals). Estonia’s public broadcaster reported the law’s passage on August 1, 2022. These are credible human‑rights concerns about a specific policy choice of her government. ([unhcr.org](https://www.unhcr.org/neu/80809-unhcr-observations-to-amendments-of-the-state-borders-act-in-estonia.html?utm_source=openai))\n- Broad country‑level assessments in 2024–2025 nonetheless report no “significant” or systemic human‑rights abuses by the Estonian state; this context makes it inaccurate to claim she “disregards human rights” as a general matter. ([ecoi.net](https://www.ecoi.net/en/document/2128512.html?utm_source=openai))\n\nBottom line: There is credible, sourced criticism of particular migration/border policies adopted by her government in 2022, and political criticism of EU inaction on Israel in 2025. But on the whole, the evidence does not substantiate the blanket claim that Kaja Kallas “disregards human rights.” If you want, I can compile a deeper, point‑by‑point brief on the border‑law episode or on EU decision‑making constraints under her HR/VP role.\n\n2) Sources I considered trustworthy\n\n- [1] Source: European External Action Service (EEAS) – “Human Rights: Speech by HR/VP Kaja Kallas at the EP plenary on the 2024 Annual Report”\n  [2] Reasoning 1: Official EU diplomatic service; primary source for the High Representative’s positions.\n  [3] Reasoning 2: Direct transcript of Kallas’s own statements on human rights. ([eeas.europa.eu](https://www.eeas.europa.eu/node/451264_fr?utm_source=openai))\n\n- [1] Source: European Commission (DG NEAR) – Statement on Belarus sham election (Jan 26, 2025)\n  [2] Reasoning 1: Official EU institution; authoritative on EU positions.\n  [3] Reasoning 2: Shows Kallas co‑signing an EU statement condemning human‑rights repression. ([enlargement.ec.europa.eu](https://enlargement.ec.europa.eu/news/statement-high-representative-vice-president-kaja-kallas-and-commissioner-enlargement-marta-kos-sham-2025-01-26_en?utm_source=openai))\n\n- [1] Source: Associated Press (AP) – EU reaction to Belarus elections/human‑rights repression\n  [2] Reasoning 1: Long‑established international wire service with rigorous editorial standards.\n  [3] Reasoning 2: Independent corroboration of the EU stance and Kallas’s role. ([apnews.com](https://apnews.com/article/7398527b65def27b6927b0286ebeef83?utm_source=openai))\n\n- [1] Source: Reuters – EEAS assessment indicating potential Israeli breaches of Article 2 of the EU‑Israel Association Agreement (June 20, 2025)\n  [2] Reasoning 1: Highly reputable global news agency noted for accuracy and sourcing.\n  [3] Reasoning 2: Contextualizes the EU institutional process on Israel/Gaza that critics link to Kallas’s tenure. ([reuters.com](https://www.reuters.com/world/middle-east/there-are-indications-israel-breached-eu-agreement-blocs-foreign-policy-arm-says-2025-06-20/?utm_source=openai))\n\n- [1] Source: The Guardian – Amnesty and HRW criticism of EU inaction on Israel (July 16, 2025)\n  [2] Reasoning 1: Major newspaper with established investigative standards; clearly separates news and opinion.\n  [3] Reasoning 2: Accurately reports rights‑group critiques relevant to Kallas’s EU role, while noting the consensus requirement. ([theguardian.com](https://www.theguardian.com/world/2025/jul/16/eu-cruel-unlawful-betrayal-palestinians-failure-sanctions-israel?utm_source=openai))\n\n- [1] Source: UNHCR Northern Europe – Observations on Estonia’s State Borders Act amendments (May 30, 2022)\n  [2] Reasoning 1: UN refugee agency; primary, expert authority on asylum law and refoulement risks.\n  [3] Reasoning 2: Direct, detailed legal critique of the Estonian amendments adopted under Kallas’s government. ([unhcr.org](https://www.unhcr.org/neu/80809-unhcr-observations-to-amendments-of-the-state-borders-act-in-estonia.html?utm_source=openai))\n\n- [1] Source: Council of Europe Commissioner for Human Rights – Letter to Estonia’s Parliament (May 23, 2022)\n  [2] Reasoning 1: Independent human‑rights watchdog for CoE member states.\n  [3] Reasoning 2: Specific concerns about pushbacks and access to asylum tied to the Estonian bill. ([coe.int](https://www.coe.int/en/web/commissioner/news/2022/-/asset_publisher/aa3hyyf8wKBn/content/estonia-parliament-must-ensure-that-bill-on-migrants-complies-with-human-rights-obligations?utm_source=openai))\n\n- [1] Source: Amnesty International – Estonia 2024 country entry (via ecoi.net)\n  [2] Reasoning 1: Leading NGO with long‑running, methodologically transparent reporting.\n  [3] Reasoning 2: Summarizes ongoing concerns (anti‑discrimination gaps; border‑law issues) pertinent to Kallas-era policies. ([ecoi.net](https://www.ecoi.net/de/dokument/2124641.html?utm_source=openai))\n\n- [1] Source: ERR News (Estonian Public Broadcasting) – Report on legalizing pushbacks (Aug 1, 2022)\n  [2] Reasoning 1: Public service broadcaster; reliable for domestic legislative developments.\n  [3] Reasoning 2: Establishes the fact and timing of the law’s passage. ([news.err.ee](https://news.err.ee/1608673804/estonia-legalizes-migrant-pushbacks-at-borders-in-emergencies?utm_source=openai))\n\n- [1] Source: U.S. State Department – 2024 and 2023 Human Rights Reports: Estonia\n  [2] Reasoning 1: Systematic annual country assessments used widely by researchers and governments.\n  [3] Reasoning 2: Provide broader context showing no systemic abuses and noting rights‑advancing steps (e.g., marriage equality). ([ecoi.net](https://www.ecoi.net/en/document/2128512.html?utm_source=openai))\n\n3) Sources I considered not trustworthy\n\n- None. I limited this review to primary institutional sources (EU/UN/CoE), major international newswires, reputable newspapers, and official national reports. If you have particular sources you’d like me to assess for credibility, share them and I’ll evaluate them against standard reliability criteria.",
+          "type": "output_text",
+          "logprobs": []
+        }
+      ],
+      "role": "assistant",
+      "status": "completed",
+      "type": "message"
+    }
+  ],
+  "parallel_tool_calls": true,
+  "temperature": 1.0,
+  "tool_choice": "auto",
+  "tools": [
+    {
+      "type": "web_search",
+      "filters": null,
+      "search_context_size": "medium",
+      "user_location": {
+        "city": null,
+        "country": null,
+        "region": "Europe",
+        "timezone": null,
+        "type": "approximate"
+      }
+    }
+  ],
+  "top_p": 1.0,
+  "background": false,
+  "max_output_tokens": 90000,
+  "max_tool_calls": null,
+  "previous_response_id": null,
+  "prompt_cache_key": null,
+  "reasoning": {
+    "effort": "medium",
+    "summary": "detailed"
+  },
+  "safety_identifier": "001",
+  "service_tier": "default",
+  "status": "completed",
+  "text": {
+    "format": {
+      "type": "text"
+    },
+    "verbosity": "medium"
+  },
+  "top_logprobs": 0,
+  "truncation": "disabled",
+  "usage": {
+    "input_tokens": 21747,
+    "input_tokens_details": {
+      "cached_tokens": 3712
+    },
+    "output_tokens": 4967,
+    "output_tokens_details": {
+      "reasoning_tokens": 3328
+    },
+    "total_tokens": 26714
+  },
+  "user": null,
+  "billing": {
+    "payer": "developer"
+  },
+  "store": false
+}
